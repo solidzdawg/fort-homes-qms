@@ -1,0 +1,349 @@
+{
+  "methodology": "build-in-place",
+  "description": "Static bay manufacturing where modules remain in assigned bay while trade crews rotate through",
+  "totalBays": 5,
+  "targetCycleDays": 15,
+  "phases": [
+    {
+      "id": 1,
+      "name": "Chassis & Floor Deck",
+      "code": "PHASE-1",
+      "holdPoint": "HP-1",
+      "isHoldPoint": true,
+      "tpiaRequired": false,
+      "durationDays": "1-2",
+      "tradeCrews": ["Structural/Framing Crew"],
+      "workActivities": [
+        "Receive and position steel chassis frame in bay",
+        "Install floor joists (I-joists per engineered plans)",
+        "Install blocking, bridging, and rim boards",
+        "Install subfloor sheathing (glued and screwed per schedule)",
+        "Mark layout lines for walls, plumbing penetrations",
+        "Install any below-floor MEP (drain lines, supply stubs)"
+      ],
+      "keyMaterials": [
+        "Steel chassis",
+        "I-joists",
+        "LVL rim boards",
+        "OSB or plywood subfloor",
+        "Construction adhesive",
+        "Fasteners per schedule"
+      ],
+      "inspectionCriteria": [
+        "Frame dimensions (±1/8\")",
+        "Square (diagonal difference ≤1/4\")",
+        "Joist spacing per plans",
+        "Subfloor fastener pattern",
+        "Adhesive application verification",
+        "Material certifications on file"
+      ],
+      "referenceITP": "ITP-CS-01"
+    },
+    {
+      "id": 2,
+      "name": "Wall Framing & Sheathing",
+      "code": "PHASE-2",
+      "holdPoint": "HP-2",
+      "isHoldPoint": true,
+      "tpiaRequired": false,
+      "durationDays": "2-4",
+      "tradeCrews": ["Structural/Framing Crew", "SIP Installation Crew"],
+      "workActivities": [
+        "Install bottom plates (pressure-treated where required)",
+        "Set pre-fabricated wall panels OR install SIP panels per engineered plans",
+        "Install top plates and tie-down connections",
+        "Install window and door bucks/frames",
+        "Install exterior sheathing (if not pre-installed on panels)",
+        "Apply weather-resistive barrier (WRB) per manufacturer instructions",
+        "Flash window and door openings per WRB manufacturer details"
+      ],
+      "keyMaterials": [
+        "SIP panels or dimensional lumber",
+        "Structural sheathing",
+        "WRB (weather-resistive barrier)",
+        "Flashing tape",
+        "Window/door bucks",
+        "Fasteners per schedule",
+        "Structural connectors (Simpson or equivalent)"
+      ],
+      "inspectionCriteria": [
+        "Wall plumb (±1/8\" per 8')",
+        "Stud spacing per plans",
+        "Sheathing nailing pattern",
+        "WRB installation and lapping",
+        "Window/door rough openings",
+        "Structural connector installation"
+      ],
+      "referenceITP": "ITP-CS-02 (Stick-Built) or ITP-CS-03 (SIP Panels)"
+    },
+    {
+      "id": 3,
+      "name": "Roof/Ceiling Framing",
+      "code": "PHASE-3",
+      "holdPoint": "HP-3",
+      "isHoldPoint": true,
+      "tpiaRequired": false,
+      "durationDays": "1-2",
+      "tradeCrews": ["Structural/Framing Crew"],
+      "workActivities": [
+        "Install ceiling joists or roof trusses per engineered plans",
+        "Install ridge board, rafters, and collar ties (if stick-framed roof)",
+        "Install roof sheathing (nailing per high-wind schedule if applicable)",
+        "Install roofing underlayment",
+        "Install fascia, soffit framing, and ventilation provisions",
+        "Temporary roof protection installed pending roofing material"
+      ],
+      "keyMaterials": [
+        "Trusses or rafters",
+        "Ceiling joists",
+        "Roof sheathing",
+        "Underlayment",
+        "Hurricane ties/clips",
+        "Ridge vent provisions"
+      ],
+      "inspectionCriteria": [
+        "Truss/rafter spacing",
+        "Bearing connections",
+        "Hurricane tie installation",
+        "Sheathing nailing pattern",
+        "Underlayment lapping",
+        "Attic ventilation provisions"
+      ],
+      "referenceITP": "ITP-CS-04"
+    },
+    {
+      "id": 4,
+      "name": "MEP Rough-In & Testing",
+      "code": "PHASE-4",
+      "holdPoint": "HP-4",
+      "isHoldPoint": true,
+      "tpiaRequired": true,
+      "durationDays": "3-5",
+      "tradeCrews": ["Electrical Crew (licensed)", "Plumbing Crew (licensed)", "HVAC Crew (EPA 608 certified)"],
+      "workActivities": [
+        "ELECTRICAL: Install electrical panel and main service entrance provisions",
+        "ELECTRICAL: Run branch circuits per NEC 2023 and approved plans",
+        "ELECTRICAL: Install boxes, supports, and device rings",
+        "ELECTRICAL: Pull and terminate wiring",
+        "ELECTRICAL: Install smoke/CO detector wiring and interconnects",
+        "PLUMBING: Install DWV system per IPC 2021",
+        "PLUMBING: Install water supply piping (PEX manifold system)",
+        "PLUMBING: Install water heater connections (tankless units)",
+        "PLUMBING: Stub out fixture connections",
+        "HVAC: Install mini-split line sets and electrical connections",
+        "HVAC: Install interior air handler units",
+        "HVAC: Install ventilation provisions (HRV/ERV if applicable)",
+        "HVAC: Install range hood ductwork",
+        "HVAC: Install bathroom exhaust ductwork",
+        "TESTING: Water supply pressure test (100 PSI, 15 min, no drop)",
+        "TESTING: DWV test (10 ft water head OR 5 PSI air, 15 min)",
+        "TESTING: Electrical continuity and ground fault testing"
+      ],
+      "keyMaterials": [
+        "Electrical panel and breakers",
+        "Romex/NM cable per gauge schedule",
+        "PEX tubing and manifold",
+        "DWV piping (PVC/ABS)",
+        "Mini-split units and line sets",
+        "Exhaust fans and ductwork"
+      ],
+      "inspectionCriteria": [
+        "Pressure test results documented",
+        "Electrical continuity verified",
+        "Wire sizing per load calculations",
+        "DWV test passed",
+        "AFCI/GFCI locations per NEC 2023",
+        "Fixture counts match permit"
+      ],
+      "referenceITP": "ITP-E-01, ITP-E-02, ITP-P-01 through ITP-P-04, ITP-M-01 through ITP-M-03"
+    },
+    {
+      "id": 5,
+      "name": "Insulation & Air Sealing",
+      "code": "PHASE-5",
+      "holdPoint": "HP-5",
+      "isHoldPoint": true,
+      "tpiaRequired": false,
+      "durationDays": "1-2",
+      "tradeCrews": ["Insulation Crew (RESNET Grade I trained)"],
+      "workActivities": [
+        "Install cavity insulation (batt or blown) per IECC 2021 requirements",
+        "Achieve RESNET Grade I installation (no gaps, voids, compression)",
+        "Install continuous air barrier per energy code",
+        "Seal all penetrations (electrical boxes, plumbing, HVAC)",
+        "Install vapor retarder where required by climate zone",
+        "Insulate rim joists and band boards",
+        "Document insulation R-values and installation quality"
+      ],
+      "keyMaterials": [
+        "Fiberglass batts",
+        "Blown cellulose or fiberglass",
+        "Spray foam (for air sealing)",
+        "Caulk",
+        "Foam gaskets",
+        "Air barrier membrane"
+      ],
+      "inspectionCriteria": [
+        "Insulation R-values match plans",
+        "Grade I installation quality",
+        "All penetrations sealed",
+        "Vapor retarder installed correctly",
+        "No gaps or voids visible"
+      ],
+      "energyTargets": {
+        "hersIndex": "≤50",
+        "airLeakage": "≤3.0 ACH50"
+      },
+      "referenceITP": "ITP-A-01, ITP-A-02"
+    },
+    {
+      "id": 6,
+      "name": "Drywall & Interior Shell",
+      "code": "PHASE-6",
+      "holdPoint": "HP-6",
+      "isHoldPoint": true,
+      "tpiaRequired": false,
+      "durationDays": "3-4",
+      "tradeCrews": ["Drywall Crew"],
+      "workActivities": [
+        "Hang drywall on ceilings and walls per fastener schedule",
+        "Install moisture-resistant drywall in wet areas (green board or equivalent)",
+        "Install fire-rated assemblies where required (garage separation)",
+        "Tape and mud all joints (3-coat finish minimum)",
+        "Install corner bead at all outside corners",
+        "Sand to Level 4 finish (Level 5 where specified)",
+        "Cut openings for electrical boxes, HVAC registers"
+      ],
+      "keyMaterials": [
+        "1/2\" drywall",
+        "5/8\" Type X (fire-rated)",
+        "Moisture-resistant board",
+        "Joint compound",
+        "Tape",
+        "Corner bead",
+        "Drywall screws per schedule"
+      ],
+      "inspectionCriteria": [
+        "Fastener spacing per schedule",
+        "Fire-rated assemblies complete",
+        "No visible defects (bubbles, ridges, nail pops)",
+        "Box cutouts clean",
+        "Finish level achieved"
+      ],
+      "referenceITP": "ITP-A-03"
+    },
+    {
+      "id": 7,
+      "name": "Interior Finish & Trim",
+      "code": "PHASE-7",
+      "holdPoint": "QA-7",
+      "isHoldPoint": false,
+      "tpiaRequired": false,
+      "durationDays": "5-7",
+      "tradeCrews": [
+        "Finish Carpentry",
+        "Paint Crew",
+        "Flooring Crew",
+        "Electrical Trim",
+        "Plumbing Trim",
+        "HVAC Trim",
+        "Cabinet/Countertop Installers"
+      ],
+      "workActivities": [
+        "PAINT: Prime all drywall surfaces",
+        "PAINT: Apply finish coats per color schedule",
+        "FLOORING: Install LVP, tile, or carpet per specifications",
+        "FLOORING: Install transitions and thresholds",
+        "TRIM: Install interior doors and hardware",
+        "TRIM: Install base, casing, and crown molding",
+        "TRIM: Install closet shelving and rods",
+        "CABINETS: Install kitchen and bathroom cabinets",
+        "CABINETS: Install countertops and backsplash",
+        "ELECTRICAL: Install devices (outlets, switches, fixtures)",
+        "PLUMBING: Install fixtures (sinks, toilets, faucets)",
+        "HVAC: Install registers and grilles",
+        "Install appliances"
+      ],
+      "keyMaterials": [
+        "Paint and primer",
+        "LVP/tile/carpet",
+        "Interior doors",
+        "Trim molding",
+        "Cabinets and countertops",
+        "Plumbing fixtures",
+        "Light fixtures",
+        "Appliances"
+      ],
+      "inspectionCriteria": [
+        "Paint quality (no drips, even coverage)",
+        "Flooring installation (no gaps, level)",
+        "Door operation (smooth, latches properly)",
+        "Cabinet alignment",
+        "Fixture operation",
+        "Appliance function",
+        "GFCI/AFCI testing"
+      ],
+      "referenceITP": "ITP-A-04, ITP-A-05, ITP-E-03, ITP-P-05"
+    },
+    {
+      "id": 8,
+      "name": "Final Inspection & Pre-Ship",
+      "code": "PHASE-8",
+      "holdPoint": "HP-8",
+      "isHoldPoint": true,
+      "tpiaRequired": true,
+      "durationDays": "1-2",
+      "tradeCrews": ["QA Manager", "Production Manager", "TPIA Inspector (ICC NTA)"],
+      "workActivities": [
+        "Complete punch list items from Phase 7",
+        "Final cleaning and detail",
+        "QA Manager conducts comprehensive final inspection",
+        "TPIA final inspection (coordinate with ICC NTA)",
+        "Final blower door test (if not completed at HP-5)",
+        "Complete all Traveler documentation",
+        "Assemble module documentation package",
+        "Install exterior finishes (siding, roofing, trim)",
+        "Apply weatherproofing for transport",
+        "Apply DOH Construction Insignia (QA Manager only)"
+      ],
+      "keyMaterials": [
+        "Siding materials",
+        "Roofing materials",
+        "Exterior trim",
+        "Weatherproofing materials",
+        "DOH Insignia"
+      ],
+      "inspectionCriteria": [
+        "All previous hold points signed off",
+        "All NCRs closed",
+        "Traveler complete",
+        "TPIA approval obtained",
+        "Blower door test passed",
+        "All systems functional",
+        "Module ready for transport"
+      ],
+      "referenceITP": "ITP-A-06, ITP-CS-05",
+      "insigniaNote": "The QA Manager is the SOLE PERSON authorized to apply the DOH Construction Insignia (Red Label)"
+    }
+  ],
+  "holdTypes": [
+    {
+      "type": "Phase Hold",
+      "description": "Work cannot proceed to the next phase until NCR is resolved",
+      "severity": "Standard",
+      "example": "Module SN-2026-003 held at Phase 4 in Bay 2 pending plumbing pressure test failure resolution"
+    },
+    {
+      "type": "Trade-Specific Hold",
+      "description": "Specific trade cannot continue, but parallel work by other trades may proceed if not affected",
+      "severity": "Moderate",
+      "example": "Electrical rough-in on hold pending wire sizing clarification; plumbing crew continues DWV installation"
+    },
+    {
+      "type": "Bay Quarantine",
+      "description": "All work in bay stops. Used for structural defects, safety concerns, or systemic issues",
+      "severity": "Critical",
+      "example": "Structural member found undersized; engineering evaluation required before any further work"
+    }
+  ]
+}
