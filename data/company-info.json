@@ -1,0 +1,215 @@
+{
+  "company": {
+    "legalName": "Fort Homes LLC",
+    "dba": "Fort and Home",
+    "parentCompany": "F+H Developments, LLC",
+    "address": {
+      "street": "2828 North Avenue",
+      "city": "Grand Junction",
+      "state": "Colorado",
+      "zip": "81501"
+    },
+    "phone": "(970) 555-0100",
+    "website": "https://fortandhome.com",
+    "plantId": "CDOH-PENDING",
+    "established": 2024
+  },
+  "leadership": [
+    {
+      "name": "Jeff Zimmerman",
+      "title": "President",
+      "email": "jeff@fortandhome.com",
+      "responsibilities": [
+        "Overall company direction and strategy",
+        "Final approval authority for QMS documents",
+        "DOH correspondence and certification",
+        "Customer relations"
+      ]
+    },
+    {
+      "name": "Marty Magill",
+      "title": "Chief Operating Officer (COO)",
+      "email": "marty@fortandhome.com",
+      "responsibilities": [
+        "Day-to-day operations oversight",
+        "Production scheduling and resource allocation",
+        "QMS document review authority",
+        "Supplier and vendor management"
+      ]
+    },
+    {
+      "name": "Zach Lamont",
+      "title": "QA Manager",
+      "email": "zach@fortandhome.com",
+      "responsibilities": [
+        "Quality Management System ownership",
+        "Hold point inspections (HP-1 through HP-8)",
+        "NCR/CAPA management",
+        "TPIA coordination (ICC NTA)",
+        "DOH Insignia application (sole authority)",
+        "Training program management",
+        "Internal audit program",
+        "Document control"
+      ]
+    }
+  ],
+  "regulatory": {
+    "primaryAuthority": {
+      "name": "Colorado Division of Housing (CDOH)",
+      "parent": "Department of Local Affairs (DOLA)",
+      "regulation": "8 CCR 1302-14",
+      "statute": "C.R.S. §24-32-3301 et seq.",
+      "email": "dola_manufacturedbuildings@state.co.us"
+    },
+    "tpia": {
+      "agency": "ICC NTA, LLC",
+      "contact": "Brandy Watkins",
+      "title": "NTA Colorado Region Inspection Manager",
+      "email": "bwatkins@icc-es.org",
+      "website": "https://www.icc-es.org/nta/"
+    },
+    "applicableCodes": [
+      {
+        "code": "IRC 2021",
+        "fullName": "International Residential Code",
+        "application": "Primary code for one- and two-family dwellings"
+      },
+      {
+        "code": "IBC 2021",
+        "fullName": "International Building Code",
+        "application": "Commercial and multi-family structures"
+      },
+      {
+        "code": "NEC 2023",
+        "fullName": "National Electrical Code",
+        "application": "Electrical installations"
+      },
+      {
+        "code": "IPC 2021",
+        "fullName": "International Plumbing Code",
+        "application": "Plumbing systems"
+      },
+      {
+        "code": "IMC 2021",
+        "fullName": "International Mechanical Code",
+        "application": "HVAC systems"
+      },
+      {
+        "code": "IECC 2021",
+        "fullName": "International Energy Conservation Code",
+        "application": "Energy efficiency requirements"
+      }
+    ]
+  },
+  "certifications": {
+    "target": [
+      {
+        "certification": "DOH Certified Manufacturer",
+        "targetDate": "Q3 2026",
+        "status": "In Progress"
+      },
+      {
+        "certification": "ISO 9001:2015",
+        "targetDate": "Q4 2026",
+        "status": "Planning"
+      }
+    ],
+    "current": []
+  },
+  "grants": {
+    "ihip": {
+      "name": "Innovative Housing Incentive Program",
+      "administrator": "Colorado Office of Economic Development and International Trade (OEDIT)",
+      "benefits": [
+        "$350K–$450K operating grants for manufacturers",
+        "$1.5K–$6K per unit produced",
+        "$50K bonus for ≥10% deed-restricted affordable units"
+      ],
+      "requirements": {
+        "hersIndex": "≤50",
+        "airLeakage": "≤3.0 ACH50",
+        "affordability": "Deed-restricted affordable units"
+      },
+      "alignedModels": ["Aspen Commons"]
+    }
+  },
+  "facility": {
+    "location": "Grand Junction, Colorado",
+    "type": "Manufacturing Facility",
+    "productionBays": 5,
+    "offlineFabrication": [
+      "Wall framing station",
+      "SIP panel preparation",
+      "Plumbing pre-assembly",
+      "Electrical pre-wire station"
+    ],
+    "supportAreas": [
+      "Material storage",
+      "Kitting zones (adjacent to each bay)",
+      "Finishing area",
+      "Completed module staging"
+    ]
+  },
+  "products": {
+    "classification": "Residential Modular Structures",
+    "notManufacturedHomes": true,
+    "models": [
+      {
+        "name": "Aspen Commons 1BR",
+        "sqft": 504,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "ihipCompliant": true
+      },
+      {
+        "name": "Aspen Commons 2BR",
+        "sqft": 840,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "ihipCompliant": true
+      },
+      {
+        "name": "Melrose 2BR",
+        "sqft": 1200,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "ihipCompliant": false
+      },
+      {
+        "name": "Melrose 3BR",
+        "sqft": 1600,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "ihipCompliant": false
+      },
+      {
+        "name": "Summit 3BR",
+        "sqft": 2100,
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "ihipCompliant": false
+      },
+      {
+        "name": "Summit 4BR",
+        "sqft": 2800,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "ihipCompliant": false
+      },
+      {
+        "name": "Grand 4BR",
+        "sqft": 3202,
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "ihipCompliant": false
+      }
+    ]
+  },
+  "qms": {
+    "documentPrefix": "FHDEV",
+    "currentRevision": "3.0",
+    "methodology": "Build-in-Place (Static Bay)",
+    "isoAlignment": "ISO 9001:2015",
+    "recordRetention": "7 years minimum"
+  }
+}
