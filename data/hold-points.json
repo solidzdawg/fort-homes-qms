@@ -1,0 +1,480 @@
+{
+  "holdPoints": [
+    {
+      "id": "HP-1",
+      "phase": 1,
+      "name": "Chassis & Floor Complete",
+      "trigger": "Phase 1 work complete, before wall framing begins",
+      "blocksPhase": 2,
+      "mandatory": true,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        {
+          "item": "Frame dimensions",
+          "tolerance": "±1/8\"",
+          "method": "Measure with tape"
+        },
+        {
+          "item": "Square check",
+          "tolerance": "Diagonal difference ≤1/4\"",
+          "method": "Measure diagonals"
+        },
+        {
+          "item": "Joist spacing",
+          "tolerance": "Per approved plans",
+          "method": "Measure and verify"
+        },
+        {
+          "item": "Subfloor fastener pattern",
+          "tolerance": "Per fastener schedule",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Adhesive application",
+          "tolerance": "Continuous bead on all joists",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Material certifications",
+          "tolerance": "On file",
+          "method": "Document review"
+        }
+      ],
+      "documentation": [
+        "Traveler HP-1 section signed",
+        "Material certifications verified",
+        "Photos of completed work"
+      ],
+      "referenceITP": "ITP-CS-01"
+    },
+    {
+      "id": "HP-2",
+      "phase": 2,
+      "name": "Wall Framing Complete",
+      "trigger": "Phase 2 work complete (walls and sheathing), before roof framing",
+      "blocksPhase": 3,
+      "mandatory": true,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        {
+          "item": "Wall plumb",
+          "tolerance": "±1/8\" per 8'",
+          "method": "4' level"
+        },
+        {
+          "item": "Stud spacing",
+          "tolerance": "Per approved plans",
+          "method": "Measure and verify"
+        },
+        {
+          "item": "Sheathing nailing pattern",
+          "tolerance": "Per nailing schedule",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "WRB installation",
+          "tolerance": "Per manufacturer specs, proper lapping",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Window/door rough openings",
+          "tolerance": "±1/4\" of specified size",
+          "method": "Measure"
+        },
+        {
+          "item": "Structural connectors",
+          "tolerance": "Per engineered plans",
+          "method": "Visual verification"
+        }
+      ],
+      "documentation": [
+        "Traveler HP-2 section signed",
+        "Structural connector verification",
+        "Photos of framing and WRB"
+      ],
+      "referenceITP": "ITP-CS-02 or ITP-CS-03"
+    },
+    {
+      "id": "HP-3",
+      "phase": 3,
+      "name": "Roof Framing Complete",
+      "trigger": "Phase 3 work complete (roof structure), before MEP rough-in",
+      "blocksPhase": 4,
+      "mandatory": true,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        {
+          "item": "Truss/rafter spacing",
+          "tolerance": "Per approved plans",
+          "method": "Measure and verify"
+        },
+        {
+          "item": "Bearing connections",
+          "tolerance": "Per engineered details",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Hurricane tie installation",
+          "tolerance": "All trusses/rafters connected",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Sheathing nailing pattern",
+          "tolerance": "Per nailing schedule",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Underlayment lapping",
+          "tolerance": "Per manufacturer specs",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Attic ventilation provisions",
+          "tolerance": "NFA per code",
+          "method": "Calculate and verify"
+        }
+      ],
+      "documentation": [
+        "Traveler HP-3 section signed",
+        "Hurricane tie count verified",
+        "Photos of roof structure"
+      ],
+      "referenceITP": "ITP-CS-04"
+    },
+    {
+      "id": "HP-4",
+      "phase": 4,
+      "name": "MEP Rough-In Complete",
+      "trigger": "Phase 4 work complete (all MEP rough-in and testing), before insulation",
+      "blocksPhase": 5,
+      "mandatory": true,
+      "tpiaWitness": "REQUIRED",
+      "criticalNote": "CLOSED CONSTRUCTION - MEP will be concealed after this point",
+      "inspectionCriteria": [
+        {
+          "item": "Water supply pressure test",
+          "tolerance": "100 PSI, 15 minutes, no drop",
+          "method": "Pressure gauge monitoring"
+        },
+        {
+          "item": "DWV test",
+          "tolerance": "10 ft water head OR 5 PSI air, 15 minutes",
+          "method": "Pressure/head test"
+        },
+        {
+          "item": "Electrical continuity",
+          "tolerance": "All circuits verified",
+          "method": "Continuity tester"
+        },
+        {
+          "item": "Wire sizing",
+          "tolerance": "Per load calculations and NEC",
+          "method": "Verify gauge at panel"
+        },
+        {
+          "item": "AFCI/GFCI locations",
+          "tolerance": "Per NEC 2023 requirements",
+          "method": "Location verification"
+        },
+        {
+          "item": "Fixture counts",
+          "tolerance": "Match approved permit",
+          "method": "Count and verify"
+        },
+        {
+          "item": "Box fill calculations",
+          "tolerance": "Per NEC requirements",
+          "method": "Calculate and verify"
+        }
+      ],
+      "requiredTests": [
+        {
+          "test": "Water Supply Pressure Test",
+          "pressure": "100 PSI",
+          "duration": "15 minutes",
+          "criteria": "No pressure drop"
+        },
+        {
+          "test": "DWV Test (Water)",
+          "pressure": "10 ft water head",
+          "duration": "15 minutes",
+          "criteria": "No leaks"
+        },
+        {
+          "test": "DWV Test (Air)",
+          "pressure": "5 PSI",
+          "duration": "15 minutes",
+          "criteria": "No pressure drop"
+        },
+        {
+          "test": "Electrical Continuity",
+          "method": "Circuit-by-circuit testing",
+          "criteria": "All circuits continuous"
+        }
+      ],
+      "documentation": [
+        "Traveler HP-4 section signed",
+        "Pressure test log with readings",
+        "TPIA inspection report",
+        "Photos of all MEP rough-in"
+      ],
+      "referenceITP": "ITP-E-01, ITP-E-02, ITP-P-01 through ITP-P-04, ITP-M-01 through ITP-M-03"
+    },
+    {
+      "id": "HP-5",
+      "phase": 5,
+      "name": "Insulation & Air Sealing Complete",
+      "trigger": "Phase 5 work complete (insulation and air barrier), before drywall",
+      "blocksPhase": 6,
+      "mandatory": true,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        {
+          "item": "Insulation R-values",
+          "tolerance": "Match approved plans and IECC",
+          "method": "Label verification"
+        },
+        {
+          "item": "Installation quality",
+          "tolerance": "RESNET Grade I (no gaps, voids, compression)",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Penetration sealing",
+          "tolerance": "All penetrations sealed",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Vapor retarder",
+          "tolerance": "Installed per climate zone requirements",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Rim joist insulation",
+          "tolerance": "Continuous, sealed",
+          "method": "Visual inspection"
+        }
+      ],
+      "energyCompliance": {
+        "hersTarget": "≤50 (IHIP units)",
+        "airLeakageTarget": "≤3.0 ACH50",
+        "blowerDoorTest": "May be conducted at this point or HP-8"
+      },
+      "documentation": [
+        "Traveler HP-5 section signed",
+        "Insulation certificate/receipt",
+        "Pre-drywall photos",
+        "Blower door test results (if conducted)"
+      ],
+      "referenceITP": "ITP-A-01, ITP-A-02"
+    },
+    {
+      "id": "HP-6",
+      "phase": 6,
+      "name": "Drywall Complete",
+      "trigger": "Phase 6 work complete (drywall hung and finished), before interior trim",
+      "blocksPhase": 7,
+      "mandatory": true,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        {
+          "item": "Fastener spacing",
+          "tolerance": "Per fastener schedule (typically 12\" OC ceiling, 16\" OC walls)",
+          "method": "Random measurement"
+        },
+        {
+          "item": "Fire-rated assemblies",
+          "tolerance": "Correct type and thickness",
+          "method": "Verify labels/stamps"
+        },
+        {
+          "item": "Finish quality",
+          "tolerance": "Level 4 minimum (Level 5 where specified)",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Box cutouts",
+          "tolerance": "Clean, properly sized",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "No visible defects",
+          "tolerance": "No bubbles, ridges, nail pops",
+          "method": "Visual inspection under raking light"
+        }
+      ],
+      "documentation": [
+        "Traveler HP-6 section signed",
+        "Fire-rated assembly verification (if applicable)",
+        "Photos of finished drywall"
+      ],
+      "referenceITP": "ITP-A-03"
+    },
+    {
+      "id": "QA-7",
+      "phase": 7,
+      "name": "Interior Finish Inspection",
+      "trigger": "Phase 7 work substantially complete",
+      "blocksPhase": null,
+      "mandatory": false,
+      "isHoldPoint": false,
+      "note": "Quality inspection only - deficiencies documented on punch list",
+      "inspectionCriteria": [
+        {
+          "item": "Paint quality",
+          "tolerance": "Even coverage, no drips or holidays",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Flooring installation",
+          "tolerance": "Level, no gaps, proper transitions",
+          "method": "Visual and tactile inspection"
+        },
+        {
+          "item": "Door operation",
+          "tolerance": "Smooth operation, proper latching",
+          "method": "Functional test"
+        },
+        {
+          "item": "Cabinet alignment",
+          "tolerance": "Level, plumb, doors aligned",
+          "method": "Visual inspection"
+        },
+        {
+          "item": "Fixture operation",
+          "tolerance": "All fixtures functional",
+          "method": "Functional test"
+        },
+        {
+          "item": "GFCI/AFCI function",
+          "tolerance": "All devices trip and reset properly",
+          "method": "Test button verification"
+        }
+      ],
+      "documentation": [
+        "Punch list created",
+        "Photos of deficiencies (if any)",
+        "Appliance installation verification"
+      ],
+      "referenceITP": "ITP-A-04, ITP-A-05, ITP-E-03, ITP-P-05"
+    },
+    {
+      "id": "HP-8",
+      "phase": 8,
+      "name": "Final Inspection",
+      "trigger": "All work complete, punch list items resolved, ready for insignia",
+      "blocksPhase": null,
+      "blocksAction": "Bay exit, DOH insignia application, transport",
+      "mandatory": true,
+      "tpiaWitness": "REQUIRED",
+      "criticalNote": "Module cannot receive DOH Insignia or exit bay without this approval",
+      "inspectionCriteria": [
+        {
+          "item": "All previous hold points",
+          "tolerance": "Signed off",
+          "method": "Traveler review"
+        },
+        {
+          "item": "All NCRs",
+          "tolerance": "Closed",
+          "method": "NCR log review"
+        },
+        {
+          "item": "Traveler documentation",
+          "tolerance": "Complete",
+          "method": "Document review"
+        },
+        {
+          "item": "TPIA approval",
+          "tolerance": "Obtained",
+          "method": "TPIA report"
+        },
+        {
+          "item": "Blower door test",
+          "tolerance": "≤3.0 ACH50 (passed)",
+          "method": "Test report review"
+        },
+        {
+          "item": "All systems",
+          "tolerance": "Functional",
+          "method": "Comprehensive testing"
+        },
+        {
+          "item": "Transport readiness",
+          "tolerance": "Weatherproofing complete",
+          "method": "Visual inspection"
+        }
+      ],
+      "insigniaApplication": {
+        "authorizedPerson": "QA Manager (Zach Lamont)",
+        "label": "DOH Construction Insignia (Red Label)",
+        "location": "Per DOH specifications",
+        "tracking": "Insignia number recorded on Traveler and in DOH tracking system"
+      },
+      "documentation": [
+        "Traveler HP-8 section signed",
+        "TPIA final inspection report",
+        "Blower door test results",
+        "Module documentation package assembled",
+        "DOH insignia number recorded"
+      ],
+      "referenceITP": "ITP-A-06, ITP-CS-05"
+    }
+  ],
+  "rfiProcess": {
+    "steps": [
+      {
+        "step": 1,
+        "name": "Pre-Inspection by Bay Supervisor",
+        "actions": [
+          "Complete pre-inspection checklist on Traveler",
+          "Verify all phase work complete",
+          "Clean work area",
+          "Ensure test results documented (if applicable)"
+        ]
+      },
+      {
+        "step": 2,
+        "name": "Submit Request for Inspection",
+        "method": "JobTread",
+        "fields": [
+          "Module serial number",
+          "Bay number",
+          "Phase and Hold Point",
+          "Ready for inspection indication"
+        ],
+        "notification": "Automatic to QA Manager",
+        "alternative": "Verbal notification if urgent or system unavailable"
+      },
+      {
+        "step": 3,
+        "name": "QA Manager Inspection",
+        "responseTime": "Within 4 hours (same day if before 2 PM)",
+        "equipment": [
+          "Tablet with digital Traveler and ITP",
+          "Measuring tools (tape, level, square)",
+          "Camera",
+          "DOH-approved plans"
+        ]
+      },
+      {
+        "step": 4,
+        "name": "Inspection Result",
+        "outcomes": [
+          {
+            "result": "APPROVED",
+            "action": "QA Manager signs Traveler, updates JobTread, next phase authorized"
+          },
+          {
+            "result": "APPROVED WITH COMMENTS",
+            "action": "Minor items noted, documented for correction, next phase may proceed"
+          },
+          {
+            "result": "NOT APPROVED (NCR)",
+            "action": "NCR issued, phase held until corrective action complete and re-inspected"
+          }
+        ]
+      }
+    ]
+  }
+}
