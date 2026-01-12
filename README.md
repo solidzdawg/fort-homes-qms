@@ -1,12 +1,11 @@
-# Fort Homes QMS - Quality Management System
+# Fort and Homes LLC QMS - Quality Management System
 
-A comprehensive Quality Management System for Fort Homes LLC, a modular home manufacturer in Grand Junction, Colorado.
+A comprehensive Quality Management System for Fort and Homes LLC, a modular home manufacturer in Grand Junction, Colorado.
 
 ## 🏠 About Fort Homes
 
 Fort Homes LLC manufactures modular residential structures under Colorado Division of Housing (CDOH) regulations. This QMS supports:
 - **DOH Certification** per C.R.S. §24-32-3301 and 8 CCR 1302-14
-- **ISO 9001:2015** Quality Management compliance
 - **ICC NTA** Third-Party Inspection Agency coordination
 - **IHIP Grant** compliance for affordable housing
 
