@@ -7,6 +7,11 @@ const PDFDocument = require('pdfkit');
 const fs = require('fs');
 const path = require('path');
 
+// Font and image assets
+const FONT_REGULAR = path.join(__dirname, '../assets/fonts/Inter-Regular.ttf');
+const FONT_BOLD = path.join(__dirname, '../assets/fonts/Inter-Bold.ttf');
+const BANNER_IMG = path.join(__dirname, '../assets/img/banner-gradient.png');
+
 // Load data files
 const phases = require('../data/phases.json');
 const companyInfo = require('../data/company-info.json');
@@ -32,54 +37,76 @@ const outputPath = path.join(outputDir, `FHDEV-QMS-BIP-001_v${companyInfo.qms.cu
 
 // Create PDF document
 const doc = new PDFDocument({
-  size: 'LETTER',
-  margins: { top: 72, bottom: 72, left: 72, right: 72 },
-  info: {
-    Title: 'Fort Homes QMS - Quality Management System',
-    Author: 'Fort Homes Development LLC',
-    Subject: 'Build-in-Place Manufacturing QMS',
-    Keywords: 'QMS, Quality, Manufacturing, Modular Homes'
-  }
+   size: 'LETTER',
+   margins: { top: 72, bottom: 72, left: 72, right: 72 },
+   info: {
+      Title: 'Fort Homes QMS - Quality Management System',
+      Author: 'Fort Homes Development LLC',
+      Subject: 'Build-in-Place Manufacturing QMS',
+      Keywords: 'QMS, Quality, Manufacturing, Modular Homes'
+   }
 });
+
+// Register fonts
+doc.registerFont('Inter', FONT_REGULAR);
+doc.registerFont('Inter-Bold', FONT_BOLD);
 
 // Pipe to file
 doc.pipe(fs.createWriteStream(outputPath));
 
 // Helper functions
 function addHeader() {
-  const y = doc.page.margins.top - 50;
-  doc.fontSize(8)
-     .fillColor('#666666')
-     .text(`${companyInfo.company.legalName} | Quality Management System`,
-           doc.page.margins.left, y,
-           { width: doc.page.width - doc.page.margins.left - doc.page.margins.right });
+   const y = doc.page.margins.top - 50;
+   doc.font('Inter').fontSize(9)
+       .fillColor(COLORS.accent)
+       .text(`${companyInfo.company.legalName} | Quality Management System`,
+                doc.page.margins.left, y,
+                { width: doc.page.width - doc.page.margins.left - doc.page.margins.right });
+   // Accent line
+   doc.save().moveTo(doc.page.margins.left, y + 16)
+       .lineTo(doc.page.width - doc.page.margins.right, y + 16)
+       .lineWidth(2).strokeColor(COLORS.accent).stroke().restore();
 }
 
 function addFooter() {
-  const pageNumber = doc.bufferedPageRange().count;
-  const y = doc.page.height - doc.page.margins.bottom + 20;
-  doc.fontSize(8)
-     .fillColor('#666666')
-     .text(
-       `Page ${pageNumber} | FHDEV-QMS-BIP-001 Rev 3.0 | Uncontrolled When Printed`,
-       doc.page.margins.left,
-       y,
-       { width: doc.page.width - doc.page.margins.left - doc.page.margins.right, align: 'center' }
-     );
+   const pageNumber = doc.page.number;
+   const y = doc.page.height - doc.page.margins.bottom + 20;
+   doc.font('Inter').fontSize(8)
+       .fillColor(COLORS.secondary)
+       .text(
+          `Page ${pageNumber} | FHDEV-QMS-BIP-001 Rev 3.0 | Uncontrolled When Printed`,
+          doc.page.margins.left,
+          y,
+          { width: doc.page.width - doc.page.margins.left - doc.page.margins.right, align: 'center' }
+       );
 }
 
+function addBanner() {
+   if (fs.existsSync(BANNER_IMG)) {
+      doc.image(BANNER_IMG, 0, 0, { width: doc.page.width });
+   } else {
+      // Fallback: draw a gradient bar
+      doc.save();
+      doc.rect(0, 0, doc.page.width, 80).fill(COLORS.accent);
+      doc.restore();
+   }
+}
+
+
 // Title Page
-doc.fontSize(24)
+addBanner();
+doc.moveDown(3);
+doc.font('Inter-Bold').fontSize(28)
    .fillColor(COLORS.primary)
-   .text(companyInfo.company.legalName.toUpperCase(), { align: 'center' })
+   .text(companyInfo.company.legalName.toUpperCase(), { align: 'center', characterSpacing: 1.5 })
    .moveDown(0.5);
 
-doc.fontSize(18)
-   .fillColor('#000000')
+doc.font('Inter').fontSize(20)
+   .fillColor(COLORS.accent)
    .text('Quality Management System', { align: 'center' })
    .moveDown(0.5);
 
-doc.fontSize(14)
+doc.font('Inter-Bold').fontSize(14)
    .fillColor(COLORS.warning)
    .text('Build-in-Place (Static Bay) Manufacturing', { align: 'center' })
    .moveDown(2);
@@ -96,55 +123,53 @@ const tableData = [
 
 let currentY = tableStartY;
 tableData.forEach(([label, value]) => {
-  doc.rect(72, currentY, 234, 25).fillAndStroke(COLORS.light, '#999999');
-  doc.rect(306, currentY, 234, 25).stroke('#999999');
+  doc.rect(72, currentY, 234, 25).fillAndStroke(COLORS.light, COLORS.accent);
+  doc.rect(306, currentY, 234, 25).stroke(COLORS.accent);
 
-  doc.fillColor('#000000')
-     .fontSize(10)
-     .font('Helvetica-Bold')
+  doc.fillColor(COLORS.primary)
+     .font('Inter-Bold').fontSize(11)
      .text(label, 80, currentY + 8, { width: 220 });
 
-  doc.font('Helvetica')
+  doc.font('Inter').fontSize(11)
      .text(value, 314, currentY + 8, { width: 220 });
 
   currentY += 25;
 });
 
+
 // New page for Table of Contents
 doc.addPage();
 addHeader();
 
-doc.fontSize(16)
+doc.font('Inter-Bold').fontSize(18)
    .fillColor(COLORS.primary)
-   .font('Helvetica-Bold')
-   .text('TABLE OF CONTENTS', { align: 'left' })
-   .moveDown();
+   .text('TABLE OF CONTENTS', { align: 'left', underline: true })
+   .moveDown(1);
 
-doc.fontSize(10)
-   .fillColor('#000000')
-   .font('Helvetica')
-   .text('SECTION 1: PRODUCTION PHASES')
-   .text('SECTION 2: INSPECTION HOLD POINTS')
-   .text('SECTION 3: COMPANY INFORMATION')
-   .moveDown();
+doc.font('Inter').fontSize(12)
+   .fillColor(COLORS.secondary)
+   .text('1. Production Phases', { indent: 20 })
+   .text('2. Inspection Hold Points', { indent: 20 })
+   .text('3. Company Information', { indent: 20 })
+   .moveDown(2);
 
 addFooter();
+
 
 // SECTION 1: Production Phases
 doc.addPage();
 addHeader();
 
-doc.fontSize(16)
+doc.font('Inter-Bold').fontSize(16)
    .fillColor(COLORS.primary)
-   .font('Helvetica-Bold')
    .text('SECTION 1: PRODUCTION PHASES')
    .moveDown();
 
-doc.fontSize(10)
-   .fillColor('#000000')
-   .font('Helvetica')
+doc.font('Inter').fontSize(11)
+   .fillColor(COLORS.secondary)
    .text(`Fort Homes employs a ${phases.methodology} manufacturing process with ${phases.phases.length} sequential phases.`)
    .moveDown();
+
 
 // Phase Summary Table Header
 const colWidths = [40, 180, 60, 60, 60, 100];
@@ -152,21 +177,21 @@ const tableX = 72;
 let tableY = doc.y;
 
 // Header row
-doc.rect(tableX, tableY, 500, 25).fillAndStroke(COLORS.primary, '#999999');
+doc.rect(tableX, tableY, 500, 28).fillAndStroke(COLORS.accent, COLORS.primary);
 doc.fillColor('#FFFFFF')
-   .fontSize(8)
-   .font('Helvetica-Bold');
+    .font('Inter-Bold').fontSize(10);
 
 let xPos = tableX + 5;
 ['Phase', 'Description', 'Duration', 'Hold Point', 'TPIA', 'Reference ITP'].forEach((header, i) => {
-  doc.text(header, xPos, tableY + 8, { width: colWidths[i] - 10 });
-  xPos += colWidths[i];
+   doc.text(header, xPos, tableY + 10, { width: colWidths[i] - 10 });
+   xPos += colWidths[i];
 });
 
-tableY += 25;
+tableY += 28;
 
 // Phase rows
 phases.phases.forEach(phase => {
+
   if (tableY > 700) {
     addFooter();
     doc.addPage();
@@ -178,44 +203,43 @@ phases.phases.forEach(phase => {
 
   // Background color for hold points
   if (phase.isHoldPoint) {
-    doc.rect(tableX, tableY, 500, rowHeight).fillAndStroke(COLORS.holdPoint, '#999999');
+    doc.rect(tableX, tableY, 500, rowHeight).fillAndStroke(COLORS.holdPoint, COLORS.accent);
   } else {
-    doc.rect(tableX, tableY, 500, rowHeight).stroke('#999999');
+    doc.rect(tableX, tableY, 500, rowHeight).stroke(COLORS.accent);
   }
 
-  doc.fillColor('#000000')
-     .fontSize(8)
-     .font('Helvetica');
+  doc.fillColor(COLORS.primary)
+     .font('Inter').fontSize(9);
 
   xPos = tableX + 5;
 
   // Phase ID
-  doc.font('Helvetica-Bold')
-     .text(phase.id.toString(), xPos, tableY + 8, { width: colWidths[0] - 10 });
+  doc.font('Inter-Bold')
+     .text(phase.id.toString(), xPos, tableY + 10, { width: colWidths[0] - 10 });
   xPos += colWidths[0];
 
   // Description
-  doc.font('Helvetica')
-     .text(phase.name, xPos, tableY + 8, { width: colWidths[1] - 10 });
+  doc.font('Inter')
+     .text(phase.name, xPos, tableY + 10, { width: colWidths[1] - 10 });
   xPos += colWidths[1];
 
   // Duration
-  doc.text(phase.durationDays, xPos, tableY + 8, { width: colWidths[2] - 10, align: 'center' });
+  doc.text(phase.durationDays, xPos, tableY + 10, { width: colWidths[2] - 10, align: 'center' });
   xPos += colWidths[2];
 
   // Hold Point
-  doc.font('Helvetica-Bold')
-     .text(phase.holdPoint, xPos, tableY + 8, { width: colWidths[3] - 10, align: 'center' });
+  doc.font('Inter-Bold')
+     .text(phase.holdPoint, xPos, tableY + 10, { width: colWidths[3] - 10, align: 'center' });
   xPos += colWidths[3];
 
   // TPIA
-  doc.font('Helvetica')
-     .text(phase.tpiaRequired ? 'REQUIRED' : 'Optional', xPos, tableY + 8, { width: colWidths[4] - 10, align: 'center' });
+  doc.font('Inter')
+     .text(phase.tpiaRequired ? 'REQUIRED' : 'Optional', xPos, tableY + 10, { width: colWidths[4] - 10, align: 'center' });
   xPos += colWidths[4];
 
   // Reference ITP
-  doc.fontSize(7)
-     .text(phase.referenceITP, xPos, tableY + 8, { width: colWidths[5] - 10 });
+  doc.fontSize(8)
+     .text(phase.referenceITP, xPos, tableY + 10, { width: colWidths[5] - 10 });
 
   tableY += rowHeight;
 });
