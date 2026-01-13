@@ -1,14 +1,31 @@
-# Fort and Home LLC QMS — Professional Document Layout & Formatting Standards
+# PROFESSIONAL DOCUMENTATION STANDARDS & STYLE GUIDE
 
-**Version:** 1.0  
-**Effective Date:** January 13, 2026  
-**Document Control ID:** QMS-LAYOUT-001
+Fort and Homes LLC Quality Management System
 
 ---
 
-## Executive Summary
+## DOCUMENT CONTROL
 
-This document establishes the **visual and structural standards** for all Fort and Home LLC QMS documentation, ensuring professional presentation, clarity, and regulatory alignment with Colorado Division of Housing (CDOH) and industry best practices for modular home manufacturing.
+| Property | Details |
+| :--- | :--- |
+| **Document Title** | Professional Documentation Standards & Style Guide |
+| **Document ID** | QMS-STYLE-001 |
+| **Version** | 1.0 |
+| **Effective Date** | January 13, 2026 |
+| **Next Review** | January 13, 2027 |
+| **Purpose** | Establish consistent formatting and layout standards across QMS documentation |
+
+---
+
+## EXECUTIVE SUMMARY
+
+This document establishes the **visual, structural, and formatting standards** for all Fort and Homes LLC QMS documentation. These standards ensure:
+
+- ✓ **Professional presentation** across all documentation
+- ✓ **Consistency** enabling easy navigation and reference
+- ✓ **Accessibility** for production floor and management use
+- ✓ **Regulatory compliance** with CDOH, HUD, and IRC requirements
+- ✓ **Scalability** as system grows from Phase 1 through Phase 8
 
 ---
 
