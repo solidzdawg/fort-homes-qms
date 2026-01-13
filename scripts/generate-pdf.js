@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fort Homes QMS PDF Generator
+ * Fort and Home LLC QMS PDF Generator
  * Generates PDF version of the QMS document
  */
 const PDFDocument = require('pdfkit');
@@ -40,8 +40,8 @@ const doc = new PDFDocument({
    size: 'LETTER',
    margins: { top: 72, bottom: 72, left: 72, right: 72 },
    info: {
-      Title: 'Fort Homes QMS - Quality Management System',
-      Author: 'Fort Homes Development LLC',
+      Title: 'Fort and Home LLC QMS - Quality Management System',
+      Author: 'Fort and Home LLC',
       Subject: 'Build-in-Place Manufacturing QMS',
       Keywords: 'QMS, Quality, Manufacturing, Modular Homes'
    }
@@ -146,7 +146,7 @@ coverTableData.forEach(([label, value], i) => {
 
 doc.moveDown(3);
 doc.font('Inter').fontSize(10).fillColor(COLORS.secondary)
-   .text('This document is the property of Fort Homes Development LLC. Unauthorized reproduction or distribution is prohibited.', { align: 'center' });
+   .text('This document is the property of Fort and Home LLC. Unauthorized reproduction or distribution is prohibited.', { align: 'center' });
 
 addFooter();
 
@@ -181,7 +181,7 @@ doc.font('Inter-Bold').fontSize(16)
 
 doc.font('Inter').fontSize(11)
    .fillColor(COLORS.secondary)
-   .text(`Fort Homes employs a ${phases.methodology} manufacturing process with ${phases.phases.length} sequential phases.`)
+   .text(`Fort and Home LLC employs a ${phases.methodology} manufacturing process with ${phases.phases.length} sequential phases.`)
    .moveDown();
 
 

@@ -1,4 +1,4 @@
-# Fort Homes QMS — Professional Layout Selection & Rationale
+# Fort and Home LLC QMS — Professional Layout Selection & Rationale
 
 **Document ID:** QMS-LAYOUT-RATIONALE-001  
 **Date:** January 13, 2026  
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-After research into **modular home manufacturing quality management systems** and industry best practices, Fort Homes has adopted a **visual-first, lean-manufacturing-integrated QMS layout** that combines professional standards with production floor clarity.
+After research into **modular home manufacturing quality management systems** and industry best practices, Fort and Home LLC has adopted a **visual-first, lean-manufacturing-integrated QMS layout** that combines professional standards with production floor clarity.
 
 This document explains:
 1. ✅ The layout selected and why
@@ -33,7 +33,7 @@ This document explains:
 ### 1.2 Key Industry Metrics for Effective QMS
 
 ```
-Metric                              Target         Fort Homes Status
+Metric                              Target         Fort and Home LLC Status
 ──────────────────────────────────────────────────────────────────
 Procedure Update Frequency          Annually       ✓ Built into framework
 Training Competency Rate            100%           ✓ Linked to all SOPs
@@ -45,14 +45,14 @@ Visual Documentation Usage          60%+           ✓ All procedures visual-hea
 
 ---
 
-## 2. Layout Selection: The Fort Homes Approach
+## 2. Layout Selection: The Fort and Home LLC Approach
 
 ### 2.1 Why This Layout?
 
 **The layout selected is a "Visual-First Lean Manufacturing" approach:**
 
 ```
-Traditional QMS                Fort Homes QMS
+Traditional QMS                Fort and Homes LLC QMS
 ──────────────────────────────────────────────
 Text-heavy manuals            Visual procedures
 Thick compliance binders       Digital-first PDFs
@@ -63,16 +63,16 @@ Hierarchical silos            Integrated workflows
 
 ### 2.2 Why Not Other Approaches?
 
-| Approach | Pros | Cons | Fort Homes Decision |
+| Approach | Pros | Cons | Fort and Homes LLC Decision |
 | :--- | :--- | :--- | :--- |
 | **Pure ISO 9001** | Regulatory safe; widely recognized | Overly complex for production floor; text-heavy | ✗ Too formal |
 | **Lean/Kanban Visual** | Excellent for production floor | Lacks compliance depth; poor audit trails | ✓ + Additional structure |
 | **Traditional Construction** | Well-established standards | Dated; not optimized for digital/photo | ✗ Outdated |
-| **Fort Homes Hybrid** | Best of all: visual, compliant, auditable, modern | Requires ongoing refinement | ✓✓ **SELECTED** |
+| **Fort and Home Hybrid** | Best of all: visual, compliant, auditable, modern | Requires ongoing refinement | ✓✓ **SELECTED** |
 
 ---
 
-## 3. Core Elements of Fort Homes QMS Layout
+## 3. Core Elements of Fort and Homes LLC QMS Layout
 
 ### 3.1 Four-Tier Hierarchy
 
@@ -137,7 +137,7 @@ TIER 4: RECORDS & EVIDENCE (Documentary)
 
 ### 4.1 Lean Manufacturing Integration
 
-**Fort Homes QMS includes:**
+**Fort and Homes LLC QMS includes:**
 - ✓ Visual management systems (color-coded callouts)
 - ✓ Process flowcharts with decision gates
 - ✓ Quick-reference laminated cards (1 page per procedure)
@@ -146,7 +146,7 @@ TIER 4: RECORDS & EVIDENCE (Documentary)
 
 ### 4.2 Digital-First Architecture
 
-**Fort Homes uses:**
+**Fort and Homes LLC uses:**
 - ✓ Markdown authoring (version control via Git)
 - ✓ PDF export for offline/print use
 - ✓ Hyperlinked cross-references (easy navigation)
@@ -203,7 +203,7 @@ Module Released to Next Phase
 
 ### 5.1 Production Floor Effectiveness
 
-| Metric | Traditional | Fort Homes | Improvement |
+| Metric | Traditional | Fort and Homes LLC | Improvement |
 | :--- | :--- | :--- | :--- |
 | **Procedure Clarity** | Text descriptions | Photos + text | 3× faster comprehension |
 | **Training Time** | 2-3 hours per SOP | 30-45 minutes | 75% reduction |
@@ -213,7 +213,7 @@ Module Released to Next Phase
 
 ### 5.2 Compliance & Auditability
 
-| Aspect | Traditional | Fort Homes |
+| Aspect | Traditional | Fort and Homes LLC |
 | :--- | :--- | :--- |
 | **Documentation Trail** | Paper only | Digital + paper backup |
 | **Version Control** | Manual updates | Git version history |
@@ -257,11 +257,11 @@ Module Released to Next Phase
 
 ---
 
-## 7. How Fort Homes Exceeds Industry Standards
+## 7. How Fort and Home LLC Exceeds Industry Standards
 
 ### 7.1 Beyond ISO 9001
 
-**Fort Homes QMS is ISO 9001-aligned BUT goes further:**
+**Fort and Home LLC QMS is aligned with industry best practices and goes further:**
 - ✓ Production floor focus (not just compliance)
 - ✓ Visual management (not just documentation)
 - ✓ Lean integration (efficiency + quality)
@@ -270,7 +270,7 @@ Module Released to Next Phase
 
 ### 7.2 Cutting-Edge Features
 
-| Feature | Industry Adoption | Fort Homes Status |
+| Feature | Industry Adoption | Fort and Homes LLC Status |
 | :--- | :--- | :--- |
 | Markdown authoring for QMS | 10-15% of manufacturers | ✓ Implemented |
 | Photo-evidence procedures | 20-30% of manufacturers | ✓ Standard practice |
@@ -321,16 +321,16 @@ Module Released to Next Phase
 
 ## 9. Conclusion
 
-Fort Homes has selected a **professional, modern, visual-first QMS layout** that:
+Fort and Home LLC has selected a **professional, modern, visual-first QMS layout** that:
 
 ✅ **Exceeds industry standards** in clarity and effectiveness  
 ✅ **Integrates best practices** from lean manufacturing, modular construction, and professional QMS frameworks  
 ✅ **Emphasizes production floor usability** over compliance box-checking  
 ✅ **Supports continuous improvement** through digital-first, version-controlled documentation  
 ✅ **Ensures regulatory readiness** for Colorado Division of Housing (CDOH) and third-party inspections  
-✅ **Scales efficiently** as Fort Homes grows production capacity  
+✅ **Scales efficiently** as Fort and Home LLC grows production capacity  
 
-This approach positions **Fort Homes as an industry leader** in manufacturing quality management and positions the company for long-term success in the modular home industry.
+This approach positions **Fort and Home LLC as an industry leader** in manufacturing quality management and positions the company for long-term success in the modular home industry.
 
 ---
 

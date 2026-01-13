@@ -2,7 +2,7 @@
 
 I acknowledge that I have received, read, and understood the following:
 
-- Fort Homes QMS orientation
+- Fort and Homes LLC QMS orientation
 - Safety procedures and emergency protocols
 - Quality policy and nonconformance reporting
 - Document access and control procedures

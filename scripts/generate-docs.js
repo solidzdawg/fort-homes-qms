@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fort Homes QMS Document Generator
+ * Fort and Home LLC QMS Document Generator
  * Generates Word documents from JSON data files
  * 
  * Usage: node scripts/generate-docs.js [output-dir]
@@ -514,7 +514,7 @@ async function generateQMSDocument(outputPath) {
           }),
           new Paragraph({
             children: [
-              new TextRun({ text: `Fort Homes employs a ${phases.methodology} manufacturing process with ${phases.phases.length} sequential phases.`, size: 22 })
+              new TextRun({ text: `Fort and Home LLC employs a ${phases.methodology} manufacturing process with ${phases.phases.length} sequential phases.`, size: 22 })
             ]
           }),
           new Paragraph({ children: [] }),

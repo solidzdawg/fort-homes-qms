@@ -1,4 +1,4 @@
-# Fort Homes QMS — Professional Document Layout & Formatting Standards
+# Fort and Home LLC QMS — Professional Document Layout & Formatting Standards
 
 **Version:** 1.0  
 **Effective Date:** January 13, 2026  
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-This document establishes the **visual and structural standards** for all Fort Homes QMS documentation, ensuring professional presentation, clarity, and regulatory alignment with Colorado Division of Housing (CDOH) and industry best practices for modular home manufacturing.
+This document establishes the **visual and structural standards** for all Fort and Home LLC QMS documentation, ensuring professional presentation, clarity, and regulatory alignment with Colorado Division of Housing (CDOH) and industry best practices for modular home manufacturing.
 
 ---
 
@@ -406,7 +406,7 @@ When converting Markdown to PDF:
 - **Font:** Calibri or Arial (11pt body)
 - **Images:** Minimum 150 DPI
 - **Hyperlinks:** Enabled with table of contents
-- **Metadata:** Title, Author (Fort Homes QMS), Creation date
+ - **Metadata:** Title, Author (Fort and Home LLC QMS), Creation date
 
 ---
 

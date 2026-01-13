@@ -1,6 +1,6 @@
 {
   "company": {
-    "legalName": "Fort Homes LLC",
+    "legalName": "Fort and Homes LLC",
     "dba": "Fort and Home",
     "parentCompany": "F+H Developments, LLC",
     "address": {
@@ -8,11 +8,9 @@
       "city": "Grand Junction",
       "state": "Colorado",
       "zip": "81501"
-    },
-    "phone": "(970) 555-0100",
-    "website": "https://fortandhome.com",
-    "plantId": "CDOH-PENDING",
-    "established": 2024
+    }
+  
+
   },
   "leadership": [
     {
@@ -107,11 +105,6 @@
         "certification": "DOH Certified Manufacturer",
         "targetDate": "Q3 2026",
         "status": "In Progress"
-      },
-      {
-        "certification": "ISO 9001:2015",
-        "targetDate": "Q4 2026",
-        "status": "Planning"
       }
     ],
     "current": []

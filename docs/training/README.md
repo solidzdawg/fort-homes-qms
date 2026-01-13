@@ -1,6 +1,6 @@
 # Training Compliance Overview
 
-This section documents the Fort Homes QMS approach to training compliance, including:
+This section documents the Fort and Homes LLC QMS approach to training compliance, including:
 
 - Competency requirements for all roles (see SOP-002)
 - Training Matrix (master record)

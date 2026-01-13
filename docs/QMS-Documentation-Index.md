@@ -18,6 +18,13 @@ This index lists all current QMS documents by type and phase. Use as a master re
 - SOP-009: Management Review
 - SOP-030: Floor System
 - SOP-035: Final Inspection
+ - SOP-010: CDOH Regulatory Compliance
+ - SOP-012: Factory Inspection Plan
+ - SOP-013: Hold Point Inspections
+ - SOP-014: Data Plate & Insignia Management
+ - SOP-017: Material Lot Traceability
+ - SOP-019: Design Control & Plan Review
+ - SOP-020: TPIA Coordination
 
 ## Work Instructions (WIs)
 - WI-001: Floor Joist Assembly
@@ -36,6 +43,10 @@ This index lists all current QMS documents by type and phase. Use as a master re
 - FORM-I002: Wall Framing Inspection
 - FORM-I004: MEP Rough-In Inspection
 - FORM-I006: Final Inspection
+ - FORMS-FRM-003: ITP Template
+ - FORMS-FRM-004: TPIA Inspection Report
+ - FORMS-FRM-010: Data Plate Verification
+ - FORMS-FRM-012: Material Batch Record
 
 ## Training Compliance
 - Training Matrix Template
@@ -60,3 +71,10 @@ This index lists all current QMS documents by type and phase. Use as a master re
 **Note:**
 - All referenced forms, WIs, and SOPs are present for the first three phases and final inspection.
 - Add new documents here as new phases, procedures, or forms are created.
+
+Recent additions:
+- `docs/manual/QMS-Modular-Factory-Manual.md` (QMS manual)
+- `docs/procedures/SOP-019-Design-Control-and-Plan-Review.md` (Design control)
+- `docs/procedures/SOP-020-TPIA-Coordination.md` (TPIA coordination)
+- `docs/forms-templates/FORMS-FRM-003-ITP-Template.md` (ITP template)
+- `docs/forms-templates/FORMS-FRM-004-TPIA-Inspection-Report.md` (TPIA report)

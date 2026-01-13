@@ -116,6 +116,6 @@ app.post('/api/git/sync', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Fort Homes QMS Server running at http://localhost:${PORT}`);
+  console.log(`Fort and Home LLC QMS Server running at http://localhost:${PORT}`);
   console.log(`Pointing to Repo: ${REPO_PATH}`);
 });
