@@ -82,9 +82,19 @@ function addFooter() {
 }
 
 function addBanner() {
+   let bannerLoaded = false;
    if (fs.existsSync(BANNER_IMG)) {
-      doc.image(BANNER_IMG, 0, 0, { width: doc.page.width });
-   } else {
+      try {
+         const stats = fs.statSync(BANNER_IMG);
+         if (stats.size > 0) {
+            doc.image(BANNER_IMG, 0, 0, { width: doc.page.width });
+            bannerLoaded = true;
+         }
+      } catch (e) {
+         // Ignore and fallback
+      }
+   }
+   if (!bannerLoaded) {
       // Fallback: draw a gradient bar
       doc.save();
       doc.rect(0, 0, doc.page.width, 80).fill(COLORS.accent);
@@ -93,48 +103,52 @@ function addBanner() {
 }
 
 
-// Title Page
+
+// --- Modern Cover Page ---
 addBanner();
-doc.moveDown(3);
-doc.font('Inter-Bold').fontSize(28)
+doc.moveDown(4);
+doc.font('Inter-Bold').fontSize(30)
    .fillColor(COLORS.primary)
    .text(companyInfo.company.legalName.toUpperCase(), { align: 'center', characterSpacing: 1.5 })
-   .moveDown(0.5);
+   .moveDown(0.7);
 
-doc.font('Inter').fontSize(20)
+doc.font('Inter').fontSize(22)
    .fillColor(COLORS.accent)
-   .text('Quality Management System', { align: 'center' })
+   .text('Quality Management System', { align: 'center', characterSpacing: 1 })
    .moveDown(0.5);
 
 doc.font('Inter-Bold').fontSize(14)
    .fillColor(COLORS.warning)
    .text('Build-in-Place (Static Bay) Manufacturing', { align: 'center' })
-   .moveDown(2);
+   .moveDown(2.5);
 
-// Document info table
-const tableStartY = doc.y;
-const tableData = [
-  ['Document Number:', 'FHDEV-QMS-BIP-001'],
-  ['Revision:', companyInfo.qms.currentRevision],
-  ['Effective Date:', new Date().toLocaleDateString()],
-  ['Prepared By:', `${companyInfo.leadership[2].name}, ${companyInfo.leadership[2].title}`],
-  ['Approved By:', `${companyInfo.leadership[0].name}, ${companyInfo.leadership[0].title}`]
+// Modern info table
+const coverTableY = doc.y;
+const coverTableData = [
+  ['Document Number', 'FHDEV-QMS-BIP-001'],
+  ['Revision', companyInfo.qms.currentRevision],
+  ['Effective Date', new Date().toLocaleDateString()],
+  ['Prepared By', `${companyInfo.leadership[2].name}, ${companyInfo.leadership[2].title}`],
+  ['Approved By', `${companyInfo.leadership[0].name}, ${companyInfo.leadership[0].title}`]
 ];
-
-let currentY = tableStartY;
-tableData.forEach(([label, value]) => {
-  doc.rect(72, currentY, 234, 25).fillAndStroke(COLORS.light, COLORS.accent);
-  doc.rect(306, currentY, 234, 25).stroke(COLORS.accent);
-
+let coverY = coverTableY;
+coverTableData.forEach(([label, value], i) => {
+  // Alternating row color
+  const bgColor = i % 2 === 0 ? COLORS.light : '#FFFFFF';
+  doc.roundedRect(120, coverY, 370, 28, 6).fillAndStroke(bgColor, COLORS.accent);
   doc.fillColor(COLORS.primary)
-     .font('Inter-Bold').fontSize(11)
-     .text(label, 80, currentY + 8, { width: 220 });
-
-  doc.font('Inter').fontSize(11)
-     .text(value, 314, currentY + 8, { width: 220 });
-
-  currentY += 25;
+     .font('Inter-Bold').fontSize(12)
+     .text(label + ':', 130, coverY + 8, { width: 120 });
+  doc.font('Inter').fontSize(12)
+     .text(value, 260, coverY + 8, { width: 210 });
+  coverY += 28;
 });
+
+doc.moveDown(3);
+doc.font('Inter').fontSize(10).fillColor(COLORS.secondary)
+   .text('This document is the property of Fort Homes Development LLC. Unauthorized reproduction or distribution is prohibited.', { align: 'center' });
+
+addFooter();
 
 
 // New page for Table of Contents

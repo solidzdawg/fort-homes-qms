@@ -35,21 +35,151 @@ const phases = require("../data/phases.json");
 const companyInfo = require("../data/company-info.json");
 const holdPoints = require("../data/hold-points.json");
 
-// Styling constants
+
+// ISO 9001-inspired styling (but not referenced)
 const COLORS = {
-  primary: "2C3E50",
-  secondary: "34495E",
-  accent: "3498DB",
-  warning: "E74C3C",
-  success: "27AE60",
-  light: "F8F9FA",
-  holdPoint: "FFEBEE",
-  highlight: "E8F4FD"
+  primary: "1A237E", // Deep blue
+  secondary: "3949AB", // Lighter blue
+  accent: "00ACC1", // Cyan accent
+  warning: "E53935",
+  success: "43A047",
+  light: "F3F6F9",
+  holdPoint: "FFF3E0",
+  highlight: "E3F2FD"
 };
 
-const border = { style: BorderStyle.SINGLE, size: 1, color: "999999" };
+const border = { style: BorderStyle.SINGLE, size: 1, color: "B0BEC5" };
 const borders = { top: border, bottom: border, left: border, right: border };
-const cellMargins = { top: 80, bottom: 80, left: 120, right: 120 };
+const cellMargins = { top: 100, bottom: 100, left: 200, right: 200 };
+
+// Cover page function
+function coverPage() {
+  return [
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: companyInfo.company.legalName.toUpperCase(),
+          bold: true,
+          size: 64,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 400 }
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: "Quality Management System",
+          bold: true,
+          size: 48,
+          color: COLORS.accent
+        })
+      ],
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 200 }
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: "Build-in-Place Modular Manufacturing",
+          size: 32,
+          color: COLORS.secondary
+        })
+      ],
+      alignment: AlignmentType.CENTER,
+      spacing: { after: 400 }
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Document Number: FHDEV-QMS-BIP-001`,
+          size: 24,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Revision: ${companyInfo.qms.currentRevision}`,
+          size: 24,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Effective Date: ${new Date().toLocaleDateString()}`,
+          size: 24,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Prepared By: ${companyInfo.leadership[2].name}, ${companyInfo.leadership[2].title}`,
+          size: 24,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER
+    }),
+    new Paragraph({
+      children: [
+        new TextRun({
+          text: `Approved By: ${companyInfo.leadership[0].name}, ${companyInfo.leadership[0].title}`,
+          size: 24,
+          color: COLORS.primary
+        })
+      ],
+      alignment: AlignmentType.CENTER
+    }),
+    new Paragraph({ text: "", pageBreakBefore: true })
+  ];
+}
+
+// Custom header/footer
+function customHeaderFooter() {
+  return {
+    default: new Header({
+      children: [
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: `${companyInfo.company.legalName} | Quality Management System`,
+              size: 18,
+              color: COLORS.secondary
+            })
+          ],
+          alignment: AlignmentType.CENTER
+        })
+      ]
+    }),
+    defaultFooter: new Footer({
+      children: [
+        new Paragraph({
+          children: [
+            new TextRun({
+              text: "Page ", size: 18, color: "666666" }),
+            PageNumber.CURRENT,
+            new TextRun({
+              text: " | FHDEV-QMS-BIP-001 Rev 3.0 | Uncontrolled When Printed",
+              size: 18,
+              color: "666666"
+            })
+          ],
+          alignment: AlignmentType.CENTER
+        })
+      ]
+    })
+  };
+}
 
 /**
  * Create a styled header cell

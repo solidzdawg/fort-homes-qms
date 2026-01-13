@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate-docs": "node scripts/generate-docs.js",
+    "generate-pdf": "node scripts/generate-pdf.js",
     "generate-traveler": "node scripts/generate-traveler.js",
     "test": "jest"
   },
