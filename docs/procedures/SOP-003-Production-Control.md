@@ -36,7 +36,6 @@ This procedure applies to all production activities from module bay assignment t
 * Coordinate trade crews within their assigned bay
 * Pre-inspect work before requesting QA Hold Point inspection
 * Maintain 5S housekeeping standards in bay
-* Update JobTread status in real-time
 
 ### 4.3 QA Manager
 * Conducts Hold Point inspections (HP-1 through HP-8)
@@ -57,7 +56,6 @@ This procedure applies to all production activities from module bay assignment t
 ### 5.1 Production Planning and Bay Assignment
 
 #### 5.1.1 Work Order Generation
-1. Customer order confirmed in JobTread
 2. COO generates work order including:
    * Module Serial Number (format: SN-YYYY-###)
    * Model designation (Aspen Commons 1BR/2BR, Melrose 2BR/3BR, Summit 3BR/4BR, Grand 4BR)
@@ -518,7 +516,6 @@ Each bay has status board visible from main aisle:
 * **YELLOW**: Minor issue, behind schedule, or awaiting inspection
 * **RED**: Bay quarantined due to NCR, work stopped
 
-Status updated in real-time in JobTread system
 
 #### 5.4.2 Work Stoppage Conditions
 Work in a phase must STOP if:
@@ -576,10 +573,8 @@ If specified material is unavailable:
 
 #### 5.6.2 Traceability
 * Module Serial Number links to:
-  * Work order in JobTread
   * Engineering plan set (revision)
   * Material lot numbers (recorded during receiving or on Traveler)
-  * Crew assignments (recorded in JobTread schedule)
   * Inspection records (Traveler, TPIA reports)
   * NCRs (if any, cross-referenced by serial number)
   * Customer order and eventual site address
@@ -594,7 +589,6 @@ If specified material is unavailable:
 * **Rework Hours**: Hours spent on NCR corrections (Target: minimize)
 
 #### 5.7.2 Monitoring
-* COO reviews production dashboard daily (JobTread reports)
 * QA Manager reviews Hold Point pass/fail data weekly
 * Monthly production meeting reviews KPIs and trends
 * Continuous improvement actions initiated for adverse trends

@@ -115,7 +115,7 @@ Before adding supplier to ASL, evaluate using criteria:
    * Production schedule (modules in queue)
    * Engineering plan material takeoffs
    * Inventory levels (maintain 2-week minimum stock for common items)
-2. Submits requisition to COO via JobTread or email specifying:
+2. Submits requisition to COO via email specifying:
    * Material description and specification (e.g., "2x6 SPF Stud, #2 or better, kiln-dried")
    * Quantity
    * Required delivery date
@@ -198,7 +198,7 @@ Before adding supplier to ASL, evaluate using criteria:
   * Any product with date coding
 
 #### 5.4.3 Inventory Tracking
-* Materials logged in inventory system (spreadsheet, NetSuite, or JobTread)
+* Materials logged in inventory system (spreadsheet or NetSuite)
 * Key data: Product, Quantity, PO number, Receive date, Expiration date (if applicable)
 * Physical inventory count: Quarterly
 

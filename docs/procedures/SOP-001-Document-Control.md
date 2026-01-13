@@ -91,7 +91,6 @@ This procedure applies to all controlled documents within the Fort Homes QMS, in
 #### 5.2.2 User Access
 * Production personnel access documents via:
   * Tablets at production bays (linked to master repository)
-  * JobTread app integration (links to current documents)
   * Printed copies marked "Uncontrolled When Printed"
 
 #### 5.2.3 External Distribution
@@ -117,7 +116,6 @@ This procedure applies to all controlled documents within the Fort Homes QMS, in
 2. System automatically timestamps commit (Git version control)
 3. Old version archived in Git history (accessible via commit hash)
 4. QA Manager notifies affected users via:
-   * JobTread notification
    * Email to supervisors
    * Production meeting announcement (for significant changes)
 
@@ -165,7 +163,7 @@ Format: `TYPE-###-Name`
 ## 7. Training and Competence
 * All employees receive Document Control orientation during onboarding
 * Users trained to:
-  * Access current documents via repository/JobTread
+   * Access current documents via repository
   * Recognize "Uncontrolled When Printed" notation
   * Submit change requests to Process Owners
 * Records: Training Matrix (maintained by QA Manager)

@@ -96,7 +96,6 @@ npm run dev
 - TPIA coordination scheduling
 
 ### Integration Ready
-- JobTread API integration
 - Google Workspace compatibility
 - NetSuite ERP connection points
 
