@@ -36,7 +36,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.4 (Control of Externally Provided Processes)
 - CDOH HUD Code Material Requirements
 - Approved Supplier List (ASL)
 - SOP-007: Procurement & Supplier Management
@@ -118,3 +117,4 @@ Upon supplier or field-quality issue, use lot traceability database to identify 
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

@@ -38,7 +38,6 @@ This procedure applies to:
 
 - Transportation Industry Standards (DOT)
 - Modular Housing Protection Requirements
-- ISO 9001:2015 Section 8.5.3 (Preservation of Outputs)
 - Customer Delivery Specifications
 
 ---
@@ -120,3 +119,4 @@ Upon arrival, Delivery Coordinator and customer inspect module condition. Qualit
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

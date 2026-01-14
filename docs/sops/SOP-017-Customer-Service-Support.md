@@ -37,7 +37,6 @@ This procedure applies to:
 ## 3. References & Standards
 
 - Fort and Homes LLC Customer Service Policy
-- ISO 9001:2015 Section 8.2 (Customer Focus)
 - Module Documentation Package Requirements
 - Delivery Logistics Procedures
 
@@ -121,3 +120,4 @@ Delivery Coordinator confirms final delivery details 48 hours before scheduled d
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

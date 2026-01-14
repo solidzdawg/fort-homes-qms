@@ -37,7 +37,6 @@ This procedure applies to:
 ## 3. References & Standards
 
 - CDOH HUD Code Safety Requirements
-- ISO 9001:2015 Section 8.7 (Control of Nonconforming Outputs)
 - SOP-004: Nonconformance & CAPA
 - SOP-009: CDOH Regulatory Compliance
 - Federal Consumer Product Safety Commission (CPSC) Regulations
@@ -116,3 +115,4 @@ All field repairs tracked in database. Upon completion, repair data reviewed for
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

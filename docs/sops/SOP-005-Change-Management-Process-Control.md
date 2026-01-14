@@ -39,7 +39,6 @@ Changes covered include:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.5.6 (Control of Changes)
 - CDOH Change Notification Requirements
 - SOP-001 (Document Control)
 - SOP-002 (Training)
@@ -310,3 +309,4 @@ For regulatory-impact changes:
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

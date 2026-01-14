@@ -36,7 +36,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 10.3 (Continual Improvement)
 - Kaizen and Lean Improvement Principles
 - SOP-004: Nonconformance & CAPA (for systemic issues)
 - SOP-016: Quality Metrics & Performance Reporting (baseline data)
@@ -120,3 +119,4 @@ All improvements tracked in improvement log with baseline, target, and actual re
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

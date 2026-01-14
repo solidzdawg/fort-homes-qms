@@ -38,7 +38,6 @@ This procedure applies to:
 
 - CDOH HUD Code Inspection Requirements
 - Third-Party Inspector Agency Agreements
-- ISO 9001:2015 Section 8.6 (Control of Externally Provided Processes)
 - SOP-004: Nonconformance & CAPA
 - SOP-009: CDOH Regulatory Compliance
 
@@ -119,3 +118,4 @@ Upon receipt of inspection report, Quality Manager reviews findings with Product
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

@@ -36,7 +36,6 @@ Applies to:
 
 - CDOH HUD Code Section 3280
 - IRC Chapter 5-6 (Building Code)
-- ISO 9001:2015 Section 8.3 (Design Control)
 - SOP-001 (Document Control)
 - SOP-004 (Nonconformance)
 
@@ -172,3 +171,4 @@ Maintain:
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

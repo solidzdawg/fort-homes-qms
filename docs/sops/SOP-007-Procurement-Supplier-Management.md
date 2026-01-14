@@ -34,7 +34,6 @@ Applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.4 (Control of Externally Provided Processes)
 - SOP-001 (Document Control)
 - SOP-004 (Nonconformance & CAPA)
 
@@ -167,3 +166,4 @@ Maintain:
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

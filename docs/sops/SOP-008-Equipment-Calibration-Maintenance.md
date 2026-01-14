@@ -34,7 +34,6 @@ Applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 7.5 (Competence)
 - ANSI/NIST Standards (calibration)
 - SOP-001 (Document Control)
 
@@ -150,3 +149,4 @@ Maintain:
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

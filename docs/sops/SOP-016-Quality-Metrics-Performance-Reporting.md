@@ -36,7 +36,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.4.1 (Performance Metrics)
 - Hold Point Inspection Records (SOP-013)
 - Nonconformance Reports (SOP-004)
 - Module Traveler Documentation (SOP-014)
@@ -120,3 +119,4 @@ Weekly metrics email to supervisors and plant manager. Monthly performance repor
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

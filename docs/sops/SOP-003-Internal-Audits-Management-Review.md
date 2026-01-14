@@ -38,8 +38,6 @@ This procedure covers:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 9.2 (Internal Audit)
-- ISO 9001:2015 Section 9.3 (Management Review)
 - CDOH Audit Requirements
 - SOP-001 (Document Control)
 - SOP-004 (Nonconformance & CAPA)
@@ -400,3 +398,4 @@ Date: ________________  Time: ________  Location: _________
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

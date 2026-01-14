@@ -36,7 +36,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.1 (Operational Planning)
 - Hold Point Schedule (hold-points.json)
 - Module Specification Documentation
 - Phases & Gate Schedule (phases.json)
@@ -118,3 +117,4 @@ Weekly schedule updates distributed to all teams. Shift supervisors receive dail
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+

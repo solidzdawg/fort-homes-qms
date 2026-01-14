@@ -37,9 +37,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.5.6 (Control of Externally Provided Processes)
-- ISO 9001:2015 Section 8.7 (Nonconforming Outputs)
-- ISO 9001:2015 Section 10 (Improvement)
 - CDOH Requirements
 - SOP-001 (Document Control)
 - SOP-003 (Internal Audits)
@@ -404,3 +401,4 @@ For rework:
 **DOCUMENT EFFECTIVE:** January 14, 2026  
 **NEXT SCHEDULED REVIEW:** July 14, 2026  
 **DOCUMENT STATUS:** ✅ ACTIVE
+

@@ -36,7 +36,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.5.2 (Control of Documented Information)
 - Traveler Template (templates/traveler/traveler-template.json)
 - Module Traveler Record System
 - SOP-001: Document Control & Records Management
@@ -119,3 +118,4 @@ Upon final inspection (HP-8) sign-off, traveler marked complete. Supervisor revi
 | Revision | Date | Author | Changes |
 | :--- | :--- | :--- | :--- |
 | 1.0 | January 14, 2026 | Quality Manager | Initial creation |
+
