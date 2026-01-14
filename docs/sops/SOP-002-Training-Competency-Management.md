@@ -39,7 +39,6 @@ This procedure applies to:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.4.1 (Control of Externally Provided Processes)
 - CDOH Training Requirements
 - HUD Code Section 3280 (Manufacturing Requirements)
 - Fort and Homes LLC Quality Policy

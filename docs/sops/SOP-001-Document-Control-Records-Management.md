@@ -38,7 +38,6 @@ This procedure applies to all QMS documents including:
 
 ## 3. References & Standards
 
-- ISO 9001:2015 Section 8.5.2 (Control of Documented Information)
 - CDOH HUD Code Regulations
 - Fort and Homes LLC Quality Policy
 - GitHub Repository (fort-homes-qms)

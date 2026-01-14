@@ -61,7 +61,7 @@ Maintain master list of all equipment:
 
 | Equipment Type | Interval | Standard |
 | :--- | :--- | :--- |
-| Measurement tools | Annually | ISO 17025 |
+| Measurement tools | Annually | NIST-traceable labs |
 | Electrical testers | Annually | ANSI |
 | Inspection fixtures | Semi-annually | Internal |
 | Production equipment | Per manufacturer | Manufacturer |
