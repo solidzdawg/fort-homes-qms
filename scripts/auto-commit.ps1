@@ -1,15 +1,27 @@
 # Automated commit script for Fort and Homes QMS
 # Usage: .\scripts\auto-commit.ps1 -Message "Your commit message"
+# Supports both manual runs and Claude-guided automation
 
 param(
     [Parameter(Mandatory=$true)]
     [string]$Message,
     
     [string]$Author = "Claude Automation",
-    [string]$Email = "claude@fort-homes-qms.local"
+    [string]$Email = "claude@fort-homes-qms.local",
+    [switch]$SkipPush = $false
 )
 
 $ErrorActionPreference = "Stop"
+
+# Try to load GitHub auth config if it exists
+$configPath = Join-Path (Split-Path $PSScriptRoot) '.github-auth.ps1'
+if (Test-Path $configPath) {
+    . $configPath
+    $hasToken = $true
+}
+else {
+    $hasToken = $false
+}
 
 # Get repository root
 $repoRoot = (git rev-parse --show-toplevel 2>$null)
@@ -61,12 +73,27 @@ catch {
 # Step 5: Push to remote
 Write-Host "`nStep 5: Pushing to GitHub..." -ForegroundColor Yellow
 try {
-    & git push origin main 2>&1 | ForEach-Object {
-        if ($_ -match "error|fatal|401|403") {
-            Write-Host "❌ $_" -ForegroundColor Red
+    if ($hasToken -and $GITHUB_TOKEN) {
+        # Use token authentication
+        $remoteUrl = "https://$($GITHUB_USER):$($GITHUB_TOKEN)@github.com/$GITHUB_USER/fort-homes-qms.git"
+        & git push "$remoteUrl" main 2>&1 | ForEach-Object {
+            if ($_ -match "error|fatal|401|403") {
+                Write-Host "❌ $_" -ForegroundColor Red
+            }
+            else {
+                Write-Host "   $_" -ForegroundColor Cyan
+            }
         }
-        else {
-            Write-Host "   $_" -ForegroundColor Cyan
+    }
+    else {
+        # Use standard git authentication
+        & git push origin main 2>&1 | ForEach-Object {
+            if ($_ -match "error|fatal|401|403") {
+                Write-Host "❌ $_" -ForegroundColor Red
+            }
+            else {
+                Write-Host "   $_" -ForegroundColor Cyan
+            }
         }
     }
     
