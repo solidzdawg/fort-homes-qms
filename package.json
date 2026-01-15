@@ -11,6 +11,11 @@
     "generate-docs": "node scripts/generate-docs.js",
     "generate-pdf": "node scripts/generate-pdf.js",
     "generate-traveler": "node scripts/generate-traveler.js",
+    "qms-generate": "tsx src/cli.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
     "test": "jest"
   },
   "keywords": [
