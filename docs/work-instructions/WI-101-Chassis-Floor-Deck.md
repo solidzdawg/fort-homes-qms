@@ -304,3 +304,4 @@ After HP-1 inspection passes, wall framing team begins installation of exterior 
 **Document Status:** ✅ ACTIVE  
 **Last Updated:** January 14, 2026  
 **Review Date:** July 14, 2026
+generate-pdf.js

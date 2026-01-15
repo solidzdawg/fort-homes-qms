@@ -12,15 +12,80 @@
 
 Fort and Homes Development (FHD) will implement a comprehensive, hybrid Quality Management System that:
 1. Extends Fort and Homes LLC factory QMS to field operations
-2. Complies fully with HUD Code (24 CFR 3280/3282) requirements
-3. Incorporates industry best practices for modular home field assembly
+2. Complies fully with the **three-tier regulatory framework**:
+   - **HUD Code (24 CFR 3280/3282)** — Base federal manufacturing and labeling standards
+   - **Colorado Installation Code (24 CFR 3285 & Colorado CCRs)** — State-specific installation requirements
+   - **Manufacturer's Instructions** — Must be followed strictly per HUD mandate
+3. Incorporates site-specific engineering for foundations and anchoring per local requirements
 4. Implements advanced holdpoint strategy for quality assurance
 5. Integrates with IPIA (Independent Production Inspection Agency) oversight
 6. Provides transparent customer experience through modern technology
 
 ---
 
-## PART 1: ORGANIZATIONAL FOUNDATION
+## PART 1: REGULATORY FRAMEWORK & ORGANIZATIONAL FOUNDATION
+
+### 1.0 Colorado Manufactured Home Regulatory Framework
+
+**FHD must comply with a three-tier regulatory structure:**
+
+#### Tier 1: Federal HUD Code (24 CFR 3280/3282)
+- **24 CFR 3280** — Manufactured Home Construction and Safety Standards
+  - Structural requirements, fire safety, plumbing, electrical, HVAC
+  - Applies to factory manufacturing (Fort and Homes LLC)
+- **24 CFR 3282** — Manufactured Home Procedural and Enforcement Regulations
+  - Labeling, certification, consumer protections
+  - IPIA oversight and inspection requirements
+  - Consumer complaint and dispute resolution
+
+#### Tier 2: Colorado Installation Code (24 CFR 3285 & Colorado CCRs)
+- **24 CFR 3285** — Model Manufactured Home Installation Standards
+  - Site preparation and grading requirements
+  - Foundation systems (pier, runner, perimeter, basement)
+  - Anchoring and tie-down requirements (wind zone compliance)
+  - Utility connections (water, sewer, electrical, gas)
+  - Close-up procedures and final inspection
+- **Colorado Code of Regulations (CCRs)** — State-specific requirements
+  - 8 CCR 1302-14: Colorado Division of Housing regulations
+  - Colorado-specific amendments to federal installation standards
+  - State licensing and registration requirements
+
+#### Tier 3: Manufacturer's Instructions (MANDATORY)
+- **Per HUD mandate**, manufacturer's installation instructions must be followed exactly
+- Fort and Homes LLC provides installation manuals with each module
+- FHD installers must reference manufacturer instructions for:
+  - Foundation and support requirements
+  - Utility connection specifications
+  - Weatherproofing and sealing procedures
+  - Multi-section marriage procedures (if applicable)
+
+#### Site-Specific Requirements
+- **Local Building Official Jurisdiction** — Some Colorado jurisdictions require permits
+- **Licensed Engineer Input** — Required for:
+  - Non-standard foundation designs
+  - High wind zone anchoring calculations
+  - Flood zone installations
+  - Seismic zone installations (if applicable)
+- **Utility Company Requirements** — Connection specifications for:
+  - Electric service entrance
+  - Gas meter and regulator placement
+  - Water and sewer hookup procedures
+
+**Regulatory Compliance Matrix:**
+
+| Requirement | Authority | FHD Responsibility |
+|:---|:---|:---|
+| Module manufacturing standards | 24 CFR 3280 | Factory (Fort and Homes LLC) |
+| Module labeling and certification | 24 CFR 3282 | Factory (Fort and Homes LLC) |
+| Installation standards | 24 CFR 3285 | FHD Field Installation |
+| Colorado-specific installation | 8 CCR 1302-14 | FHD Field Installation |
+| Manufacturer instructions | HUD mandate | FHD Field Installation |
+| Foundation engineering | Local/State | FHD + Licensed Engineer |
+| Anchoring calculations | Wind zone/Local | FHD + Licensed Engineer |
+| Utility connections | Utility company + Code | FHD + Licensed Trades |
+| Final inspection | IPIA + Local official | FHD coordinates |
+
+---
 
 ### 1.1 FHD Decision Prerequisites
 
@@ -30,7 +95,9 @@ Fort and Homes Development (FHD) will implement a comprehensive, hybrid Quality 
 - [ ] Budget allocated for QMS development and implementation
 - [ ] Field team leads identified or recruitment plan established
 - [ ] IPIA agency relationship initiated (if using on-site completion model)
-- [ ] Colorado regulatory department contacted for guidance
+- [ ] Colorado Division of Housing contacted for guidance on CCR requirements
+- [ ] Local building official jurisdictions identified for operating area
+- [ ] Licensed engineer relationship established for foundation/anchoring
 - [ ] Technology platform decision made (mobile QMS app selection)
 
 ### 1.2 Proposed FHD Organizational Structure
@@ -443,11 +510,16 @@ FHD Operations Director
 
 ### 5.1 Non-Negotiable Requirements
 
-✅ **HUD Code Compliance** - All 24 CFR 3280/3282 requirements mandatory  
+✅ **Three-Tier Regulatory Compliance:**
+   - **24 CFR 3280/3282** — HUD Code manufacturing and labeling (factory responsibility)
+   - **24 CFR 3285 + Colorado CCRs** — Installation standards (FHD responsibility)
+   - **Manufacturer's Instructions** — Must follow Fort and Homes LLC installation manual exactly
 ✅ **IPIA Partnership** - Must establish relationship before first installation  
 ✅ **Licensed Trades** - Electrician, plumber, gas technician certifications required  
+✅ **Licensed Engineer** - Required for foundation/anchoring designs per site conditions
 ✅ **Documentation Trail** - Complete records mandatory per 24 CFR 3282.605  
 ✅ **Field Team Competency** - Training and certification before field work  
+✅ **Local Jurisdiction Compliance** - Building permits and inspections where required  
 
 ### 5.2 Quality Metrics to Monitor
 

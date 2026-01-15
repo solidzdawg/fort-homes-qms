@@ -36,9 +36,9 @@ Write-Host "Branch: $BRANCH`n" -ForegroundColor Yellow
 Remove-Item -Recurse -Force $TMP_SRC -ErrorAction SilentlyContinue
 Remove-Item -Recurse -Force $TMP_TGT -ErrorAction SilentlyContinue
 
-# Prepare auth
-$srcUrl = $SourceRepo -replace "https://", "https://$($GITHUB_USER):$Token@"
-$tgtUrl = $TargetRepo -replace "https://", "https://$($GITHUB_USER):$Token@"
+# Prepare auth - use token as password
+$srcUrl = $SourceRepo -replace "https://", "https://oauth2:$Token@"
+$tgtUrl = $TargetRepo -replace "https://", "https://oauth2:$Token@"
 
 Write-Host "Cloning source repo..." -ForegroundColor Yellow
 git clone --depth 1 $srcUrl $TMP_SRC
@@ -49,6 +49,14 @@ git clone $tgtUrl $TMP_TGT
 if ($LASTEXITCODE -ne 0) { exit 1 }
 
 Push-Location $TMP_TGT
+
+# Configure git to use the token for pushes
+git config user.email "claude@fort-homes.dev"
+git config user.name "Claude QMS Automation"
+
+# Update remote URL to include token for authentication
+$remoteUrlWithToken = $tgtUrl
+git remote set-url origin $remoteUrlWithToken
 
 Write-Host "Creating branch $BRANCH..." -ForegroundColor Yellow
 git checkout -b $BRANCH
@@ -134,7 +142,9 @@ if ($LASTEXITCODE -ne 0) {
 
 # Push branch
 Write-Host "Pushing branch to GitHub..." -ForegroundColor Yellow
-git push -u origin $BRANCH
+$env:GIT_ASKPASS = ""
+$env:GIT_ASKPASS_DISPLAY = ""
+git push -u origin $BRANCH 2>&1
 if ($LASTEXITCODE -eq 0) {
     Write-Host "✅ Branch pushed successfully!" -ForegroundColor Green
 } else {
