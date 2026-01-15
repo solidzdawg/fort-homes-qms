@@ -146,6 +146,26 @@ All generated documents are saved to `./output/` directory in multiple formats:
 - **Markdown** - Version control friendly
 - **JSON** - Interactive forms data
 
+### Generate Professional PDFs
+
+Generate print-ready PDFs for specific SOPs with Fort Homes branding:
+
+```bash
+# Generate SOP-002 Training & Competency Management V2 PDF
+npm run pdf:sop-002
+```
+
+**Output:** `output/pdf/SOP-002-Training-Competency-Management-V2.pdf`
+
+**Features:**
+- Professional Fort Homes branding and colors
+- Headers and footers on every page
+- Executive dashboard with key metrics
+- Process flowcharts and ASCII diagrams
+- Professional table formatting
+- Quality checkpoint boxes
+- Print-ready quality (8.5" × 11" US Letter)
+
 ## 📊 Production Phases
 
 Fort Homes uses a **Build-in-Place (Static Bay)** manufacturing approach with 8 production phases:

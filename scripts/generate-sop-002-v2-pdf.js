@@ -230,7 +230,7 @@ function createTitlePage(doc, pageNum, totalPages) {
 function createExecutiveSummary(doc) {
   doc.addPage();
   addHeader(doc);
-  addFooter(doc, 2, 15); // Estimated 15 pages total
+  addFooter(doc, 2, 15);
   
   doc.save();
   
@@ -293,6 +293,8 @@ function createExecutiveSummary(doc) {
  */
 function createTableOfContents(doc) {
   doc.addPage();
+  addHeader(doc);
+  addFooter(doc, 3, 15);
   
   doc.save();
   
@@ -508,19 +510,18 @@ function addSimpleTable(doc, headers, rows) {
  * Create content sections (Pages 4-14)
  */
 function createContentSections(doc) {
-  let currentPageNum = 4; // Starting from page 4
-  const estimatedTotal = 15;
+  let pageNum = 4; // Start at page 4
   
-  // Helper to start a new section page
-  const startSectionPage = () => {
+  // Helper function to add a new section page with header/footer
+  const addSectionPage = () => {
     doc.addPage();
     addHeader(doc);
-    addFooter(doc, currentPageNum, estimatedTotal);
-    currentPageNum++;
+    addFooter(doc, pageNum, 15);
+    pageNum++;
   };
   
   // Section 1: Purpose
-  startSectionPage();
+  addSectionPage();
   addSectionHeader(doc, '1. PURPOSE');
   
   addBodyText(doc, 'This procedure establishes the framework for:');
@@ -562,7 +563,7 @@ function createContentSections(doc) {
   ]);
   
   // Section 3: References & Standards
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '3. REFERENCES & STANDARDS');
   
   addSimpleTable(doc, 
@@ -595,7 +596,7 @@ function createContentSections(doc) {
   );
   
   // Section 5: Process Flow
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '5. PROCESS FLOW');
   
   const flowchartLines = [
@@ -665,7 +666,7 @@ function createContentSections(doc) {
   addAsciiDiagram(doc, flowchartLines);
   
   // Section 6: Training Needs Assessment
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '6. TRAINING NEEDS ASSESSMENT');
   
   doc.fontSize(12)
@@ -712,7 +713,7 @@ function createContentSections(doc) {
   );
   
   // Section 7: Training Program Development
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '7. TRAINING PROGRAM DEVELOPMENT');
   
   doc.fontSize(12)
@@ -757,7 +758,7 @@ function createContentSections(doc) {
   addAsciiDiagram(doc, deliveryLines);
   
   // Section 8: Competency Verification
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '8. COMPETENCY VERIFICATION');
   
   doc.fontSize(12)
@@ -825,7 +826,7 @@ function createContentSections(doc) {
   ]);
   
   // Section 9: Records Management
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '9. RECORDS MANAGEMENT');
   
   doc.fontSize(12)
@@ -866,7 +867,7 @@ function createContentSections(doc) {
   addBodyText(doc, 'Update frequency: Real-time upon training completion');
   
   // Section 10: Quality Metrics
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '10. QUALITY METRICS');
   
   const metricsLines = [
@@ -894,7 +895,7 @@ function createContentSections(doc) {
   ]);
   
   // Section 11: Approval & Authority
-  doc.addPage();
+  addSectionPage();
   addSectionHeader(doc, '11. APPROVAL & AUTHORITY');
   
   doc.moveDown(1);
@@ -927,6 +928,8 @@ function createContentSections(doc) {
  */
 function createEndPage(doc) {
   doc.addPage();
+  addHeader(doc);
+  addFooter(doc, 15, 15);
   
   doc.save();
   
@@ -987,23 +990,17 @@ function createEndPage(doc) {
 }
 
 /**
- * Add headers and footers to all pages (NOT USED - causes page duplication)
+ * Add headers and footers to all pages (UNUSED - causes page duplication issue)
+ * Headers and footers are added inline during page creation instead.
  */
-/*
-function addHeadersAndFooters(doc) {
-  const pages = doc.bufferedPageRange();
-  console.log('DEBUG: bufferedPageRange =', JSON.stringify(pages));
-  
-  for (let i = 0; i < pages.count; i++) {
-    console.log(`DEBUG: Processing page ${i + 1} of ${pages.count}`);
-    doc.switchToPage(i);
-    
-    // Add header and footer to all pages
-    addHeader(doc);
-    addFooter(doc, i + 1, pages.count);
-  }
-}
-*/
+// function addHeadersAndFooters(doc) {
+//   const pages = doc.bufferedPageRange();
+//   for (let i = 0; i < pages.count; i++) {
+//     doc.switchToPage(i);
+//     addHeader(doc);
+//     addFooter(doc, i + 1, pages.count);
+//   }
+// }
 
 /**
  * Main generation function
@@ -1041,8 +1038,8 @@ function generatePDF() {
     const writeStream = fs.createWriteStream(OUTPUT_FILE);
     doc.pipe(writeStream);
     
-    // Generate pages
-    createTitlePage(doc, 1, 15); // Estimated 15 pages
+    // Generate pages (headers/footers added inline)
+    createTitlePage(doc, 1, 15);
     createExecutiveSummary(doc);
     createTableOfContents(doc);
     createContentSections(doc);
@@ -1050,7 +1047,6 @@ function generatePDF() {
     
     // Get final page count
     const totalPages = doc.bufferedPageRange().count;
-    console.log('DEBUG: Total pages generated:', totalPages);
     
     // Finalize PDF
     doc.end();
