@@ -1,169 +1,408 @@
-# SOP-007: Procurement & Supplier Management
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🏗️ FORT HOMES QMS                                           SOP-007        ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║              PROCUREMENT & SUPPLIER MANAGEMENT                               ║
+║                                                                              ║
+║               Fort and Homes LLC | Mesa County, Colorado                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
+|:---:|:---:|:---:|:---:|:---:|
+| `SOP-007` | `2.0` | `January 2026` | `Procurement Manager` | `July 2026` |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
 
 ---
 
-## Document Control
+## 📊 EXECUTIVE SUMMARY
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-007 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 14, 2026 |
-| **Process Owner** | Procurement Manager |
-| **Last Reviewed** | January 14, 2026 |
-| **Next Review** | July 14, 2026 |
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                         📊 EXECUTIVE DASHBOARD                             │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│   KEY METRICS                                                              │
+│   ───────────────────────────────────────────────────────────             │
+│   📈 Target: 95%+ on-time delivery from suppliers                         │
+│   ✅ KPI: 98%+ quality acceptance rate                                    │
+│   📅 Review: Quarterly supplier performance scorecards                    │
+│   🔍 Audit: Zero unqualified suppliers used                               │
+│                                                                            │
+│   CRITICAL SUCCESS FACTORS                                                 │
+│   ───────────────────────────────────────────────────────────             │
+│   • All suppliers qualified before first use                               │
+│   • Purchase orders complete with specifications                           │
+│   • Receiving inspection per defined criteria                              │
+│   • Supplier performance tracked and reviewed                              │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. Purpose
+## 🎯 1. PURPOSE
 
 To establish procedures for selecting qualified suppliers, defining requirements, evaluating supplier performance, and managing the procurement process to ensure materials and services meet specifications and regulatory requirements.
 
 ---
 
-## 2. Scope
+## 📋 2. SCOPE
 
-Applies to:
-- Supplier selection and qualification
-- Purchase order creation and control
-- Material receiving and inspection
-- Supplier performance monitoring
-- Corrective actions with suppliers
+### 2.1 Procurement Activities
 
----
-
-## 3. References & Standards
-
-- SOP-001 (Document Control)
-- SOP-004 (Nonconformance & CAPA)
+| 🛒 Activity | Description | Applicability |
+|:---|:---|:---|
+| **Supplier selection** | Qualification and approval | All new suppliers |
+| **Purchase order creation** | PO management and control | All purchases |
+| **Material receiving** | Inspection and acceptance | All incoming materials |
+| **Performance monitoring** | Supplier scorecards | All active suppliers |
+| **Corrective actions** | Quality improvement | Underperforming suppliers |
 
 ---
 
-## 4. Supplier Selection & Qualification
+## 📚 3. REFERENCES & STANDARDS
+
+| Reference | Description | Authority |
+|:---|:---|:---|
+| SOP-001 | Document Control | Internal |
+| SOP-004 | Nonconformance & CAPA | Internal |
+
+---
+
+## 👥 4. ROLES & RESPONSIBILITIES
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        RACI RESPONSIBILITY MATRIX                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   👤 PROCUREMENT MANAGER         (R - Responsible)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Supplier selection and qualification oversight             │         │
+│   │ • Purchase order approval and control                        │         │
+│   │ • Supplier performance monitoring                            │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 QUALITY MANAGER             (A - Accountable)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Receiving inspection approval                              │         │
+│   │ • Supplier quality metrics review                            │         │
+│   │ • Non-conforming material disposition                        │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 RECEIVING INSPECTOR         (C - Consulted)                            │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Material receiving and inspection                          │         │
+│   │ • Documentation verification                                 │         │
+│   │ • Nonconformance identification                              │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 PRODUCTION SUPERVISOR       (I - Informed)                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Material availability notifications                        │         │
+│   │ • Quality issues communication                               │         │
+│   │ • Delivery schedule updates                                  │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔄 5. PROCUREMENT PROCESS FLOWCHART
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    SUPPLIER QUALIFICATION WORKFLOW                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│                              START                                          │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  IDENTIFY NEED        │                               │
+│                    │  - Material required  │                               │
+│                    │  - Specification      │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ◇───────────────────────◇                               │
+│                   ╱  Qualified Supplier     ╲                              │
+│                  ╱   Available?              ╲                             │
+│                 ◇─────────────────────────────◇                            │
+│                ╱                               ╲                           │
+│          YES  ╱                                 ╲  NO                      │
+│              ▼                                   ▼                          │
+│   ┌──────────────────┐              ┌──────────────────────┐               │
+│   │  ISSUE PO        │              │  SUPPLIER            │               │
+│   │  Create order    │              │  QUALIFICATION       │               │
+│   └────────┬─────────┘              │  - Evaluation        │               │
+│            │                         │  - Site visit        │               │
+│            │                         │  - Sample test       │               │
+│            │                         └──────────┬───────────┘               │
+│            │                                   │                            │
+│            │                         ╔═════════▼═════════╗                 │
+│            │                         ║ ✅ CHECKPOINT     ║                 │
+│            │                         ║ Score ≥70/100?    ║                 │
+│            │                         ╚═════════╤═════════╝                 │
+│            │                                   │                            │
+│            │◄──────────────────────────────────┘                            │
+│            ▼                                                                │
+│   ┌──────────────────┐                                                     │
+│   │  RECEIVE         │                                                     │
+│   │  MATERIALS       │                                                     │
+│   └────────┬─────────┘                                                     │
+│            │                                                                │
+│            ▼                                                                │
+│   ┌──────────────────┐                                                     │
+│   │  INSPECT         │                                                     │
+│   │  - Quantity      │                                                     │
+│   │  - Quality       │                                                     │
+│   │  - Docs          │                                                     │
+│   └────────┬─────────┘                                                     │
+│            │                                                                │
+│            ▼                                                                │
+│          END                                                                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📊 4. SUPPLIER SELECTION & QUALIFICATION
 
 ### 4.1 Evaluation Criteria
 
-| Criterion | Weight | Rating |
-| :--- | :--- | :--- |
-| Quality (certifications, defect history) | 35% | 1-10 |
-| Price competitiveness | 25% | 1-10 |
-| Delivery reliability | 25% | 1-10 |
-| Responsiveness & support | 10% | 1-10 |
-| Sustainability & compliance | 5% | 1-10 |
+| Criterion | Weight | Rating | Target |
+|:---|:---:|:---:|:---|
+| 🏆 **Quality** (certifications, defect history) | 35% | 1-10 | ≥8/10 |
+| 💰 **Price competitiveness** | 25% | 1-10 | ≥7/10 |
+| 📦 **Delivery reliability** | 25% | 1-10 | ≥8/10 |
+| 📞 **Responsiveness & support** | 10% | 1-10 | ≥7/10 |
+| 🌱 **Sustainability & compliance** | 5% | 1-10 | ≥6/10 |
 
 ### 4.2 Supplier Approval
 
-- Minimum score of 70/100 required
-- Quarterly performance review
-- Annual re-evaluation
-- Documented approval by Procurement Manager
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      SUPPLIER APPROVAL REQUIREMENTS                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ✅ Minimum score of 70/100 required for approval                          │
+│   📅 Quarterly performance review conducted                                 │
+│   🔄 Annual re-evaluation mandatory                                         │
+│   ✍️ Documented approval by Procurement Manager                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — SUPPLIER QUALIFICATION                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Evaluation completed using all criteria                                  │
+│ ■ Minimum score achieved (≥70/100)                                         │
+│ ■ Documentation complete and filed                                         │
+│ ■ Procurement Manager approval obtained                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 5. Purchase Order Requirements
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**All POs must include:**
-- Supplier name and contact
-- Part number and description
-- Quantity and unit of measure
-- Specifications and drawing reference
-- Delivery date and location
-- Quality requirements
-- Certificate of Conformance requirement (if applicable)
-- Payment terms
-- Inspection requirements
+## 📝 5. PURCHASE ORDER REQUIREMENTS
 
----
+### 5.1 Required PO Elements
 
-## 6. Material Receiving & Inspection
+| Element | Description | Required? |
+|:---|:---|:---:|
+| 👤 **Supplier information** | Name, contact, address | ✅ |
+| 🔢 **Part number** | Item identification | ✅ |
+| 📋 **Description** | Detailed specification | ✅ |
+| 📦 **Quantity** | Amount and unit of measure | ✅ |
+| 📐 **Specifications** | Drawing/spec reference | ✅ |
+| 📅 **Delivery date** | Required delivery date and location | ✅ |
+| ✅ **Quality requirements** | Acceptance criteria | ✅ |
+| 📜 **Certificate requirement** | COC if applicable | As needed |
+| 💰 **Payment terms** | Payment conditions | ✅ |
+| 🔍 **Inspection requirements** | Inspection level | ✅ |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📦 6. MATERIAL RECEIVING & INSPECTION
 
 ### 6.1 Receiving Process
 
-1. **Quantity Verification**
-   - Confirm quantity matches PO
-   - Document any shortages/overages
-
-2. **Visual Inspection**
-   - Check for damage
-   - Verify labels/certifications
-   - Document condition
-
-3. **Inspection Per Specification**
-   - Dimensions (critical characteristics)
-   - Material certification
-   - Certificate of Conformance
-   - Lot/batch traceability
+| Step | Activity | Verification |
+|:---:|:---|:---|
+| 1️⃣ | **Quantity Verification** | Confirm quantity matches PO; document discrepancies |
+| 2️⃣ | **Visual Inspection** | Check for damage; verify labels/certifications |
+| 3️⃣ | **Specification Inspection** | Verify dimensions, material certs, COC, traceability |
 
 ### 6.2 Non-Conforming Received Materials
 
-- Issue NCR (per SOP-004)
-- Notify supplier immediately
-- Hold material until resolution
-- Request credit or replacement
-- Document root cause and corrective action
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    NON-CONFORMING MATERIAL PROCEDURE                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1️⃣ Issue NCR immediately (per SOP-004)                                    │
+│   2️⃣ Notify supplier within 24 hours                                        │
+│   3️⃣ Hold material in quarantine until resolution                           │
+│   4️⃣ Request credit or replacement                                          │
+│   5️⃣ Document root cause and corrective action                              │
+│   6️⃣ Update supplier performance metrics                                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — RECEIVING INSPECTION                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ All materials inspected before acceptance                                │
+│ ■ Receiving documentation complete                                         │
+│ ■ Non-conformances documented and communicated                             │
+│ ■ Material certifications verified and filed                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 7. Supplier Performance Monitoring
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 7.1 Metrics
+## 📈 7. SUPPLIER PERFORMANCE MONITORING
 
-| Metric | Target | Review |
-| :--- | :--- | :--- |
-| On-time delivery | 95%+ | Monthly |
-| Quality (zero defects) | 98%+ | Monthly |
-| Response time to issues | <48 hours | Quarterly |
-| Overall satisfaction | ≥85% | Quarterly |
+### 7.1 Performance Metrics
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          KEY PERFORMANCE INDICATORS                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   METRIC                              TARGET         REVIEW FREQUENCY       │
+│   ───────────────────────────────────────────────────────────────────────  │
+│                                                                             │
+│   📦 On-time delivery                 95%+           Monthly                │
+│                                                                             │
+│   ✅ Quality (zero defects)           98%+           Monthly                │
+│                                                                             │
+│   📞 Response time to issues          <48 hours      Quarterly             │
+│                                                                             │
+│   😊 Overall satisfaction             ≥85%           Quarterly             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 7.2 Performance Review
 
-- Quarterly scorecards
-- Trend analysis
-- Annual re-evaluation
-- Corrective action if needed
+| Activity | Frequency | Action |
+|:---|:---:|:---|
+| 📊 **Quarterly scorecards** | Quarterly | Performance rating and trends |
+| 📈 **Trend analysis** | Quarterly | Identify patterns and concerns |
+| 🔄 **Annual re-evaluation** | Annually | Full qualification review |
+| 🔧 **Corrective action** | As needed | Issue CAR if below target |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔧 8. SUPPLIER CORRECTIVE ACTIONS
+
+### 8.1 CAR Process
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    SUPPLIER CORRECTIVE ACTION PROCESS                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   TRIGGER: Performance drops below targets                                 │
+│                                                                             │
+│   STEP 1: Issue formal corrective action request                           │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Document specific performance issue                        │         │
+│   │ • Define required improvement                                │         │
+│   │ • Set timeline for resolution                                │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 2: Supplier response and action plan                                │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Root cause analysis provided                               │         │
+│   │ • Corrective action plan submitted                           │         │
+│   │ • Implementation timeline committed                          │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 3: Track implementation                                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Monitor progress against plan                              │         │
+│   │ • Verify effectiveness of actions                            │         │
+│   │ • Update performance metrics                                 │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 4: Follow-up and closure                                            │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Verify sustained improvement                               │         │
+│   │ • Close CAR when resolved                                    │         │
+│   │ • Consider supplier removal if unresolved                    │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 9. RECORDS
+
+### 9.1 Required Documentation
+
+| Record Type | Retention Period | Location |
+|:---|:---:|:---|
+| �� **Supplier evaluation records** | 3 years | Procurement files |
+| ✅ **Approval documentation** | Active + 3 years | Procurement files |
+| 📝 **Purchase orders** | 3 years | Procurement system |
+| 🔍 **Receiving inspection reports** | 3 years | Quality files |
+| 📜 **Material certificates** | 7 years | Quality files |
+| 📊 **Performance scorecards** | 3 years | Procurement files |
 
 ---
 
-## 8. Supplier Corrective Actions
-
-- If performance drops below targets
-- Issue formal corrective action request
-- Track implementation
-- Follow up within agreed timeframe
-- Consider supplier removal if unresolved
-
----
-
-## 9. Records
-
-Maintain:
-- Supplier evaluation records
-- Approval documentation
-- Purchase orders
-- Receiving inspection reports
-- Material certificates
-- Performance scorecards
-
----
-
-## Approval & Authority
+## ✍️ APPROVAL & AUTHORITY
 
 | Role | Name | Signature | Date |
-| :--- | :--- | :--- | :--- |
-| **Procurement Manager** | Procurement Manager | _________________ | _________ |
+|:---|:---|:---:|:---:|
+| **Process Owner** | Procurement Manager | _________________ | _________ |
 | **Quality Manager** | Quality Manager | _________________ | _________ |
 
 ---
 
-## Revision History
+## 📅 REVISION HISTORY
 
 | Version | Date | Changes | Approved By |
-| :--- | :--- | :--- | :--- |
+|:---:|:---|:---|:---|
 | 1.0 | 01/14/2026 | Initial supplier management procedure | Procurement Manager |
+| 2.0 | 01/15/2026 | Applied visual design system upgrade | Quality Manager |
 
 ---
 
-**DOCUMENT EFFECTIVE:** January 14, 2026  
-**NEXT SCHEDULED REVIEW:** July 14, 2026  
-**DOCUMENT STATUS:** ✅ ACTIVE
+<div align="center">
 
+```
+═══════════════════════════════════════════════════════════════════════════════
+                              END OF DOCUMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+              Fort and Homes LLC | Quality Management System
+                        Mesa County, Colorado
+
+                      Quality Without Compromise™
+═══════════════════════════════════════════════════════════════════════════════
+```
+
+**DOCUMENT STATUS:** ✅ ACTIVE  
+**EFFECTIVE DATE:** January 2026  
+**NEXT REVIEW:** July 2026
+
+</div>
