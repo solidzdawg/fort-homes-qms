@@ -1,263 +1,585 @@
-# SOP-010: Module Identification & Data Plate Management
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🏗️ FORT HOMES QMS                                           SOP-010        ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║              MODULE IDENTIFICATION & DATA PLATE MANAGEMENT                   ║
+║                                                                              ║
+║               Fort and Homes LLC | Mesa County, Colorado                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
+|:---:|:---:|:---:|:---:|:---:|
+| `SOP-010` | `2.0` | `January 2026` | `Quality Manager` | `July 2026` |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
 
 ---
 
-## Document Control
+## 📊 EXECUTIVE SUMMARY
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-010 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 14, 2026 |
-| **Process Owner** | Quality Manager |
-| **Last Reviewed** | January 14, 2026 |
-| **Next Review** | July 14, 2026 |
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                         📊 EXECUTIVE DASHBOARD                             │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│   KEY METRICS                                                              │
+│   ───────────────────────────────────────────────────────────             │
+│   📈 Target: 100% modules with correct identification                     │
+│   ✅ KPI: Zero data plate errors or omissions                             │
+│   📅 Review: 100% traceability for all modules                            │
+│   🔍 Audit: Zero serial number discrepancies                              │
+│                                                                            │
+│   CRITICAL SUCCESS FACTORS                                                 │
+│   ───────────────────────────────────────────────────────────             │
+│   • All modules assigned unique serial numbers                             │
+│   • Module travelers accompany units through all phases                    │
+│   • Data plates installed per regulatory requirements                      │
+│   • Complete traceability from order to delivery                           │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. Purpose
+## 🎯 1. PURPOSE
 
 To establish procedures for assigning unique module identification numbers, managing module traceability throughout production, creating data plates with required information, installing plates correctly, and maintaining complete identification records for each module.
 
 ---
 
-## 2. Scope
+## 📋 2. SCOPE
 
-Applies to:
-- Assignment of module serial numbers
-- Traceability throughout production phases
-- Data plate creation and specifications
-- Module traveler initiation and tracking
-- Customer identification documentation
-- Module location and status tracking
+### 2.1 Identification Activities
 
----
-
-## 3. References & Standards
-
-- CDOH Data Plate Requirements
-- HUD Code Section 3280.503
-- IRC Chapter 5
-- SOP-001 (Document Control)
-- SOP-009 (Regulatory Compliance)
+| 🔢 Activity | Description | Phase |
+|:---|:---|:---|
+| **Serial number assignment** | Unique ID creation | Production planning |
+| **Traceability management** | Throughout production phases | All phases |
+| **Data plate creation** | Regulatory compliance plate | Final inspection |
+| **Module traveler initiation** | Tracking document creation | Production start |
+| **Customer documentation** | Order linking and tracking | Planning to delivery |
+| **Status tracking** | Location and phase monitoring | Ongoing |
 
 ---
 
-## 4. Module Serial Number System
+## 📚 3. REFERENCES & STANDARDS
+
+| Reference | Description | Authority |
+|:---|:---|:---|
+| CDOH Data Plate Requirements | Data plate specifications | State |
+| HUD Code Section 3280.503 | Federal labeling requirements | Federal |
+| IRC Chapter 5 | Building code identification | State |
+| SOP-001 | Document Control | Internal |
+| SOP-009 | Regulatory Compliance | Internal |
+
+---
+
+## 👥 4. ROLES & RESPONSIBILITIES
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        RACI RESPONSIBILITY MATRIX                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   👤 QUALITY MANAGER             (R - Responsible)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Module identification system oversight                     │         │
+│   │ • Data plate design and approval                             │         │
+│   │ • Traceability system management                             │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 PRODUCTION PLANNER          (A - Accountable)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Serial number assignment                                   │         │
+│   │ • Module traveler creation                                   │         │
+│   │ • Production schedule coordination                           │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 PRODUCTION SUPERVISOR       (C - Consulted)                            │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Module traveler management through phases                  │         │
+│   │ • Data plate installation coordination                       │         │
+│   │ • Module status updates                                      │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 CUSTOMER SERVICE            (I - Informed)                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Serial number communication to customers                   │         │
+│   │ • Module location and status inquiries                       │         │
+│   │ • Delivery coordination                                      │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔄 5. MODULE IDENTIFICATION FLOWCHART
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    MODULE IDENTIFICATION WORKFLOW                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│                              START                                          │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  CUSTOMER ORDER       │                               │
+│                    │  - Specifications     │                               │
+│                    │  - Design selected    │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  ASSIGN SERIAL NUMBER │                               │
+│                    │  FH-YYYY-MM-DXX-####  │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│            ╔═══════════════════════════════╗                               │
+│            ║   ✅ QUALITY CHECKPOINT       ║                               │
+│            ╠═══════════════════════════════╣                               │
+│            ║ • Serial number unique        ║                               │
+│            ║ • Logged in master register   ║                               │
+│            ║ • Linked to customer order    ║                               │
+│            ╚═══════════════════════════════╝                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  CREATE MODULE        │                               │
+│                    │  TRAVELER             │                               │
+│                    │  - Serial number      │                               │
+│                    │  - Customer info      │                               │
+│                    │  - Design specs       │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  PRODUCTION PHASES    │                               │
+│                    │  Track through 8      │                               │
+│                    │  phases with traveler │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  CREATE DATA PLATE    │                               │
+│                    │  - All required info  │                               │
+│                    │  - Serial number      │                               │
+│                    │  - Certifications     │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  INSTALL DATA PLATE   │                               │
+│                    │  - Per requirements   │                               │
+│                    │  - Photograph         │                               │
+│                    │  - Verify & document  │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                              END                                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔢 4. MODULE SERIAL NUMBER SYSTEM
 
 ### 4.1 Serial Number Format
 
 ```
-FH-[YEAR]-[MONTH]-[DESIGN]-[SEQUENCE]
-
-Example: FH-2026-01-D100-0047
-
-Where:
-FH = Fort and Homes LLC
-2026 = Year
-01 = Month
-D100 = Design code (model)
-0047 = Sequential number (1-9999)
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        SERIAL NUMBER STRUCTURE                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   FH - [YEAR] - [MONTH] - [DESIGN] - [SEQUENCE]                            │
+│                                                                             │
+│   EXAMPLE:  FH-2026-01-D100-0047                                            │
+│                                                                             │
+│   WHERE:                                                                    │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │  FH        = Fort and Homes LLC (manufacturer code)          │         │
+│   │  2026      = Year of manufacture                             │         │
+│   │  01        = Month of manufacture (01-12)                    │         │
+│   │  D100      = Design code/model designation                   │         │
+│   │  0047      = Sequential production number (0001-9999)        │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   RULES:                                                                    │
+│   • Must be unique across all modules                                       │
+│   • Assigned at production planning stage                                   │
+│   • Never reused, even if module scrapped                                   │
+│   • Logged in master serial number register                                 │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 4.2 Assignment Process
 
-- Serial number assigned at production planning
-- Documented in production schedule
-- Marked on module traveler
-- Linked to customer order
-- Used throughout production tracking
+| Step | Action | Documentation |
+|:---:|:---|:---|
+| 1️⃣ | Serial number assigned at production planning | Production schedule |
+| 2️⃣ | Documented in production schedule | Master log |
+| 3️⃣ | Marked on module traveler | Traveler document |
+| 4️⃣ | Linked to customer order | Order system |
+| 5️⃣ | Used throughout production tracking | All phase documentation |
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — SERIAL NUMBER ASSIGNMENT                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Serial number unique and properly formatted                              │
+│ ■ Logged in master register before use                                     │
+│ ■ Linked to customer order and specifications                              │
+│ ■ Marked on module traveler before production start                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 5. Module Traveler Initiation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 5.1 Traveler Document
+## 📋 5. MODULE TRAVELER INITIATION
 
-**Created at start of production, contains:**
-- Module serial number
-- Customer name and order number
-- Design specification and drawing reference
-- Phase-by-phase sign-off
-- Inspection and hold point records
-- Material certifications
-- Final inspection sign-off
+### 5.1 Traveler Document Requirements
 
-### 5.2 Traveler Progression
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      MODULE TRAVELER CONTENTS                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   CREATED AT START OF PRODUCTION, CONTAINS:                                │
+│                                                                             │
+│   🔢 Module serial number (unique ID)                                       │
+│   👤 Customer name and order number                                         │
+│   📐 Design specification and drawing reference                             │
+│   ✅ Phase-by-phase sign-off sections                                       │
+│   🔍 Inspection and hold point records                                      │
+│   📜 Material certifications and traceability                               │
+│   ✍️ Final inspection sign-off                                              │
+│   📸 Photograph documentation                                               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-The traveler follows module through all 8 phases:
-1. ✓ Chassis & Floor (Phase 1)
-2. ✓ Wall Framing (Phase 2)
-3. ✓ Roof Framing (Phase 3)
-4. ✓ MEP Rough-In (Phase 4)
-5. ✓ Insulation (Phase 5)
-6. ✓ Drywall (Phase 6)
-7. ✓ Interior Finish (Phase 7)
-8. ✓ Final Inspection (Phase 8)
+### 5.2 Traveler Progression Through Phases
 
----
+| Phase | Description | Hold Point? | Sign-Off Required |
+|:---:|:---|:---:|:---:|
+| **1** | ✓ Chassis & Floor (Phase 1) | Yes (HP-1) | Supervisor + TPIA |
+| **2** | ✓ Wall Framing (Phase 2) | Yes (HP-2) | Supervisor + TPIA |
+| **3** | ✓ Roof Framing (Phase 3) | Yes (HP-3) | Supervisor + TPIA |
+| **4** | ✓ MEP Rough-In (Phase 4) | Yes (HP-4) | Supervisor + TPIA |
+| **5** | ✓ Insulation (Phase 5) | No | Supervisor |
+| **6** | ✓ Drywall (Phase 6) | No | Supervisor |
+| **7** | ✓ Interior Finish (Phase 7) | No | Supervisor |
+| **8** | ✓ Final Inspection (Phase 8) | Yes (HP-8) | Supervisor + TPIA + QM |
 
-## 6. Data Plate Creation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🏷️ 6. DATA PLATE CREATION
 
 ### 6.1 Required Information
 
-**Data plate must include:**
-- Manufacturer: FORT AND HOMES LLC
-- Serial Number: FH-YYYY-MM-DESIGN-XXXX
-- Model: Design designation
-- Dimensions: Length x Width x Height
-- Year Built: YYYY
-- Certification: CDOH, HUD Code, ICC
-- Installation Requirements: Brief summary
-- Contact: Manufacturer phone/website
+| Element | Content | Example |
+|:---|:---|:---|
+| 🏢 **Manufacturer** | FORT AND HOMES LLC | Legal entity name |
+| 🔢 **Serial Number** | FH-YYYY-MM-DESIGN-XXXX | FH-2026-01-D100-0047 |
+| 📦 **Model** | Design designation | Model D100 |
+| 📐 **Dimensions** | Length × Width × Height | 60' × 14' × 13' |
+| 📅 **Year Built** | YYYY | 2026 |
+| ✅ **Certification** | CDOH, HUD Code, ICC | Certification numbers |
+| 🏗️ **Installation** | Requirements summary | Brief instructions |
+| 📞 **Contact** | Manufacturer phone/website | (970) 555-0100 |
 
-### 6.2 Data Plate Format
+### 6.2 Data Plate Physical Specifications
 
-**Physical specifications:**
-- Material: Aluminum or stainless steel (weatherproof)
-- Size: Minimum 3" x 4"
-- Lettering: Minimum ¼" height
-- Finish: Durable (engraved or embossed)
-- Attachment: Permanent (riveted or bolted)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      DATA PLATE SPECIFICATIONS                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📏 MATERIAL:     Aluminum or stainless steel (weatherproof)               │
+│   📐 SIZE:         Minimum 3" × 4"                                          │
+│   🔤 LETTERING:    Minimum ¼" height, clear and legible                     │
+│   🛡️ FINISH:       Durable (engraved or embossed, not stickers)            │
+│   🔩 ATTACHMENT:   Permanent (riveted or bolted, not screws)                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 6.3 Placement Requirements
 
-- **Location:** Exterior-accessible location
-- **Position:** Not covered by additions/awnings
-- **Height:** Between 2-6 feet from ground (module level)
-- **Visibility:** Clearly visible during inspection
-- **Protection:** Weathertight, not subject to damage
+| Requirement | Specification | Purpose |
+|:---|:---|:---|
+| 📍 **Location** | Exterior-accessible location | Inspection access |
+| 👁️ **Position** | Not covered by additions/awnings | Permanent visibility |
+| 📏 **Height** | Between 2-6 feet from ground (module level) | Easy viewing |
+| 🔍 **Visibility** | Clearly visible during inspection | Compliance verification |
+| 🛡️ **Protection** | Weathertight, not subject to damage | Long-term durability |
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 7. Data Plate Installation
+## 🔧 7. DATA PLATE INSTALLATION
 
 ### 7.1 Installation Process
 
-1. **Verify accuracy** of plate information before installation
-2. **Select location** per requirements
-3. **Clean surface** where plate will attach
-4. **Attach securely** using rivets (not screws)
-5. **Verify installation** per standards
-6. **Document** with photograph
-7. **Record in traveler**
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      DATA PLATE INSTALLATION PROCEDURE                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   STEP 1: Pre-Installation Verification                                    │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Verify accuracy of all plate information                   │         │
+│   │ • Confirm serial number matches module traveler              │         │
+│   │ • Check plate quality and legibility                         │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 2: Location Selection                                               │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Select location per requirements                           │         │
+│   │ • Ensure accessibility and visibility                        │         │
+│   │ • Verify weatherproofing of location                         │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 3: Surface Preparation                                              │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Clean surface where plate will attach                      │         │
+│   │ • Ensure surface is dry and sound                            │         │
+│   │ • Mark attachment points                                     │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 4: Secure Attachment                                                │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Attach securely using rivets (not screws)                  │         │
+│   │ • Ensure plate is level and secure                           │         │
+│   │ • Verify all fasteners tight                                 │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   STEP 5: Verification & Documentation                                     │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Verify installation per standards                          │         │
+│   │ • Take photograph for records                                │         │
+│   │ • Document installation in traveler                          │         │
+│   │ • Supervisor sign-off                                        │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-### 7.2 Installation Verification
+### 7.2 Installation Verification Checklist
 
-- ✓ Plate secured permanently
-- ✓ All information clearly visible
-- ✓ Serial number matches module traveler
-- ✓ Photograph taken for records
-- ✓ Supervisor sign-off on traveler
+| Item | Verification | Status |
+|:---|:---|:---:|
+| ✓ **Plate secured permanently** | Rivets tight, no movement | ☐ |
+| ✓ **Information clearly visible** | All text legible | ☐ |
+| ✓ **Serial number matches** | Traveler and plate agree | ☐ |
+| ✓ **Photograph taken** | Documentation on file | ☐ |
+| ✓ **Supervisor sign-off** | Approval documented | ☐ |
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — DATA PLATE INSTALLATION                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Data plate information verified accurate before installation             │
+│ ■ Plate installed per regulatory requirements                              │
+│ ■ Photographic documentation on file                                       │
+│ ■ Supervisor verification and sign-off completed                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 8. Module Tracking & Status
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📊 8. MODULE TRACKING & STATUS
 
 ### 8.1 Status Tracking Throughout Production
 
-| Phase | Status | Hold Point? |
-| :--- | :--- | :--- |
-| Phase 1 (Chassis) | In Progress → Hold Point 1 | Yes (HP-1) |
-| Phase 2 (Wall Frame) | In Progress → Hold Point 2 | Yes (HP-2) |
-| Phase 3 (Roof) | In Progress → Hold Point 3 | Yes (HP-3) |
-| Phase 4 (MEP Rough) | In Progress → Hold Point 4 | Yes (HP-4) |
-| Phase 5 (Insulation) | In Progress → In Progress | No |
-| Phase 6 (Drywall) | In Progress → In Progress | No |
-| Phase 7 (Interior) | In Progress → In Progress | No |
-| Phase 8 (Final) | Final Inspection → Released | Yes (HP-8) |
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       MODULE STATUS TRACKING                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   PHASE           STATUS PROGRESSION          HOLD POINT                   │
+│   ─────────────────────────────────────────────────────────────────        │
+│                                                                             │
+│   Phase 1         In Progress → HP-1          Yes (Chassis inspection)     │
+│   Phase 2         In Progress → HP-2          Yes (Wall frame inspection)  │
+│   Phase 3         In Progress → HP-3          Yes (Roof frame inspection)  │
+│   Phase 4         In Progress → HP-4          Yes (MEP rough inspection)   │
+│   Phase 5         In Progress                 No                           │
+│   Phase 6         In Progress                 No                           │
+│   Phase 7         In Progress                 No                           │
+│   Phase 8         Final Inspection → Released Yes (Final inspection)       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 8.2 Location Tracking
 
-- Maintain log of module location
-- Bay assignment per phase
-- Supervisor responsible for section
-- Date entered each phase
-- Date exited/completed each phase
+| Tracking Element | Information Maintained | Purpose |
+|:---|:---|:---|
+| �� **Module location log** | Current bay assignment | Find modules |
+| 👤 **Responsible supervisor** | Bay supervisor name | Contact person |
+| 📅 **Phase entry date** | Date entered each phase | Timeline tracking |
+| ✅ **Phase completion date** | Date exited/completed | Progress monitoring |
+| 🔍 **Current status** | In progress, hold, complete | Real-time status |
 
 ### 8.3 Traceability for Recalls
 
-If recall issued:
-- Identify all affected modules by serial number range
-- Locate modules in field
-- Contact customers
-- Coordinate repair/replacement
-- Document resolution
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         RECALL TRACEABILITY                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   IF RECALL ISSUED:                                                        │
+│                                                                             │
+│   1. Identify all affected modules by serial number range                  │
+│   2. Locate modules in field using customer records                         │
+│   3. Contact all affected customers                                         │
+│   4. Coordinate repair or replacement                                       │
+│   5. Document resolution for each affected module                           │
+│   6. Update master records with recall actions                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 9. Data Plate Records
+## 📁 9. DATA PLATE RECORDS
 
 ### 9.1 Data Plate Log
 
-**Maintain record of:**
-- Module serial number
-- Data plate number/identification
-- Installation date
-- Installation location
-- Verification sign-off
-- Photograph documentation
+| Record Element | Information | Location |
+|:---|:---|:---|
+| 🔢 **Module serial number** | FH-YYYY-MM-DXX-#### | Master log |
+| 🏷️ **Data plate number/ID** | Plate identification | Quality files |
+| 📅 **Installation date** | Date installed | Module traveler |
+| 📍 **Installation location** | Where on module | Installation record |
+| ✍️ **Verification sign-off** | Supervisor approval | Module traveler |
+| 📸 **Photograph** | Installation photo | Digital records |
 
-### 9.2 Data Plate Documentation
+### 9.2 Required Documentation
 
-- Data plate design drawing (template)
-- Approval for accuracy
-- Plate placement specification
-- Installation checklist
-- Quality verification record
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   DATA PLATE DOCUMENTATION REQUIREMENTS                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📐 Data plate design drawing (template)                                   │
+│   ✅ Approval for accuracy and compliance                                   │
+│   📋 Plate placement specification                                          │
+│   ☑️ Installation checklist (per module)                                    │
+│   📸 Photographic documentation                                             │
+│   ✍️ Quality verification record                                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚠️ 10. CORRECTIVE ACTIONS FOR IDENTIFICATION ISSUES
+
+### 10.1 Data Plate Issues
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    DATA PLATE ISSUE RESOLUTION                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   IF DATA PLATE FOUND MISSING OR DAMAGED:                                  │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Issue NCR immediately                                      │         │
+│   │ • Halt module delivery                                       │         │
+│   │ • Create new plate with correct information                  │         │
+│   │ • Reinstall per specifications                               │         │
+│   │ • Document root cause analysis                               │         │
+│   │ • Implement preventive measures                              │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   IF SERIAL NUMBER MISMATCH DISCOVERED:                                    │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Identify discrepancy immediately                           │         │
+│   │ • Verify correct serial number                               │         │
+│   │ • Correct traveler documentation                             │         │
+│   │ • Notify Quality Manager                                     │         │
+│   │ • Perform root cause analysis                                │         │
+│   │ • Update all affected records                                │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 11. RECORDS & DOCUMENTATION
+
+### 11.1 Required Records
+
+| Record Type | Retention Period | Location |
+|:---|:---:|:---|
+| 📐 **Data plate design/template** | Permanent | Quality files |
+| 📋 **Data plate installation records** | 7 years | Module files |
+| 🔢 **Module serial number log** | Permanent | Master log |
+| 📄 **Module traveler** | 7 years | Module files |
+| 📸 **Photograph documentation** | 7 years | Digital archive |
+| ✅ **Installation verification forms** | 7 years | Quality files |
+| 🔄 **Recall tracking** (if applicable) | Permanent | Quality files |
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — MODULE IDENTIFICATION RECORDS                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Serial number log complete and current                                   │
+│ ■ Module traveler accompanies unit through all phases                      │
+│ ■ Data plate documentation complete with photos                            │
+│ ■ All records retrievable for audits and recalls                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 10. Corrective Actions for Identification Issues
-
-**If data plate found missing or damaged:**
-- Issue NCR immediately
-- Halt module delivery
-- Create new plate
-- Reinstall per specifications
-- Document root cause
-- Prevent recurrence
-
-**If serial number mismatch:**
-- Identify discrepancy immediately
-- Verify correct number
-- Correct traveler documentation
-- Notify Quality Manager
-- Root cause analysis
-
----
-
-## 11. Records & Documentation
-
-**Maintain:**
-- Data plate design/template
-- Data plate installation records
-- Module serial number log
-- Module traveler for each unit
-- Photograph documentation
-- Installation verification forms
-- Recall tracking (if applicable)
-
----
-
-## Approval & Authority
+## ✍️ APPROVAL & AUTHORITY
 
 | Role | Name | Signature | Date |
-| :--- | :--- | :--- | :--- |
-| **Quality Manager** | Quality Manager | _________________ | _________ |
+|:---|:---|:---:|:---:|
+| **Process Owner** | Quality Manager | _________________ | _________ |
 | **Executive Authority** | Operations Director | _________________ | _________ |
 
 ---
 
-## Revision History
+## 📅 REVISION HISTORY
 
 | Version | Date | Changes | Approved By |
-| :--- | :--- | :--- | :--- |
+|:---:|:---|:---|:---|
 | 1.0 | 01/14/2026 | Initial module identification procedure | Quality Manager |
+| 2.0 | 01/15/2026 | Applied visual design system upgrade | Quality Manager |
 
 ---
 
-**DOCUMENT EFFECTIVE:** January 14, 2026  
-**NEXT SCHEDULED REVIEW:** July 14, 2026  
-**DOCUMENT STATUS:** ✅ ACTIVE
+<div align="center">
 
+```
+═══════════════════════════════════════════════════════════════════════════════
+                              END OF DOCUMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+              Fort and Homes LLC | Quality Management System
+                        Mesa County, Colorado
+
+                      Quality Without Compromise™
+═══════════════════════════════════════════════════════════════════════════════
+```
+
+**DOCUMENT STATUS:** ✅ ACTIVE  
+**EFFECTIVE DATE:** January 2026  
+**NEXT REVIEW:** July 2026
+
+</div>

@@ -1,230 +1,483 @@
-# SOP-009: CDOH Regulatory Compliance & Inspection
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🏗️ FORT HOMES QMS                                           SOP-009        ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║              CDOH REGULATORY COMPLIANCE & INSPECTION                         ║
+║                                                                              ║
+║               Fort and Homes LLC | Mesa County, Colorado                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
+|:---:|:---:|:---:|:---:|:---:|
+| `SOP-009` | `2.0` | `January 2026` | `Compliance Manager` | `July 2026` |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
 
 ---
 
-## Document Control
+## 📊 EXECUTIVE SUMMARY
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-009 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 14, 2026 |
-| **Process Owner** | Compliance Manager |
-| **Last Reviewed** | January 14, 2026 |
-| **Next Review** | July 14, 2026 |
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                         📊 EXECUTIVE DASHBOARD                             │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│   KEY METRICS                                                              │
+│   ───────────────────────────────────────────────────────────             │
+│   📈 Target: >95% first-time inspection pass rate                         │
+│   ✅ KPI: 100% regulatory compliance                                      │
+│   📅 Review: Zero non-compliant modules delivered                         │
+│   🔍 Audit: <5 days average time to correct findings                      │
+│                                                                            │
+│   CRITICAL SUCCESS FACTORS                                                 │
+│   ───────────────────────────────────────────────────────────             │
+│   • All modules inspected by CDOH-accepted inspectors                      │
+│   • Inspection findings corrected before next phase                        │
+│   • Data plates installed per regulatory requirements                      │
+│   • Complete regulatory documentation maintained                           │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. Purpose
+## 🎯 1. PURPOSE
 
 To establish procedures for complying with Colorado Department of Housing (CDOH) regulations, managing third-party inspections, maintaining regulatory documentation, responding to inspection findings, and ensuring all modules meet HUD Code and IRC requirements before delivery.
 
 ---
 
-## 2. Scope
+## 📋 2. SCOPE
 
-Applies to:
-- Regulatory compliance monitoring
-- Third-party inspector coordination
-- Inspection scheduling and planning
-- Inspection findings and corrections
-- Data plate and labeling requirements
-- Regulatory documentation maintenance
-- Non-compliant module handling
+### 2.1 Regulatory Activities
 
----
-
-## 3. References & Standards
-
-- CDOH HUD Code Section 3280
-- IRC Chapter 5-6
-- 24 CFR 3280 (Federal)
-- Colorado HCD Rules & Regulations
-- SOP-001 (Document Control)
-- SOP-009 (Inspection Control)
+| 🏛️ Activity | Description | Frequency |
+|:---|:---|:---|
+| **Regulatory compliance monitoring** | Code and standard compliance | Ongoing |
+| **Third-party inspector coordination** | TPIA scheduling and communication | Per hold point |
+| **Inspection planning** | Preparation for inspections | Before each hold point |
+| **Findings management** | Corrective actions for non-conformances | As needed |
+| **Data plate requirements** | Labeling and certification | Per module |
+| **Documentation maintenance** | Regulatory records management | Ongoing |
+| **Non-compliant module handling** | Quarantine and resolution | As needed |
 
 ---
 
-## 4. CDOH Requirements Overview
+## 📚 3. REFERENCES & STANDARDS
+
+| Reference | Description | Authority |
+|:---|:---|:---|
+| CDOH HUD Code Section 3280 | Manufactured housing standards | State/Federal |
+| IRC Chapter 5-6 | Building code requirements | State |
+| 24 CFR 3280 | Federal manufacturing requirements | Federal |
+| Colorado HCD Rules & Regulations | State-specific requirements | State |
+| SOP-001 | Document Control | Internal |
+| SOP-010 | Module Identification & Data Plate | Internal |
+
+---
+
+## 👥 4. ROLES & RESPONSIBILITIES
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        RACI RESPONSIBILITY MATRIX                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   👤 COMPLIANCE MANAGER          (R - Responsible)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Overall regulatory compliance oversight                    │         │
+│   │ • CDOH relationship management                               │         │
+│   │ • Regulatory documentation management                        │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 QUALITY MANAGER             (A - Accountable)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Third-party inspection coordination                        │         │
+│   │ • Inspection findings resolution approval                    │         │
+│   │ • Compliance verification and sign-off                       │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 PRODUCTION SUPERVISOR       (C - Consulted)                            │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Prepare modules for inspection                             │         │
+│   │ • Implement corrective actions for findings                  │         │
+│   │ • Coordinate with inspectors on site                         │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 THIRD-PARTY INSPECTOR       (I - Informed)                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Conduct inspections per CDOH requirements                  │         │
+│   │ • Document findings and non-conformances                     │         │
+│   │ • Issue inspection reports and certificates                  │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔄 5. INSPECTION COORDINATION FLOWCHART
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    REGULATORY INSPECTION WORKFLOW                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│                              START                                          │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  HOLD POINT REACHED   │                               │
+│                    │  - Module ready       │                               │
+│                    │  - Work complete      │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│            ╔═══════════════════════════════╗                               │
+│            ║   ✅ QUALITY CHECKPOINT       ║                               │
+│            ╠═══════════════════════════════╣                               │
+│            ║ • Work meets quality standard ║                               │
+│            ║ • Documentation complete      ║                               │
+│            ║ • Ready for inspection        ║                               │
+│            ╚═══════════════════════════════╝                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  SCHEDULE INSPECTOR   │                               │
+│                    │  - Call TPIA          │                               │
+│                    │  - Confirm date/time  │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  INSPECTION PERFORMED │                               │
+│                    │  - Inspector reviews  │                               │
+│                    │  - Documents findings │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ◇───────────────────────◇                               │
+│                   ╱   Inspection Result?    ╲                              │
+│                  ◇───────────────────────────◇                             │
+│                 ╱                             ╲                            │
+│          PASS  ╱                               ╲  FAIL                     │
+│               ▼                                 ▼                          │
+│   ┌──────────────────┐              ┌──────────────────────┐              │
+│   │  PASSED          │              │  ISSUE NCR           │              │
+│   │  - File report   │              │  - Document findings │              │
+│   │  - Proceed       │              │  - Correct issues    │              │
+│   └────────┬─────────┘              │  - Re-inspect        │              │
+│            │                         └──────────┬───────────┘              │
+│            │                                   │                           │
+│            │                                   └────────────┐              │
+│            ▼                                                │              │
+│   ┌──────────────────┐                                     │              │
+│   │  CONTINUE TO     │◄────────────────────────────────────┘              │
+│   │  NEXT PHASE      │                                                    │
+│   └────────┬─────────┘                                                    │
+│            │                                                              │
+│            ▼                                                              │
+│          END                                                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🏛️ 4. CDOH REQUIREMENTS OVERVIEW
 
 ### 4.1 Key Compliance Areas
 
-| Area | Requirement | Verification |
-| :--- | :--- | :--- |
-| **Design** | CDOH-approved designs | PE stamps + approval doc |
-| **Construction** | Code-compliant materials | Certificates + inspection |
-| **Labeling** | Data plate + warning labels | Installed + photographic evidence |
-| **Inspections** | CDOH-accepted inspectors | Inspection reports |
-| **Documentation** | Compliance records | File maintained |
-| **Testing** | Load tests, electrical, plumbing | Test reports filed |
+| Area | Requirement | Verification Method |
+|:---|:---|:---|
+| 🏗️ **Design** | CDOH-approved designs | PE stamps + approval documentation |
+| 🔨 **Construction** | Code-compliant materials and methods | Certificates + TPIA inspection |
+| 🏷️ **Labeling** | Data plate + warning labels | Installation + photographic evidence |
+| 🔍 **Inspections** | CDOH-accepted inspectors | Inspection reports on file |
+| 📁 **Documentation** | Complete compliance records | File maintained and retrievable |
+| 🧪 **Testing** | Load tests, electrical, plumbing | Test reports filed and approved |
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — CDOH COMPLIANCE                                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Design approved by CDOH and PE-stamped                                   │
+│ ■ Materials meet code requirements with certifications                     │
+│ ■ TPIA inspections completed and passed at all hold points                 │
+│ ■ Data plate installed per requirements                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 5. Third-Party Inspector Coordination
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔍 5. THIRD-PARTY INSPECTOR COORDINATION
 
 ### 5.1 Inspector Selection
 
-- Maintain list of CDOH-accepted inspectors
-- Schedule inspections per regulations
-- Confirm inspector credentials
-- Provide inspection schedule and module specifications
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      INSPECTOR QUALIFICATION                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ✅ REQUIREMENTS:                                                          │
+│                                                                             │
+│   • Maintain current list of CDOH-accepted inspectors                       │
+│   • Schedule inspections per regulatory requirements                        │
+│   • Confirm inspector credentials before each inspection                    │
+│   • Provide inspection schedule and module specifications                   │
+│   • Ensure inspector availability at hold points                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 5.2 Inspection Planning
 
-**Before inspection:**
-- Module ready per hold point requirements
-- Required documentation available
-- Inspector has access to all systems
-- Contact information confirmed
+| Phase | Before Inspection | During Inspection | After Inspection |
+|:---|:---|:---|:---|
+| **Before** | Module ready per hold point; Documentation available; Inspector access confirmed | Cooperate fully; Answer questions; Provide documentation; Photograph work | Obtain signed report; Review findings; Address non-compliance |
 
-**During inspection:**
-- Cooperate fully with inspector
-- Answer all questions
-- Provide documentation as requested
-- Photograph completed work
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**After inspection:**
-- Obtain signed inspection report
-- Review findings immediately
-- Address any non-compliance
+## 📋 6. INSPECTION FINDINGS MANAGEMENT
 
----
+### 6.1 Handling Inspection Outcomes
 
-## 6. Inspection Findings Management
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        INSPECTION OUTCOME PROCEDURES                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ✅ IF MODULE PASSES:                                                      │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • File inspection report in module traveler                  │         │
+│   │ • Proceed to next production phase                           │         │
+│   │ • Update module records and status                           │         │
+│   │ • Document pass date in tracking system                      │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   ❌ IF MODULE FAILS:                                                       │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Issue NCR immediately (per SOP-004)                        │         │
+│   │ • Identify specific required corrections                     │         │
+│   │ • Implement corrective actions promptly                      │         │
+│   │ • Schedule re-inspection with TPIA                           │         │
+│   │ • Document all corrections and root cause                    │         │
+│   │ • Prevent recurrence through process improvement             │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-### 6.1 Handling Inspection Findings
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**If module PASSES:**
-- ✅ File inspection report
-- ✅ Proceed to next phase
-- ✅ Update module records
-
-**If module FAILS:**
-- ❌ Issue NCR (per SOP-004)
-- ❌ Identify required corrections
-- ❌ Correct non-compliances
-- ❌ Schedule re-inspection
-- ❌ Document corrections
-
----
-
-## 7. Data Plate & Labeling Requirements
+## 🏷️ 7. DATA PLATE & LABELING REQUIREMENTS
 
 ### 7.1 Data Plate Specifications
 
-**Required information:**
-- Manufacturer name (Fort and Homes LLC)
-- Serial number (module ID)
-- Dimensions (length x width x height)
-- Certifications (CDOH, ICC, etc.)
-- Performance data (wind, live loads)
-- Warning labels (as required)
-- Manufacturer contact information
+| Information | Requirement | Example |
+|:---|:---|:---|
+| 🏢 **Manufacturer** | Legal company name | Fort and Homes LLC |
+| 🔢 **Serial Number** | Unique module identifier | FH-2026-01-D100-0047 |
+| 📐 **Dimensions** | Length × Width × Height | 60' × 14' × 13' |
+| ✅ **Certifications** | CDOH, ICC, HUD Code | Certification numbers |
+| 🏗️ **Performance data** | Wind, live loads, snow loads | Per engineering |
+| ⚠️ **Warning labels** | Safety and use warnings | As required by code |
+| 📞 **Contact** | Manufacturer information | Phone, website, address |
 
 ### 7.2 Placement Requirements
 
-- **Location:** Accessible from exterior
-- **Visibility:** Not hidden by additions
-- **Protection:** Weatherproof
-- **Durability:** Permanent attachment
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        DATA PLATE INSTALLATION                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📍 LOCATION:     Accessible from exterior                                 │
+│   👁️ VISIBILITY:   Not hidden by additions or awnings                       │
+│   🛡️ PROTECTION:   Weatherproof and durable                                 │
+│   🔩 DURABILITY:   Permanent attachment (riveted, not screwed)              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 7.3 Warning Labels
 
-Required labels for:
-- Gas/propane systems
-- Electrical systems
-- Structural capacities
-- Chimney/fireplace use
-- Maintenance requirements
+Required warning labels for:
 
----
+| System | Warning Content | Placement |
+|:---|:---|:---|
+| ⛽ **Gas/propane** | Installation and safety warnings | Near gas connections |
+| ⚡ **Electrical** | Voltage and safety information | Electrical panel |
+| 🏗️ **Structural** | Load capacity limitations | Visible location |
+| 🔥 **Chimney/fireplace** | Use and maintenance requirements | Near appliance |
+| 🔧 **Maintenance** | Required maintenance schedules | Accessible location |
 
-## 8. Regulatory Documentation
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — DATA PLATE & LABELING                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Data plate installed per specifications                                  │
+│ ■ All required information complete and legible                            │
+│ ■ Warning labels installed per code requirements                           │
+│ ■ Photographic documentation on file                                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📁 8. REGULATORY DOCUMENTATION
 
 ### 8.1 Required Records
 
-Maintain for each module:
-- Design drawings (PE stamped)
-- Material specifications and certs
-- Inspection reports
-- Test reports (electrical, plumbing)
-- Photographs of construction
-- Data plate documentation
-- Warranty documentation
-- Customer delivery confirmation
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  REQUIRED DOCUMENTATION PER MODULE                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📐 Design drawings (PE stamped)                                           │
+│   📋 Material specifications and certifications                             │
+│   🔍 Inspection reports (all hold points)                                   │
+│   🧪 Test reports (electrical, plumbing, structural)                        │
+│   📸 Photographs of construction phases                                     │
+│   🏷️ Data plate documentation and photo                                     │
+│   📜 Warranty documentation                                                 │
+│   ✍️ Customer delivery confirmation                                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 8.2 Documentation Retention
 
-- **Period:** 7 years minimum
-- **Storage:** Secure, organized, retrievable
-- **Access:** Available for audits and inspections
+| Aspect | Requirement | Purpose |
+|:---|:---|:---|
+| ⏱️ **Period** | 7 years minimum | Regulatory compliance |
+| 📂 **Storage** | Secure, organized, retrievable | Audit readiness |
+| 🔍 **Access** | Available for audits and inspections | Regulatory verification |
+| 💾 **Format** | Digital + physical backup | Redundancy |
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 9. Regulatory Changes
+## 🔄 9. REGULATORY CHANGES
 
 ### 9.1 Monitoring Updates
 
-- Subscribe to CDOH updates
-- Review IRC/code changes annually
-- Assess impact on manufacturing
-- Update procedures and designs as needed
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      REGULATORY UPDATE MONITORING                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📧 Subscribe to CDOH updates and bulletins                                │
+│   📖 Review IRC/code changes annually                                       │
+│   🔍 Assess impact on manufacturing processes                               │
+│   📝 Update procedures and designs as needed                                │
+│   🎓 Train personnel on regulatory changes                                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 9.2 Implementation of Changes
 
-- Follow SOP-005 (Change Management)
-- Notify Quality Manager
-- Train affected personnel
-- Verify compliance with new requirements
+| Step | Action | Reference |
+|:---:|:---|:---|
+| 1️⃣ | Follow SOP-005 (Change Management) | Change control |
+| 2️⃣ | Notify Quality Manager | Internal communication |
+| 3️⃣ | Train affected personnel | Training records |
+| 4️⃣ | Verify compliance with new requirements | Verification documentation |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚠️ 10. NON-COMPLIANT MODULE HANDLING
+
+### 10.1 Non-Compliance Procedure
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  NON-COMPLIANT MODULE PROCEDURE                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   IF MODULE FAILS TO MEET REGULATORY REQUIREMENTS:                         │
+│                                                                             │
+│   1. Issue NCR immediately                                                  │
+│   2. Identify correction needed to achieve compliance                       │
+│   3. Correct or rework module to full compliance                            │
+│   4. Re-inspect before proceeding to next phase                             │
+│   5. Document compliance achievement before release                         │
+│                                                                             │
+│   IF UNABLE TO CORRECT:                                                    │
+│   • Hold module in quarantine area                                          │
+│   • Determine options (rework, return materials, scrap)                     │
+│   • Notify customer if module already ordered                               │
+│   • Prevent delivery until fully compliant                                  │
+│   • Document root cause and prevention measures                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📊 11. METRICS & INSPECTION PERFORMANCE
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          KEY PERFORMANCE INDICATORS                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   METRIC                              TARGET         REVIEW FREQUENCY       │
+│   ───────────────────────────────────────────────────────────────────────  │
+│                                                                             │
+│   ✅ Modules passing first inspection    >95%          Monthly             │
+│                                                                             │
+│   ⏱️ Time to correct findings             <5 days       Per finding         │
+│                                                                             │
+│   🎯 Regulatory compliance                100%          Ongoing             │
+│                                                                             │
+│   �� Documentation completeness           100%          Per module          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 10. Non-Compliant Module Handling
-
-If module fails to meet regulatory requirements:
-
-1. **Issue NCR** immediately
-2. **Identify correction** needed
-3. **Correct or rework** to compliance
-4. **Re-inspect** before delivery
-5. **Document** compliance before release
-
-**If unable to correct:**
-- Hold module in quarantine
-- Determine options (rework, return, scrap)
-- Notify customer (if already ordered)
-- Prevent delivery until compliant
-
----
-
-## 11. Metrics & Inspection Performance
-
-| Metric | Target | Review |
-| :--- | :--- | :--- |
-| Modules passing first inspection | >95% | Monthly |
-| Time to correct findings | <5 days | Per finding |
-| Regulatory compliance | 100% | Ongoing |
-
----
-
-## Approval & Authority
+## ✍️ APPROVAL & AUTHORITY
 
 | Role | Name | Signature | Date |
-| :--- | :--- | :--- | :--- |
-| **Compliance Manager** | Compliance Manager | _________________ | _________ |
+|:---|:---|:---:|:---:|
+| **Process Owner** | Compliance Manager | _________________ | _________ |
 | **Quality Manager** | Quality Manager | _________________ | _________ |
 
 ---
 
-## Revision History
+## 📅 REVISION HISTORY
 
 | Version | Date | Changes | Approved By |
-| :--- | :--- | :--- | :--- |
+|:---:|:---|:---|:---|
 | 1.0 | 01/14/2026 | Initial CDOH compliance procedure | Compliance Manager |
+| 2.0 | 01/15/2026 | Applied visual design system upgrade | Quality Manager |
 
 ---
 
-**DOCUMENT EFFECTIVE:** January 14, 2026  
-**NEXT SCHEDULED REVIEW:** July 14, 2026  
-**DOCUMENT STATUS:** ✅ ACTIVE
+<div align="center">
 
+```
+═══════════════════════════════════════════════════════════════════════════════
+                              END OF DOCUMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+              Fort and Homes LLC | Quality Management System
+                        Mesa County, Colorado
+
+                      Quality Without Compromise™
+═══════════════════════════════════════════════════════════════════════════════
+```
+
+**DOCUMENT STATUS:** ✅ ACTIVE  
+**EFFECTIVE DATE:** January 2026  
+**NEXT REVIEW:** July 2026
+
+</div>
