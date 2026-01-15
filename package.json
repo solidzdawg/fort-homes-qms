@@ -11,6 +11,7 @@
     "generate-docs": "node scripts/generate-docs.js",
     "generate-pdf": "node scripts/generate-pdf.js",
     "generate-traveler": "node scripts/generate-traveler.js",
+    "pdf:sop-002": "node scripts/generate-sop-002-v2-pdf.js",
     "qms-generate": "tsx src/cli.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
