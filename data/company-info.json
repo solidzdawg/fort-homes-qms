@@ -202,7 +202,7 @@
     "documentPrefix": "FHDEV",
     "currentRevision": "3.0",
     "methodology": "Build-in-Place (Static Bay)",
-    "isoAlignment": "ISO 9001:2015",
+    "qualityFramework": "Industry-standard quality management principles",
     "recordRetention": "7 years minimum"
   }
 }
