@@ -1,21 +1,20 @@
+<div class="document-header" style="background: linear-gradient(135deg, #101810 0%, #2D5016 100%); color: white; padding: 40px; text-align: center; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <div style="font-size: 48px; font-weight: bold; letter-spacing: 2px; margin-bottom: 10px;">
+    🏗️ FORT HOMES
+  </div>
+  <div style="font-size: 24px; font-weight: 300; letter-spacing: 1px; margin-bottom: 5px;">
+    QUALITY MANAGEMENT SYSTEM
+  </div>
+  <div style="font-size: 20px; font-weight: bold; margin-top: 20px; padding-top: 20px; border-top: 2px solid rgba(255,255,255,0.3);">
+    MASTER INDEX & NAVIGATION
+  </div>
+  <div style="font-size: 16px; margin-top: 10px; opacity: 0.9;">
+    Grand Junction, Colorado
+  </div>
+</div>
+
 # QMS-000 MASTER INDEX
 ## Quality Management System Navigation Hub
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ███████╗ ██████╗ ██████╗ ████████╗    ██╗  ██╗ ██████╗ ███╗   ███╗███████╗ ║
-║   ██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝    ██║  ██║██╔═══██╗████╗ ████║██╔════╝ ║
-║   █████╗  ██║   ██║██████╔╝   ██║       ███████║██║   ██║██╔████╔██║█████╗   ║
-║   ██╔══╝  ██║   ██║██╔══██╗   ██║       ██╔══██║██║   ██║██║╚██╔╝██║██╔══╝   ║
-║   ██║     ╚██████╔╝██║  ██║   ██║       ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗ ║
-║   ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝       ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ ║
-║                                                                              ║
-║                       MASTER INDEX & NAVIGATION                              ║
-║                        Grand Junction, Colorado                              ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
 ---
 
