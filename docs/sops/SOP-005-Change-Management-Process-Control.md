@@ -243,8 +243,6 @@ To establish procedures for planning, evaluating, approving, implementing, and v
 
 ### 6.1 Change Evaluation
 
-### 6.1 Change Evaluation
-
 Before any change:
 
 | Step | Action | Key Questions |
