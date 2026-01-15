@@ -46,15 +46,25 @@ export class QMSManualAgent extends BaseAgent {
   }
 
   private async loadCompanyData(): Promise<any> {
-    const dataPath = path.join(process.cwd(), 'data', 'company-info.json');
-    const data = await fs.readFile(dataPath, 'utf-8');
-    return JSON.parse(data);
+    try {
+      const dataPath = path.join(process.cwd(), 'data', 'company-info.json');
+      const data = await fs.readFile(dataPath, 'utf-8');
+      return JSON.parse(data);
+    } catch (error) {
+      this.log(`Error loading company data: ${error}`);
+      throw new Error('Failed to load company-info.json. Ensure the file exists and contains valid JSON.');
+    }
   }
 
   private async loadPhasesData(): Promise<any> {
-    const dataPath = path.join(process.cwd(), 'data', 'phases.json');
-    const data = await fs.readFile(dataPath, 'utf-8');
-    return JSON.parse(data);
+    try {
+      const dataPath = path.join(process.cwd(), 'data', 'phases.json');
+      const data = await fs.readFile(dataPath, 'utf-8');
+      return JSON.parse(data);
+    } catch (error) {
+      this.log(`Error loading phases data: ${error}`);
+      throw new Error('Failed to load phases.json. Ensure the file exists and contains valid JSON.');
+    }
   }
 
   private async generateManualContent(

@@ -1,6 +1,6 @@
 /**
  * Compliance Agent
- * Validates documents against Colorado DHO and HUD regulations
+ * Validates documents against Colorado CDOH (Division of Housing) and HUD regulations
  */
 
 import { BaseAgent, AgentConfig, AgentResult } from './types';

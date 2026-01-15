@@ -1,6 +1,10 @@
 /**
  * Prisma Database Client
  * Singleton instance for database access throughout the application
+ * 
+ * Pattern: Uses global variable to maintain single Prisma Client instance
+ * across hot-reloads in development (Next.js pattern). In production,
+ * this ensures only one database connection pool is created.
  */
 
 import { PrismaClient } from '@prisma/client';
