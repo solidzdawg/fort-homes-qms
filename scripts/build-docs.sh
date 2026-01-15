@@ -192,7 +192,10 @@ cat > "$HTML_DIR/index.html" << 'EOF'
     </footer>
     
     <script>
-        // Populate document lists
+        // Note: This requires directory listing enabled or a manifest file
+        // For production, consider generating a static manifest during build
+        
+        // Populate document lists - fallback to manual list if fetch fails
         fetch('sops/').then(r => r.text()).then(html => {
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
@@ -202,10 +205,14 @@ cat > "$HTML_DIR/index.html" << 'EOF'
                 .join('');
             document.getElementById('sop-list').innerHTML = links || '<li>No SOPs found</li>';
         }).catch(() => {
-            document.getElementById('sop-list').innerHTML = '<li>Loading...</li>';
+            // Fallback: Show message to navigate directly to folders
+            document.getElementById('sop-list').innerHTML = '<li><a href="sops/">Browse SOPs folder</a></li>';
         });
         
-        // Similar for other sections...
+        // Similar fallback for other sections
+        document.getElementById('wi-list').innerHTML = '<li><a href="work-instructions/">Browse Work Instructions folder</a></li>';
+        document.getElementById('forms-list').innerHTML = '<li><a href="forms-templates/">Browse Forms & Templates folder</a></li>';
+        document.getElementById('manual-list').innerHTML = '<li><a href="manual/">Browse Manual folder</a></li>';
     </script>
 </body>
 </html>

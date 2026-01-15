@@ -13,6 +13,14 @@ All generated documents follow the Fort Homes QMS brand system:
 - **Page Layout**: US Letter (8.5" × 11") with 1" top/bottom and 0.75" left/right margins
 - **Headers/Footers**: Brand-consistent headers and footers on every page
 
+### Font Loading
+
+The system uses Google Fonts CDN for Oswald font family. For offline use or better performance, you can:
+
+1. Download Oswald font files from Google Fonts
+2. Place them in `assets/fonts/`
+3. Update `assets/css/typography.css` to reference local files instead of the CDN import
+
 ## Quick Start
 
 ### Building HTML Documentation
