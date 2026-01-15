@@ -8,9 +8,11 @@
       "city": "Grand Junction",
       "state": "Colorado",
       "zip": "81501"
+    },
+    "contact": {
+      "phone": "(970) 555-0100",
+      "email": "info@fortandhome.com"
     }
-  
-
   },
   "leadership": [
     {
@@ -202,7 +204,7 @@
     "documentPrefix": "FHDEV",
     "currentRevision": "3.0",
     "methodology": "Build-in-Place (Static Bay)",
-    "isoAlignment": "ISO 9001:2015",
+    "qualityFramework": "Industry-standard quality management principles",
     "recordRetention": "7 years minimum"
   }
 }
