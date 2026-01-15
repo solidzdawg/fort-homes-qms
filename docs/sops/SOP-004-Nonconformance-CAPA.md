@@ -895,7 +895,6 @@ For complaints received after delivery:
 
 | Role | Name | Signature | Date |
 |:---|:---|:---:|:---:|
-| **Process Owner** | Quality Manager | _________________ | _________ |
 | **Quality Manager** | Quality Manager | _________________ | _________ |
 | **Executive Authority** | Operations Director | _________________ | _________ |
 
@@ -906,7 +905,7 @@ For complaints received after delivery:
 | Version | Date | Changes | Approved By |
 |:---:|:---|:---|:---|
 | 1.0 | 01/14/2026 | Initial nonconformance and CAPA procedure | Quality Manager |
-| 2.0 | 01/2026 | Applied visual design system upgrade | Quality Manager |
+| 2.0 | 01/15/2026 | Applied visual design system upgrade | Quality Manager |
 
 ---
 
