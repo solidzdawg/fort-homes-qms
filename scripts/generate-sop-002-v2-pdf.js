@@ -14,9 +14,14 @@ const COLORS = {
   secondaryDark: '#181810',    // Headers/footers
   offWhite: '#F8F8F8',         // Backgrounds, table headers
   neutralGray: '#B8B8B8',      // Borders
-  infoBlue: '#145B8B',         // Callout boxes
+  infoBlue: '#145B8B',         // Callout boxes (quality checkpoints)
   white: '#FFFFFF'
 };
+
+// NOTE: Brand system specifies Oswald font family, but we use Helvetica as a fallback
+// since Oswald is a Google Font that requires TTF files to be installed.
+// The brand system includes this fallback: "Oswald, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+// For production use, consider adding Oswald font files to assets/fonts/ and registering them with PDFKit.
 
 // Page dimensions (US Letter)
 const PAGE = {
@@ -63,7 +68,7 @@ const doc = new PDFDocument({
 const writeStream = fs.createWriteStream(outputPath);
 doc.pipe(writeStream);
 
-// Track page count
+// Track page count (will be updated at the end)
 let pageCount = 0;
 
 // Helper: Add header bar on every page
@@ -148,7 +153,6 @@ function addFooter(currentPage, totalPages) {
 // Helper: Start new page with header
 function startNewPage() {
   doc.addPage();
-  pageCount++;
   addHeader();
 }
 
@@ -279,13 +283,28 @@ function renderText(text, fontSize = 10, fontName = 'Helvetica') {
 function renderCodeBlock(lines) {
   checkPageBreak(lines.length * 10 + 40);
   
-  // Light gray background
+  // Check if this is a quality checkpoint box (contains ✅ QUALITY CHECKPOINT)
+  const isQualityCheckpoint = lines.some(line => 
+    line.includes('✅ QUALITY CHECKPOINT') || 
+    line.includes('QUALITY CHECKPOINT')
+  );
+  
   const startY = doc.y;
   const blockHeight = lines.length * 10 + 20;
   
   doc.save();
-  doc.rect(PAGE.marginLeft - 5, startY - 5, PAGE.width - PAGE.marginLeft - PAGE.marginRight + 10, blockHeight)
-     .fill(COLORS.offWhite);
+  
+  if (isQualityCheckpoint) {
+    // Quality checkpoint box with blue border and light background
+    doc.rect(PAGE.marginLeft - 5, startY - 5, PAGE.width - PAGE.marginLeft - PAGE.marginRight + 10, blockHeight)
+       .fillAndStroke(COLORS.offWhite, COLORS.infoBlue);
+    doc.lineWidth(2);
+  } else {
+    // Standard code block with light gray background
+    doc.rect(PAGE.marginLeft - 5, startY - 5, PAGE.width - PAGE.marginLeft - PAGE.marginRight + 10, blockHeight)
+       .fill(COLORS.offWhite);
+  }
+  
   doc.restore();
   
   // Render text in monospace
@@ -382,7 +401,6 @@ function renderDocument() {
   console.log(`📊 Found ${sections.length} sections to render`);
   
   // First page with header
-  pageCount = 1;
   addHeader();
   
   // Process each section
@@ -444,26 +462,35 @@ function renderDocument() {
       console.error(`Error rendering section ${index}:`, err);
     }
   });
+}
+
+// Generate the document
+try {
+  // Listen to page added events
+  let actualPageCount = 1; // Start with the first page
+  doc.on('pageAdded', () => {
+    actualPageCount++;
+    addHeader();
+  });
   
-  // Store total pages for footer generation
-  const totalPages = pageCount;
+  renderDocument();
   
+  // Get page count before finalizing
   console.log('📝 Adding footers...');
   
-  // Now go back and add footers to all pages
+  // Use the tracked page count
+  const totalPages = actualPageCount;
+  
+  // Add footers to all pages
   const range = doc.bufferedPageRange();
   for (let i = range.start; i < range.start + range.count; i++) {
     doc.switchToPage(i);
     addFooter(i + 1, totalPages);
   }
   
+  pageCount = totalPages;
   console.log(`✅ PDF generation complete!`);
   console.log(`📄 Total pages: ${totalPages}`);
-}
-
-// Generate the document
-try {
-  renderDocument();
   
   // Finalize PDF
   doc.end();
