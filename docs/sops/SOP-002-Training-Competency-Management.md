@@ -1,341 +1,788 @@
-# SOP-002: Training & Competency Management
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🏗️ FORT HOMES QMS                                           SOP-002        ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║              TRAINING & COMPETENCY MANAGEMENT                                ║
+║                                                                              ║
+║               Fort and Homes LLC | Mesa County, Colorado                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
+|:---:|:---:|:---:|:---:|:---:|
+| `SOP-002` | `2.0` | `January 2026` | `HR Manager` | `July 2026` |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
 
 ---
 
-## Document Control
+## 📊 EXECUTIVE SUMMARY
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-002 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 14, 2026 |
-| **Process Owner** | HR Manager |
-| **Last Reviewed** | January 14, 2026 |
-| **Next Review** | July 14, 2026 |
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                         📊 EXECUTIVE DASHBOARD                             │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│   KEY METRICS                                                              │
+│   ───────────────────────────────────────────────────────────             │
+│   📈 Target: 40+ training hours/employee/year                             │
+│   ✅ KPI: 95%+ competency assessment pass rate                            │
+│   📅 Review: Annual refresher 100% completion                             │
+│   🔍 Audit: Quarterly training records review                             │
+│                                                                            │
+│   CRITICAL SUCCESS FACTORS                                                 │
+│   ───────────────────────────────────────────────────────────             │
+│   • New hire competency within 30 days                                     │
+│   • All personnel trained on current SOPs/WIs                              │
+│   • Training records maintained for 3+ years                               │
+│   • <5% NCRs attributed to training gaps                                   │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 1. Purpose
+## 🎯 1. PURPOSE
 
 To establish a systematic approach for identifying training needs, delivering competency-based training, verifying employee competence, and maintaining training records. This ensures all personnel performing QMS-related work possess the knowledge, skills, and awareness to perform their jobs effectively and in compliance with quality standards and regulatory requirements.
 
 ---
 
-## 2. Scope
+## 📋 2. SCOPE
 
-This procedure applies to:
-- New employee orientation and onboarding
-- Job-specific technical training
-- Quality system awareness training
-- Regulatory compliance training (CDOH, HUD Code, IRC)
-- Safety training and certification
-- Equipment and tool operation
-- Annual refresher and competency verification
-- Training record maintenance
+### 2.1 Training Categories
 
-**Applies to:** All employees, supervisors, temporary workers, contractors, external trainers
+| 🎓 Training Type | Description | Applicability |
+|:---|:---|:---|
+| **New Employee Orientation** | Company overview, QMS introduction | All new hires |
+| **Job-Specific Technical** | Role-based skills, procedures | Position-dependent |
+| **Quality System Awareness** | QMS structure, document navigation | All personnel |
+| **Regulatory Compliance** | CDOH, HUD Code, IRC requirements | QMS-related roles |
+| **Safety Training** | OSHA, hazard awareness, PPE | All personnel |
+| **Equipment Operation** | Tools, machinery, calibration | Equipment operators |
+| **Annual Refresher** | Skills maintenance, updates | All active personnel |
+| **Records Management** | Training documentation | HR, supervisors |
 
----
+### 2.2 Personnel Coverage
 
-## 3. References & Standards
-
-- CDOH Training Requirements
-- HUD Code Section 3280 (Manufacturing Requirements)
-- Fort and Homes LLC Quality Policy
-- SOP-001 (Document Control - Training Records)
-
----
-
-## 4. Roles & Responsibilities
-
-| Role | Responsibility |
-| :--- | :--- |
-| **HR Manager** | Training program development; records management; compliance |
-| **Training Coordinator** | Schedule training; track attendance; maintain records |
-| **Process Owner/Supervisor** | Identify training needs; deliver job-specific training; verify competence |
-| **Employee** | Attend required training; demonstrate competence; report gaps |
-| **Quality Manager** | Approve training content; audit compliance |
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         PERSONNEL APPLICABILITY                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ✅ All Employees            ✅ Department Supervisors                     │
+│   ✅ Temporary Workers        ✅ Contractors (performing QMS work)          │
+│   ✅ External Trainers        ✅ New Hires (all levels)                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 5. Training Needs Assessment
+## 📚 3. REFERENCES & STANDARDS
 
-### 5.1 Identification Triggers
+| Reference | Description | Authority |
+|:---|:---|:---|
+| CDOH Training Requirements | Colorado Division of Housing | State |
+| HUD Code 24 CFR 3280 | Manufacturing Requirements | Federal |
+| Fort and Homes LLC Quality Policy | Company quality objectives | Internal |
+| SOP-001 | Document Control - Training Records | Internal |
 
-Training needs are identified through:
-- **New hire onboarding:** All positions require orientation
-- **Position change:** Transition to new role or responsibility
-- **Process change:** Updates to procedures or equipment
-- **Competency gap:** Performance issues or failed inspections
-- **Regulatory requirement:** New regulations or audit findings
-- **Annual review:** Scheduled refresher and skills assessment
-- **Process owner recommendation:** Skill improvement opportunities
+---
 
-### 5.2 Training Needs Matrix
+## 👥 4. ROLES & RESPONSIBILITIES
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        RACI RESPONSIBILITY MATRIX                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   👤 HR MANAGER                  (R - Responsible)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Training program development and oversight                 │         │
+│   │ • Training records management and compliance                 │         │
+│   │ • External training coordination and approval                │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 TRAINING COORDINATOR        (A - Accountable)                          │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Schedule all training sessions                             │         │
+│   │ • Track attendance and maintain records                      │         │
+│   │ • Coordinate with trainers and departments                   │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 PROCESS OWNER/SUPERVISOR    (C - Consulted)                            │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Identify department training needs                         │         │
+│   │ • Deliver job-specific technical training                    │         │
+│   │ • Verify competence through assessment                       │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 EMPLOYEE                    (I - Informed)                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Attend all required training sessions                      │         │
+│   │ • Demonstrate competence through assessment                  │         │
+│   │ • Report knowledge/skill gaps to supervisor                  │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   👤 QUALITY MANAGER             (Approver)                                 │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Approve all training content and materials                 │         │
+│   │ • Audit training compliance and effectiveness                │         │
+│   │ • Review training metrics and KPIs                           │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔄 5. TRAINING PROCESS FLOWCHART
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    TRAINING & COMPETENCY WORKFLOW                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│                              START                                          │
+│                                │                                            │
+│                                ▼                                            │
+│                    ┌───────────────────────┐                               │
+│                    │  IDENTIFY TRAINING    │                               │
+│                    │  NEED                 │                               │
+│                    │  - New hire           │                               │
+│                    │  - Process change     │                               │
+│                    │  - Performance gap    │                               │
+│                    └───────────┬───────────┘                               │
+│                                │                                            │
+│                                ▼                                            │
+│                    ◇───────────────────────◇                               │
+│                   ╱  Training Material      ╲                              │
+│                  ╱   Available?              ╲                             │
+│                 ◇─────────────────────────────◇                            │
+│                ╱                               ╲                           │
+│          YES  ╱                                 ╲  NO                      │
+│              ▼                                   ▼                          │
+│   ┌──────────────────┐              ┌──────────────────────┐               │
+│   │  USE EXISTING    │              │  DEVELOP NEW         │               │
+│   │  MATERIALS       │              │  TRAINING MATERIAL   │               │
+│   └────────┬─────────┘              └──────────┬───────────┘               │
+│            │                                   │                            │
+│            └──────────────┬────────────────────┘                            │
+│                           ▼                                                │
+│            ╔═══════════════════════════╗                                   │
+│            ║   ✅ QUALITY CHECKPOINT   ║                                   │
+│            ╠═══════════════════════════╣                                   │
+│            ║ • Training plan approved  ║                                   │
+│            ║ • Materials current       ║                                   │
+│            ║ • Trainer qualified       ║                                   │
+│            ╚═══════════════════════════╝                                   │
+│                           │                                                │
+│                           ▼                                                │
+│                    ┌──────────────────┐                                    │
+│                    │  DELIVER         │                                    │
+│                    │  TRAINING        │                                    │
+│                    │  - Classroom     │                                    │
+│                    │  - On-the-job    │                                    │
+│                    │  - Hands-on      │                                    │
+│                    └────────┬─────────┘                                    │
+│                             │                                              │
+│                             ▼                                              │
+│                    ┌──────────────────┐                                    │
+│                    │  COMPETENCY      │                                    │
+│                    │  ASSESSMENT      │                                    │
+│                    │  - Written test  │                                    │
+│                    │  - Practical demo│                                    │
+│                    └────────┬─────────┘                                    │
+│                             │                                              │
+│                             ▼                                              │
+│                    ◇──────────────────◇                                    │
+│                   ╱   Pass (≥80%)?     ╲                                   │
+│                  ◇──────────────────────◇                                  │
+│                 ╱                        ╲                                 │
+│           YES  ╱                          ╲  NO                            │
+│               ▼                            ▼                               │
+│   ┌──────────────────┐          ┌──────────────────┐                      │
+│   │  COMPETENT       │          │  RETRAINING      │                      │
+│   │  Sign-off        │          │  Root cause      │                      │
+│   │  Release to work │          │  Additional help │                      │
+│   └────────┬─────────┘          └────────┬─────────┘                      │
+│            │                              │                                │
+│            │                              └────────────┐                   │
+│            ▼                                           │                   │
+│   ┌──────────────────┐                                │                   │
+│   │  DOCUMENT        │◄───────────────────────────────┘                   │
+│   │  TRAINING        │                                                    │
+│   │  - Records file  │                                                    │
+│   │  - Employee sign │                                                    │
+│   └────────┬─────────┘                                                    │
+│            │                                                              │
+│            ▼                                                              │
+│          END                                                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🎯 6. TRAINING NEEDS ASSESSMENT
+
+### 6.1 Identification Triggers
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       TRAINING NEED TRIGGERS                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   🆕 NEW HIRE ONBOARDING                                                    │
+│   All positions require comprehensive orientation and role training        │
+│                                                                             │
+│   🔄 POSITION CHANGE                                                        │
+│   Transition to new role, promotion, or responsibility expansion           │
+│                                                                             │
+│   ⚙️ PROCESS CHANGE                                                         │
+│   Updates to procedures, equipment, or work methods                        │
+│                                                                             │
+│   📉 COMPETENCY GAP                                                         │
+│   Performance issues, quality defects, or failed inspections               │
+│                                                                             │
+│   📋 REGULATORY REQUIREMENT                                                 │
+│   New regulations, code changes, or audit findings                         │
+│                                                                             │
+│   📅 ANNUAL REVIEW                                                          │
+│   Scheduled refresher training and skills reassessment                     │
+│                                                                             │
+│   💡 PROCESS OWNER RECOMMENDATION                                           │
+│   Skill improvement opportunities or best practice adoption                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 6.2 Training Needs Matrix
 
 | Position | Required Training | Frequency | Delivery Method |
-| :--- | :--- | :--- | :--- |
-| Production Technician | QMS Orientation, Phase SOPs, Safety | Annual + New | Classroom + On-job |
-| Bay Supervisor | All above + Inspection, Leadership | Annual + New | Classroom + Online |
-| Quality Inspector | All above + Advanced Inspection | Annual + New | Advanced course |
-| Manager/Lead | All above + Auditing, Regulatory | Annual + New | Advanced course |
+|:---|:---|:---:|:---|
+| 🔧 Production Technician | QMS Orientation, Phase SOPs, Safety | Annual + New Hire | Classroom + On-job |
+| 👷 Bay Supervisor | All above + Inspection, Leadership | Annual + New Hire | Classroom + Online |
+| 🔍 Quality Inspector | All above + Advanced Inspection | Annual + New Hire | Advanced course |
+| 👤 Manager/Lead | All above + Auditing, Regulatory | Annual + New Hire | Advanced course |
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT                                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Training needs assessment documented annually                            │
+│ ■ Skills gap analysis completed for each department                        │
+│ ■ Individual development plans created for key roles                       │
+│ ■ Training budget allocated based on identified needs                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 6. Training Program Development
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 6.1 Training Content Requirements
+## 📚 7. TRAINING PROGRAM DEVELOPMENT
+
+### 7.1 Training Content Requirements
 
 All training materials must include:
-- **Objectives:** Clear learning outcomes
-- **Content:** Aligned with current procedures (SOPs/WIs)
-- **Visual aids:** Diagrams, photographs, videos
-- **Examples:** Real-world scenarios from our production
-- **Assessment:** Knowledge check or practical demonstration
-- **Duration:** Realistic time allocation
-- **Accessibility:** Available to all learning styles
 
-### 6.2 Training Delivery Methods
+| Component | Requirement | Purpose |
+|:---|:---|:---|
+| 🎯 **Objectives** | Clear, measurable learning outcomes | Define success criteria |
+| 📝 **Content** | Aligned with current SOPs/WIs | Ensure accuracy |
+| 🖼️ **Visual Aids** | Diagrams, photographs, videos | Support learning styles |
+| 💼 **Examples** | Real-world production scenarios | Practical application |
+| ✅ **Assessment** | Knowledge check or practical demo | Verify competence |
+| ⏱️ **Duration** | Realistic time allocation | Proper coverage |
+| ♿ **Accessibility** | Multiple learning styles supported | Inclusive training |
+
+### 7.2 Training Delivery Methods
 
 | Method | Best For | Duration |
-| :--- | :--- | :--- |
-| **Classroom Lecture** | Large groups, theory, awareness | 1-4 hours |
-| **On-the-Job Training** | Technical skills, procedures, hands-on | 1-3 days |
-| **Online/Video** | Self-paced, distributed locations | Variable |
-| **Workshop/Hands-on Lab** | Equipment operation, inspection techniques | 4-8 hours |
-| **One-on-One Coaching** | Skill refinement, individual challenges | 1-2 hours |
-| **External Course** | Specialized training, certifications | Variable |
+|:---|:---|:---:|
+| 🏫 **Classroom Lecture** | Large groups, theory, awareness | 1-4 hours |
+| 🔧 **On-the-Job Training** | Technical skills, procedures, hands-on | 1-3 days |
+| 💻 **Online/Video** | Self-paced, distributed locations | Variable |
+| 🛠️ **Workshop/Hands-on Lab** | Equipment operation, inspection | 4-8 hours |
+| 👥 **One-on-One Coaching** | Skill refinement, challenges | 1-2 hours |
+| 🎓 **External Course** | Specialized training, certifications | Variable |
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 7. New Employee Onboarding
+## 🆕 8. NEW EMPLOYEE ONBOARDING
 
-### 7.1 Orientation Schedule
+### 8.1 Onboarding Timeline
 
-**Day 1 - HR Orientation (4 hours)**
-- Welcome & company overview
-- Benefits, payroll, HR policies
-- Safety briefing & OSHA requirements
-- Tour of facility
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    NEW EMPLOYEE ONBOARDING SCHEDULE                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   DAY 1 — HR ORIENTATION (4 hours)                                         │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Welcome & company overview                                 │         │
+│   │ • Benefits, payroll, HR policies                             │         │
+│   │ • Safety briefing & OSHA requirements                        │         │
+│   │ • Facility tour and introduction to teams                    │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   DAYS 2-3 — QMS ORIENTATION (8 hours)                                     │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Quality policy & company objectives                        │         │
+│   │ • Document navigation & current procedures                   │         │
+│   │ • QMS roles and responsibilities overview                    │         │
+│   │ • Introduction to SOP structure and WIs                      │         │
+│   │ • Quality standards & expectations                           │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   WEEKS 1-2 — POSITION-SPECIFIC TRAINING (40 hours)                        │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Supervisor-led job training                                │         │
+│   │ • Walk-through of key procedures (SOPs/WIs)                  │         │
+│   │ • Hands-on practice under direct supervision                 │         │
+│   │ • Meet team members & learn communication protocols          │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   WEEK 3 — COMPETENCY ASSESSMENT                                           │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Written knowledge test (80% passing score)                 │         │
+│   │ • Practical demonstration of skills                          │         │
+│   │ • Sign-off on competency verification form                   │         │
+│   │ • Employee questions addressed                               │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│              ✅ COMPETENT → RELEASE TO INDEPENDENT WORK                     │
+│              ⚠️ NEEDS IMPROVEMENT → ADDITIONAL TRAINING                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-**Days 2-3 - QMS Orientation (8 hours)**
-- Quality policy & objectives
-- Document navigation & current procedures
-- QMS roles and responsibilities
-- Introduction to SOP structure
-- Quality standards & expectations
+### 8.2 Onboarding Checklist
 
-**Weeks 1-2 - Position-Specific Training (40 hours)**
-- Supervisor-led job training
-- Walk-through of key procedures (SOPs/WIs)
-- Hands-on practice under supervision
-- Meet team members & learn communication
+| Item | Date | Trainer | Status |
+|:---|:---:|:---|:---:|
+| HR Orientation completed | _____ | HR | ☐ |
+| Safety training completed | _____ | Safety Manager | ☐ |
+| QMS Orientation completed | _____ | Quality Manager | ☐ |
+| Position-specific training started | _____ | Supervisor | ☐ |
+| SOP review completed | _____ | Supervisor | ☐ |
+| Hands-on practice completed | _____ | Supervisor | ☐ |
+| Competency assessment passed | _____ | Supervisor | ☐ |
 
-**Week 3 - Competency Assessment**
-- Written knowledge test
-- Practical demonstration
-- Sign-off on competency form
-- Employee questions addressed
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — NEW HIRE ONBOARDING                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ All onboarding checklist items completed and signed                      │
+│ ■ Competency assessment passed (≥80% on written, practical demo approved)  │
+│ ■ Training records filed in employee personnel file                        │
+│ ■ Employee released to independent work with supervisor approval           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-### 7.2 Onboarding Checklist
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-| Item | Date | Trainer | Signature |
-| :--- | :--- | :--- | :--- |
-| HR Orientation completed | _____ | HR | _____ |
-| Safety training completed | _____ | Safety | _____ |
-| QMS Orientation completed | _____ | Quality | _____ |
-| Position-specific training started | _____ | Supervisor | _____ |
-| SOP review completed | _____ | Supervisor | _____ |
-| Hands-on practice completed | _____ | Supervisor | _____ |
-| Competency assessment passed | _____ | Supervisor | _____ |
+## 🏭 9. JOB-SPECIFIC TRAINING DELIVERY
 
----
-
-## 8. Job-Specific Training Delivery
-
-### 8.1 Production Phase Training
+### 9.1 Production Phase Training Structure
 
 For each production phase (Phases 1-8):
 
-**Session 1: Theory & Standards (2 hours)**
-- Review relevant SOP (purpose, scope, standards)
-- Discuss quality acceptance criteria
-- Review hold point requirements
-- Q&A on process
-
-**Session 2: Work Instruction Review (2 hours)**
-- Walk through WI step-by-step
-- Explain materials, tools, safety
-- Demonstrate on actual materials
-- Answer technical questions
-
-**Session 3: Hands-On Practice (4-8 hours)**
-- Supervised practice on production bay
-- Trainer observes and coaches
-- Employee performs under supervision
-- Feedback and correction
-
-**Session 4: Assessment & Sign-Off**
-- Practical demonstration of skills
-- Inspection form completion
-- Competency verification
-- Documentation of completion
-
----
-
-## 9. Competency Verification & Assessment
-
-### 9.1 Assessment Methods
-
-| Method | Assessment Type | Scoring |
-| :--- | :--- | :--- |
-| **Written Test** | Knowledge | 80% passing |
-| **Practical Demo** | Skills | Supervisor sign-off |
-| **On-Job Observation** | Application | Meets standard or needs retraining |
-| **Inspection Results** | Performance | Quality metrics within spec |
-| **Supervisor Evaluation** | Overall | Meets competency requirements |
-
-### 9.2 Competency Verification Form
-
 ```
-TRAINING COMPETENCY VERIFICATION
-
-Employee: ___________________ Position: _______________
-Training Topic: ______________________________________
-Trainer: _____________________ Date: __________________
-
-KNOWLEDGE ASSESSMENT
-Written Test Score: ___/100  [ ] Pass [ ] Fail
-Oral Q&A Results: [ ] Satisfactory [ ] Needs Review
-
-SKILLS ASSESSMENT
-Practical Demonstration: [ ] Competent [ ] Needs Retraining
-Quality of Work: [ ] Acceptable [ ] Needs Review
-Safety Compliance: [ ] Excellent [ ] Acceptable [ ] Needs Review
-
-OVERALL ASSESSMENT
-[ ] COMPETENT - Ready for independent work
-[ ] CONDITIONAL - Needs shadowing period
-[ ] NOT COMPETENT - Requires additional training
-
-Trainer Signature: _________________ Date: _________
-Employee Signature: ________________ Date: _________
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                  PHASE-SPECIFIC TRAINING STRUCTURE                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   SESSION 1: THEORY & STANDARDS (2 hours)                                  │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Review relevant SOP (purpose, scope, standards)            │         │
+│   │ • Discuss quality acceptance criteria                        │         │
+│   │ • Review hold point requirements                             │         │
+│   │ • Q&A on process and expectations                            │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                          │                                                  │
+│                          ▼                                                  │
+│   SESSION 2: WORK INSTRUCTION REVIEW (2 hours)                             │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Walk through WI step-by-step                               │         │
+│   │ • Explain materials, tools, safety requirements              │         │
+│   │ • Demonstrate procedures on actual materials                 │         │
+│   │ • Answer technical questions                                 │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                          │                                                  │
+│                          ▼                                                  │
+│   SESSION 3: HANDS-ON PRACTICE (4-8 hours)                                 │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Supervised practice on production bay                      │         │
+│   │ • Trainer observes and provides coaching                     │         │
+│   │ • Employee performs tasks under supervision                  │         │
+│   │ • Real-time feedback and correction                          │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                          │                                                  │
+│                          ▼                                                  │
+│   SESSION 4: ASSESSMENT & SIGN-OFF                                         │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Practical demonstration of all skills                      │         │
+│   │ • Inspection form completion verification                    │         │
+│   │ • Competency verification and documentation                  │         │
+│   │ • Release to independent work (if competent)                 │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 10. Annual Refresher & Competency Maintenance
+## ✅ 10. COMPETENCY VERIFICATION & ASSESSMENT
 
-### 10.1 Annual Requirements
+### 10.1 Assessment Methods
 
-All personnel must complete:
-- **Annual Safety Refresher** (4 hours)
-- **QMS Review** (2 hours) - focus on changes/updates
-- **Role-Specific Refresher** (4 hours) - current procedures
-- **Competency Assessment** (practical demonstration)
+| Method | Assessment Type | Scoring Criteria |
+|:---|:---|:---|
+| ✍️ **Written Test** | Knowledge verification | ≥80% passing score |
+| 🔧 **Practical Demo** | Skills demonstration | Supervisor sign-off required |
+| 👀 **On-Job Observation** | Application in real work | Meets standard or needs retraining |
+| 📊 **Inspection Results** | Performance quality | Metrics within specification |
+| 📋 **Supervisor Evaluation** | Overall competence | Meets all competency requirements |
 
-### 10.2 Performance-Based Retraining
+### 10.2 Competency Verification Form
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   TRAINING COMPETENCY VERIFICATION                           ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║   Employee: _______________________    Position: _______________________    ║
+║   Training Topic: _____________________________________________________     ║
+║   Trainer: ________________________    Date: __________________________     ║
+║                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║   📝 KNOWLEDGE ASSESSMENT                                                    ║
+║   ┌────────────────────────────────────────────────────────────────────┐    ║
+║   │                                                                    │    ║
+║   │   Written Test Score: ___/100    [ ] Pass (≥80%)  [ ] Fail (<80%) │    ║
+║   │                                                                    │    ║
+║   │   Oral Q&A Results:    [ ] Satisfactory    [ ] Needs Review       │    ║
+║   │                                                                    │    ║
+║   └────────────────────────────────────────────────────────────────────┘    ║
+║                                                                              ║
+║   🔧 SKILLS ASSESSMENT                                                       ║
+║   ┌────────────────────────────────────────────────────────────────────┐    ║
+║   │                                                                    │    ║
+║   │   Practical Demonstration:  [ ] Competent  [ ] Needs Retraining   │    ║
+║   │                                                                    │    ║
+║   │   Quality of Work:   [ ] Acceptable  [ ] Needs Review              │    ║
+║   │                                                                    │    ║
+║   │   Safety Compliance: [ ] Excellent  [ ] Acceptable  [ ] Review     │    ║
+║   │                                                                    │    ║
+║   └────────────────────────────────────────────────────────────────────┘    ║
+║                                                                              ║
+║   📊 OVERALL ASSESSMENT                                                      ║
+║   ┌────────────────────────────────────────────────────────────────────┐    ║
+║   │                                                                    │    ║
+║   │   [ ] ✅ COMPETENT — Ready for independent work                    │    ║
+║   │                                                                    │    ║
+║   │   [ ] ⚠️ CONDITIONAL — Needs shadowing period                      │    ║
+║   │                                                                    │    ║
+║   │   [ ] ❌ NOT COMPETENT — Requires additional training              │    ║
+║   │                                                                    │    ║
+║   └────────────────────────────────────────────────────────────────────┘    ║
+║                                                                              ║
+║   ✍️ SIGNATURES                                                              ║
+║   ┌────────────────────────────────────────────────────────────────────┐    ║
+║   │                                                                    │    ║
+║   │   Trainer: _______________________   Date: ___________________    │    ║
+║   │                                                                    │    ║
+║   │   Employee: _____________________    Date: ___________________    │    ║
+║   │                                                                    │    ║
+║   └────────────────────────────────────────────────────────────────────┘    ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔄 11. ANNUAL REFRESHER & COMPETENCY MAINTENANCE
+
+### 11.1 Annual Requirements
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                     ANNUAL TRAINING REQUIREMENTS                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   🔒 ANNUAL SAFETY REFRESHER                                (4 hours)      │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • OSHA updates and safety best practices                     │         │
+│   │ • Hazard awareness and PPE requirements                      │         │
+│   │ • Emergency procedures review                                │         │
+│   │ • Incident prevention and near-miss reporting                │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   📋 QMS REVIEW                                             (2 hours)      │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Changes and updates to procedures                          │         │
+│   │ • New SOPs and work instructions                             │         │
+│   │ • Quality objectives and performance review                  │         │
+│   │ • Document control reminders                                 │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   🔧 ROLE-SPECIFIC REFRESHER                               (4 hours)      │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Review of current procedures for role                      │         │
+│   │ • Best practices and lessons learned                         │         │
+│   │ • New tools, equipment, or methods                           │         │
+│   │ • Quality standards reinforcement                            │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+│   ✅ COMPETENCY REASSESSMENT                               (2 hours)      │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ • Practical demonstration of key skills                      │         │
+│   │ • Knowledge verification assessment                          │         │
+│   │ • Identify areas for improvement                             │         │
+│   │ • Document continued competence                              │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 11.2 Performance-Based Retraining
 
 If employee shows performance gaps:
-1. Supervisor documents specific issue
-2. Root cause analysis (skill gap vs. other factors)
-3. Targeted retraining provided
-4. Competency reassessment
-5. Performance improvement plan if needed
 
----
+| Step | Action | Responsible |
+|:---:|:---|:---|
+| 1️⃣ | Document specific performance issue | Supervisor |
+| 2️⃣ | Root cause analysis (skill vs. other factors) | Supervisor + HR |
+| 3️⃣ | Provide targeted retraining | Trainer |
+| 4️⃣ | Competency reassessment | Supervisor |
+| 5️⃣ | Performance improvement plan (if needed) | HR Manager |
 
-## 11. Training Records & Documentation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 11.1 Required Records
+## 📁 12. TRAINING RECORDS & DOCUMENTATION
+
+### 12.1 Required Records
 
 For each training event, maintain:
-- **Training attendance sheet** (names, dates, hours)
-- **Training material/agenda** (what was taught)
-- **Competency assessment form** (if applicable)
-- **Test or evaluation results** (if applicable)
-- **Employee signature** (completed/passed)
-- **Trainer information** (name, qualifications)
 
-### 11.2 Record Storage & Retention
+| Record Type | Content | Format |
+|:---|:---|:---|
+| 📋 **Training Attendance Sheet** | Names, dates, hours completed | Paper/Digital |
+| 📝 **Training Material/Agenda** | Content covered, objectives | Digital copy |
+| ✅ **Competency Assessment Form** | Test results, practical demo | Original signed |
+| 📊 **Test or Evaluation Results** | Scores, performance data | Digital record |
+| ✍️ **Employee Signature** | Acknowledgment of completion | Original signed |
+| 👤 **Trainer Information** | Name, qualifications, credentials | Personnel file |
 
-- **Location:** HR database + employee personnel file
-- **Retention:** 3 years minimum
-- **Access:** HR, employee, supervisors (with authorization)
-- **Archival:** Annual backup
-- **Retrieval:** Searchable by employee name and date
+### 12.2 Record Storage & Retention
 
----
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      TRAINING RECORDS MANAGEMENT                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   📍 LOCATION                                                               │
+│   Primary: HR database (digital)                                            │
+│   Secondary: Employee personnel file (hard copy)                            │
+│                                                                             │
+│   ⏱️ RETENTION PERIOD                                                        │
+│   Minimum: 3 years from training date                                       │
+│   Active employees: Duration of employment + 3 years                        │
+│                                                                             │
+│   🔐 ACCESS CONTROL                                                         │
+│   Authorized: HR, Employee (own records), Supervisors (team only)           │
+│   Restricted: Confidential personnel information                            │
+│                                                                             │
+│   💾 BACKUP & ARCHIVAL                                                      │
+│   Frequency: Annual backup to secure archive                                │
+│   Method: Digital backup + off-site storage                                 │
+│                                                                             │
+│   🔍 RETRIEVAL                                                              │
+│   Searchable by: Employee name, training date, training type                │
+│   Response time: Within 24 hours for standard requests                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 12. External Training & Certifications
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — TRAINING RECORDS                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ All training events documented within 48 hours                           │
+│ ■ Records complete with required signatures and dates                      │
+│ ■ Records filed in employee personnel file and HR database                 │
+│ ■ Annual backup completed and verified                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-### 12.1 Approved External Training
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-- CDOH-approved manufacturer training
-- HUD Code compliance workshops
-- Equipment-specific certifications (welding, forklift, etc.)
-- Quality auditor training
-- Safety certifications (OSHA, first aid, etc.)
+## 🎓 13. EXTERNAL TRAINING & CERTIFICATIONS
 
-### 12.2 External Training Process
+### 13.1 Approved External Training
 
-1. Supervisor identifies need
-2. Quality Manager approves course
-3. Employee attends and completes
-4. Certificate filed in personnel record
-5. Skills verified upon return
+| Training Category | Examples | Purpose |
+|:---|:---|:---|
+| 🏭 **CDOH-Approved Training** | Manufacturer certification | Regulatory compliance |
+| 📋 **HUD Code Workshops** | Code compliance seminars | Standards knowledge |
+| 🔧 **Equipment Certifications** | Welding, forklift, crane | Safe equipment operation |
+| 🔍 **Quality Auditor Training** | Internal/external auditing | Audit competence |
+| 🔒 **Safety Certifications** | OSHA 30, First Aid, CPR | Safety compliance |
 
----
+### 13.2 External Training Process
 
-## 13. Training Metrics & Performance Indicators
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    EXTERNAL TRAINING WORKFLOW                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   STEP 1: IDENTIFY NEED                                                    │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ Supervisor identifies external training requirement          │         │
+│   └────────────────────────────┬─────────────────────────────────┘         │
+│                                │                                            │
+│                                ▼                                            │
+│   STEP 2: APPROVAL                                                         │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ Quality Manager approves course and provider                 │         │
+│   └────────────────────────────┬─────────────────────────────────┘         │
+│                                │                                            │
+│                                ▼                                            │
+│   STEP 3: ATTENDANCE                                                       │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ Employee attends and completes external training             │         │
+│   └────────────────────────────┬─────────────────────────────────┘         │
+│                                │                                            │
+│                                ▼                                            │
+│   STEP 4: DOCUMENTATION                                                    │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ Certificate filed in personnel record                        │         │
+│   │ Copy to HR database                                          │         │
+│   └────────────────────────────┬─────────────────────────────────┘         │
+│                                │                                            │
+│                                ▼                                            │
+│   STEP 5: VERIFICATION                                                     │
+│   ┌──────────────────────────────────────────────────────────────┐         │
+│   │ Skills verified upon return to work                          │         │
+│   │ Internal competency assessment if required                   │         │
+│   └──────────────────────────────────────────────────────────────┘         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-| Metric | Target | Frequency |
-| :--- | :--- | :--- |
-| New hire competency verification | 100% within 30 days | Ongoing |
-| Annual refresher completion | 100% | Annually |
-| Average training hours per employee | 40+ hours | Annually |
-| Competency assessment pass rate | 95%+ | Per assessment |
-| Nonconformance due to training gap | <5% | Monthly review |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
----
+## 📊 14. TRAINING METRICS & PERFORMANCE INDICATORS
 
-## 14. Safety & Health Considerations
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          KEY PERFORMANCE INDICATORS                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   METRIC                              TARGET         FREQUENCY              │
+│   ───────────────────────────────────────────────────────────────────────  │
+│                                                                             │
+│   📈 New hire competency verification  100% within    Ongoing monitoring   │
+│                                        30 days                              │
+│                                                                             │
+│   📅 Annual refresher completion       100%           Annual review         │
+│                                                                             │
+│   ⏱️ Average training hours/employee   40+ hours      Annual calculation   │
+│                                                                             │
+│   ✅ Competency assessment pass rate   95%+           Per assessment        │
+│                                                                             │
+│   🔴 NCRs due to training gap          <5%            Monthly review        │
+│                                                                             │
+│   📊 Training effectiveness rating     ≥4.0/5.0       Post-training survey │
+│                                                                             │
+│   🎯 Training budget utilization       90-100%        Quarterly review      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-Training must address:
-- Physical hazards (tools, equipment, materials)
-- Chemical hazards (adhesives, sealants, paints)
-- Ergonomic hazards (lifting, repetitive motion)
-- Environmental conditions (noise, temperature)
-- Emergency procedures (fire, injury, spills)
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ✅ QUALITY CHECKPOINT — TRAINING METRICS                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ ■ Training metrics reviewed monthly by HR and Quality Manager               │
+│ ■ Performance trends analyzed quarterly                                    │
+│ ■ Corrective actions taken for metrics below target                        │
+│ ■ Annual training effectiveness report prepared                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 15. Appendices
+## 🔒 15. SAFETY & HEALTH CONSIDERATIONS
+
+Training must address all relevant safety and health topics:
+
+| Hazard Category | Training Content | Frequency |
+|:---|:---|:---:|
+| ⚠️ **Physical Hazards** | Tools, equipment, materials handling | Initial + Annual |
+| 🧪 **Chemical Hazards** | Adhesives, sealants, paints, SDS review | Initial + Annual |
+| 🏋️ **Ergonomic Hazards** | Lifting techniques, repetitive motion | Initial + Ongoing |
+| 🌡️ **Environmental** | Noise, temperature, ventilation | Initial + Annual |
+| 🚨 **Emergency Procedures** | Fire, injury response, spills | Initial + Semi-annual |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📎 16. APPENDICES
 
 ### Appendix A: Training Schedule Template
+**Location:** `docs/training/Training-Schedule-Template.md`
+
 ### Appendix B: Competency Matrix by Position
+**Location:** `docs/training/Competency-Matrix-Template.md`
+
 ### Appendix C: Training Material Checklist
+**Location:** `docs/training/Training-Material-Checklist.md`
 
 ---
 
-## Approval & Authority
+## ✍️ APPROVAL & AUTHORITY
 
 | Role | Name | Signature | Date |
-| :--- | :--- | :--- | :--- |
+|:---|:---|:---:|:---:|
 | **Process Owner** | HR Manager | _________________ | _________ |
 | **Quality Manager** | Quality Manager | _________________ | _________ |
 | **Executive Authority** | Operations Director | _________________ | _________ |
 
 ---
 
-## Revision History
+## 📅 REVISION HISTORY
 
 | Version | Date | Changes | Approved By |
-| :--- | :--- | :--- | :--- |
+|:---:|:---|:---|:---|
 | 1.0 | 01/14/2026 | Initial training and competency procedure | HR Manager |
+| 2.0 | 01/15/2026 | Applied visual design system upgrade | Quality Manager |
 
 ---
 
-**DOCUMENT EFFECTIVE:** January 14, 2026  
-**NEXT SCHEDULED REVIEW:** July 14, 2026  
-**DOCUMENT STATUS:** ✅ ACTIVE
+<div align="center">
+
+```
+═══════════════════════════════════════════════════════════════════════════════
+                              END OF DOCUMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+              Fort and Homes LLC | Quality Management System
+                        Mesa County, Colorado
+
+                      Quality Without Compromise™
+═══════════════════════════════════════════════════════════════════════════════
+```
+
+**DOCUMENT STATUS:** ✅ ACTIVE  
+**EFFECTIVE DATE:** January 2026  
+**NEXT REVIEW:** July 2026
+
+</div>
