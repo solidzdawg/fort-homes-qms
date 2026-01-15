@@ -1,0 +1,430 @@
+/**
+ * Fort Homes QMS - Diagrams Stylesheet
+ * Styling for SVG diagrams and flowcharts
+ * Based on brand specifications from docs/context/01-BRAND-SYSTEM.md
+ */
+
+/* ============================================================================
+   SVG CONTAINER
+   ============================================================================ */
+
+.diagram-container {
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-lg);
+  background-color: var(--color-background-alt);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.diagram-container svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ============================================================================
+   SVG DIAGRAM ELEMENTS
+   ============================================================================ */
+
+/* Default SVG styling */
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SVG text elements */
+svg text {
+  font-family: var(--font-primary);
+  fill: var(--color-text-primary);
+}
+
+svg .diagram-title {
+  font-size: 14pt;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+svg .diagram-label {
+  font-size: 10pt;
+  font-weight: 400;
+  text-anchor: middle;
+}
+
+svg .diagram-label-small {
+  font-size: 8pt;
+  font-weight: 400;
+}
+
+/* ============================================================================
+   PROCESS FLOW DIAGRAMS
+   ============================================================================ */
+
+.process-flow {
+  margin: var(--spacing-xl) 0;
+}
+
+/* Process steps */
+svg .process-step {
+  fill: var(--color-off-white);
+  stroke: var(--color-charcoal-olive);
+  stroke-width: 2;
+}
+
+svg .process-step:hover {
+  fill: #E8E8E8;
+}
+
+/* Decision points */
+svg .decision-point {
+  fill: #FFF8E1;
+  stroke: var(--color-warning);
+  stroke-width: 2;
+}
+
+/* Start/End nodes */
+svg .start-end-node {
+  fill: var(--color-success);
+  stroke: var(--color-success);
+  stroke-width: 2;
+}
+
+svg .start-end-node text {
+  fill: white;
+  font-weight: 600;
+}
+
+/* Arrows and connections */
+svg .flow-arrow {
+  stroke: var(--color-charcoal-olive);
+  stroke-width: 2;
+  fill: none;
+  marker-end: url(#arrowhead);
+}
+
+svg .flow-arrow-decision {
+  stroke: var(--color-warning);
+  stroke-width: 2;
+  fill: none;
+  marker-end: url(#arrowhead-warning);
+}
+
+/* ============================================================================
+   INSPECTION CHECKPOINTS
+   ============================================================================ */
+
+.checkpoint-diagram {
+  margin: var(--spacing-lg) 0;
+}
+
+svg .checkpoint-box {
+  fill: #E3F2FD;
+  stroke: var(--color-info);
+  stroke-width: 2;
+}
+
+svg .checkpoint-icon {
+  fill: var(--color-info);
+}
+
+svg .checkpoint-passed {
+  fill: #F1F8E9;
+  stroke: var(--color-success);
+  stroke-width: 2;
+}
+
+svg .checkpoint-failed {
+  fill: #FFF5F5;
+  stroke: var(--color-error);
+  stroke-width: 2;
+}
+
+/* ============================================================================
+   PHASE INDICATORS
+   ============================================================================ */
+
+.phase-indicator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin: var(--spacing-lg) 0;
+  justify-content: space-between;
+}
+
+.phase-item {
+  flex: 1;
+  min-width: 100px;
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-off-white);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  position: relative;
+}
+
+.phase-item.active {
+  background-color: #E3F2FD;
+  border-color: var(--color-info);
+  border-width: var(--border-width-thick);
+}
+
+.phase-item.completed {
+  background-color: #F1F8E9;
+  border-color: var(--color-success);
+}
+
+.phase-item.completed::after {
+  content: "✓";
+  position: absolute;
+  top: var(--spacing-xs);
+  right: var(--spacing-xs);
+  color: var(--color-success);
+  font-weight: 700;
+  font-size: 12pt;
+}
+
+.phase-number {
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--color-info);
+  display: block;
+  margin-bottom: var(--spacing-xs);
+}
+
+.phase-label {
+  font-size: 9pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* ============================================================================
+   QUALITY GATES
+   ============================================================================ */
+
+svg .quality-gate {
+  fill: var(--color-info);
+  stroke: var(--color-info);
+  stroke-width: 3;
+}
+
+svg .quality-gate-stop {
+  fill: var(--color-error);
+  stroke: var(--color-error);
+  stroke-width: 3;
+}
+
+svg .quality-gate text {
+  fill: white;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+/* ============================================================================
+   TECHNICAL DIAGRAMS (FRAMING, MEP, ETC.)
+   ============================================================================ */
+
+/* Structural elements */
+svg .structural-element {
+  fill: none;
+  stroke: var(--color-charcoal-olive);
+  stroke-width: 2;
+}
+
+svg .structural-element-heavy {
+  stroke-width: 4;
+}
+
+/* Dimensions and measurements */
+svg .dimension-line {
+  stroke: var(--color-info);
+  stroke-width: 1;
+  stroke-dasharray: 2, 2;
+}
+
+svg .dimension-text {
+  fill: var(--color-info);
+  font-size: 8pt;
+  font-weight: 600;
+}
+
+/* MEP systems */
+svg .plumbing-line {
+  stroke: #2196F3;
+  stroke-width: 2;
+}
+
+svg .electrical-line {
+  stroke: #FF9800;
+  stroke-width: 2;
+}
+
+svg .hvac-line {
+  stroke: #4CAF50;
+  stroke-width: 2;
+}
+
+/* Material indicators */
+svg .insulation {
+  fill: #FFF59D;
+  fill-opacity: 0.5;
+  stroke: var(--color-warning);
+  stroke-width: 1;
+  stroke-dasharray: 4, 4;
+}
+
+svg .air-barrier {
+  fill: #E1F5FE;
+  fill-opacity: 0.3;
+  stroke: var(--color-info);
+  stroke-width: 1;
+  stroke-dasharray: 2, 2;
+}
+
+/* ============================================================================
+   LEGEND / KEY
+   ============================================================================ */
+
+.diagram-legend {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: var(--color-background-alt);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+.diagram-legend-title {
+  font-weight: 600;
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--spacing-sm);
+}
+
+.legend-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-sm);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.legend-symbol {
+  width: 24px;
+  height: 24px;
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  flex-shrink: 0;
+}
+
+.legend-label {
+  font-size: 9pt;
+}
+
+/* ============================================================================
+   DIAGRAM TITLE & CAPTION
+   ============================================================================ */
+
+.diagram-title {
+  font-weight: 600;
+  font-size: var(--font-size-h3);
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-primary);
+}
+
+.diagram-caption {
+  font-size: var(--font-size-table-body);
+  text-align: center;
+  color: var(--color-text-secondary);
+  margin-top: var(--spacing-sm);
+  font-style: italic;
+}
+
+/* ============================================================================
+   RESPONSIVE DIAGRAMS
+   ============================================================================ */
+
+@media screen and (max-width: 768px) {
+  .diagram-container {
+    padding: var(--spacing-md);
+  }
+  
+  .phase-indicator {
+    flex-direction: column;
+  }
+  
+  .phase-item {
+    min-width: 100%;
+  }
+  
+  .legend-items {
+    grid-template-columns: 1fr;
+  }
+  
+  svg text {
+    font-size: 8pt;
+  }
+  
+  svg .diagram-title {
+    font-size: 12pt;
+  }
+}
+
+/* ============================================================================
+   PRINT-SPECIFIC DIAGRAM STYLES
+   ============================================================================ */
+
+@media print {
+  .diagram-container {
+    page-break-inside: avoid;
+    border: 1pt solid var(--color-border);
+  }
+  
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Ensure colors print correctly */
+  svg .process-step,
+  svg .checkpoint-box,
+  svg .quality-gate {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .phase-item.active,
+  .phase-item.completed {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* ============================================================================
+   INTERACTIVE DIAGRAMS (HOVER EFFECTS)
+   ============================================================================ */
+
+@media screen {
+  svg .interactive-element {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  svg .interactive-element:hover {
+    opacity: 0.8;
+    filter: brightness(0.95);
+  }
+  
+  .diagram-container.zoomable {
+    cursor: zoom-in;
+  }
+  
+  .diagram-container.zoomable.zoomed {
+    cursor: zoom-out;
+    overflow: auto;
+  }
+}

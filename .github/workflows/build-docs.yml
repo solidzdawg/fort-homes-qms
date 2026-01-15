@@ -1,0 +1,71 @@
+name: Build QMS Documentation
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'docs/**'
+      - 'assets/**'
+      - 'scripts/build-docs.sh'
+      - 'pandoc/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - 'assets/**'
+      - 'scripts/build-docs.sh'
+      - 'pandoc/**'
+  workflow_dispatch:
+
+jobs:
+  build-html:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+        
+    - name: Build HTML documentation
+      run: bash scripts/build-docs.sh
+      
+    - name: Upload HTML artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: qms-documentation-html
+        path: dist/html/
+        retention-days: 30
+        
+    - name: Check for broken links (optional)
+      if: false  # Disabled for now
+      run: |
+        # Add link checker if desired
+        echo "Link checking not implemented yet"
+        
+  build-pdf:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'  # Only on manual trigger
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+        
+    - name: Build PDF documentation
+      run: bash scripts/build-docs.sh --pdf
+      timeout-minutes: 30
+      
+    - name: Upload PDF artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: qms-documentation-pdf
+        path: dist/pdf/
+        retention-days: 30

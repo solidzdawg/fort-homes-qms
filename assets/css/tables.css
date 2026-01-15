@@ -1,0 +1,357 @@
+/**
+ * Fort Homes QMS - Tables Stylesheet
+ * Beautiful, zebra-striped, responsive tables
+ * Based on brand specifications from docs/context/01-BRAND-SYSTEM.md
+ */
+
+/* ============================================================================
+   BASE TABLE STYLES
+   ============================================================================ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-lg) 0;
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+}
+
+/* ============================================================================
+   TABLE HEADERS
+   ============================================================================ */
+
+thead {
+  background-color: var(--color-off-white);
+}
+
+th {
+  background-color: var(--color-off-white);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-table-header);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 8px 12px;
+  border: var(--border-width) solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+/* ============================================================================
+   TABLE CELLS
+   ============================================================================ */
+
+td {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-table-body);
+  font-weight: 400;
+  padding: 6px 12px;
+  border: var(--border-width) solid var(--color-border);
+  vertical-align: top;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+/* ============================================================================
+   ZEBRA STRIPING
+   ============================================================================ */
+
+tbody tr:nth-child(even) {
+  background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--color-background);
+}
+
+/* Hover effect for interactive tables */
+tbody tr:hover {
+  background-color: #F0F0F0;
+}
+
+/* ============================================================================
+   TABLE VARIANTS
+   ============================================================================ */
+
+/* Compact table - reduced padding */
+table.table-compact td,
+table.table-compact th {
+  padding: 4px 8px;
+}
+
+/* Bordered table - all cells have borders */
+table.table-bordered {
+  border: var(--border-width) solid var(--color-border);
+}
+
+table.table-bordered th,
+table.table-bordered td {
+  border: var(--border-width) solid var(--color-border);
+}
+
+/* Borderless table */
+table.table-borderless th,
+table.table-borderless td {
+  border: none;
+}
+
+/* Striped table (explicit) */
+table.table-striped tbody tr:nth-child(even) {
+  background-color: #FAFAFA;
+}
+
+/* Dark header variant */
+table.table-dark-header thead {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-header-text);
+}
+
+table.table-dark-header th {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-header-text);
+}
+
+/* ============================================================================
+   DOCUMENT CONTROL TABLES
+   ============================================================================ */
+
+/* Revision history table */
+table.revision-history th {
+  background-color: var(--color-info);
+  color: white;
+}
+
+/* Approval table */
+table.approval-table th {
+  background-color: var(--color-secondary-dark);
+  color: white;
+  text-align: center;
+}
+
+table.approval-table td {
+  text-align: center;
+}
+
+/* Metadata table */
+table.metadata-table {
+  margin: var(--spacing-md) 0;
+}
+
+table.metadata-table th {
+  width: 30%;
+  background-color: var(--color-off-white);
+  font-weight: 600;
+}
+
+table.metadata-table td {
+  width: 70%;
+}
+
+/* ============================================================================
+   SPECIAL CELL TYPES
+   ============================================================================ */
+
+/* Signature cells */
+td.signature-cell {
+  height: 40px;
+  border-bottom: var(--border-width) solid var(--color-text-primary);
+}
+
+/* Date cells */
+td.date-cell {
+  white-space: nowrap;
+  font-family: 'Courier New', monospace;
+}
+
+/* Status cells */
+td.status-approved {
+  color: var(--color-success);
+  font-weight: 600;
+}
+
+td.status-pending {
+  color: var(--color-warning);
+  font-weight: 600;
+}
+
+td.status-rejected {
+  color: var(--color-error);
+  font-weight: 600;
+}
+
+/* Numeric cells */
+td.numeric {
+  text-align: right;
+  font-family: 'Courier New', monospace;
+}
+
+/* Code cells */
+td.code-cell {
+  font-family: 'Courier New', monospace;
+  font-size: 8pt;
+  background-color: var(--color-background-alt);
+}
+
+/* ============================================================================
+   TABLE CAPTION
+   ============================================================================ */
+
+caption {
+  caption-side: top;
+  padding: var(--spacing-sm);
+  font-weight: 600;
+  font-size: var(--font-size-h3);
+  text-align: left;
+  color: var(--color-text-primary);
+}
+
+table.caption-bottom caption {
+  caption-side: bottom;
+  font-weight: 400;
+  font-size: var(--font-size-table-body);
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+/* ============================================================================
+   RESPONSIVE TABLES
+   ============================================================================ */
+
+/* Wrapper for horizontal scrolling on small screens */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: var(--spacing-lg) 0;
+}
+
+.table-responsive table {
+  margin: 0;
+  min-width: 100%;
+}
+
+/* Mobile-specific table adjustments */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 8pt;
+  }
+  
+  th {
+    padding: 6px 8px;
+    font-size: 8pt;
+  }
+  
+  td {
+    padding: 4px 8px;
+    font-size: 8pt;
+  }
+  
+  /* Stack table rows on very small screens */
+  table.table-responsive-stack thead {
+    display: none;
+  }
+  
+  table.table-responsive-stack tbody,
+  table.table-responsive-stack tr,
+  table.table-responsive-stack td {
+    display: block;
+    width: 100%;
+  }
+  
+  table.table-responsive-stack tr {
+    margin-bottom: var(--spacing-md);
+    border: var(--border-width) solid var(--color-border);
+  }
+  
+  table.table-responsive-stack td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    border: none;
+    border-bottom: var(--border-width) solid var(--color-border);
+  }
+  
+  table.table-responsive-stack td:last-child {
+    border-bottom: none;
+  }
+  
+  table.table-responsive-stack td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 8px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: 600;
+    text-align: left;
+  }
+}
+
+/* ============================================================================
+   PRINT-SPECIFIC TABLE STYLES
+   ============================================================================ */
+
+@media print {
+  table {
+    page-break-inside: auto;
+  }
+  
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  
+  thead {
+    display: table-header-group;
+  }
+  
+  tfoot {
+    display: table-footer-group;
+  }
+  
+  /* Ensure zebra stripes print correctly */
+  tbody tr:nth-child(even) {
+    background-color: #F5F5F5 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  /* Print table borders more prominently */
+  th, td {
+    border: 1pt solid #888 !important;
+  }
+}
+
+/* ============================================================================
+   TABLE UTILITIES
+   ============================================================================ */
+
+/* Column width helpers */
+.col-xs { width: 5%; }
+.col-sm { width: 10%; }
+.col-md { width: 20%; }
+.col-lg { width: 30%; }
+.col-xl { width: 40%; }
+
+/* Vertical alignment */
+.align-top { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+
+/* No wrap for specific cells */
+.no-wrap {
+  white-space: nowrap;
+}

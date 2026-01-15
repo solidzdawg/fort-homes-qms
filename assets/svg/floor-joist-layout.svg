@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Floor Joist Installation Pattern (WI-101) -->
+  
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#101810">Floor Joist Layout - 16" O.C.</text>
+  
+  <!-- Rim joists (perimeter) -->
+  <rect x="50" y="50" width="400" height="15" fill="none" stroke="#101810" stroke-width="3"/>
+  <rect x="50" y="335" width="400" height="15" fill="none" stroke="#101810" stroke-width="3"/>
+  <rect x="50" y="50" width="15" height="300" fill="none" stroke="#101810" stroke-width="3"/>
+  <rect x="435" y="50" width="15" height="300" fill="none" stroke="#101810" stroke-width="3"/>
+  
+  <!-- Labels for rim joists -->
+  <text x="250" y="45" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" fill="#145B8B">Rim Joist (Header)</text>
+  <text x="250" y="370" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" fill="#145B8B">Rim Joist (Footer)</text>
+  
+  <!-- Floor joists - 16" on center -->
+  <g id="joists">
+    <!-- Joist 1 -->
+    <rect x="85" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 2 -->
+    <rect x="130" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 3 -->
+    <rect x="175" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 4 -->
+    <rect x="220" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 5 -->
+    <rect x="265" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 6 -->
+    <rect x="310" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 7 -->
+    <rect x="355" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+    <!-- Joist 8 -->
+    <rect x="400" y="65" width="8" height="270" fill="#F8F8F8" stroke="#101810" stroke-width="2"/>
+  </g>
+  
+  <!-- Bridging/Blocking (mid-span) -->
+  <line x1="85" y1="200" x2="408" y2="200" stroke="#8B6914" stroke-width="4" stroke-dasharray="8,4"/>
+  <text x="465" y="205" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#8B6914">Blocking</text>
+  
+  <!-- Dimension lines -->
+  <!-- 16" spacing -->
+  <line x1="89" y1="380" x2="134" y2="380" stroke="#145B8B" stroke-width="1" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+  <text x="112" y="394" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" font-weight="600" fill="#145B8B">16" O.C.</text>
+  
+  <!-- Arrow markers for dimensions -->
+  <defs>
+    <marker id="dim-arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <circle cx="4" cy="4" r="2" fill="#145B8B"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 300)">
+    <text x="0" y="0" font-family="Oswald, Arial, sans-serif" font-size="9" font-weight="600" fill="#101810">NOTES:</text>
+    <text x="0" y="15" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• Joists 2x10 or 2x12</text>
+    <text x="0" y="28" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• 16" on center spacing</text>
+    <text x="0" y="41" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• Blocking at mid-span</text>
+    <text x="0" y="54" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• IRC R502.6 compliant</text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- MEP Rough-In Diagram (WI-104) -->
+  
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#101810">MEP Rough-In Layout</text>
+  
+  <!-- Wall outline -->
+  <rect x="50" y="50" width="400" height="300" fill="none" stroke="#101810" stroke-width="2"/>
+  
+  <!-- Electrical lines (orange) -->
+  <g id="electrical">
+    <!-- Main service panel location -->
+    <rect x="80" y="80" width="40" height="60" fill="#FFE0B2" stroke="#FF9800" stroke-width="2"/>
+    <text x="100" y="150" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#FF9800">Panel</text>
+    
+    <!-- Electrical runs -->
+    <line x1="120" y1="110" x2="200" y2="110" stroke="#FF9800" stroke-width="3"/>
+    <line x1="200" y1="110" x2="200" y2="200" stroke="#FF9800" stroke-width="3"/>
+    <line x1="120" y1="110" x2="180" y2="180" stroke="#FF9800" stroke-width="2" stroke-dasharray="4,2"/>
+    
+    <!-- Outlet locations -->
+    <circle cx="200" cy="200" r="5" fill="#FF9800"/>
+    <circle cx="350" cy="150" r="5" fill="#FF9800"/>
+    <circle cx="380" cy="280" r="5" fill="#FF9800"/>
+  </g>
+  
+  <!-- Plumbing lines (blue) -->
+  <g id="plumbing">
+    <!-- Main water line -->
+    <line x1="250" y1="50" x2="250" y2="250" stroke="#2196F3" stroke-width="4"/>
+    
+    <!-- Branch to fixtures -->
+    <line x1="250" y1="150" x2="350" y2="150" stroke="#2196F3" stroke-width="3"/>
+    <line x1="250" y1="250" x2="350" y2="250" stroke="#2196F3" stroke-width="3"/>
+    
+    <!-- Drain lines (dashed blue) -->
+    <line x1="320" y1="250" x2="320" y2="350" stroke="#2196F3" stroke-width="3" stroke-dasharray="8,4"/>
+    
+    <!-- Fixture symbols -->
+    <circle cx="350" cy="150" r="8" fill="none" stroke="#2196F3" stroke-width="2"/>
+    <text x="370" y="155" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#2196F3">Sink</text>
+    
+    <rect x="342" y="242" width="16" height="16" fill="none" stroke="#2196F3" stroke-width="2"/>
+    <text x="370" y="255" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#2196F3">Toilet</text>
+  </g>
+  
+  <!-- HVAC lines (green) -->
+  <g id="hvac">
+    <!-- Supply duct -->
+    <rect x="140" y="280" width="120" height="20" fill="none" stroke="#4CAF50" stroke-width="3"/>
+    <text x="200" y="294" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#4CAF50">Supply Duct</text>
+    
+    <!-- Register location -->
+    <rect x="150" y="320" width="30" height="15" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="165" y="343" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="7" fill="#4CAF50">Register</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(60, 360)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#FF9800" stroke-width="3"/>
+    <text x="35" y="4" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">Electrical</text>
+    
+    <line x1="100" y1="0" x2="130" y2="0" stroke="#2196F3" stroke-width="3"/>
+    <text x="135" y="4" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">Plumbing</text>
+    
+    <line x1="210" y1="0" x2="240" y2="0" stroke="#4CAF50" stroke-width="3"/>
+    <text x="245" y="4" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">HVAC</text>
+  </g>
+  
+  <!-- Inspection note -->
+  <g transform="translate(280, 70)">
+    <rect x="0" y="0" width="150" height="35" rx="3" fill="#E3F2FD" stroke="#145B8B" stroke-width="2"/>
+    <text x="75" y="15" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" font-weight="600" fill="#145B8B">QUALITY CHECKPOINT</text>
+    <text x="75" y="28" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="7" fill="#101810">Rough-in inspection required</text>
+  </g>
+</svg>

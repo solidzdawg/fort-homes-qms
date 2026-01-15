@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Safety Warning Icon -->
+  
+  <!-- Triangle background -->
+  <path d="M 100 20 L 180 170 L 20 170 Z" fill="#FFF8E1" stroke="#8B6914" stroke-width="6"/>
+  
+  <!-- Exclamation mark -->
+  <g transform="translate(100, 90)">
+    <!-- Vertical line -->
+    <rect x="-8" y="-30" width="16" height="50" rx="3" fill="#8B6914"/>
+    
+    <!-- Dot -->
+    <circle cx="0" cy="35" r="8" fill="#8B6914"/>
+  </g>
+  
+  <!-- Label -->
+  <text x="100" y="190" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#8B6914">WARNING</text>
+</svg>

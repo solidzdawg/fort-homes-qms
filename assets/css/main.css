@@ -1,0 +1,403 @@
+/**
+ * Fort Homes QMS - Main Stylesheet
+ * Core styling with CSS custom properties for theming
+ * Based on brand specifications from docs/context/01-BRAND-SYSTEM.md
+ */
+
+/* ============================================================================
+   CSS CUSTOM PROPERTIES (THEME VARIABLES)
+   ============================================================================ */
+
+:root {
+  /* Brand Colors - Primary */
+  --color-charcoal-olive: #101810;
+  --color-secondary-dark: #181810;
+  --color-off-white: #F8F8F8;
+  --color-neutral-gray: #B8B8B8;
+  
+  /* Brand Colors - Accent */
+  --color-success: #2D5016;
+  --color-warning: #8B6914;
+  --color-error: #8B1414;
+  --color-info: #145B8B;
+  
+  /* Semantic Colors */
+  --color-text-primary: var(--color-charcoal-olive);
+  --color-text-secondary: var(--color-neutral-gray);
+  --color-background: #FFFFFF;
+  --color-background-alt: var(--color-off-white);
+  --color-border: var(--color-neutral-gray);
+  --color-header-bg: var(--color-secondary-dark);
+  --color-header-text: #FFFFFF;
+  
+  /* Typography */
+  --font-primary: 'Oswald', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-fallback: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  
+  /* Font Sizes */
+  --font-size-h1: 18pt;
+  --font-size-h2: 14pt;
+  --font-size-h3: 12pt;
+  --font-size-body: 11pt;
+  --font-size-table-header: 9pt;
+  --font-size-table-body: 9pt;
+  --font-size-footer: 8pt;
+  --font-size-small: 7pt;
+  
+  /* Spacing */
+  --spacing-xs: 4pt;
+  --spacing-sm: 6pt;
+  --spacing-md: 10pt;
+  --spacing-lg: 12pt;
+  --spacing-xl: 18pt;
+  
+  /* Layout */
+  --page-width: 8.5in;
+  --page-height: 11in;
+  --margin-top: 1in;
+  --margin-bottom: 1in;
+  --margin-left: 0.75in;
+  --margin-right: 0.75in;
+  --header-height: 0.5in;
+  --footer-height: 0.4in;
+  
+  /* Borders */
+  --border-width: 1pt;
+  --border-width-thick: 2pt;
+  --border-width-extra-thick: 3pt;
+  --border-radius: 2px;
+}
+
+/* ============================================================================
+   BASE STYLES
+   ============================================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+/* ============================================================================
+   DOCUMENT STRUCTURE
+   ============================================================================ */
+
+.document-wrapper {
+  width: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  background: var(--color-background);
+}
+
+.document-header {
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--header-height);
+}
+
+.document-header-left {
+  font-weight: 700;
+  font-size: 11pt;
+}
+
+.document-header-center {
+  font-weight: 700;
+  font-size: 11pt;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-align: center;
+  flex: 1;
+}
+
+.document-header-right {
+  font-size: 9pt;
+  text-align: right;
+}
+
+.document-footer {
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
+  padding: var(--spacing-sm) var(--spacing-md);
+  margin-top: var(--spacing-xl);
+  font-size: var(--font-size-footer);
+  text-align: center;
+  min-height: var(--footer-height);
+}
+
+.document-footer-line1 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.document-footer-line2 {
+  font-size: var(--font-size-small);
+  font-style: italic;
+}
+
+/* Document Control Block */
+.document-control {
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-lg);
+  background-color: var(--color-background-alt);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+}
+
+.document-control h2 {
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ============================================================================
+   CALLOUT BOXES
+   ============================================================================ */
+
+.callout {
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  border-left-width: var(--border-width-extra-thick);
+  border-left-style: solid;
+  background-color: var(--color-background-alt);
+}
+
+.callout-title {
+  font-weight: 600;
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+}
+
+.callout-warning {
+  border-left-color: var(--color-warning);
+  background-color: #FFF8E1;
+}
+
+.callout-warning .callout-title::before {
+  content: "⚠️ ";
+}
+
+.callout-note {
+  border-left-color: var(--color-info);
+  background-color: #E3F2FD;
+}
+
+.callout-note .callout-title::before {
+  content: "ℹ️ ";
+}
+
+.callout-tip {
+  border-left-color: var(--color-success);
+  background-color: #F1F8E9;
+}
+
+.callout-tip .callout-title::before {
+  content: "✅ ";
+}
+
+.callout-error,
+.callout-hold-point {
+  border-left-color: var(--color-error);
+  border-width: var(--border-width-extra-thick);
+  background-color: #FFF5F5;
+}
+
+.callout-hold-point .callout-title::before {
+  content: "🛑 ";
+}
+
+.callout-quality-checkpoint {
+  border-left-color: var(--color-info);
+  border-width: var(--border-width-thick);
+  background-color: var(--color-background-alt);
+}
+
+.callout-quality-checkpoint .callout-title {
+  color: var(--color-info);
+}
+
+/* ============================================================================
+   CODE REFERENCES
+   ============================================================================ */
+
+.code-reference {
+  font-style: italic;
+  color: var(--color-info);
+  font-size: 9pt;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: var(--color-background-alt);
+  padding: 2px 4px;
+  border-radius: var(--border-radius);
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: var(--color-background-alt);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  overflow-x: auto;
+  margin: var(--spacing-md) 0;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* ============================================================================
+   LISTS
+   ============================================================================ */
+
+ul, ol {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-xl);
+}
+
+li {
+  margin: var(--spacing-xs) 0;
+}
+
+/* ============================================================================
+   LINKS
+   ============================================================================ */
+
+a {
+  color: var(--color-info);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0D4166;
+}
+
+/* ============================================================================
+   IMAGES & DIAGRAMS
+   ============================================================================ */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--spacing-lg) auto;
+}
+
+figure {
+  margin: var(--spacing-lg) 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: var(--font-size-table-body);
+  color: var(--color-text-secondary);
+  margin-top: var(--spacing-sm);
+  font-style: italic;
+}
+
+/* ============================================================================
+   UTILITY CLASSES
+   ============================================================================ */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.mb-sm { margin-bottom: var(--spacing-sm); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+.mb-xl { margin-bottom: var(--spacing-xl); }
+
+.mt-sm { margin-top: var(--spacing-sm); }
+.mt-md { margin-top: var(--spacing-md); }
+.mt-lg { margin-top: var(--spacing-lg); }
+.mt-xl { margin-top: var(--spacing-xl); }
+
+.p-sm { padding: var(--spacing-sm); }
+.p-md { padding: var(--spacing-md); }
+.p-lg { padding: var(--spacing-lg); }
+
+/* ============================================================================
+   RESPONSIVE DESIGN
+   ============================================================================ */
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: var(--spacing-md);
+  }
+  
+  .document-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+  
+  .document-header-left,
+  .document-header-right {
+    text-align: center;
+  }
+  
+  :root {
+    --font-size-h1: 16pt;
+    --font-size-h2: 13pt;
+    --font-size-h3: 11pt;
+    --font-size-body: 10pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --font-size-h1: 14pt;
+    --font-size-h2: 12pt;
+    --font-size-h3: 10pt;
+    --font-size-body: 9pt;
+  }
+}

@@ -1,0 +1,462 @@
+/**
+ * Fort Homes QMS - Forms Stylesheet
+ * Styled form elements and checkboxes for QMS documentation
+ * Based on brand specifications from docs/context/01-BRAND-SYSTEM.md
+ */
+
+/* ============================================================================
+   BASE FORM STYLES
+   ============================================================================ */
+
+form {
+  margin: var(--spacing-lg) 0;
+}
+
+fieldset {
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+legend {
+  font-weight: 600;
+  font-size: var(--font-size-h3);
+  padding: 0 var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+/* ============================================================================
+   FORM GROUPS
+   ============================================================================ */
+
+.form-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-row {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-row .form-group {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+/* ============================================================================
+   LABELS
+   ============================================================================ */
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: var(--font-size-body);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+}
+
+label.required::after {
+  content: " *";
+  color: var(--color-error);
+}
+
+label.inline {
+  display: inline;
+  margin-left: var(--spacing-xs);
+  font-weight: 400;
+}
+
+/* ============================================================================
+   INPUT FIELDS
+   ============================================================================ */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-info);
+  box-shadow: 0 0 0 2px rgba(20, 91, 139, 0.1);
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+input[type="number"]:disabled,
+input[type="date"]:disabled,
+input[type="time"]:disabled,
+input[type="datetime-local"]:disabled,
+select:disabled,
+textarea:disabled {
+  background-color: var(--color-background-alt);
+  color: var(--color-text-secondary);
+  cursor: not-allowed;
+}
+
+/* ============================================================================
+   TEXTAREA
+   ============================================================================ */
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* ============================================================================
+   SELECT DROPDOWN
+   ============================================================================ */
+
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23101810' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/* ============================================================================
+   CHECKBOXES
+   ============================================================================ */
+
+/* Custom checkbox styling */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: var(--border-width-thick) solid var(--color-border);
+  border-radius: var(--border-radius);
+  background-color: var(--color-background);
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  margin-right: var(--spacing-xs);
+  transition: all 0.2s;
+}
+
+input[type="checkbox"]:hover {
+  border-color: var(--color-info);
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--color-info);
+  border-color: var(--color-info);
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input[type="checkbox"]:disabled {
+  background-color: var(--color-background-alt);
+  border-color: var(--color-neutral-gray);
+  cursor: not-allowed;
+}
+
+/* Checkbox group */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================================
+   RADIO BUTTONS
+   ============================================================================ */
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: var(--border-width-thick) solid var(--color-border);
+  border-radius: 50%;
+  background-color: var(--color-background);
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  margin-right: var(--spacing-xs);
+  transition: all 0.2s;
+}
+
+input[type="radio"]:hover {
+  border-color: var(--color-info);
+}
+
+input[type="radio"]:checked {
+  border-color: var(--color-info);
+}
+
+input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-info);
+}
+
+input[type="radio"]:disabled {
+  background-color: var(--color-background-alt);
+  border-color: var(--color-neutral-gray);
+  cursor: not-allowed;
+}
+
+/* Radio group */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+
+/* ============================================================================
+   BUTTONS
+   ============================================================================ */
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: var(--color-info);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background-color: #0D4166;
+  transform: translateY(-1px);
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+.btn:active {
+  transform: translateY(0);
+}
+
+button:disabled,
+input[type="submit"]:disabled,
+input[type="button"]:disabled,
+.btn:disabled {
+  background-color: var(--color-neutral-gray);
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Button variants */
+.btn-primary {
+  background-color: var(--color-info);
+}
+
+.btn-primary:hover {
+  background-color: #0D4166;
+}
+
+.btn-success {
+  background-color: var(--color-success);
+}
+
+.btn-success:hover {
+  background-color: #234010;
+}
+
+.btn-warning {
+  background-color: var(--color-warning);
+}
+
+.btn-warning:hover {
+  background-color: #6A5010;
+}
+
+.btn-error,
+.btn-danger {
+  background-color: var(--color-error);
+}
+
+.btn-error:hover,
+.btn-danger:hover {
+  background-color: #6A0F0F;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary-dark);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-charcoal-olive);
+}
+
+/* Outline buttons */
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-info);
+  border: var(--border-width-thick) solid var(--color-info);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-info);
+  color: white;
+}
+
+/* ============================================================================
+   FORM VALIDATION
+   ============================================================================ */
+
+.form-error {
+  color: var(--color-error);
+  font-size: 9pt;
+  margin-top: var(--spacing-xs);
+  display: block;
+}
+
+.form-help {
+  color: var(--color-text-secondary);
+  font-size: 9pt;
+  margin-top: var(--spacing-xs);
+  display: block;
+  font-style: italic;
+}
+
+input.error,
+select.error,
+textarea.error {
+  border-color: var(--color-error);
+}
+
+input.success,
+select.success,
+textarea.success {
+  border-color: var(--color-success);
+}
+
+/* ============================================================================
+   SIGNATURE FIELDS
+   ============================================================================ */
+
+.signature-field {
+  border-bottom: var(--border-width) solid var(--color-text-primary);
+  min-height: 50px;
+  padding: var(--spacing-sm);
+  margin: var(--spacing-md) 0;
+}
+
+.signature-label {
+  font-size: 9pt;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.signature-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--spacing-xs);
+  font-size: 9pt;
+}
+
+/* ============================================================================
+   PRINT-SPECIFIC FORM STYLES
+   ============================================================================ */
+
+@media print {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"],
+  select,
+  textarea {
+    border: none;
+    border-bottom: 1pt solid var(--color-text-primary);
+    border-radius: 0;
+    padding: 2px 0;
+  }
+  
+  input[type="checkbox"]:checked::after,
+  input[type="radio"]:checked::after {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  button,
+  input[type="submit"],
+  input[type="button"],
+  .btn {
+    display: none;
+  }
+}

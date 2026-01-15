@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Final Inspection Checklist Visual (WI-108) -->
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#101810">Final Inspection Checklist</text>
+  
+  <!-- Clipboard outline -->
+  <rect x="50" y="40" width="300" height="240" rx="8" fill="#F8F8F8" stroke="#101810" stroke-width="3"/>
+  
+  <!-- Clipboard clip -->
+  <rect x="160" y="35" width="80" height="15" rx="3" fill="#B8B8B8" stroke="#101810" stroke-width="2"/>
+  
+  <!-- Checklist items -->
+  <g transform="translate(80, 70)">
+    <!-- Item 1 - Completed -->
+    <g>
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#F1F8E9" stroke="#2D5016" stroke-width="2"/>
+      <text x="9" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#2D5016">✓</text>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">Electrical Testing Complete</text>
+    </g>
+    
+    <!-- Item 2 - Completed -->
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#F1F8E9" stroke="#2D5016" stroke-width="2"/>
+      <text x="9" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#2D5016">✓</text>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">Plumbing Testing Complete</text>
+    </g>
+    
+    <!-- Item 3 - Completed -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#F1F8E9" stroke="#2D5016" stroke-width="2"/>
+      <text x="9" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#2D5016">✓</text>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">HVAC Operation Verified</text>
+    </g>
+    
+    <!-- Item 4 - In Progress -->
+    <g transform="translate(0, 105)">
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#E3F2FD" stroke="#145B8B" stroke-width="2"/>
+      <circle cx="9" cy="9" r="3" fill="#145B8B"/>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">Cosmetic Inspection</text>
+    </g>
+    
+    <!-- Item 5 - Pending -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="2"/>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">Documentation Review</text>
+    </g>
+    
+    <!-- Item 6 - Pending -->
+    <g transform="translate(0, 175)">
+      <rect x="0" y="0" width="18" height="18" rx="2" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="2"/>
+      <text x="25" y="14" font-family="Oswald, Arial, sans-serif" font-size="11" fill="#101810">Final Sign-off</text>
+    </g>
+  </g>
+  
+  <!-- Status indicator -->
+  <g transform="translate(270, 250)">
+    <text x="0" y="0" text-anchor="end" font-family="Oswald, Arial, sans-serif" font-size="10" fill="#101810">Status: 50%</text>
+  </g>
+  
+  <!-- Progress bar -->
+  <rect x="80" y="260" width="240" height="8" rx="4" fill="#F8F8F8" stroke="#B8B8B8" stroke-width="1"/>
+  <rect x="80" y="260" width="120" height="8" rx="4" fill="#145B8B"/>
+</svg>
