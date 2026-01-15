@@ -8,9 +8,11 @@
       "city": "Grand Junction",
       "state": "Colorado",
       "zip": "81501"
+    },
+    "contact": {
+      "phone": "(970) 555-0100",
+      "email": "info@fortandhome.com"
     }
-  
-
   },
   "leadership": [
     {

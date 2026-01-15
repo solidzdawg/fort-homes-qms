@@ -216,7 +216,11 @@ ${companyData.company.legalName} is committed to:
   }
 
   private generateOrganization(companyData: any): any {
-    const leadership = companyData.leadership;
+    const leadership = companyData.leadership || [];
+    const president = leadership.find((l: any) => l.title === 'President');
+    const coo = leadership.find((l: any) => l.title.includes('COO') || l.title.includes('Chief Operating Officer'));
+    const qaManager = leadership.find((l: any) => l.title === 'QA Manager');
+    
     return {
       title: '4. Organizational Structure',
       content: `
@@ -224,16 +228,16 @@ ${companyData.company.legalName} is committed to:
 
 ## 4.1 Leadership Team
 
-**President:** ${leadership.president.name}
-${leadership.president.responsibilities.map((r: string) => `- ${r}`).join('\n')}
+${president ? `**President:** ${president.name}
+${president.responsibilities.map((r: string) => `- ${r}`).join('\n')}
 
-**Chief Operating Officer:** ${leadership.coo.name}
-${leadership.coo.responsibilities.map((r: string) => `- ${r}`).join('\n')}
+` : ''}${coo ? `**Chief Operating Officer:** ${coo.name}
+${coo.responsibilities.map((r: string) => `- ${r}`).join('\n')}
 
-**Quality Assurance Manager:** ${leadership.qaManager.name}
-${leadership.qaManager.responsibilities.map((r: string) => `- ${r}`).join('\n')}
+` : ''}${qaManager ? `**Quality Assurance Manager:** ${qaManager.name}
+${qaManager.responsibilities.map((r: string) => `- ${r}`).join('\n')}
 
-## 4.2 Quality Department
+` : ''}## 4.2 Quality Department
 
 The Quality Assurance Manager reports directly to the COO and has authority to:
 - Stop production when quality issues arise

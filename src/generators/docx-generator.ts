@@ -58,19 +58,14 @@ export class DOCXGenerator {
       sections: [
         {
           properties: {},
-          headers: {
-            default: this.createHeader(options),
-          },
-          footers: {
-            default: this.createFooter(options),
-          },
           children: sections,
         },
       ],
     });
 
     // Write to file
-    const buffer = await doc.save();
+    const { Packer } = await import('docx');
+    const buffer = await Packer.toBuffer(doc);
     await fs.writeFile(outputPath, buffer);
   }
 
@@ -300,15 +295,7 @@ export class DOCXGenerator {
         new Paragraph({
           children: [
             new TextRun({
-              text: `${options.documentNumber} Rev. ${options.version}`,
-              size: 16,
-            }),
-            new TextRun({
-              text: '   |   ',
-              size: 16,
-            }),
-            new TextRun({
-              text: options.effectiveDate,
+              text: `${options.documentNumber} Rev. ${options.version}   |   ${options.effectiveDate}`,
               size: 16,
             }),
           ],

@@ -276,9 +276,12 @@ export class PDFGenerator {
 
   private addFooter(doc: PDFKit.PDFDocument, options: PDFGeneratorOptions): void {
     const pages = doc.bufferedPageRange();
+    const startPage = pages.start;
+    const pageCount = pages.count;
     
-    for (let i = 0; i < pages.count; i++) {
-      doc.switchToPage(i);
+    for (let i = 0; i < pageCount; i++) {
+      const pageIndex = startPage + i;
+      doc.switchToPage(pageIndex);
       
       const pageHeight = doc.page.height;
       const pageWidth = doc.page.width;
@@ -303,7 +306,7 @@ export class PDFGenerator {
         );
       
       doc.text(
-        `Page ${i + 1} of ${pages.count}`,
+        `Page ${i + 1} of ${pageCount}`,
         72,
         pageHeight - 50,
         { align: 'center', width: pageWidth - 144 }
@@ -320,9 +323,12 @@ export class PDFGenerator {
 
   private addWatermark(doc: PDFKit.PDFDocument, watermarkText: string): void {
     const pages = doc.bufferedPageRange();
+    const startPage = pages.start;
+    const pageCount = pages.count;
     
-    for (let i = 0; i < pages.count; i++) {
-      doc.switchToPage(i);
+    for (let i = 0; i < pageCount; i++) {
+      const pageIndex = startPage + i;
+      doc.switchToPage(pageIndex);
       
       const pageWidth = doc.page.width;
       const pageHeight = doc.page.height;
