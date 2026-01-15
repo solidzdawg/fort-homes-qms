@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Quality Gate Icon -->
+  
+  <!-- Gate structure -->
+  <g transform="translate(100, 100)">
+    <!-- Gate posts -->
+    <rect x="-80" y="-60" width="15" height="120" fill="#145B8B"/>
+    <rect x="65" y="-60" width="15" height="120" fill="#145B8B"/>
+    
+    <!-- Top bar -->
+    <rect x="-80" y="-65" width="160" height="10" rx="2" fill="#145B8B"/>
+    
+    <!-- Gate bars -->
+    <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#145B8B"/>
+    <rect x="-60" y="-15" width="120" height="8" rx="2" fill="#145B8B"/>
+    <rect x="-60" y="10" width="120" height="8" rx="2" fill="#145B8B"/>
+    <rect x="-60" y="35" width="120" height="8" rx="2" fill="#145B8B"/>
+    
+    <!-- Checkmark in center -->
+    <circle cx="0" cy="-5" r="25" fill="white" stroke="#2D5016" stroke-width="3"/>
+    <path d="M -10 -5 L -3 5 L 12 -15" fill="none" stroke="#2D5016" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Label -->
+  <text x="100" y="185" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#145B8B">QUALITY GATE</text>
+</svg>

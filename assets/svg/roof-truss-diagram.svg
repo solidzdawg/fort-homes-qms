@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="500" height="350">
+  <!-- Roof Truss Diagram (WI-103) -->
+  
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="14" font-weight="700" fill="#101810">Roof Truss Installation</text>
+  
+  <!-- Ground/wall line -->
+  <line x1="50" y1="280" x2="450" y2="280" stroke="#101810" stroke-width="4"/>
+  
+  <!-- Truss 1 -->
+  <g transform="translate(100, 0)">
+    <!-- Bottom chord -->
+    <line x1="0" y1="280" x2="200" y2="280" stroke="#101810" stroke-width="4"/>
+    <!-- Left top chord -->
+    <line x1="0" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="4"/>
+    <!-- Right top chord -->
+    <line x1="200" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="4"/>
+    <!-- Web members (interior bracing) -->
+    <line x1="50" y1="280" x2="100" y2="200" stroke="#101810" stroke-width="2"/>
+    <line x1="150" y1="280" x2="100" y2="200" stroke="#101810" stroke-width="2"/>
+    <line x1="100" y1="200" x2="100" y2="120" stroke="#101810" stroke-width="2"/>
+  </g>
+  
+  <!-- Truss 2 (lighter, showing spacing) -->
+  <g transform="translate(140, 0)" opacity="0.4">
+    <line x1="0" y1="280" x2="200" y2="280" stroke="#101810" stroke-width="3"/>
+    <line x1="0" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="3"/>
+    <line x1="200" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="3"/>
+  </g>
+  
+  <!-- Truss 3 (lighter) -->
+  <g transform="translate(180, 0)" opacity="0.3">
+    <line x1="0" y1="280" x2="200" y2="280" stroke="#101810" stroke-width="3"/>
+    <line x1="0" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="3"/>
+    <line x1="200" y1="280" x2="100" y2="120" stroke="#101810" stroke-width="3"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="200" y="135" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" fill="#145B8B">Peak</text>
+  <text x="100" y="295" text-anchor="start" font-family="Oswald, Arial, sans-serif" font-size="9" fill="#145B8B">Bottom Chord</text>
+  <text x="120" y="180" text-anchor="start" font-family="Oswald, Arial, sans-serif" font-size="9" fill="#145B8B">Top Chord</text>
+  
+  <!-- Dimension - truss spacing -->
+  <line x1="250" y1="300" x2="290" y2="300" stroke="#145B8B" stroke-width="1" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+  <text x="270" y="314" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="9" font-weight="600" fill="#145B8B">24" O.C.</text>
+  
+  <defs>
+    <marker id="dim-arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <circle cx="4" cy="4" r="2" fill="#145B8B"/>
+    </marker>
+  </defs>
+  
+  <!-- Hold point callout -->
+  <g transform="translate(350, 60)">
+    <rect x="0" y="0" width="130" height="50" rx="3" fill="#FFF5F5" stroke="#8B1414" stroke-width="2"/>
+    <text x="65" y="18" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="10" font-weight="700" fill="#8B1414">🛑 HOLD POINT</text>
+    <text x="65" y="32" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="7" fill="#101810">Verify truss bracing</text>
+    <text x="65" y="43" text-anchor="middle" font-family="Oswald, Arial, sans-serif" font-size="7" fill="#101810">before proceeding</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 250)">
+    <text x="0" y="0" font-family="Oswald, Arial, sans-serif" font-size="9" font-weight="600" fill="#101810">NOTES:</text>
+    <text x="0" y="15" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• Engineered trusses per plan</text>
+    <text x="0" y="28" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• 24" on center spacing</text>
+    <text x="0" y="41" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• Temporary bracing required</text>
+    <text x="0" y="54" font-family="Oswald, Arial, sans-serif" font-size="8" fill="#101810">• IRC R802.10 compliant</text>
+  </g>
+</svg>

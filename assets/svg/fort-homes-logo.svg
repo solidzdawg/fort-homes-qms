@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <!-- Fort Homes Logo Placeholder -->
+  <!-- Background -->
+  <rect width="200" height="80" fill="#FFFFFF"/>
+  
+  <!-- House Icon -->
+  <g transform="translate(20, 20)">
+    <!-- Roof -->
+    <path d="M20 10 L30 0 L40 10 Z" fill="#101810" stroke="#101810" stroke-width="2"/>
+    <!-- House body -->
+    <rect x="15" y="10" width="30" height="30" fill="none" stroke="#101810" stroke-width="2"/>
+    <!-- Door -->
+    <rect x="23" y="25" width="8" height="15" fill="#101810"/>
+    <!-- Window -->
+    <rect x="33" y="18" width="6" height="6" fill="none" stroke="#101810" stroke-width="1"/>
+    <!-- F letter in house -->
+    <text x="20" y="23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B8B8B8">F</text>
+    <!-- H letter in house -->
+    <text x="34" y="35" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#B8B8B8">H</text>
+  </g>
+  
+  <!-- Fort + Home Text -->
+  <text x="75" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="300" letter-spacing="3" fill="#101810">FORT + HOME</text>
+  
+  <!-- Quality Management System subtitle -->
+  <text x="75" y="52" font-family="Arial, sans-serif" font-size="10" font-weight="500" fill="#181810">Quality Management System</text>
+</svg>
