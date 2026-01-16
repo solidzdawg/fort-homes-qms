@@ -50,16 +50,6 @@ renderer.table = function(header, body) {
     '</table>\n';
 };
 
-// Wrap executive summary sections
-const originalParagraph = renderer.paragraph;
-renderer.paragraph = function(text) {
-  // Check if this is an executive summary section
-  if (text.includes('📊 EXECUTIVE SUMMARY') || text.includes('EXECUTIVE DASHBOARD')) {
-    return '<div class="executive-summary">' + originalParagraph.call(this, text) + '</div>';
-  }
-  return originalParagraph.call(this, text);
-};
-
 marked.use({ renderer });
 
 /**
@@ -178,7 +168,8 @@ async function generatePDF(htmlContent, outputPath, metadata) {
     // Launch browser
     browser = await puppeteer.launch({
       headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      executablePath: '/usr/bin/chromium',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
     
     const page = await browser.newPage();
