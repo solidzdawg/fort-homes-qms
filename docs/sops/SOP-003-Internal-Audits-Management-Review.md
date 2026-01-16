@@ -1,50 +1,34 @@
-<div align="center">
+# SOP-003: Internal Audits & Management Review
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  🏗️ FORT HOMES QMS                                           SOP-003        ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║           INTERNAL AUDITS & MANAGEMENT REVIEW                                ║
-║                                                                              ║
-║               Fort and Homes LLC | Mesa County, Colorado                     ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+---
 
-| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
-|:---:|:---:|:---:|:---:|:---:|
-| `SOP-003` | `2.0` | `January 2026` | `Quality Manager` | `July 2026` |
+## Document Control
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>
+| Field | Value |
+|:---|:---|
+| **Document ID** | SOP-003 |
+| **Revision** | 2.0 |
+| **Effective Date** | January 2026 |
+| **Process Owner** | Quality Manager |
+| **Next Review** | July 2026 |
 
 ---
 
 ## 📊 EXECUTIVE SUMMARY
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         📊 EXECUTIVE DASHBOARD                             │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   KEY METRICS                                                              │
-│   ───────────────────────────────────────────────────────────             │
-│   📈 Target: 4+ audits per year (quarterly minimum)                       │
-│   ✅ KPI: 100% audit schedule completion rate                             │
-│   📅 Review: Quarterly management review meetings                         │
-│   🔍 Closure: 100% nonconformity closure within 30 days                   │
-│                                                                            │
-│   CRITICAL SUCCESS FACTORS                                                 │
-│   ───────────────────────────────────────────────────────────             │
-│   • All QMS processes audited within 12 months                             │
-│   • >95% CAPA effectiveness (no repeat findings)                           │
-│   • Independent, objective audit methodology                               │
-│   • Management review drives continuous improvement                        │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### KEY METRICS
+
+- 📈 **Target:** 4+ audits per year (quarterly minimum)
+- ✅ **KPI:** 100% audit schedule completion rate
+- 📅 **Review:** Quarterly management review meetings
+- 🔍 **Closure:** 100% nonconformity closure within 30 days
+
+### CRITICAL SUCCESS FACTORS
+
+- All QMS processes audited within 12 months
+- >95% CAPA effectiveness (no repeat findings)
+- Independent, objective audit methodology
+- Management review drives continuous improvement
 
 ---
 
@@ -52,9 +36,7 @@
 
 To establish systematic procedures for conducting internal audits of the Quality Management System and performing management reviews to assess effectiveness, identify nonconformities, verify compliance with regulatory requirements, and drive continuous improvement.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
+---
 
 ## 📋 2. SCOPE
 
@@ -69,9 +51,7 @@ This procedure covers:
 
 **Applies to:** Quality Manager, audit team, all departments, leadership
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
+---
 
 ## 📚 3. REFERENCES & STANDARDS
 
@@ -81,197 +61,102 @@ This procedure covers:
 | SOP-001 | Document Control | Internal |
 | SOP-004 | Nonconformance & CAPA | Internal |
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
+---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        RACI RESPONSIBILITY MATRIX                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   👤 QUALITY MANAGER              (R - Responsible)                         │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Plan audits and assign auditors                            │         │
-│   │ • Manage findings and corrective actions                     │         │
-│   │ • Schedule and facilitate management review                  │         │
-│   │ • Maintain audit records and metrics                         │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 INTERNAL AUDITORS            (A - Accountable)                         │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Conduct audits with objectivity and independence           │         │
-│   │ • Document findings accurately and factually                 │         │
-│   │ • Report results promptly to Quality Manager                 │         │
-│   │ • Provide coaching and improvement ideas                     │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 DEPARTMENT MANAGERS          (C - Consulted)                           │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Provide access and support during audits                   │         │
-│   │ • Respond to findings with corrective actions                │         │
-│   │ • Implement corrections and verify effectiveness             │         │
-│   │ • Participate in management review meetings                  │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 EXECUTIVE LEADERSHIP         (I - Informed)                            │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Review audit and management review results                 │         │
-│   │ • Approve corrective actions and resource allocation         │         │
-│   │ • Set strategic direction for quality improvement            │         │
-│   │ • Ensure QMS adequacy and effectiveness                      │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### 👤 QUALITY MANAGER (R - Responsible)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Plan audits and assign auditors
+- Manage findings and corrective actions
+- Schedule and facilitate management review
+- Maintain audit records and metrics
 
+### 👤 INTERNAL AUDITORS (A - Accountable)
 
+- Conduct audits with objectivity and independence
+- Document findings accurately and factually
+- Report results promptly to Quality Manager
+- Provide coaching and improvement ideas
+
+### 👤 DEPARTMENT MANAGERS (C - Consulted)
+
+- Provide access and support during audits
+- Respond to findings with corrective actions
+- Implement corrections and verify effectiveness
+- Participate in management review meetings
+
+### 👤 EXECUTIVE LEADERSHIP (I - Informed)
+
+- Review audit and management review results
+- Approve corrective actions and resource allocation
+- Set strategic direction for quality improvement
+- Ensure QMS adequacy and effectiveness
+
+---
 
 ## 🔄 5. AUDIT PROCESS FLOWCHART
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      INTERNAL AUDIT WORKFLOW                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                              START                                          │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  PLAN AUDIT           │                               │
-│                    │  (2 weeks before)     │                               │
-│                    │  - Select scope       │                               │
-│                    │  - Assign auditor     │                               │
-│                    │  - Prepare checklist  │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│            ╔═══════════════════════════════╗                               │
-│            ║   ✅ QUALITY CHECKPOINT       ║                               │
-│            ╠═══════════════════════════════╣                               │
-│            ║ • Audit plan approved         ║                               │
-│            ║ • Auditor independent         ║                               │
-│            ║ • Checklist complete          ║                               │
-│            ║ • Department notified         ║                               │
-│            ╚═══════════════════════════════╝                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  OPENING MEETING      │                               │
-│                    │  (15 minutes)         │                               │
-│                    │  - Introduce team     │                               │
-│                    │  - Explain scope      │                               │
-│                    │  - Set timeline       │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  CONDUCT AUDIT        │                               │
-│                    │  (4-6 hours)          │                               │
-│                    │  - Walk through       │                               │
-│                    │  - Interview          │                               │
-│                    │  - Review records     │                               │
-│                    │  - Collect evidence   │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  CLOSING MEETING      │                               │
-│                    │  (30 minutes)         │                               │
-│                    │  - Present findings   │                               │
-│                    │  - Verify facts       │                               │
-│                    │  - Explain next steps │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  AUDIT REPORT         │                               │
-│                    │  (Within 3 days)      │                               │
-│                    │  - Document findings  │                               │
-│                    │  - Classify severity  │                               │
-│                    │  - Submit to Mgmt     │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ◇───────────────────────◇                               │
-│                   ╱  Nonconformities       ╲                               │
-│                  ╱   Found?                 ╲                              │
-│                 ◇─────────────────────────────◇                            │
-│                ╱                               ╲                           │
-│          YES  ╱                                 ╲  NO                      │
-│              ▼                                   ▼                          │
-│   ┌──────────────────┐              ┌──────────────────────┐               │
-│   │  ROOT CAUSE      │              │  DOCUMENT            │               │
-│   │  ANALYSIS        │              │  STRENGTHS &         │               │
-│   │  (5 days)        │              │  OBSERVATIONS        │               │
-│   └────────┬─────────┘              └──────────┬───────────┘               │
-│            │                                   │                            │
-│            ▼                                   │                            │
-│   ┌──────────────────┐                        │                            │
-│   │  CORRECTIVE      │                        │                            │
-│   │  ACTION          │                        │                            │
-│   │  (10 days)       │                        │                            │
-│   └────────┬─────────┘                        │                            │
-│            │                                   │                            │
-│            ▼                                   │                            │
-│   ┌──────────────────┐                        │                            │
-│   │  IMPLEMENT       │                        │                            │
-│   │  (Target date)   │                        │                            │
-│   └────────┬─────────┘                        │                            │
-│            │                                   │                            │
-│            ▼                                   │                            │
-│   ┌──────────────────┐                        │                            │
-│   │  VERIFY          │                        │                            │
-│   │  EFFECTIVENESS   │                        │                            │
-│   │  (30 days)       │                        │                            │
-│   └────────┬─────────┘                        │                            │
-│            │                                   │                            │
-│            └──────────────┬────────────────────┘                            │
-│                           ▼                                                │
-│                    ┌──────────────────┐                                    │
-│                    │  CLOSE AUDIT     │                                    │
-│                    │  Update records  │                                    │
-│                    │  Report metrics  │                                    │
-│                    └────────┬─────────┘                                    │
-│                             │                                              │
-│                             ▼                                              │
-│                           END                                              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### Internal Audit Workflow
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. **PLAN AUDIT** (2 weeks before)
+ - Select scope
+ - Assign auditor
+ - Prepare checklist
+
+ **✅ QUALITY CHECKPOINT:**
+ - Audit plan approved
+ - Auditor independent
+ - Checklist complete
+ - Department notified
+
+2. **OPENING MEETING** (15 minutes)
+ - Introduce team
+ - Explain scope
+ - Set timeline
+
+3. **CONDUCT AUDIT** (4-6 hours)
+ - Walk through
+ - Interview
+ - Review records
+ - Collect evidence
+
+4. **CLOSING MEETING** (30 minutes)
+ - Present findings
+ - Verify facts
+ - Explain next steps
+
+5. **AUDIT REPORT** (Within 3 days)
+ - Document findings
+ - Classify severity
+ - Submit to Management
+
+6. **IF NONCONFORMITIES FOUND:**
+ - **ROOT CAUSE ANALYSIS** (5 days)
+ - **CORRECTIVE ACTION** (10 days)
+ - **IMPLEMENT** (Target date)
+ - **VERIFY EFFECTIVENESS** (30 days)
+
+7. **IF NO NONCONFORMITIES:**
+ - Document strengths & observations
+
+8. **CLOSE AUDIT**
+ - Update records
+ - Report metrics
+
+---
 
 ## 📅 6. INTERNAL AUDIT PROGRAM
 
 ### 6.1 Audit Frequency & Schedule
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       AUDIT SCHEDULE REQUIREMENTS                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   📆 MINIMUM FREQUENCY                                                      │
-│   Quarterly (4 audits per year minimum)                                     │
-│                                                                             │
-│   🎯 COVERAGE TARGET                                                        │
-│   All QMS processes audited within 12-month period                          │
-│                                                                             │
-│   📋 PLANNING                                                               │
-│   Annual audit calendar prepared and approved                               │
-│                                                                             │
-│   🔄 ADJUSTMENTS                                                            │
-│   Risk-based approach for high-priority areas                               │
-│                                                                             │
-│   🚨 EMERGENCY AUDITS                                                       │
-│   May be scheduled for specific concerns or regulatory changes              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+#### AUDIT SCHEDULE REQUIREMENTS
+
+- **📆 MINIMUM FREQUENCY:** Quarterly (4 audits per year minimum)
+- **🎯 COVERAGE TARGET:** All QMS processes audited within 12-month period
+- **📋 PLANNING:** Annual audit calendar prepared and approved
+- **🔄 ADJUSTMENTS:** Risk-based approach for high-priority areas
+- **🚨 EMERGENCY AUDITS:** May be scheduled for specific concerns or regulatory changes
 
 ### 6.2 Audit Scope & Selection
 
@@ -286,49 +171,38 @@ This procedure covers:
 | 📦 **Supplier Management** | Medium | Annually |
 | 🔧 **Equipment Calibration** | Low | Annually |
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — AUDIT PLANNING                                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Annual audit schedule approved by Quality Manager                        │
-│ ■ Risk assessment conducted for process prioritization                     │
-│ ■ All high-risk processes scheduled for quarterly audit                    │
-│ ■ Schedule communicated to all departments 30 days in advance              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**✅ QUALITY CHECKPOINT — AUDIT PLANNING**
 
+■ Annual audit schedule approved by Quality Manager
+■ Risk assessment conducted for process prioritization
+■ All high-risk processes scheduled for quarterly audit
+■ Schedule communicated to all departments 30 days in advance
 
+---
 
 ## 👨‍🎓 7. AUDIT TEAM & AUDITOR COMPETENCY
 
 ### 7.1 Auditor Requirements
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                   AUDITOR QUALIFICATION CRITERIA                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   📚 MINIMUM QUALIFICATIONS                                                 │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • 2+ years QMS experience                                    │         │
-│   │ • Completed internal auditor training                        │         │
-│   │ • No direct responsibility for area being audited            │         │
-│   │ • Demonstrated integrity and objectivity                     │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   🎯 KEY COMPETENCIES                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ ✓ Knowledge of QMS standards and requirements                │         │
-│   │ ✓ Understanding of audit methodology and techniques          │         │
-│   │ ✓ Strong communication and interviewing skills               │         │
-│   │ ✓ Ability to analyze and evaluate evidence                   │         │
-│   │ ✓ Report writing and documentation skills                    │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**AUDITOR QUALIFICATION CRITERIA**
+
+
+**📚 MINIMUM QUALIFICATIONS**
+
+• 2+ years QMS experience
+• Completed internal auditor training
+• No direct responsibility for area being audited
+• Demonstrated integrity and objectivity
+
+**🎯 KEY COMPETENCIES**
+
+✓ Knowledge of QMS standards and requirements
+✓ Understanding of audit methodology and techniques
+✓ Strong communication and interviewing skills
+✓ Ability to analyze and evaluate evidence
+✓ Report writing and documentation skills
 
 ### 7.2 Auditor Responsibilities
 
@@ -340,39 +214,31 @@ This procedure covers:
 | ⏱️ **Timeliness** | Report findings promptly after audit completion |
 | 🔐 **Confidentiality** | Maintain confidentiality of information discovered |
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
+---
 
 ## 🔍 8. AUDIT EXECUTION PROCESS
 
 ### 8.1 Pre-Audit Preparation (2 weeks before)
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        PRE-AUDIT PREPARATION                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   STEP 1: PLAN AUDIT                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ ✓ Select audit topic and scope                              │         │
-│   │ ✓ Assign lead auditor                                        │         │
-│   │ ✓ Review relevant procedures (SOPs, WIs)                     │         │
-│   │ ✓ Identify personnel to interview                            │         │
-│   │ ✓ Notify department of audit schedule                        │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   STEP 2: PREPARE CHECKLIST                                               │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ ✓ Questions based on SOP requirements                        │         │
-│   │ ✓ Compliance verification points                             │         │
-│   │ ✓ Sample records to review                                   │         │
-│   │ ✓ Observation points                                         │         │
-│   │ ✓ Risk-based emphasis areas                                  │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**PRE-AUDIT PREPARATION**
+
+
+**STEP 1: PLAN AUDIT**
+
+✓ Select audit topic and scope
+✓ Assign lead auditor
+✓ Review relevant procedures (SOPs, WIs)
+✓ Identify personnel to interview
+✓ Notify department of audit schedule
+
+**STEP 2: PREPARE CHECKLIST**
+
+✓ Questions based on SOP requirements
+✓ Compliance verification points
+✓ Sample records to review
+✓ Observation points
+✓ Risk-based emphasis areas
 
 ### 8.2 Audit Execution (1 day typical)
 
@@ -388,31 +254,33 @@ This procedure covers:
 
 **Audit Fieldwork (4-6 hours)**
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                          FIELDWORK ACTIVITIES                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   🚶 WALK THROUGH PROCEDURES                                                │
-│   Follow the process from start to finish                                   │
-│                                                                             │
-│   👥 INTERVIEW PERSONNEL                                                    │
-│   Ask open-ended questions, verify understanding                            │
-│                                                                             │
-│   📂 REVIEW DOCUMENTATION                                                   │
-│   Check records, forms, and documentation completeness                       │
-│                                                                             │
-│   👀 OBSERVE WORK IN PROGRESS                                               │
-│   Watch actual work being performed in real-time                            │
-│                                                                             │
-│   📊 COLLECT EVIDENCE                                                       │
-│   Document findings with objective facts and data                           │
-│                                                                             │
-│   📸 TAKE PHOTOGRAPHS IF NEEDED                                             │
-│   Visual evidence of conditions or situations                               │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**FIELDWORK ACTIVITIES**
+
+
+**🚶 WALK THROUGH PROCEDURES**
+
+Follow the process from start to finish
+
+**👥 INTERVIEW PERSONNEL**
+
+Ask open-ended questions, verify understanding
+
+**📂 REVIEW DOCUMENTATION**
+
+Check records, forms, and documentation completeness
+
+**👀 OBSERVE WORK IN PROGRESS**
+
+Watch actual work being performed in real-time
+
+**📊 COLLECT EVIDENCE**
+
+Document findings with objective facts and data
+
+**📸 TAKE PHOTOGRAPHS IF NEEDED**
+
+Visual evidence of conditions or situations
 
 **Closing Meeting (30 min)**
 
@@ -435,20 +303,15 @@ This procedure covers:
 | 📄 **Documentation** | Records and forms | Completed forms, procedures |
 | 📊 **Objective evidence** | Measurable data | Test results, measurements |
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — AUDIT DOCUMENTATION                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Auditor notes must be factual and specific (not opinions)                │
-│ ■ Reference SOP/procedure requirements clearly                             │
-│ ■ Include date, time, and location for all observations                    │
-│ ■ Notes reviewed for accuracy before reporting                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**✅ QUALITY CHECKPOINT — AUDIT DOCUMENTATION**
 
+■ Auditor notes must be factual and specific (not opinions)
+■ Reference SOP/procedure requirements clearly
+■ Include date, time, and location for all observations
+■ Notes reviewed for accuracy before reporting
 
+---
 
 ## 📝 9. AUDIT FINDINGS & REPORTING
 
@@ -464,82 +327,66 @@ This procedure covers:
 
 **For each nonconformity:**
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                   NONCONFORMITY REPORT STRUCTURE                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   1️⃣  SOP/REQUIREMENT VIOLATED                                              │
-│   Clear reference to specific requirement not met                           │
-│                                                                             │
-│   2️⃣  WHAT WAS OBSERVED (EVIDENCE)                                          │
-│   Factual description of condition or situation found                       │
-│                                                                             │
-│   3️⃣  WHY IT MATTERS (IMPACT)                                               │
-│   Explanation of quality, safety, or compliance risk                        │
-│                                                                             │
-│   4️⃣  REFERENCE TO CORRECT PROCEDURE                                        │
-│   Citation of proper method or requirement                                  │
-│                                                                             │
-│   5️⃣  SEVERITY ASSESSMENT                                                   │
-│   Critical, Major, or Minor classification                                  │
-│                                                                             │
-│   6️⃣  RECOMMENDATION FOR CORRECTION                                         │
-│   Suggested approach to address finding                                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**NONCONFORMITY REPORT STRUCTURE**
+
+
+**1️⃣ SOP/REQUIREMENT VIOLATED**
+
+Clear reference to specific requirement not met
+
+**2️⃣ WHAT WAS OBSERVED (EVIDENCE)**
+
+Factual description of condition or situation found
+
+**3️⃣ WHY IT MATTERS (IMPACT)**
+
+Explanation of quality, safety, or compliance risk
+
+**4️⃣ REFERENCE TO CORRECT PROCEDURE**
+
+Citation of proper method or requirement
+
+**5️⃣ SEVERITY ASSESSMENT**
+
+Critical, Major, or Minor classification
+
+**6️⃣ RECOMMENDATION FOR CORRECTION**
+
+Suggested approach to address finding
 
 ### 9.3 Audit Report Template
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                       INTERNAL AUDIT REPORT                                  ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   Date: ________________  Auditor: _____________________                    ║
-║   Area Audited: _____________  Department: _____________                    ║
-║   Records Reviewed: [ ] Documents [ ] Personnel [ ] Physical                ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   FINDINGS SUMMARY                                                           ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   Total Observations: ___                                                    ║
-║   Nonconformities: ___  |  Observations: ___  |  Strengths: ___             ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   ⚠️ NONCONFORMITIES                                                         ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   1. Finding: _________________________________________                      ║
-║      Requirement: SOP-XXX Section X                                          ║
-║      Evidence: __________________________________________                    ║
-║      Impact: __________________________________________                      ║
-║      Correction Required: _______________________________                    ║
-║      Target Date: ___________                                                ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   💡 OBSERVATIONS                                                            ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   [Improvement opportunities - similar format]                               ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   ⭐ STRENGTHS                                                               ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   [Recognition of areas doing well]                                          ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   ✍️ SIGNATURES                                                              ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   Auditor Signature: _________________ Date: _________                       ║
-║   Department Manager Signature: _________________ Date: _________            ║
-║   Quality Manager Signature: _________________ Date: _________               ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**INTERNAL AUDIT REPORT**
 
+Date: ________________ Auditor: _____________________
+Area Audited: _____________ Department: _____________
+Records Reviewed: [ ] Documents [ ] Personnel [ ] Physical
 
+**FINDINGS SUMMARY**
+
+Total Observations: ___
+Nonconformities: ___ | Observations: ___ | Strengths: ___
+
+**⚠️ NONCONFORMITIES**
+
+1. Finding: _________________________________________
+Requirement: SOP-XXX Section X
+Evidence: __________________________________________
+Impact: __________________________________________
+Correction Required: _______________________________
+Target Date: ___________
+- **💡 OBSERVATIONS**
+[Improvement opportunities - similar format]
+⭐ STRENGTHS
+[Recognition of areas doing well]
+✍️ SIGNATURES
+Auditor Signature: _________________ Date: _________
+Department Manager Signature: _________________ Date: _________
+Quality Manager Signature: _________________ Date: _________
+
+---
 
 ## 🔧 10. CORRECTIVE ACTION & FOLLOW-UP
 
@@ -547,130 +394,86 @@ This procedure covers:
 
 For each nonconformity:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CORRECTIVE ACTION WORKFLOW                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   STEP 1: ROOT CAUSE ANALYSIS (within 5 days)                              │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ ❓ Why did nonconformity occur?                              │         │
-│   │ 🔍 What allowed it to happen?                                │         │
-│   │ 🧩 Contributing factors                                      │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                          │                                                  │
-│                          ▼                                                  │
-│   STEP 2: CORRECTIVE ACTION (within 10 days)                              │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ 🔧 What will be changed?                                     │         │
-│   │ 📅 When will it be implemented?                              │         │
-│   │ 👤 Who is responsible?                                       │         │
-│   │ ✅ How will we verify effectiveness?                         │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                          │                                                  │
-│                          ▼                                                  │
-│   STEP 3: IMPLEMENTATION (target date)                                    │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ ⚙️ Execute planned action                                    │         │
-│   │ 📝 Update procedure if needed                                │         │
-│   │ 🎓 Train affected personnel                                  │         │
-│   │ 📢 Communicate change                                        │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                          │                                                  │
-│                          ▼                                                  │
-│   STEP 4: VERIFICATION (within 30 days)                                   │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ 🔍 Follow-up audit or review                                 │         │
-│   │ 📊 Evidence of effectiveness                                 │         │
-│   │ ✅ Close nonconformity                                       │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**CORRECTIVE ACTION WORKFLOW**
+
+STEP 1: ROOT CAUSE ANALYSIS (within 5 days)
+❓ Why did nonconformity occur?
+- **🔍 What allowed it to happen?**
+🧩 Contributing factors
+STEP 2: CORRECTIVE ACTION (within 10 days)
+- **🔧 What will be changed?**
+- **📅 When will it be implemented?**
+- **👤 Who is responsible?**
+✅ How will we verify effectiveness?
+STEP 3: IMPLEMENTATION (target date)
+- **⚙️ Execute planned action**
+📝 Update procedure if needed
+- **🎓 Train affected personnel**
+📢 Communicate change
+STEP 4: VERIFICATION (within 30 days)
+- **🔍 Follow-up audit or review**
+- **📊 Evidence of effectiveness**
+✅ Close nonconformity
 
 ### 10.2 Corrective Action Form
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                       CORRECTIVE ACTION FORM                                 ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   Audit Finding ID: _________ Date Assigned: __________                     ║
-║   Responsible Person: _________ Target Date: _________                      ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   🔍 ROOT CAUSE ANALYSIS                                                     ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   Why did this occur? ___________________________________                    ║
-║   What allowed it? _____________________________________                     ║
-║   Contributing Factors: __________________________________                   ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   🔧 CORRECTIVE ACTION                                                       ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   What will change? ____________________________________                     ║
-║   Implementation Date: _____________                                         ║
-║   Responsible Person: ______________                                         ║
-║   Resources Needed: _____________________________________                    ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   ✅ VERIFICATION PLAN                                                       ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   How will we verify effectiveness? _____________________                    ║
-║   Verification Date: __________                                              ║
-║   Follow-up by: ________________________                                     ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   ✍️ SIGNATURES                                                              ║
-║   ──────────────────────────────────────────────────────────────────        ║
-║   Original: _________________ Date: _________                                ║
-║   Verify: _________________ Date: _________                                  ║
-║   Close: _________________ Date: _________                                   ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — CORRECTIVE ACTIONS                                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Root cause analysis completed within 5 days of finding                   │
-│ ■ Corrective action plan approved by Quality Manager                       │
-│ ■ Implementation completed by target date                                  │
-│ ■ Effectiveness verified before closure                                    │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**CORRECTIVE ACTION FORM**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Audit Finding ID: _________ Date Assigned: __________
+Responsible Person: _________ Target Date: _________
+
+**🔍 ROOT CAUSE ANALYSIS**
+
+Why did this occur? ___________________________________
+What allowed it? _____________________________________
+Contributing Factors: __________________________________
+
+**🔧 CORRECTIVE ACTION**
+
+What will change? ____________________________________
+Implementation Date: _____________
+Responsible Person: ______________
+Resources Needed: _____________________________________
+
+**✅ VERIFICATION PLAN**
+
+How will we verify effectiveness? _____________________
+Verification Date: __________
+Follow-up by: ________________________
+✍️ SIGNATURES
+Original: _________________ Date: _________
+Verify: _________________ Date: _________
+Close: _________________ Date: _________
 
 
+**✅ QUALITY CHECKPOINT — CORRECTIVE ACTIONS**
+
+■ Root cause analysis completed within 5 days of finding
+■ Corrective action plan approved by Quality Manager
+■ Implementation completed by target date
+■ Effectiveness verified before closure
+
+---
 
 ## 📊 11. MANAGEMENT REVIEW
 
 ### 11.1 Management Review Schedule
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                  MANAGEMENT REVIEW REQUIREMENTS                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   📅 FREQUENCY                                                              │
-│   Quarterly (minimum 4 per year)                                            │
-│                                                                             │
-│   ⏰ TIMING                                                                 │
-│   Within 30 days of quarter end                                             │
-│                                                                             │
-│   👥 ATTENDEES                                                              │
-│   Leadership, Quality Manager, key supervisors                              │
-│                                                                             │
-│   ⏱️ DURATION                                                                │
-│   2-3 hours                                                                 │
-│                                                                             │
-│   📋 FORMAT                                                                 │
-│   Meeting with documented agenda and minutes                                │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**MANAGEMENT REVIEW REQUIREMENTS**
+
+- **📅 FREQUENCY**
+Quarterly (minimum 4 per year)
+⏰ TIMING
+Within 30 days of quarter end
+- **👥 ATTENDEES**
+Leadership, Quality Manager, key supervisors
+⏱️ DURATION
+2-3 hours
+- **📋 FORMAT**
+Meeting with documented agenda and minutes
 
 ### 11.2 Management Review Topics
 
@@ -687,60 +490,44 @@ For each nonconformity:
 
 ### 11.3 Management Review Agenda
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                      MANAGEMENT REVIEW AGENDA                                ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   Date: ________________  Time: ________  Location: _________               ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   1. PREVIOUS REVIEW ACTION ITEMS (5 min)                                   ║
-║      • Status of items from last review                                     ║
-║                                                                              ║
-║   2. INTERNAL AUDIT RESULTS (15 min)                                        ║
-║      • Summary of recent audits                                             ║
-║      • Trends and patterns                                                  ║
-║      • Nonconformities and observations                                     ║
-║                                                                              ║
-║   3. NONCONFORMANCE & CAPA STATUS (15 min)                                  ║
-║      • Open items and closure status                                        ║
-║      • Effectiveness of corrections                                         ║
-║      • Repeat issues                                                        ║
-║                                                                              ║
-║   4. PERFORMANCE METRICS (15 min)                                           ║
-║      • Quality KPIs                                                         ║
-║      • Production metrics                                                   ║
-║      • Safety record                                                        ║
-║                                                                              ║
-║   5. CUSTOMER FEEDBACK & COMPLAINTS (10 min)                                ║
-║      • Issues reported                                                      ║
-║      • Trends                                                               ║
-║      • Satisfaction levels                                                  ║
-║                                                                              ║
-║   6. REGULATORY COMPLIANCE (5 min)                                          ║
-║      • Updates, inspections, requirements                                   ║
-║      • Changes impacting QMS                                                ║
-║                                                                              ║
-║   7. RESOURCE & TRAINING NEEDS (10 min)                                     ║
-║      • Staffing, equipment, facilities                                      ║
-║      • Training gaps identified                                             ║
-║                                                                              ║
-║   8. STRATEGIC DIRECTION & OBJECTIVES (10 min)                              ║
-║      • QMS goals for next period                                            ║
-║      • Management decisions                                                 ║
-║      • Resource allocation                                                  ║
-║                                                                              ║
-║   9. ACTION ITEMS & RESPONSIBILITIES (5 min)                                ║
-║      • Items identified in meeting                                          ║
-║      • Assignment of responsibilities                                       ║
-║      • Target completion dates                                              ║
-║                                                                              ║
-║   10. NEXT MEETING DATE                                                     ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+
+**MANAGEMENT REVIEW AGENDA**
+
+Date: ________________ Time: ________ Location: _________
+1. PREVIOUS REVIEW ACTION ITEMS (5 min)
+• Status of items from last review
+2. INTERNAL AUDIT RESULTS (15 min)
+• Summary of recent audits
+• Trends and patterns
+• Nonconformities and observations
+3. NONCONFORMANCE & CAPA STATUS (15 min)
+• Open items and closure status
+• Effectiveness of corrections
+• Repeat issues
+4. PERFORMANCE METRICS (15 min)
+• Quality KPIs
+• Production metrics
+• Safety record
+5. CUSTOMER FEEDBACK & COMPLAINTS (10 min)
+• Issues reported
+• Trends
+• Satisfaction levels
+6. REGULATORY COMPLIANCE (5 min)
+• Updates, inspections, requirements
+• Changes impacting QMS
+7. RESOURCE & TRAINING NEEDS (10 min)
+• Staffing, equipment, facilities
+• Training gaps identified
+8. STRATEGIC DIRECTION & OBJECTIVES (10 min)
+• QMS goals for next period
+• Management decisions
+• Resource allocation
+9. ACTION ITEMS & RESPONSIBILITIES (5 min)
+• Items identified in meeting
+• Assignment of responsibilities
+• Target completion dates
+
+**10. NEXT MEETING DATE**
 
 ### 11.4 Management Review Output
 
@@ -755,61 +542,42 @@ For each nonconformity:
 | 🔄 **Process Improvements** | Enhancements to be implemented |
 | 🔧 **Corrective Actions** | Actions needed based on review |
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — MANAGEMENT REVIEW                                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ All required topics covered and documented                               │
-│ ■ Action items assigned with responsible persons and due dates             │
-│ ■ Minutes distributed to attendees within 1 week                           │
-│ ■ Progress on action items tracked and reported                            │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**✅ QUALITY CHECKPOINT — MANAGEMENT REVIEW**
 
+■ All required topics covered and documented
+■ Action items assigned with responsible persons and due dates
+■ Minutes distributed to attendees within 1 week
+■ Progress on action items tracked and reported
 
+---
 
 ## 📈 12. AUDIT METRICS & PERFORMANCE INDICATORS
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                          KEY PERFORMANCE INDICATORS                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   METRIC                              TARGET         FREQUENCY              │
-│   ───────────────────────────────────────────────────────────────────────  │
-│                                                                             │
-│   📊 Audits completed per plan        100%           Annual review          │
-│                                                                             │
-│   ✅ Nonconformity closure rate       100% within    Monthly tracking       │
-│                                       30 days                               │
-│                                                                             │
-│   🎯 CAPA effectiveness               >95%           Quarterly review       │
-│      (no repeat findings)                                                   │
-│                                                                             │
-│   ⏱️ Time from finding to closure     <30 days       Per finding           │
-│                                                                             │
-│   📈 Management review completion     100% on        Quarterly             │
-│                                       schedule                              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — AUDIT METRICS                                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Metrics reviewed monthly by Quality Manager                              │
-│ ■ Trends analyzed quarterly in management review                           │
-│ ■ Corrective actions taken for metrics below target                        │
-│ ■ Annual effectiveness report prepared for leadership                      │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**KEY PERFORMANCE INDICATORS**
 
 
+**METRIC TARGET FREQUENCY**
+
+- **📊 Audits completed per plan 100% Annual review**
+✅ Nonconformity closure rate 100% within Monthly tracking
+30 days
+- **🎯 CAPA effectiveness >95% Quarterly review**
+(no repeat findings)
+⏱️ Time from finding to closure <30 days Per finding
+- **📈 Management review completion 100% on Quarterly**
+schedule
+
+
+**✅ QUALITY CHECKPOINT — AUDIT METRICS**
+
+■ Metrics reviewed monthly by Quality Manager
+■ Trends analyzed quarterly in management review
+■ Corrective actions taken for metrics below target
+■ Annual effectiveness report prepared for leadership
+
+---
 
 ## 📎 13. APPENDICES
 
@@ -845,19 +613,16 @@ For each nonconformity:
 <div align="center">
 
 ```
-═══════════════════════════════════════════════════════════════════════════════
-                              END OF DOCUMENT
-═══════════════════════════════════════════════════════════════════════════════
+ END OF DOCUMENT
 
-              Fort and Homes LLC | Quality Management System
-                        Mesa County, Colorado
+ Fort and Homes LLC | Quality Management System
+ Mesa County, Colorado
 
-                      Quality Without Compromise™
-═══════════════════════════════════════════════════════════════════════════════
+ Quality Without Compromise™
 ```
 
-**DOCUMENT STATUS:** ✅ ACTIVE  
-**EFFECTIVE DATE:** January 2026  
+**DOCUMENT STATUS:** ✅ ACTIVE 
+**EFFECTIVE DATE:** January 2026 
 **NEXT REVIEW:** July 2026
 
 </div>
