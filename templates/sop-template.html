@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="{{cssPath}}">
+  <style>
+    /* Additional inline styles for dynamic content */
+    body {
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    Fort Homes LLC | Quality Management System
+  </div>
+  
+  <div class="page-footer">
+    Page <span class="page-number"></span> | {{docId}} Rev {{revision}} | Uncontrolled When Printed
+  </div>
+
+  <main>
+    {{content}}
+  </main>
+</body>
+</html>
