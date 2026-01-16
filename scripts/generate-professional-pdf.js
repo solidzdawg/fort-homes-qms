@@ -56,20 +56,21 @@ marked.use({ renderer });
  * Process markdown content to remove ASCII art and clean up formatting
  */
 function cleanMarkdown(content) {
-  // Remove ASCII box drawing characters
-  content = content.replace(/```[\s\S]*?╔.*?╝[\s\S]*?```/g, '');
-  content = content.replace(/```[\s\S]*?┌.*?┘[\s\S]*?```/g, '');
+  // Remove code blocks containing ASCII box drawing characters
+  // This targets both box styles: ╔══╗ and ┌──┐
+  content = content.replace(/```[\s\S]*?[╔═╗╚║╠╣┌─┐└┘├┤┬┴┼│][\s\S]*?```/g, '');
   
   // Remove centered div wrappers that contain ASCII art
   content = content.replace(/<div align="center">[\s\S]*?<\/div>/g, (match) => {
-    if (match.includes('╔') || match.includes('┌')) {
+    // Only remove if it contains ASCII box characters
+    if (/[╔═╗╚║╠╣┌─┐└┘├┤┬┴┼│]/.test(match)) {
       return '';
     }
     return match;
   });
   
-  // Remove Unicode box drawing lines
-  content = content.replace(/[━─│║═╔╗╚╝╠╣╦╩╬┌┐└┘├┤┬┴┼]/g, '');
+  // Remove standalone Unicode box drawing and line characters
+  content = content.replace(/^[━─│║═╔╗╚╝╠╣╦╩╬┌┐└┘├┤┬┴┼]+$/gm, '');
   
   return content;
 }
@@ -165,10 +166,15 @@ function markdownToHtml(markdownContent, metadata) {
 async function generatePDF(htmlContent, outputPath, metadata) {
   let browser;
   try {
+    // Detect browser executable path
+    const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || 
+                          process.env.CHROME_BIN ||
+                          '/usr/bin/chromium';
+    
     // Launch browser
     browser = await puppeteer.launch({
       headless: 'new',
-      executablePath: '/usr/bin/chromium',
+      executablePath: executablePath,
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     });
     
@@ -270,10 +276,6 @@ async function main() {
     fs.mkdirSync(DIST_DIR, { recursive: true });
     console.log(`✅ Created output directory: ${DIST_DIR}\n`);
   }
-  
-  // Get command line arguments
-  const args = process.argv.slice(2);
-  const sopsOnly = args.includes('--sops');
   
   // Get all SOP files
   const sopFiles = fs.readdirSync(DOCS_DIR)
