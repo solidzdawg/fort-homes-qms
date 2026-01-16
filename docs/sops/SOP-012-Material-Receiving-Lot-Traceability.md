@@ -1,50 +1,34 @@
-<div align="center">
+# SOP-012: Material Receiving & Lot Traceability
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  🏗️ FORT HOMES QMS                                           SOP-012        ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║            MATERIAL RECEIVING & LOT TRACEABILITY                             ║
-║                                                                              ║
-║               Fort and Homes LLC | Mesa County, Colorado                     ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+---
 
-| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
-|:---:|:---:|:---:|:---:|:---:|
-| `SOP-012` | `2.0` | `January 2026` | `Materials Manager` | `July 2026` |
+## Document Control
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>
+| Field | Value |
+|:---|:---|
+| **Document ID** | SOP-012 |
+| **Revision** | 2.0 |
+| **Effective Date** | January 2026 |
+| **Process Owner** | Materials Manager |
+| **Next Review** | July 2026 |
 
 ---
 
 ## 📊 EXECUTIVE SUMMARY
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         📊 EXECUTIVE DASHBOARD                             │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   KEY METRICS                                                              │
-│   ───────────────────────────────────────────────────────────             │
-│   ✅ Material Acceptance: 98%+ target rate                                │
-│   🔍 Lot Documentation: 100% accuracy required                            │
-│   📦 Material Shortages: <2 incidents per month                           │
-│   🔎 Traceability Audits: 100% pass rate quarterly                        │
-│                                                                            │
-│   CRITICAL SUCCESS FACTORS                                                 │
-│   ───────────────────────────────────────────────────────────             │
-│   • Comprehensive receiving inspection process                             │
-│   • Unique lot identification and labeling system                          │
-│   • Complete supplier certification documentation                          │
-│   • Rapid traceability for supplier issues or field failures               │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### KEY METRICS
+
+- ✅ **Material Acceptance:** 98%+ target rate
+- 🔍 **Lot Documentation:** 100% accuracy required
+- 📦 **Material Shortages:** <2 incidents per month
+- 🔎 **Traceability Audits:** 100% pass rate quarterly
+
+### CRITICAL SUCCESS FACTORS
+
+- Comprehensive receiving inspection process
+- Unique lot identification and labeling system
+- Complete supplier certification documentation
+- Rapid traceability for supplier issues or field failures
 
 ---
 
@@ -68,17 +52,12 @@ To establish procedures for material receiving inspection, lot identification, a
 
 ### 2.2 Personnel Coverage
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         PERSONNEL APPLICABILITY                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ✅ Materials Manager           ✅ Quality Inspectors                      │
-│   ✅ Receiving Clerks            ✅ Production Supervisors                  │
-│   ✅ Warehouse Staff             ✅ Procurement Team                        │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**PERSONNEL APPLICABILITY**
+
+✅ Materials Manager ✅ Quality Inspectors
+✅ Receiving Clerks ✅ Production Supervisors
+✅ Warehouse Staff ✅ Procurement Team
 
 ---
 
@@ -95,171 +74,117 @@ To establish procedures for material receiving inspection, lot identification, a
 
 ## 👥 4. ROLES & RESPONSIBILITIES
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        RACI RESPONSIBILITY MATRIX                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   👤 MATERIALS MANAGER           (R - Responsible)                          │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Receiving operations oversight and management              │         │
-│   │ • Supplier coordination and communication                    │         │
-│   │ • Lot assignment and traceability system maintenance         │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 QUALITY INSPECTOR           (A - Accountable)                          │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Incoming inspection and material verification              │         │
-│   │ • Accept/reject decisions based on specifications            │         │
-│   │ • Documentation and certification review                     │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 RECEIVING CLERK             (C - Consulted)                            │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Unload materials and verify physical condition             │         │
-│   │ • Verify quantities against purchase order                   │         │
-│   │ • Apply lot labels and traceability tags                     │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 PRODUCTION SUPERVISOR       (I - Informed)                             │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Verify lot traceability during production                  │         │
-│   │ • Report material quality issues immediately                 │         │
-│   │ • Document lot usage on module travelers                     │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   👤 QUALITY MANAGER             (Approver)                                 │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Approve non-conforming material disposition                │         │
-│   │ • Review traceability audit results                          │         │
-│   │ • Investigate supplier quality issues                        │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**RACI RESPONSIBILITY MATRIX**
+
+- **👤 MATERIALS MANAGER (R - Responsible)**
+• Receiving operations oversight and management
+• Supplier coordination and communication
+• Lot assignment and traceability system maintenance
+- **👤 QUALITY INSPECTOR (A - Accountable)**
+• Incoming inspection and material verification
+• Accept/reject decisions based on specifications
+• Documentation and certification review
+- **👤 RECEIVING CLERK (C - Consulted)**
+• Unload materials and verify physical condition
+• Verify quantities against purchase order
+• Apply lot labels and traceability tags
+- **👤 PRODUCTION SUPERVISOR (I - Informed)**
+• Verify lot traceability during production
+• Report material quality issues immediately
+• Document lot usage on module travelers
+- **👤 QUALITY MANAGER (Approver)**
+• Approve non-conforming material disposition
+• Review traceability audit results
+• Investigate supplier quality issues
 
 ---
 
 ## 🔄 5. RECEIVING INSPECTION FLOWCHART
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    MATERIAL RECEIVING WORKFLOW                              │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                              START                                          │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  MATERIAL DELIVERY    │                               │
-│                    │  ARRIVES              │                               │
-│                    │  - Truck inspection   │                               │
-│                    │  - Verify PO          │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ┌───────────────────────┐                               │
-│                    │  RECEIPT VERIFICATION │                               │
-│                    │  - Count quantities   │                               │
-│                    │  - Check packaging    │                               │
-│                    │  - Review certs       │                               │
-│                    └───────────┬───────────┘                               │
-│                                │                                            │
-│                                ▼                                            │
-│                    ◇───────────────────────◇                               │
-│                   ╱  Documentation          ╲                              │
-│                  ╱   Complete?               ╲                             │
-│                 ◇─────────────────────────────◇                            │
-│                ╱                               ╲                           │
-│          YES  ╱                                 ╲  NO                      │
-│              ▼                                   ▼                          │
-│   ┌──────────────────┐              ┌──────────────────────┐               │
-│   │  ASSIGN LOT      │              │  CONTACT SUPPLIER    │               │
-│   │  NUMBER          │              │  Obtain missing docs │               │
-│   └────────┬─────────┘              └──────────┬───────────┘               │
-│            │                                   │                            │
-│            │                                   └────────────┐               │
-│            ▼                                                │               │
-│            ╔═══════════════════════════╗                    │               │
-│            ║   ✅ QUALITY CHECKPOINT   ║                    │               │
-│            ╠═══════════════════════════╣                    │               │
-│            ║ • Lot number applied      ║                    │               │
-│            ║ • Labels affixed          ║                    │               │
-│            ║ • Database entry made     ║                    │               │
-│            ║ • Certs filed             ║◄───────────────────┘               │
-│            ╚═══════════════════════════╝                                   │
-│                           │                                                │
-│                           ▼                                                │
-│                    ┌──────────────────┐                                    │
-│                    │  QUALITY         │                                    │
-│                    │  INSPECTION      │                                    │
-│                    │  - Visual check  │                                    │
-│                    │  - Sample test   │                                    │
-│                    └────────┬─────────┘                                    │
-│                             │                                              │
-│                             ▼                                              │
-│                    ◇──────────────────◇                                    │
-│                   ╱   Pass Inspection?  ╲                                  │
-│                  ◇──────────────────────◇                                  │
-│                 ╱                        ╲                                 │
-│           YES  ╱                          ╲  NO                            │
-│               ▼                            ▼                               │
-│   ┌──────────────────┐          ┌──────────────────┐                      │
-│   │  RELEASE TO      │          │  QUARANTINE      │                      │
-│   │  STORAGE/PROD    │          │  Disposition hold│                      │
-│   └────────┬─────────┘          └────────┬─────────┘                      │
-│            │                              │                                │
-│            ▼                              ▼                                │
-│          END                    Quality Manager Review                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**MATERIAL RECEIVING WORKFLOW**
+
+START
+
+**MATERIAL DELIVERY**
+
+ARRIVES
+- Truck inspection
+- Verify PO
+
+**RECEIPT VERIFICATION**
+
+- Count quantities
+- Check packaging
+- Review certs
+ Documentation 
+ Complete? 
+
+**YES NO**
+
+
+**ASSIGN LOT CONTACT SUPPLIER**
+
+NUMBER Obtain missing docs
+
+** ✅ QUALITY CHECKPOINT **
+
+ • Lot number applied 
+ • Labels affixed 
+ • Database entry made 
+ • Certs filed 
+QUALITY
+INSPECTION
+- Visual check
+- Sample test
+ Pass Inspection? 
+
+**YES NO**
+
+
+**RELEASE TO QUARANTINE**
+
+STORAGE/PROD Disposition hold
+END Quality Manager Review
+
+---
 
 ## 📦 6. RECEIVING INSPECTION PROCESS
 
 ### 6.1 Receipt Verification
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      RECEIPT VERIFICATION CHECKLIST                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ✅ SHIPMENT VERIFICATION                                                  │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Verify shipment against purchase order number              │         │
-│   │ • Compare material type, quantity, and specifications        │         │
-│   │ • Verify supplier name and shipping information              │         │
-│   │ • Document any discrepancies or variances                    │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   📦 PACKAGE CONDITION                                                      │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Check package condition and integrity                      │         │
-│   │ • Identify any visible damage or defects                     │         │
-│   │ • Photograph damage before accepting delivery                │         │
-│   │ • Note carrier and driver information if damaged             │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   📄 CERTIFICATION DOCUMENTATION                                            │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Confirm supplier certification documentation present       │         │
-│   │ • Verify mill certificates, test reports, or compliance docs │         │
-│   │ • Check expiration dates on time-sensitive materials         │         │
-│   │ • File certifications with lot documentation                 │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-│   ⚠️ IMMEDIATE ACTION ITEMS                                                 │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ • Identify defects or damage immediately upon receipt        │         │
-│   │ • Notify Materials Manager of any issues                     │         │
-│   │ • Quarantine suspected non-conforming materials              │         │
-│   │ • Document all findings on receiving report                  │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**RECEIPT VERIFICATION CHECKLIST**
+
+
+**✅ SHIPMENT VERIFICATION**
+
+• Verify shipment against purchase order number
+• Compare material type, quantity, and specifications
+• Verify supplier name and shipping information
+• Document any discrepancies or variances
+
+**📦 PACKAGE CONDITION**
+
+• Check package condition and integrity
+• Identify any visible damage or defects
+• Photograph damage before accepting delivery
+• Note carrier and driver information if damaged
+
+**📄 CERTIFICATION DOCUMENTATION**
+
+• Confirm supplier certification documentation present
+• Verify mill certificates, test reports, or compliance docs
+• Check expiration dates on time-sensitive materials
+• File certifications with lot documentation
+
+**⚠️ IMMEDIATE ACTION ITEMS**
+
+• Identify defects or damage immediately upon receipt
+• Notify Materials Manager of any issues
+• Quarantine suspected non-conforming materials
+• Document all findings on receiving report
 
 ### 6.2 Lot Assignment & Labeling
 
@@ -271,50 +196,43 @@ To establish procedures for material receiving inspection, lot identification, a
 | ⏰ **Expiration Tracking** | Document expiration dates (if applicable) | MM/DD/YYYY |
 | 🏷️ **Label Application** | Apply traceability labels to all containers | Durable, legible labels |
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — LOT ASSIGNMENT                                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Unique lot number assigned and recorded in database                      │
-│ ■ Physical labels applied to all material containers/pallets               │
-│ ■ Supplier certifications linked to lot number in system                   │
-│ ■ Expiration dates flagged for materials requiring shelf-life tracking     │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**✅ QUALITY CHECKPOINT — LOT ASSIGNMENT**
+
+■ Unique lot number assigned and recorded in database
+■ Physical labels applied to all material containers/pallets
+■ Supplier certifications linked to lot number in system
+■ Expiration dates flagged for materials requiring shelf-life tracking
+
+---
 
 ## 📊 7. TRACEABILITY DOCUMENTATION
 
 ### 7.1 Lot Tracking System
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         LOT TRACKING DATABASE                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   REQUIRED DATA ELEMENTS                                                    │
-│   ───────────────────────────────────────────────────────────             │
-│   • Lot Number (unique identifier)                                          │
-│   • Material Description and Specification                                  │
-│   • Supplier Name and Contact Information                                   │
-│   • Supplier Lot/Batch Number Reference                                     │
-│   • Date Received and Quantity Received                                     │
-│   • Quality Inspection Results (Pass/Fail)                                  │
-│   • Storage Location within Facility                                        │
-│   • Lot Status: Received → In-Production → Consumed → Archived              │
-│   • Module Serial Numbers (linked via traveler)                             │
-│   • Lot Consumption Date and Location                                       │
-│                                                                             │
-│   TRACEABILITY LINKAGES                                                     │
-│   ───────────────────────────────────────────────────────────             │
-│   • Link lots to production modules via traveler documentation              │
-│   • Record lot usage on module work packages                                │
-│   • Cross-reference lot numbers with hold point inspections                 │
-│   • Enable rapid identification for supplier issues or recalls              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+
+**LOT TRACKING DATABASE**
+
+
+**REQUIRED DATA ELEMENTS**
+
+• Lot Number (unique identifier)
+• Material Description and Specification
+• Supplier Name and Contact Information
+• Supplier Lot/Batch Number Reference
+• Date Received and Quantity Received
+• Quality Inspection Results (Pass/Fail)
+• Storage Location within Facility
+• Lot Status: Received → In-Production → Consumed → Archived
+• Module Serial Numbers (linked via traveler)
+• Lot Consumption Date and Location
+
+**TRACEABILITY LINKAGES**
+
+• Link lots to production modules via traveler documentation
+• Record lot usage on module work packages
+• Cross-reference lot numbers with hold point inspections
+• Enable rapid identification for supplier issues or recalls
 
 ### 7.2 Non-Conforming Material Handling
 
@@ -326,102 +244,73 @@ To establish procedures for material receiving inspection, lot identification, a
 | 4️⃣ | **Approve** final disposition decision and document | Quality Manager |
 | 5️⃣ | **Investigate** supplier quality issues per SOP-004 | Quality Manager |
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — NON-CONFORMING MATERIALS                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Non-conforming materials physically segregated and labeled               │
-│ ■ NCR form completed with full details and photos                          │
-│ ■ Quality Manager disposition approval documented                          │
-│ ■ Supplier notified and corrective action requested                        │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**✅ QUALITY CHECKPOINT — NON-CONFORMING MATERIALS**
+
+■ Non-conforming materials physically segregated and labeled
+■ NCR form completed with full details and photos
+■ Quality Manager disposition approval documented
+■ Supplier notified and corrective action requested
+
+---
 
 ## 🔍 8. LOT RECALL & TRACEABILITY
 
 ### 8.1 Recall Process
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         LOT RECALL PROCEDURE                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   TRIGGER EVENT                                                             │
-│   Supplier notification OR field quality issue identified                   │
-│                          │                                                  │
-│                          ▼                                                  │
-│   STEP 1: DATABASE SEARCH                                                  │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ Use lot traceability database to identify affected lots      │         │
-│   │ Query by supplier, lot number, date range, or material type  │         │
-│   └────────────────────────────┬─────────────────────────────────┘         │
-│                                │                                            │
-│                                ▼                                            │
-│   STEP 2: MODULE IDENTIFICATION                                            │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ Identify all modules containing affected lot materials       │         │
-│   │ Review module travelers for lot number linkages              │         │
-│   └────────────────────────────┬─────────────────────────────────┘         │
-│                                │                                            │
-│                                ▼                                            │
-│   STEP 3: NOTIFICATION                                                     │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ Production Supervisor notifies Quality Manager immediately    │         │
-│   │ Generate list of affected module serial numbers              │         │
-│   └────────────────────────────┬─────────────────────────────────┘         │
-│                                │                                            │
-│                                ▼                                            │
-│   STEP 4: DISPOSITION                                                      │
-│   ┌──────────────────────────────────────────────────────────────┐         │
-│   │ Affected modules flagged for inspection or rework            │         │
-│   │ Customer notification per SOP-018 if already shipped         │         │
-│   │ Corrective action plan developed and implemented             │         │
-│   └──────────────────────────────────────────────────────────────┘         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**LOT RECALL PROCEDURE**
+
+TRIGGER EVENT
+Supplier notification OR field quality issue identified
+
+**STEP 1: DATABASE SEARCH**
+
+Use lot traceability database to identify affected lots
+Query by supplier, lot number, date range, or material type
+
+**STEP 2: MODULE IDENTIFICATION**
+
+Identify all modules containing affected lot materials
+Review module travelers for lot number linkages
+
+**STEP 3: NOTIFICATION**
+
+Production Supervisor notifies Quality Manager immediately
+Generate list of affected module serial numbers
+
+**STEP 4: DISPOSITION**
+
+Affected modules flagged for inspection or rework
+Customer notification per SOP-018 if already shipped
+Corrective action plan developed and implemented
+
+---
 
 ## 📊 9. METRICS & PERFORMANCE INDICATORS
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                          KEY PERFORMANCE INDICATORS                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   METRIC                              TARGET         FREQUENCY              │
-│   ───────────────────────────────────────────────────────────────────────  │
-│                                                                             │
-│   ✅ Material Acceptance Rate         98%+           Weekly review          │
-│                                                                             │
-│   📋 Lot Documentation Accuracy       100%           Monthly audit          │
-│                                                                             │
-│   📦 Material Shortage Incidents      <2/month       Ongoing tracking       │
-│                                                                             │
-│   🔍 Traceability Database Audits     Pass           Quarterly review       │
-│                                                                             │
-│   ⏱️ Receiving Inspection Cycle Time  <4 hours       Per receipt            │
-│                                                                             │
-│   📊 Supplier Certification Compliance 100%          Per delivery           │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✅ QUALITY CHECKPOINT — TRACEABILITY METRICS                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ ■ Metrics reviewed monthly at quality management meeting                   │
-│ ■ Traceability system audited quarterly for accuracy and completeness      │
-│ ■ Supplier performance tracked and shared with procurement                 │
-│ ■ Continuous improvement initiatives for receiving efficiency              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**KEY PERFORMANCE INDICATORS**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**METRIC TARGET FREQUENCY**
+
+✅ Material Acceptance Rate 98%+ Weekly review
+- **📋 Lot Documentation Accuracy 100% Monthly audit**
+- **📦 Material Shortage Incidents <2/month Ongoing tracking**
+- **🔍 Traceability Database Audits Pass Quarterly review**
+⏱️ Receiving Inspection Cycle Time <4 hours Per receipt
+- **📊 Supplier Certification Compliance 100% Per delivery**
+
+
+**✅ QUALITY CHECKPOINT — TRACEABILITY METRICS**
+
+■ Metrics reviewed monthly at quality management meeting
+■ Traceability system audited quarterly for accuracy and completeness
+■ Supplier performance tracked and shared with procurement
+■ Continuous improvement initiatives for receiving efficiency
+
+---
 
 ## 📎 10. APPENDICES
 
@@ -458,19 +347,16 @@ To establish procedures for material receiving inspection, lot identification, a
 <div align="center">
 
 ```
-═══════════════════════════════════════════════════════════════════════════════
-                              END OF DOCUMENT
-═══════════════════════════════════════════════════════════════════════════════
+ END OF DOCUMENT
 
-              Fort and Homes LLC | Quality Management System
-                        Mesa County, Colorado
+ Fort and Homes LLC | Quality Management System
+ Mesa County, Colorado
 
-                      Quality Without Compromise™
-═══════════════════════════════════════════════════════════════════════════════
+ Quality Without Compromise™
 ```
 
-**DOCUMENT STATUS:** ✅ ACTIVE  
-**EFFECTIVE DATE:** January 2026  
+**DOCUMENT STATUS:** ✅ ACTIVE 
+**EFFECTIVE DATE:** January 2026 
 **NEXT REVIEW:** July 2026
 
 </div>
