@@ -901,40 +901,296 @@ Fort Homes' 8-phase manufacturing system provides structured, quality-controlled
 
 ## 3. DESIGN CONTROL REQUIREMENTS
 
+Fort Homes maintains rigorous design control processes to ensure all modular homes meet HUD Code requirements, customer specifications, and industry best practices.
+
 ### 3.1 Design Input Requirements
 
-All modular home designs must meet:
+<div style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%); border: 3px solid #0288D1; padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+  <h4 style="color: #01579B; margin-top: 0;">📐 REGULATORY & CODE REQUIREMENTS</h4>
+  
+  <table style="width: 100%; background: white; border-radius: 8px; overflow: hidden; border-collapse: collapse; margin-top: 15px;">
+    <tr style="background: #0288D1; color: white;">
+      <th style="padding: 15px; text-align: left;">Code/Standard</th>
+      <th style="padding: 15px; text-align: left;">Scope</th>
+      <th style="padding: 15px; text-align: left;">Key Sections</th>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>HUD Code 24 CFR 3280</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Construction & Safety Standards for Manufactured Housing</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
+        §3280.2 (Definitions)<br>
+        §3280.3 (Design Loads)<br>
+        §3280.303 (Structural Design)<br>
+        §3280.305 (Wind Resistance)
+      </td>
+    </tr>
+    <tr style="background: #E1F5FE;">
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>HUD Code 24 CFR 3282</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Manufactured Housing Procedural & Enforcement</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
+        §3282.203 (DAPIA Process)<br>
+        §3282.362 (IPIA Requirements)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>NEC 2023 Article 550</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Electrical Requirements for Manufactured Homes</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
+        §550.4 (General Requirements)<br>
+        §550.10 (Power Supply)<br>
+        §550.15 (Wiring Methods)<br>
+        §550.16 (Grounding)
+      </td>
+    </tr>
+    <tr style="background: #E1F5FE;">
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>8 CCR 1302-14</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Colorado Manufactured Housing Regulations</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
+        State-specific requirements<br>
+        CDOH approval process
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>IPC 2021</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">International Plumbing Code</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
+        Chapter 3 (Fixtures)<br>
+        Chapter 7 (DWV Systems)
+      </td>
+    </tr>
+    <tr style="background: #E1F5FE;">
+      <td style="padding: 12px;"><strong>IECC 2021</strong></td>
+      <td style="padding: 12px;">International Energy Conservation Code</td>
+      <td style="padding: 12px;">
+        Climate Zone 5B requirements<br>
+        Insulation R-values
+      </td>
+    </tr>
+  </table>
+  
+  <div style="background: white; padding: 20px; border-radius: 8px; margin-top: 20px;">
+    <strong style="color: #01579B;">Customer Requirements Integration:</strong>
+    <ul style="line-height: 1.8;">
+      <li>✅ Floor plan layout and room dimensions</li>
+      <li>✅ Finish specifications (flooring, cabinets, fixtures)</li>
+      <li>✅ Appliance selections and locations</li>
+      <li>✅ Electrical outlet and switch locations</li>
+      <li>✅ Special requirements (accessibility, etc.)</li>
+      <li>✅ Energy efficiency upgrades</li>
+    </ul>
+  </div>
+</div>
 
-- **HUD Code 24 CFR 3280** - Construction and safety standards
-- **NEC 2023** - Electrical system design and installation
-- **CCR 8 CCR 1302-14** - Colorado-specific requirements
-- **IRC 2021** - International Residential Code (where applicable)
-- **IPC 2021** - International Plumbing Code
-- **IECC 2021** - International Energy Conservation Code
+### 3.2 Design Review and Validation Process
 
-### 3.2 Design Review and Validation
+```mermaid
+flowchart LR
+    subgraph Conceptual["CONCEPTUAL DESIGN"]
+        A["Customer Input<br>& Requirements"] --> B["Initial Floor Plan<br>Development"]
+        B --> C["Code Applicability<br>Review"]
+    end
+    
+    subgraph Preliminary["PRELIMINARY DESIGN"]
+        C --> D["Detailed Floor Plans<br>& Elevations"]
+        D --> E["Structural<br>Calculations"]
+        E --> F["MEP System<br>Design"]
+        F --> G["Material<br>Specifications"]
+    end
+    
+    subgraph Detailed["DETAILED DESIGN"]
+        G --> H["Complete Construction<br>Documents"]
+        H --> I["HUD Code<br>Compliance Check"]
+        I --> J["Engineering<br>Review"]
+        J --> K{"Approval<br>Gate"}
+    end
+    
+    subgraph Validation["VALIDATION & RELEASE"]
+        K -->|"Approved"| L["NTA DAPIA<br>Review"]
+        K -->|"Issues"| D
+        L --> M{"DAPIA<br>Approval"}
+        M -->|"Approved"| N["Design Freeze<br>& Release"]
+        M -->|"Comments"| H
+        N --> O["Production<br>Ready"]
+    end
+    
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff,stroke-width:2px
+    style K fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:2px
+    style M fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:2px
+    style O fill:#4CAF50,stroke:#2E7D32,color:#fff,stroke-width:2px
+```
 
-<div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
-
-| Design Stage | Review Requirements | Approval Authority | Documentation |
-|:---|:---|:---|:---|
-| **Concept Design** | Customer requirements, code applicability | Design Manager | Design Brief |
-| **Preliminary Design** | Code compliance check, material specifications | Engineering, Quality | Design Plans |
-| **Detailed Design** | Full HUD/NEC/CCR compliance verification | Engineering, NTA Review | Approved Plans |
-| **Design Changes** | Impact assessment, re-approval if required | Change Control Board | Change Order |
-
+<div style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border-left: 5px solid #9C27B0; padding: 20px; margin: 25px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+  <h5 style="color: #6A1B9A; margin-top: 0;">🔍 DESIGN REVIEW GATES</h5>
+  
+  <table style="width: 100%; background: white; border-radius: 8px; overflow: hidden; border-collapse: collapse;">
+    <tr style="background: #9C27B0; color: white;">
+      <th style="padding: 12px; text-align: left;">Design Stage</th>
+      <th style="padding: 12px; text-align: left;">Review Requirements</th>
+      <th style="padding: 12px; text-align: center;">Approval Authority</th>
+      <th style="padding: 12px; text-align: left;">Documentation</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;"><strong>Concept Design</strong></td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">
+        • Customer requirements captured<br>
+        • Code applicability assessed<br>
+        • Preliminary sizing
+      </td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7; text-align: center;">Design Manager</td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">Design Brief</td>
+    </tr>
+    <tr style="background: #F3E5F5;">
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;"><strong>Preliminary Design</strong></td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">
+        • Structural adequacy verified<br>
+        • MEP systems feasible<br>
+        • Material specs defined
+      </td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7; text-align: center;">Engineering + QA</td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">Design Plans v1.0</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;"><strong>Detailed Design</strong></td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">
+        • 100% HUD Code compliance<br>
+        • NEC 2023 compliance<br>
+        • Producibility review<br>
+        • Cost verification
+      </td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7; text-align: center;">Engineering + QA + Operations</td>
+      <td style="padding: 10px; border-bottom: 1px solid #E1BEE7;">Complete Construction Docs</td>
+    </tr>
+    <tr style="background: #F3E5F5;">
+      <td style="padding: 10px;"><strong>DAPIA Review</strong></td>
+      <td style="padding: 10px;">
+        • Third-party design approval<br>
+        • HUD §3282.203 compliance<br>
+        • Structural calculations review
+      </td>
+      <td style="padding: 10px; text-align: center;"><strong>NTA DAPIA</strong></td>
+      <td style="padding: 10px;">DAPIA Approval Letter</td>
+    </tr>
+  </table>
 </div>
 
 ### 3.3 Design Outputs
 
-Design outputs include:
-- Architectural floor plans and elevations
-- Structural engineering calculations
-- Electrical plans (NEC 2023 compliant)
-- Plumbing plans
-- HVAC specifications
-- Material specifications and cut lists
-- Assembly sequences and work instructions
+Complete design packages include all documentation necessary for manufacturing:
+
+<div style="background: white; border: 2px solid #2196F3; padding: 20px; margin: 20px 0; border-radius: 8px;">
+  <h5 style="color: #1565C0; margin-top: 0;">📋 REQUIRED DESIGN DELIVERABLES</h5>
+  
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">Architectural Drawings:</strong>
+      <ul style="margin-top: 10px;">
+        <li>Floor plans (dimensioned)</li>
+        <li>Elevations (all 4 sides)</li>
+        <li>Roof plan and details</li>
+        <li>Window and door schedule</li>
+        <li>Room finish schedule</li>
+      </ul>
+    </div>
+    
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">Structural Engineering:</strong>
+      <ul style="margin-top: 10px;">
+        <li>Load calculations (dead/live/wind/snow)</li>
+        <li>Floor joist sizing and spans</li>
+        <li>Roof truss specifications</li>
+        <li>Foundation/chassis interface</li>
+        <li>Tie-down system design</li>
+      </ul>
+    </div>
+    
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">Electrical Plans (NEC 2023):</strong>
+      <ul style="margin-top: 10px;">
+        <li>Service entrance and panel location</li>
+        <li>Branch circuit layout</li>
+        <li>Receptacle and switch locations</li>
+        <li>Lighting plan</li>
+        <li>AFCI/GFCI protection schedule</li>
+        <li>Grounding and bonding details</li>
+      </ul>
+    </div>
+    
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">Plumbing Plans (IPC 2021):</strong>
+      <ul style="margin-top: 10px;">
+        <li>Water supply routing</li>
+        <li>DWV system layout</li>
+        <li>Vent pipe locations</li>
+        <li>Fixture locations and specs</li>
+        <li>Water heater location</li>
+      </ul>
+    </div>
+    
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">HVAC Specifications:</strong>
+      <ul style="margin-top: 10px;">
+        <li>Heating/cooling load calculations</li>
+        <li>Equipment sizing and model numbers</li>
+        <li>Duct routing and sizing</li>
+        <li>Register and return locations</li>
+        <li>Thermostat location</li>
+      </ul>
+    </div>
+    
+    <div style="background: #E3F2FD; padding: 15px; border-radius: 6px;">
+      <strong style="color: #0D47A1;">Manufacturing Support:</strong>
+      <ul style="margin-top: 10px;">
+        <li>Material cut lists with quantities</li>
+        <li>Assembly sequence diagrams</li>
+        <li>Special installation instructions</li>
+        <li>Quality checkpoint locations</li>
+        <li>Module traveler template</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+### 3.4 Design Change Control
+
+All design changes after DAPIA approval must follow formal change control:
+
+```mermaid
+stateDiagram-v2
+    [*] --> ChangeRequested: Design Change Initiated
+    ChangeRequested --> ImpactAssessment: Log Change Request
+    ImpactAssessment --> MinorChange: Minor Impact
+    ImpactAssessment --> MajorChange: Major Impact
+    
+    MinorChange --> InternalReview: Engineering Review
+    InternalReview --> Approved: No Code Impact
+    
+    MajorChange --> DAPIAReview: Code/Structure Impact
+    DAPIAReview --> Approved: DAPIA Approves
+    DAPIAReview --> Rejected: DAPIA Rejects
+    
+    Rejected --> ChangeRequested: Revise & Resubmit
+    
+    Approved --> UpdateDocs: Update All Docs
+    UpdateDocs --> Communicate: Notify Production
+    Communicate --> [*]: Change Implemented
+    
+    note right of MinorChange: Examples: Finish changes,<br>fixture substitutions
+    note right of MajorChange: Examples: Structural changes,<br>MEP rerouting
+```
+
+<div style="background: #FFEBEE; border-left: 5px solid #F44336; padding: 20px; margin: 25px 0; border-radius: 8px;">
+  <strong style="color: #C62828;">⚠️ CRITICAL: Design Changes During Production</strong><br><br>
+  Any design change that affects HUD Code compliance requires:
+  <ol>
+    <li><strong>Production STOP</strong> - Halt work on affected area immediately</li>
+    <li><strong>Engineering Review</strong> - Assess code compliance impact</li>
+    <li><strong>DAPIA Approval</strong> - Required if structural or code-related</li>
+    <li><strong>NTA Notification</strong> - Inform TPIA before proceeding</li>
+    <li><strong>Documentation Update</strong> - Revise plans and module traveler</li>
+  </ol>
+  
+  <strong>Unauthorized design changes void HUD certification and data plate approval.</strong>
+</div>
 
 ---
 
