@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QM Manual — Interactive Visuals</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- Mermaid for procedure diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Quality Manual — Interactive Section Overview</h1>
+      <p class="lead">Interactive, accessible visual components for documents and manuals. Use the Export buttons to capture snapshots for embedding in PDF or DOCX outputs.</p>
+    </header>
+
+    <section class="kpis">
+      <div class="kpi">
+        <div class="kpi-value" id="kpi-doccount">—</div>
+        <div class="kpi-label">SOPs & WIs (repo)</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-value" id="kpi-retention">7 yrs</div>
+        <div class="kpi-label">Standard Retention</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-value" id="kpi-effective">Draft</div>
+        <div class="kpi-label">Latest Status</div>
+      </div>
+    </section>
+
+    <section class="panels">
+      <article class="panel">
+        <header>
+          <h2>Document Classification — Distribution</h2>
+          <div class="actions">
+            <button onclick="downloadChart('docClassificationChart','doc-classification.png')">Export PNG</button>
+          </div>
+        </header>
+        <canvas id="docClassificationChart" role="img" aria-label="Document classification donut chart"></canvas>
+      </article>
+
+      <article class="panel">
+        <header>
+          <h2>Procedure Flow (Editable Mermaid)</h2>
+        </header>
+        <div class="mermaid" id="procedureMermaid">
+          graph TD
+            A[Manual > Section] --> B[SOP links]
+            B --> C{SOP or WI?}
+            C -->|SOP| D[SOP Document]
+            C -->|WI| E[Work Instruction]
+            D --> F[Hold Points & Forms]
+            E --> F
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <small>Interactive asset — safe fallback included in markdown. Generated: <span id="generatedAt"></span></small>
+    </footer>
+  </main>
+
+  <script src="charts.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    document.getElementById('generatedAt').textContent = new Date().toLocaleString();
+  </script>
+</body>
+</html>
