@@ -541,6 +541,364 @@ Fort Homes manufacturing is subject to NTA third-party inspection at these manda
 
 ---
 
+## 🏗️ Detailed Phase-by-Phase Manufacturing
+
+Fort Homes' 8-phase manufacturing system provides structured, quality-controlled production of modular homes. Each phase includes specific activities, quality checkpoints, and TPIA verification requirements.
+
+### Phase 1: Chassis Setup & Floor System
+
+<div style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border: 3px solid #4CAF50; padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+  <h4 style="color: #2E7D32; margin-top: 0;">🏗️ PHASE 1: FOUNDATION & FLOOR ASSEMBLY</h4>
+  
+  <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+    <strong style="color: #2E7D32;">Duration:</strong> 1-2 days | <strong style="color: #2E7D32;">Crew Size:</strong> 2-4 workers<br>
+    <strong style="color: #2E7D32;">Hold Point:</strong> HP-1 TPIA Inspection Required
+  </div>
+  
+  <h5 style="color: #2E7D32;">Activities:</h5>
+  <ol style="line-height: 1.8;">
+    <li><strong>Chassis Receipt & Inspection</strong>
+      <ul>
+        <li>Verify chassis specifications match engineering plans</li>
+        <li>Inspect steel frame for damage, proper dimensions</li>
+        <li>Check axle placement, tire pressure, lighting</li>
+        <li>Verify chassis certification plate and documentation</li>
+      </ul>
+    </li>
+    <li><strong>Floor Joist Installation</strong>
+      <ul>
+        <li>Install floor joists per HUD-approved plans (typically 2x6 or 2x8 @ 16" O.C.)</li>
+        <li>Verify joist spacing with measurement tools</li>
+        <li>Install blocking and bridging as required</li>
+        <li>Secure joists to main beams with approved fasteners</li>
+      </ul>
+    </li>
+    <li><strong>Plumbing & Electrical Rough-In (Floor Level)</strong>
+      <ul>
+        <li>Install main drain lines through floor (ABS/PVC per IPC)</li>
+        <li>Route electrical service entrance conduit</li>
+        <li>Install HVAC ducting through floor if applicable</li>
+        <li>Protect all penetrations with grommets/boots</li>
+      </ul>
+    </li>
+    <li><strong>Insulation Installation</strong>
+      <ul>
+        <li>Install floor insulation (typically R-19 to R-33)</li>
+        <li>Verify R-value matches energy code requirements</li>
+        <li>Install belly board (moisture barrier) underneath</li>
+        <li>Ensure 100% coverage, no gaps or compression</li>
+      </ul>
+    </li>
+    <li><strong>Floor Sheathing</strong>
+      <ul>
+        <li>Install subfloor sheathing (typically 5/8" T&G plywood or OSB)</li>
+        <li>Stagger joints, leave 1/8" expansion gaps</li>
+        <li>Glue and screw (or nail) per approved schedule</li>
+        <li>Verify level and flatness (max 1/4" in 10')</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <h5 style="color: #2E7D32;">Quality Checkpoints:</h5>
+  <table style="width: 100%; background: white; border-radius: 8px; overflow: hidden; border-collapse: collapse;">
+    <tr style="background: #4CAF50; color: white;">
+      <th style="padding: 12px; text-align: left;">Item</th>
+      <th style="padding: 12px; text-align: left;">Acceptance Criteria</th>
+      <th style="padding: 12px; text-align: center;">Inspector</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">Floor joist spacing</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">16" O.C. ±1/4"</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9; text-align: center;">Production Lead</td>
+    </tr>
+    <tr style="background: #F1F8E9;">
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">Insulation R-value</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">Meets or exceeds plan specification</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9; text-align: center;">QA Inspector</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">Floor level/flatness</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9;">1/4" max deviation in 10'</td>
+      <td style="padding: 10px; border-bottom: 1px solid #C8E6C9; text-align: center;">Production Lead</td>
+    </tr>
+    <tr style="background: #F1F8E9;">
+      <td style="padding: 10px;">Belly board integrity</td>
+      <td style="padding: 10px;">No tears, properly sealed</td>
+      <td style="padding: 10px; text-align: center;">QA Inspector</td>
+    </tr>
+  </table>
+  
+  <div style="background: #FFF3E0; border-left: 4px solid #FF9800; padding: 15px; margin-top: 20px; border-radius: 6px;">
+    <strong>🎯 HOLD POINT HP-1:</strong> NTA TPIA must inspect and approve before wall erection begins.<br>
+    <strong>Verified Items:</strong> Chassis integrity, floor structure, insulation, drainage provisions
+  </div>
+</div>
+
+### Phase 2: Wall Framing & Sheathing
+
+<div style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border: 3px solid #2196F3; padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+  <h4 style="color: #1565C0; margin-top: 0;">🧱 PHASE 2: WALL SYSTEMS & ENVELOPE</h4>
+  
+  <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+    <strong style="color: #1565C0;">Duration:</strong> 2-3 days | <strong style="color: #1565C0;">Crew Size:</strong> 4-6 workers<br>
+    <strong style="color: #1565C0;">Hold Point:</strong> HP-2 TPIA Inspection Required
+  </div>
+  
+  <h5 style="color: #1565C0;">Activities:</h5>
+  <ol style="line-height: 1.8;">
+    <li><strong>Wall Panel Fabrication</strong>
+      <ul>
+        <li>Build exterior wall panels on fabrication tables (typically 2x4 or 2x6 studs @ 16" O.C.)</li>
+        <li>Install headers over window/door openings (doubled 2x6, 2x8, or LVL as engineered)</li>
+        <li>Frame corners with appropriate blocking for structural integrity</li>
+        <li>Build interior partition walls (typically 2x4 @ 16" O.C.)</li>
+      </ul>
+    </li>
+    <li><strong>Window & Door Installation</strong>
+      <ul>
+        <li>Install HUD-approved windows (safety glazing, proper flashing)</li>
+        <li>Install exterior doors with proper threshold, weatherstripping</li>
+        <li>Verify rough opening dimensions match fenestration schedule</li>
+        <li>Apply flashing tape and moisture barriers per manufacturer specs</li>
+      </ul>
+    </li>
+    <li><strong>Exterior Sheathing</strong>
+      <ul>
+        <li>Install wall sheathing (typically 7/16" OSB or 1/2" plywood)</li>
+        <li>Stagger joints, maintain proper edge distances</li>
+        <li>Install house wrap (Tyvek or equivalent) with proper overlap</li>
+        <li>Tape all seams per manufacturer requirements</li>
+      </ul>
+    </li>
+    <li><strong>Structural Verification</strong>
+      <ul>
+        <li>Verify wall plumb (max 1/4" deviation in 8')</li>
+        <li>Check diagonal measurements for square</li>
+        <li>Inspect all connections and fasteners</li>
+        <li>Verify load path from roof to chassis</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <h5 style="color: #1565C0;">Critical Specifications:</h5>
+  <table style="width: 100%; background: white; border-radius: 8px; overflow: hidden; border-collapse: collapse;">
+    <tr style="background: #2196F3; color: white;">
+      <th style="padding: 12px; text-align: left;">Component</th>
+      <th style="padding: 12px; text-align: left;">Specification</th>
+      <th style="padding: 12px; text-align: left;">HUD Code Reference</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">Exterior wall studs</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">2x4 or 2x6 @ 16" O.C., Grade #2 or better</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">§3280.303</td>
+    </tr>
+    <tr style="background: #E3F2FD;">
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">Window safety glazing</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">ANSI Z97.1 or CPSC 16 CFR 1201</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">§3280.305</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">Sheathing fasteners</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">6d nails @ 6" edges, 12" field</td>
+      <td style="padding: 10px; border-bottom: 1px solid #BBDEFB;">§3280.303(c)</td>
+    </tr>
+    <tr style="background: #E3F2FD;">
+      <td style="padding: 10px;">Wall plumbness</td>
+      <td style="padding: 10px;">Within 1/4" in 8' height</td>
+      <td style="padding: 10px;">§3280.305(b)</td>
+    </tr>
+  </table>
+  
+  <div style="background: #FFF3E0; border-left: 4px solid #FF9800; padding: 15px; margin-top: 20px; border-radius: 6px;">
+    <strong>🎯 HOLD POINT HP-2:</strong> NTA TPIA must inspect before concealment with insulation.<br>
+    <strong>Verified Items:</strong> Framing integrity, window/door installation, structural connections, load paths
+  </div>
+</div>
+
+### Phase 3: Roof & Ceiling Framing
+
+<div style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border: 3px solid #9C27B0; padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+  <h4 style="color: #6A1B9A; margin-top: 0;">🏠 PHASE 3: ROOF STRUCTURE & WEATHER PROTECTION</h4>
+  
+  <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+    <strong style="color: #6A1B9A;">Duration:</strong> 2-3 days | <strong style="color: #6A1B9A;">Crew Size:</strong> 3-5 workers<br>
+    <strong style="color: #6A1B9A;">Hold Point:</strong> HP-3 TPIA Inspection Required
+  </div>
+  
+  <h5 style="color: #6A1B9A;">Activities:</h5>
+  <ol style="line-height: 1.8;">
+    <li><strong>Roof Truss Installation</strong>
+      <ul>
+        <li>Install engineered roof trusses per manufacturer's drawings</li>
+        <li>Verify truss spacing (typically 24" O.C.)</li>
+        <li>Install hurricane ties/straps at each truss-to-wall connection</li>
+        <li>Install gable end trusses with proper bracing</li>
+      </ul>
+    </li>
+    <li><strong>Roof Sheathing</strong>
+      <ul>
+        <li>Install roof deck (typically 7/16" OSB or 15/32" plywood)</li>
+        <li>Stagger joints, H-clips at unsupported edges if required</li>
+        <li>Nail per approved schedule (typically 8d @ 6" edges, 12" field)</li>
+        <li>Verify proper edge distances and support</li>
+      </ul>
+    </li>
+    <li><strong>Roofing Material Application</strong>
+      <ul>
+        <li>Install drip edge at eaves and rakes</li>
+        <li>Install underlayment (felt paper or synthetic)</li>
+        <li>Install asphalt shingles per manufacturer (typically 3-tab or architectural)</li>
+        <li>Install ridge cap shingles with proper exposure and nail pattern</li>
+        <li>Install venting (ridge vent, gable vents, or soffit vents as designed)</li>
+      </ul>
+    </li>
+    <li><strong>Ceiling Assembly</strong>
+      <ul>
+        <li>Install ceiling joists if separate from truss bottom chord</li>
+        <li>Verify ceiling joist spans meet code requirements</li>
+        <li>Install cross-bracing and blocking as required</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <h5 style="color: #6A1B9A;">Wind Resistance Verification:</h5>
+  <div style="background: white; padding: 20px; border-radius: 8px;">
+    Fort Homes designs for <strong>Wind Zone II</strong> (110 mph) per HUD Code §3280.305(c):<br><br>
+    <ul>
+      <li>✅ Truss-to-wall connections: Hurricane ties rated for design loads</li>
+      <li>✅ Roof sheathing: Properly nailed with 8d nails @ 6" O.C. at edges</li>
+      <li>✅ Roof-to-wall tie-down system: Continuous load path to chassis</li>
+      <li>✅ Gable end bracing: Per engineered plans</li>
+    </ul>
+  </div>
+  
+  <div style="background: #FFF3E0; border-left: 4px solid #FF9800; padding: 15px; margin-top: 20px; border-radius: 6px;">
+    <strong>🎯 HOLD POINT HP-3:</strong> NTA TPIA must inspect before roof covering installation.<br>
+    <strong>Verified Items:</strong> Truss installation, hurricane ties, roof sheathing, structural adequacy
+  </div>
+</div>
+
+### Phase 4: MEP Rough-In (Mechanical, Electrical, Plumbing)
+
+<div style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border: 3px solid #FF9800; padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.2);">
+  <h4 style="color: #E65100; margin-top: 0;">⚡ PHASE 4: MEP SYSTEMS INSTALLATION</h4>
+  
+  <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+    <strong style="color: #E65100;">Duration:</strong> 3-4 days | <strong style="color: #E65100;">Crew Size:</strong> 4-6 workers (licensed electricians/plumbers)<br>
+    <strong style="color: #E65100;">Hold Point:</strong> HP-4 TPIA Inspection Required (Most Critical for NEC/IPC Compliance)
+  </div>
+  
+  <h5 style="color: #E65100;">Electrical Rough-In (NEC 2023 Article 550):</h5>
+  <ol style="line-height: 1.8;">
+    <li><strong>Service Equipment Installation</strong>
+      <ul>
+        <li>Install main load center (typically 200A, NEMA 3R rated)</li>
+        <li>Install main breaker and distribution breakers</li>
+        <li>Verify proper bonding of neutral and ground at service entrance only</li>
+        <li>Label panel directory with circuit designations</li>
+      </ul>
+    </li>
+    <li><strong>Branch Circuit Wiring</strong>
+      <ul>
+        <li>Route NM-B cable (12/2, 14/2, 14/3 as required) through studs</li>
+        <li>Drill holes at stud centerline, min 1-1/4" from edge (or use nail plates)</li>
+        <li>Install outlet boxes with proper support and depth</li>
+        <li>Wire receptacles (15A or 20A as required by circuit)</li>
+        <li>Wire switches with proper travelers for 3-way/4-way circuits</li>
+      </ul>
+    </li>
+    <li><strong>AFCI/GFCI Protection (NEC 210.12, 210.8)</strong>
+      <ul>
+        <li>Install AFCI breakers for bedroom circuits (NEC 210.12(A))</li>
+        <li>Install GFCI protection for kitchen counter, bathroom, outdoor, etc.</li>
+        <li>Verify proper operation of all AFCI/GFCI devices</li>
+      </ul>
+    </li>
+    <li><strong>Grounding & Bonding</strong>
+      <ul>
+        <li>Install grounding electrode conductor to chassis</li>
+        <li>Bond all metal chassis components to grounding system</li>
+        <li>Bond plumbing system per NEC 250.104</li>
+        <li>Verify continuity of all grounding paths</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <h5 style="color: #E65100;">Plumbing Rough-In (IPC 2021):</h5>
+  <ol style="line-height: 1.8;">
+    <li><strong>Water Supply System</strong>
+      <ul>
+        <li>Install PEX or copper supply lines (hot/cold distribution)</li>
+        <li>Install shut-off valves at each fixture</li>
+        <li>Support pipes per code (32" max spacing for horizontal)</li>
+        <li>Pressure test system (50 psi for 15 minutes, no leaks)</li>
+      </ul>
+    </li>
+    <li><strong>Drain-Waste-Vent (DWV) System</strong>
+      <ul>
+        <li>Install ABS or PVC drain pipes with proper slope (1/4" per foot min)</li>
+        <li>Install vent pipes through roof (min 3" diameter main vent)</li>
+        <li>Install P-traps at all fixtures</li>
+        <li>Verify proper venting (no S-traps, crown vents, etc.)</li>
+      </ul>
+    </li>
+  </ol>
+  
+  <h5 style="color: #E65100;">HVAC Rough-In:</h5>
+  <ol style="line-height: 1.8;">
+    <li>Install furnace or heat pump (properly rated for square footage)</li>
+    <li>Install ductwork with proper sizing and support</li>
+    <li>Install return air grilles with proper filter access</li>
+    <li>Install supply registers with proper boot connections</li>
+  </ol>
+  
+  <div style="background: #FFEBEE; border-left: 4px solid #F44336; padding: 15px; margin-top: 20px; border-radius: 6px;">
+    <strong>⚠️ CRITICAL COMPLIANCE:</strong> This phase requires licensed electricians and plumbers.<br>
+    All work must comply with NEC 2023 Article 550 and IPC 2021 requirements.
+  </div>
+  
+  <div style="background: #FFF3E0; border-left: 4px solid #FF9800; padding: 15px; margin-top: 20px; border-radius: 6px;">
+    <strong>🎯 HOLD POINT HP-4:</strong> NTA TPIA must inspect all MEP systems before concealment.<br>
+    <strong>Verified Items:</strong> Electrical code compliance (NEC 2023), plumbing integrity, HVAC installation, grounding system
+  </div>
+</div>
+
+### Phases 5-8: Insulation Through Final (Summary)
+
+<div style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border: 2px solid #4CAF50; padding: 20px; margin: 25px 0; border-radius: 10px;">
+  <h5 style="color: #2E7D32;">Phase 5: Insulation (HP-5)</h5>
+  <ul>
+    <li>Wall cavity insulation (R-13 to R-21 depending on climate zone)</li>
+    <li>Ceiling insulation (R-30 to R-49)</li>
+    <li>Vapor barrier installation where required</li>
+  </ul>
+  
+  <h5 style="color: #2E7D32;">Phase 6: Drywall & Interior Finish (HP-6)</h5>
+  <ul>
+    <li>Drywall installation (1/2" or 5/8" fire-rated where required)</li>
+    <li>Taping, mudding, sanding (Level 4 finish)</li>
+    <li>Primer and paint application</li>
+  </ul>
+  
+  <h5 style="color: #2E7D32;">Phase 7: Interior Trim & Finish (HP-7)</h5>
+  <ul>
+    <li>Flooring installation (vinyl, carpet, etc.)</li>
+    <li>Interior door installation</li>
+    <li>Baseboard, crown molding, window trim</li>
+    <li>Cabinet and countertop installation</li>
+  </ul>
+  
+  <h5 style="color: #2E7D32;">Phase 8: Final Inspection & Closeout (HP-8)</h5>
+  <ul>
+    <li>Install all plumbing fixtures, electrical devices</li>
+    <li>Install appliances</li>
+    <li>Complete punch list items</li>
+    <li>Final TPIA inspection and HUD data plate affixing</li>
+  </ul>
+</div>
+
+---
+
 ## 3. DESIGN CONTROL REQUIREMENTS
 
 ### 3.1 Design Input Requirements
