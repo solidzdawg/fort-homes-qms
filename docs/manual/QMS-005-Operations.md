@@ -308,7 +308,189 @@ graph TD
 
 ## 🏗️ Complete Production Process
 
-### Overview
+### Production Overview
+
+Fort Homes operates a systematic, controlled production environment designed specifically for offsite modular home construction. Our facility enables parallel workflows, environmental control, and comprehensive quality verification at every manufacturing stage.
+
+### SOP Reference Map
+
+<div style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border: 2px solid #9C27B0; padding: 25px; margin: 25px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+  <h4 style="color: #6A1B9A; margin-top: 0;">🔄 PROCESS DOCUMENTATION FRAMEWORK</h4>
+  
+  <table style="width:100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden;">
+    <thead>
+      <tr style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%); color: white;">
+        <th style="padding: 15px; text-align: left;">Process Category</th>
+        <th style="padding: 15px; text-align: left;">Process Name</th>
+        <th style="padding: 15px; text-align: center;">SOP Reference</th>
+        <th style="padding: 15px; text-align: center;">TPIA Hold Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #F3E5F5;">
+        <td style="padding: 12px; border-bottom: 1px solid #E1BEE7;" rowspan="4"><strong>🔧 Pre-Production</strong></td>
+        <td style="padding: 12px; border-bottom: 1px solid #E1BEE7;">Document Control & Records</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;"><code>SOP-001</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;">-</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 1px solid #E1BEE7;">Training & Competency</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;"><code>SOP-002</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;">-</td>
+      </tr>
+      <tr style="background: #F3E5F5;">
+        <td style="padding: 12px; border-bottom: 1px solid #E1BEE7;">Procurement & Supplier Management</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;"><code>SOP-007</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #E1BEE7;">✅ Material Verification</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 2px solid #9C27B0;">Equipment Calibration</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #9C27B0;"><code>SOP-008</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #9C27B0;">-</td>
+      </tr>
+      
+      <tr style="background: #E3F2FD;">
+        <td style="padding: 12px; border-bottom: 1px solid #BBDEFB;" rowspan="2"><strong>📋 Planning</strong></td>
+        <td style="padding: 12px; border-bottom: 1px solid #BBDEFB;">Production Planning & Scheduling</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #BBDEFB;"><code>SOP-011</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #BBDEFB;">-</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 2px solid #2196F3;">Material Receiving & Lot Traceability</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #2196F3;"><code>SOP-012</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #2196F3;">✅ Material Hold Point</td>
+      </tr>
+      
+      <tr style="background: #E8F5E9;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;" rowspan="8"><strong>🏭 Production</strong></td>
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Module Traveler Management</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-014</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">-</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Hold Point Inspections & Gate Controls</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-013</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ All 8 TPIA Gates</td>
+      </tr>
+      <tr style="background: #E8F5E9;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Phase 1: Chassis Setup & Floor System</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-101</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ HP-1</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Phase 2: Wall Framing & Sheathing</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-102</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ HP-2</td>
+      </tr>
+      <tr style="background: #E8F5E9;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Phase 3: Roof & Ceiling Framing</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-103</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ HP-3</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Phase 4: MEP Rough-In (Electrical/Plumbing/HVAC)</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-104</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ HP-4</td>
+      </tr>
+      <tr style="background: #E8F5E9;">
+        <td style="padding: 12px; border-bottom: 1px solid #C8E6C9;">Phases 5-6: Insulation & Drywall</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;"><code>SOP-105/106</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #C8E6C9;">✅ HP-5, HP-6</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 2px solid #4CAF50;">Phases 7-8: Trim, Paint & Final</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #4CAF50;"><code>SOP-107/108</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #4CAF50;">✅ HP-7, HP-8</td>
+      </tr>
+      
+      <tr style="background: #FFF3E0;">
+        <td style="padding: 12px; border-bottom: 1px solid #FFE0B2;" rowspan="3"><strong>✅ Quality Control</strong></td>
+        <td style="padding: 12px; border-bottom: 1px solid #FFE0B2;">TPIA Third-Party Inspector Coordination</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #FFE0B2;"><code>SOP-015</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #FFE0B2;">✅ Manages All Hold Points</td>
+      </tr>
+      <tr style="background: white;">
+        <td style="padding: 12px; border-bottom: 1px solid #FFE0B2;">Module Identification & HUD Data Plate</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #FFE0B2;"><code>SOP-010</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #FFE0B2;">✅ Data Plate Verification</td>
+      </tr>
+      <tr style="background: #FFF3E0;">
+        <td style="padding: 12px; border-bottom: 2px solid #FF9800;">CDOH Regulatory Compliance</td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #FF9800;"><code>SOP-009</code></td>
+        <td style="padding: 12px; text-align: center; border-bottom: 2px solid #FF9800;">State Inspection</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
+## 🏗️ 8-Phase Manufacturing System
+
+Fort Homes utilizes a comprehensive **8-Phase Manufacturing System** that breaks down modular home production into controlled, inspectable stages. Each phase has specific objectives, quality checkpoints, and TPIA hold points to ensure HUD Code compliance.
+
+### Production Timeline Overview
+
+```mermaid
+gantt
+    title Typical Single-Wide Module Production Timeline
+    dateFormat YYYY-MM-DD
+    section Phase 1: Foundation
+        Chassis Setup           :p1a, 2026-01-20, 6h
+        Floor Frame Assembly    :p1b, after p1a, 8h
+        Floor Insulation       :p1c, after p1b, 4h
+        Floor Sheathing        :p1d, after p1c, 6h
+        HP-1 TPIA Inspection   :milestone, hp1, after p1d, 0d
+    section Phase 2: Walls
+        Wall Frame Build       :p2a, after hp1, 1d
+        Wall Sheathing         :p2b, after p2a, 6h
+        Window/Door Install    :p2c, after p2b, 6h
+        HP-2 TPIA Inspection   :milestone, hp2, after p2c, 0d
+    section Phase 3: Roof
+        Roof Truss Install     :p3a, after hp2, 1d
+        Roof Sheathing         :p3b, after p3a, 1d
+        Roofing Material       :p3c, after p3b, 1d
+        HP-3 TPIA Inspection   :milestone, hp3, after p3c, 0d
+    section Phase 4: MEP
+        Electrical Rough-In    :p4a, after hp3, 1d
+        Plumbing Rough-In      :p4b, after p4a, 1d
+        HVAC Rough-In          :p4c, after p4b, 1d
+        HP-4 TPIA Inspection   :milestone, hp4, after p4c, 0d
+    section Phase 5: Insulation
+        Wall Insulation        :p5a, after hp4, 1d
+        Ceiling Insulation     :p5b, after p5a, 1d
+        HP-5 TPIA Inspection   :milestone, hp5, after p5b, 0d
+    section Phase 6: Drywall
+        Drywall Installation   :p6a, after hp5, 2d
+        Tape & Mud             :p6b, after p6a, 2d
+        Paint                  :p6c, after p6b, 1d
+        HP-6 TPIA Inspection   :milestone, hp6, after p6c, 0d
+    section Phase 7: Finish
+        Flooring               :p7a, after hp6, 2d
+        Interior Trim          :p7b, after p7a, 2d
+        Exterior Siding        :p7c, after p7a, 2d
+        HP-7 TPIA Inspection   :milestone, hp7, after p7c, 0d
+    section Phase 8: Final
+        Fixtures & Appliances  :p8a, after hp7, 1d
+        Final Cleanup          :p8b, after p8a, 6h
+        HP-8 Final Inspection  :milestone, hp8, after p8b, 0d
+```
+
+<div style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-left: 5px solid #2196F3; padding: 25px; margin: 25px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+  <strong style="font-size: 1.2em;">📊 PRODUCTION EFFICIENCY METRICS</strong><br><br>
+  <strong>Typical Production Timeline (Single-Wide Module):</strong>
+  <ul style="list-style: none; padding-left: 0;">
+    <li>⏱️ <strong>Total Production Time:</strong> 18-22 working days</li>
+    <li>📅 <strong>Calendar Days (with TPIA scheduling):</strong> 25-30 days</li>
+    <li>👷 <strong>Crew Size:</strong> 4-8 workers depending on phase</li>
+    <li>🏭 <strong>Facility Advantage:</strong> Weather-independent, year-round production</li>
+    <li>✅ <strong>Quality Advantage:</strong> 8 independent TPIA verifications vs 1-2 onsite</li>
+  </ul>
+  
+  <strong>Compare to Site-Built:</strong><br>
+  Traditional site-built construction: 120-180 days with weather delays<br>
+  Fort Homes offsite approach: <strong>70% faster to occupancy</strong>
+</div>
 
 <div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
 
