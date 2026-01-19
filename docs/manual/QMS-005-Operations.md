@@ -1,99 +1,314 @@
-<div class="document-header" style="background: linear-gradient(135deg, #101810 0%, #2D5016 100%); color: white; padding: 40px; text-align: center; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <div style="font-size: 48px; font-weight: bold; letter-spacing: 2px; margin-bottom: 10px;">
-    🏗️ FORT HOMES
-  </div>
-  <div style="font-size: 24px; font-weight: 300; letter-spacing: 1px; margin-bottom: 5px;">
-    QUALITY MANAGEMENT SYSTEM
-  </div>
-  <div style="font-size: 20px; font-weight: bold; margin-top: 20px; padding-top: 20px; border-top: 2px solid rgba(255,255,255,0.3);">
-    OPERATIONS CONTROL
-  </div>
-  <div style="font-size: 16px; margin-top: 10px; opacity: 0.9;">
-    Grand Junction, Colorado
-  </div>
-</div>
+---
+title: "Operations Control - Offsite Modular Construction"
+document_id: "QMS-005"
+revision: "2.0"
+effective_date: "January 2026"
+process_owner: "Operations Manager"
+next_review: "July 2026"
+classification: "CONTROLLED"
+---
 
-# QMS-005 OPERATIONS
-## Operations Control and Product Realization
+<div align="center">
+
+# 🏗️ FORT HOMES LLC
+## Quality Management System Manual
 
 ---
 
-## 📋 DOCUMENT CONTROL
+### QMS-005: OPERATIONS CONTROL
+#### Offsite Modular Home Construction & Product Realization
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-005-OPERATIONS |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
+| Attribute | Value |
+|:----------|:------|
+| **Document ID** | `QMS-005` |
+| **Revision** | `2.0` |
+| **Effective Date** | January 2026 |
 | **Process Owner** | Operations Manager |
 | **Classification** | CONTROLLED |
-| **Review Cycle** | Annual |
-| **Next Review Date** | 2027-01-15 |
+| **Review Cycle** | Semi-Annual |
+| **Next Review** | July 2026 |
+| **ISO 9001:2015 Clause** | 8.1-8.7 |
+| **HUD Code Reference** | 24 CFR 3280/3282 |
 
 ---
-
-## 📑 TABLE OF CONTENTS
-
-1. [Operations Control Overview](#1-operations-control-overview)
-2. [Process Map and SOPs](#2-process-map-and-sops)
-3. [Design Control Requirements](#3-design-control-requirements)
-4. [External Provider Control](#4-external-provider-control)
-5. [Production and Service Provision](#5-production-and-service-provision)
-6. [Release of Products and Services](#6-release-of-products-and-services)
-7. [Control of Nonconforming Outputs](#7-control-of-nonconforming-outputs)
-
----
-
-## 1. OPERATIONS CONTROL OVERVIEW
-
-### 1.1 Operations Framework
-
-Fort Homes operates a controlled manufacturing environment for modular residential structures under:
-- **HUD Code** 24 CFR 3280/3282 (Manufactured Housing Construction and Safety Standards)
-- **Colorado Code of Regulations (CCR)** 8 CCR 1302-14 (Manufactured Housing)
-- **National Electrical Code (NEC)** 2023 for all electrical installations
-- **NTA, Inc.** as Third-Party Inspection Agency (TPIA)
-
-<div style="background: #f8f8f8; padding: 20px; border-left: 4px solid #2D5016; margin: 20px 0;">
-
-### 🎯 Operations Control Objectives
-
-- Ensure all manufacturing meets HUD Code requirements
-- Maintain NTA TPIA approval and inspection coordination
-- Comply with CCR 8 CCR 1302-14 state regulations
-- Implement NEC 2023 electrical standards
-- Control production quality and consistency
-- Manage external suppliers and materials
-- Enable product traceability and accountability
 
 </div>
 
-### 1.2 Operations Control Process Flow
+## 📋 Document Control
+
+| **Attribute** | **Details** |
+|:--------------|:------------|
+| **Supersedes** | QMS-005 Rev 1.0 |
+| **Related Sections** | QMS-001, QMS-003, QMS-006, QMS-007 |
+| **Supporting SOPs** | SOP-011 through SOP-018, SOP-101 through SOP-108 |
+| **Distribution** | All Operations Personnel, Production Staff, TPIA, CDOH |
+| **Custodian** | Document Controller |
+
+---
+
+## 📑 Table of Contents
+
+### Core Sections
+1. [Purpose & Scope](#-purpose--scope)
+2. [Operations Framework](#-operations-framework)
+3. [Complete Production Process](#-complete-production-process)
+4. [8-Phase Manufacturing System](#-8-phase-manufacturing-system)
+5. [Design Control & Engineering](#-design-control--engineering)
+6. [Material & Supplier Management](#-material--supplier-management)
+7. [Production Environment Control](#-production-environment-control)
+8. [TPIA Inspection & Hold Points](#-tpia-inspection--hold-points)
+9. [Quality Verification System](#-quality-verification-system)
+10. [Product Release & Delivery](#-product-release--delivery)
+11. [Nonconformance Management](#-nonconformance-management)
+12. [Continuous Improvement](#-continuous-improvement)
+
+---
+
+## 🎯 Purpose & Scope
+
+### Purpose
+
+This section establishes the comprehensive operational control framework for Fort Homes' offsite modular home construction processes. It defines all activities from customer order through final product delivery, ensuring compliance with HUD Code, Colorado regulations, and industry best practices.
+
+<div style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-left: 4px solid #2196F3; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <strong>ℹ️ OFFSITE CONSTRUCTION ADVANTAGE</strong><br><br>
+  Fort Homes utilizes controlled offsite manufacturing to deliver superior quality modular homes. Our factory-built approach provides:
+  <ul>
+    <li><strong>Weather Protection</strong> - No rain delays, consistent conditions</li>
+    <li><strong>Quality Control</strong> - Every phase inspected by TPIA before proceeding</li>
+    <li><strong>Efficiency</strong> - Parallel workflows reduce build time by 50%</li>
+    <li><strong>Precision</strong> - Jig-based construction ensures perfect alignment</li>
+    <li><strong>Safety</strong> - Controlled environment reduces jobsite hazards</li>
+    <li><strong>Sustainability</strong> - Material waste reduced by 30% vs site-built</li>
+  </ul>
+</div>
+
+### Scope
+
+**This section applies to:**
+- All modular home production operations
+- Design and engineering processes
+- Material procurement and receiving
+- Manufacturing floor operations (8 phases)
+- Quality inspections and TPIA coordination
+- Product release and delivery
+- Post-production support
+
+**Regulatory Framework:**
+- **HUD Code:** 24 CFR Part 3280/3282 (Construction & Safety Standards)
+- **HUD Code:** 24 CFR Part 3285 (Model Installation Standards)
+- **Colorado:** 8 CCR 1302-14 (Manufactured Housing)
+- **Electrical:** NEC 2023 (National Electrical Code)
+- **Plumbing:** IPC 2021 (International Plumbing Code)
+- **Mechanical:** IMC 2021 (International Mechanical Code)
+- **TPIA:** NTA Inc. as approved third-party inspection agency
+
+---
+
+## 🏭 Operations Framework
+
+### Operational Excellence Model
+
+Fort Homes operates under a **Total Quality Control** philosophy for offsite modular construction:
+
+```mermaid
+mindmap
+  root((Fort Homes<br>Operations))
+    Design Excellence
+      Engineering Standards
+      HUD Code Compliance
+      Customer Requirements
+      Plan Review Process
+    Manufacturing Control
+      8-Phase System
+      Hold Point Inspections
+      Process Documentation
+      Worker Competency
+    Quality Assurance
+      TPIA Coordination
+      In-Process Verification
+      Final Inspection
+      Continuous Monitoring
+    Supply Chain
+      Approved Suppliers
+      Material Traceability
+      Receiving Inspection
+      Inventory Control
+    Regulatory Compliance
+      HUD Certification
+      CDOH Requirements
+      Code Compliance
+      Third-Party Audits
+```
+
+<div style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%); border-left: 4px solid #4CAF50; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <strong>✅ QUALITY COMMITMENTS</strong><br><br>
+  Fort Homes guarantees:
+  <ol>
+    <li><strong>Zero Shortcuts</strong> - Every module passes all 8 TPIA hold points</li>
+    <li><strong>Code Compliance</strong> - 100% adherence to HUD Code and NEC 2023</li>
+    <li><strong>Material Verification</strong> - Only approved materials with certifications</li>
+    <li><strong>Worker Competency</strong> - All staff trained and verified competent</li>
+    <li><strong>Process Documentation</strong> - Complete traveler for every module</li>
+    <li><strong>Continuous Improvement</strong> - Regular process reviews and updates</li>
+  </ol>
+</div>
+
+### Operations Control Process Flow
+
+Our end-to-end process ensures quality at every stage:
+
+```mermaid
+flowchart TD
+    subgraph CustomerInterface["🤝 CUSTOMER INTERFACE"]
+        A["📞 Customer Order<br>& Requirements"] --> B["📐 Design Review<br>& Engineering"]
+        B --> C["💰 Quote Approval<br>& Contract"]
+    end
+    
+    subgraph Planning["📋 PLANNING & PREPARATION"]
+        C --> D["📦 Material Planning<br>& Procurement"]
+        D --> E["🗓️ Production<br>Scheduling"]
+        E --> F["📋 Traveler Creation<br>& Work Package"]
+    end
+    
+    subgraph Manufacturing["🏭 MANUFACTURING (8 PHASES)"]
+        F --> G["Phase 1:<br>Chassis & Floor"]
+        G --> H{"🎯 HP-1<br>TPIA"}
+        H -->|"✅ Pass"| I["Phase 2:<br>Wall Framing"]
+        H -->|"❌ Fail"| NCR1["📋 NCR<br>Process"]
+        NCR1 --> G
+        
+        I --> J{"🎯 HP-2<br>TPIA"}
+        J -->|"✅ Pass"| K["Phase 3:<br>Roof Framing"]
+        J -->|"❌ Fail"| NCR2["📋 NCR<br>Process"]
+        NCR2 --> I
+        
+        K --> L{"🎯 HP-3<br>TPIA"}
+        L -->|"✅ Pass"| M["Phase 4:<br>MEP Rough-In"]
+        L -->|"❌ Fail"| NCR3["📋 NCR<br>Process"]
+        NCR3 --> K
+        
+        M --> N{"🎯 HP-4<br>TPIA"}
+        N -->|"✅ Pass"| O["Phases 5-8:<br>Finish Work"]
+        N -->|"❌ Fail"| NCR4["📋 NCR<br>Process"]
+        NCR4 --> M
+    end
+    
+    subgraph FinalQC["✅ FINAL QUALITY CONTROL"]
+        O --> P["🔍 Final TPIA<br>Inspection"]
+        P --> Q{"🎯 HP-8<br>TPIA"}
+        Q -->|"✅ Pass"| R["📝 Data Plate<br>Affixing"]
+        Q -->|"❌ Fail"| NCR5["📋 NCR<br>Process"]
+        NCR5 --> O
+    end
+    
+    subgraph Delivery["🚚 DELIVERY & CLOSEOUT"]
+        R --> S["📋 Final Documentation<br>Package"]
+        S --> T["🚛 Transportation<br>& Delivery"]
+        T --> U["🏗️ Site Installation<br>per 24 CFR 3285"]
+        U --> V["✅ Customer<br>Acceptance"]
+    end
+    
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff,stroke-width:3px
+    style H fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style J fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style L fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style N fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style Q fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:3px
+    style V fill:#4CAF50,stroke:#2E7D32,color:#fff,stroke-width:3px
+    style NCR1 fill:#F44336,stroke:#C62828,color:#fff
+    style NCR2 fill:#F44336,stroke:#C62828,color:#fff
+    style NCR3 fill:#F44336,stroke:#C62828,color:#fff
+    style NCR4 fill:#F44336,stroke:#C62828,color:#fff
+    style NCR5 fill:#F44336,stroke:#C62828,color:#fff
+```
+
+<div style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-left: 4px solid #FF9800; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <strong>🎯 CRITICAL HOLD POINTS</strong><br><br>
+  <strong>Production SHALL NOT proceed past hold points without TPIA approval.</strong><br><br>
+  <table style="width:100%; border-collapse: collapse;">
+    <tr style="background: #FFE0B2;">
+      <th style="padding: 10px; text-align: left; border: 1px solid #FF9800;">Hold Point</th>
+      <th style="padding: 10px; text-align: left; border: 1px solid #FF9800;">Phase</th>
+      <th style="padding: 10px; text-align: left; border: 1px solid #FF9800;">Critical Verification</th>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-1</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Chassis & Floor</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Foundation integrity, floor structure, anchor points</td>
+    </tr>
+    <tr style="background: #FFF8E1;">
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-2</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Wall Framing</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Structural framing, opening headers, load paths</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-3</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Roof Framing</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Roof structure, truss connections, wind resistance</td>
+    </tr>
+    <tr style="background: #FFF8E1;">
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-4</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">MEP Rough-In</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Electrical per NEC 2023, plumbing, HVAC systems</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-5</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Insulation</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">R-values, vapor barriers, thermal envelope</td>
+    </tr>
+    <tr style="background: #FFF8E1;">
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-6</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Drywall</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Fire-rated assemblies, finish quality</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-7</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Trim & Finish</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Interior/exterior finish, safety glazing</td>
+    </tr>
+    <tr style="background: #FFF8E1;">
+      <td style="padding: 10px; border: 1px solid #FFE0B2;"><strong>HP-8</strong></td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Final Inspection</td>
+      <td style="padding: 10px; border: 1px solid #FFE0B2;">Complete HUD Code compliance, data plate approval</td>
+    </tr>
+  </table>
+</div>
+
+### Organizational Structure for Operations
 
 ```mermaid
 graph TD
-    A[Customer Order] --> B[Design Review]
-    B --> C[Material Planning]
-    C --> D[Production Planning]
-    D --> E[Manufacturing Execution]
-    E --> F[NTA TPIA Inspections]
-    F --> G{Pass?}
-    G -->|Yes| H[Final Release]
-    G -->|No| I[Nonconformance Process]
-    I --> E
-    H --> J[Delivery/Installation]
+    GM[General Manager<br>Overall Accountability] --> OM[Operations Manager<br>Production Control]
+    GM --> QM[Quality Manager<br>QMS & Compliance]
     
-    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style F fill:#FFE5B4,stroke:#8B6914,stroke-width:2px
-    style H fill:#D4EDDA,stroke:#2D5016,stroke-width:2px
-    style I fill:#F8D7DA,stroke:#8B1414,stroke-width:2px
+    OM --> PS[Production Supervisor<br>Daily Operations]
+    OM --> PE[Production Engineering<br>Design & Planning]
+    OM --> MM[Materials Manager<br>Procurement & Inventory]
+    
+    QM --> QI[QA Inspectors<br>In-Process Verification]
+    QM --> DC[Document Controller<br>Records Management]
+    QM --> TPIA[TPIA Coordinator<br>NTA Interface]
+    
+    PS --> L1[Lead 1<br>Phases 1-3]
+    PS --> L2[Lead 2<br>Phases 4-6]
+    PS --> L3[Lead 3<br>Phases 7-8]
+    
+    L1 --> PW1[Production Workers<br>Chassis, Walls, Roof]
+    L2 --> PW2[Production Workers<br>MEP, Insulation, Drywall]
+    L3 --> PW3[Production Workers<br>Trim, Paint, Final]
+    
+    style GM fill:#9C27B0,stroke:#7B1FA2,color:#fff,stroke-width:2px
+    style OM fill:#2196F3,stroke:#1565C0,color:#fff,stroke-width:2px
+    style QM fill:#4CAF50,stroke:#2E7D32,color:#fff,stroke-width:2px
+    style TPIA fill:#FF9800,stroke:#E65100,color:#fff,stroke-width:2px
 ```
 
 ---
 
-## 2. PROCESS MAP AND SOPs
+## 🏗️ Complete Production Process
 
-### 2.1 Core Process Map
+### Overview
 
 <div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
 
