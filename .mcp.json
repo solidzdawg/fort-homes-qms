@@ -1,0 +1,11 @@
+{
+  "taskr": {
+    "command": "npx",
+    "args": ["-y", "taskr-mcp-client@latest"],
+    "env": {
+      "MCP_API_URL": "https://www.taskr.one/api/mcp",
+      "MCP_PROJECT_ID": "PR000000000MKUZ00CALO66IEWB7",
+      "MCP_USER_API_KEY": "6ff319ec9e0f93ea0bbcebda5b8e599f6cfd5990b191a4cf0758f18847e5e72c"
+    }
+  }
+}
