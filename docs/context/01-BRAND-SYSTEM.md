@@ -57,6 +57,14 @@
 - **Footer Height:** 0.4"
 
 ### Header Bar
+
+<div align="center">
+  <img src="../assets/diagrams/01-BRAND-SYSTEM-diagram-1.svg" alt="01-BRAND-SYSTEM-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ [LOGO] │ QUALITY MANAGEMENT SYSTEM MANUAL │ FHDEV-QMS-001 │
@@ -64,8 +72,18 @@
 └─────────────────────────────────────────────────────────────┘
 Background: #181810 | Text: #FFFFFF | Height: 0.5"
 ```
+</details>
+
 
 ### Footer Bar
+
+<div align="center">
+  <img src="../assets/diagrams/01-BRAND-SYSTEM-diagram-2.svg" alt="01-BRAND-SYSTEM-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ FHDEV-QMS-001 | Rev 1.0 | Page X of Y | Eff: 2026-01-15   │
@@ -74,6 +92,8 @@ Background: #181810 | Text: #FFFFFF | Height: 0.5"
 Background: #181810 | Text: #FFFFFF | Height: 0.4"
 Line 1: Oswald Regular 8pt | Line 2: Oswald Regular 7pt, italic
 ```
+</details>
+
 
 ---
 

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="501"
+     height="2004"
+     viewBox="0 0 501 2004">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="481" height="1984"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-108-Final-Inspection-Testing-diagram-5" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    CUSTOMER HANDOFF &amp; WARRANTY             │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Customer Delivery Process:                 │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Upon Delivery:                     │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ 1. Module positioned on foundation │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │    • Level checked (±¼&quot;)           │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │    • Stabilized/anchored           │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │    • Utilities connected (electric,│      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │      water, sewer if needed)       │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │    • Stabilizer jacks removed      │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ 2. Customer walkthrough             │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │    • Tour of all systems           │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │    • Operation of furnace/AC       │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │    • Water heater demonstration    │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │    • Electrical panel explanation  │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │    • Door/window operation check   │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │    • Flooring care explained       │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │    • Paint touch-up supplies       │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ 3. Documentation transfer:          │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │    • Owner&apos;s manuals (all)          │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │    • Warranty documentation         │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │    • Maintenance schedules          │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │    • Emergency contact info         │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │    • System operation guides        │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │ 4. Final sign-off:                  │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │    • Customer receipt of module     │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │    • Acceptance signature           │      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │    • Known defect list reviewed     │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │    • Warranty period start date     │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │    • Service contact information    │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │ 5. Follow-up:                       │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │    • 30-day warranty check          │      │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │    • 1-year warranty inspection     │      │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │    • Any issues documented          │      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  │    • Rework/service scheduled       │      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="824.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="842.4" class="ascii-text">│  Warranty Coverage (Standard):              │</text>
+    <text x="0" y="860.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ 1-Year Full Warranty:              │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ Structural (Frame, Roof, Floor):   │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ • Defects in materials/workmanship │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ • Includes trusses, joists, sheath │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ • Does NOT include normal settling │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ Building Envelope (Walls, Windows):│      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ • Air leakage (per blower door)    │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │ • Water infiltration (if sealed)   │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │ • Does NOT include weather-related │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │ Mechanical Systems (MEP):          │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ • Electrical (wiring, panel)       │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ • Plumbing (pipes, fixtures)       │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ • HVAC (ductwork, furnace)         │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ • Does NOT include appliances      │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ Interior Finishes:                 │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ • Paint (2-year coverage)          │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ • Drywall (joints invisible)       │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ • Flooring (level, no separations) │      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ • Trim/cabinetry (functional)      │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ Exclusions (NOT covered):          │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ • Normal settling (1/4&quot; typical)   │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │ • Customer misuse or abuse         │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ • Lack of maintenance              │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ • Damage from water intrusion      │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │   (after delivery, if not sealed)  │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ • Appliances (kitchen/laundry)     │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  Quality Assurance Checklist (Final):       │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ Before Release for Delivery:       │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ ✓ All structural work inspected    │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │ ✓ All MEP systems tested           │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ ✓ All interior finishes reviewed   │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ ✓ All documentation complete       │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │ ✓ All defects corrected/reworked   │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  │ ✓ Module cleaned &amp; ready           │      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│  │ ✓ Warranty terms reviewed          │      │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  │ ✓ Customer contact established     │      │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  │ ✓ Follow-up inspections scheduled  │      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1742.4" class="ascii-text">│  │ FINAL STATUS:                      │      │</text>
+    <text x="0" y="1760.4" class="ascii-text">│  │ MODULE READY FOR CUSTOMER DELIVERY │      │</text>
+    <text x="0" y="1778.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1796.4" class="ascii-text">│  │ _____________________________      │      │</text>
+    <text x="0" y="1814.4" class="ascii-text">│  │ QA Manager Signature, Date         │      │</text>
+    <text x="0" y="1832.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1850.4" class="ascii-text">│  │ _____________________________      │      │</text>
+    <text x="0" y="1868.4" class="ascii-text">│  │ Customer Signature, Date           │      │</text>
+    <text x="0" y="1886.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1904.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1922.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1940.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

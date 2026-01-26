@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-1.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-006        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-2.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -82,6 +102,14 @@ Applies to:
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-3.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -125,10 +153,20 @@ Applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. DESIGN PROCESS FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-4.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -220,12 +258,22 @@ Applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🎯 5. DESIGN INPUT
 
 ### 5.1 Requirements Documentation
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-5.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -263,6 +311,16 @@ Applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-6.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -274,6 +332,8 @@ Applies to:
 │ ■ Manufacturability assessment completed                                   │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -287,6 +347,14 @@ Applies to:
 | **2️⃣ Detailed Design** | Engineering calculations, material specifications, construction drawings, assembly sequencing | Stamped drawings, specifications, BOM |
 | **3️⃣ Design Review** | Engineering review, production feasibility review, compliance verification | Review sign-off, approval documentation |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-7.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — DESIGN DEVELOPMENT                                  │
@@ -297,6 +365,8 @@ Applies to:
 │ ■ Production feasibility confirmed                                         │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -335,6 +405,14 @@ Applies to:
 | ✅ **Code compliance** | Regulatory inspection | Passes all inspections |
 | ✅ **Customer acceptance** | Customer review and approval | Customer sign-off |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-8.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — VERIFICATION & VALIDATION                           │
@@ -345,12 +423,22 @@ Applies to:
 │ ■ Customer acceptance documented                                           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🏛️ 9. REGULATORY APPROVAL
 
 ### 9.1 Pre-Production Requirements
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-9.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -366,6 +454,8 @@ Applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -397,6 +487,14 @@ Applies to:
 | 🏛️ **Regulatory certifications** | 7 years | Compliance files |
 | 📋 **Design change history** | 7 years | Change control system |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-10.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — DESIGN RECORDS                                      │
@@ -407,6 +505,8 @@ Applies to:
 │ ■ Records retrievable for audits and inspections                           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -431,6 +531,14 @@ Applies to:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-006-Design-Control-Plan-Review-diagram-11.svg" alt="SOP-006-Design-Control-Plan-Review-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -442,6 +550,8 @@ Applies to:
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

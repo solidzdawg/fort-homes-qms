@@ -214,6 +214,14 @@ Management ensures quality policy is:
 
 ### 6.1 Organizational Hierarchy
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-Manual-Main-diagram-1.svg" alt="QMS-Manual-Main-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌──────────────────────────────────────┐
 │   Executive Management               │
@@ -247,6 +255,8 @@ Management ensures quality policy is:
         │ (45+ personnel) │
         └─────────────────┘
 ```
+</details>
+
 
 ### 6.2 Roles & Responsibilities
 
@@ -279,6 +289,14 @@ The Fort and Homes LLC Quality Management System is **process-based**, recognizi
 
 ### 7.2 Core Manufacturing Processes
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-Manual-Main-diagram-2.svg" alt="QMS-Manual-Main-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 INPUT (Materials, Plans)
   │
@@ -301,6 +319,8 @@ INPUT (Materials, Plans)
         ├─→ PASS → [Ship to Customer]
         └─→ FAIL → [Nonconformance Routing] → [Correction] → [Re-inspect]
 ```
+</details>
+
 
 ### 7.3 Process Interaction & Information Flow
 
@@ -399,6 +419,14 @@ Fort and Homes LLC applies the following **proven quality management principles*
 
 The QMS is organized in a **four-tier hierarchical structure** ensuring clear relationships between system elements:
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-Manual-Main-diagram-3.svg" alt="QMS-Manual-Main-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 TIER 1: Quality Manual (This document)
 ├─ System overview, policy, organizational structure
@@ -419,6 +447,8 @@ TIER 4: Records & Module Travelers
 ├─ Inspection results, nonconformance notices
 └─ Regulatory compliance documentation
 ```
+</details>
+
 
 ### 9.2 Document Naming Convention
 

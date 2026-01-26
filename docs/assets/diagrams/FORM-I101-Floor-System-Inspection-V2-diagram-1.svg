@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="780"
+     height="5748"
+     viewBox="0 0 780 5748">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="760" height="5728"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="FORM-I101-Floor-System-Inspection-V2-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text x="0" y="32.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="50.4" class="ascii-text">║   🏗️ FORT HOMES QMS                                        FORM-I101       ║</text>
+    <text x="0" y="68.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="86.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="104.4" class="ascii-text">║                    FLOOR SYSTEM INSPECTION                                   ║</text>
+    <text x="0" y="122.4" class="ascii-text">║                    Phase 1 | Hold Point HP-1                                 ║</text>
+    <text x="0" y="140.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="158.4" class="ascii-text">║   Revision: 2.0  │  Effective: January 2026  │  Retention: 7 Years          ║</text>
+    <text x="0" y="176.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="194.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="212.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="230.4" class="ascii-text">║   📋 MODULE INFORMATION                                                      ║</text>
+    <text x="0" y="248.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="266.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="284.4" class="ascii-text">║   │   Module Serial #:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="302.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="320.4" class="ascii-text">║   │   Production Bay:   ░░░░░░░░░░░░░░░░    Lot #: ░░░░░░░░░░░░░░   │    ║</text>
+    <text x="0" y="338.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="356.4" class="ascii-text">║   │   Model Type:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="374.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="392.4" class="ascii-text">║   │   Supervisor:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="410.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="428.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="446.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="464.4" class="ascii-text">║   📅 INSPECTION TIMING                                                       ║</text>
+    <text x="0" y="482.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="500.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="518.4" class="ascii-text">║   │   Date: ░░░░░░░░░░░░░░░    Time Start: ░░░░░░░   End: ░░░░░░░   │    ║</text>
+    <text x="0" y="536.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="554.4" class="ascii-text">║   │   Shift:  □ Day (6am-2pm)   □ Swing (2pm-10pm)   □ Night         │    ║</text>
+    <text x="0" y="572.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="590.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="608.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="626.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="644.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="662.4" class="ascii-text">║   👤 INSPECTOR INFORMATION                                                   ║</text>
+    <text x="0" y="680.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="698.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="716.4" class="ascii-text">║   │   Inspector Name:   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="734.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="752.4" class="ascii-text">║   │   Inspector ID:     ░░░░░░░░░░░░░░░░   Cert. Exp: ░░░░░░░░░░░   │    ║</text>
+    <text x="0" y="770.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="788.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="806.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="824.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="842.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="860.4" class="ascii-text">║   🔍 VISUAL INSPECTION CHECKLIST                                             ║</text>
+    <text x="0" y="878.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="896.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="914.4" class="ascii-text">║   CHASSIS &amp; FRAME SYSTEM                                                     ║</text>
+    <text x="0" y="932.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="950.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="968.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="986.4" class="ascii-text">║   │ 1  │ Chassis frame level (±¼&quot; tolerance)      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1004.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1022.4" class="ascii-text">║   │ 2  │ Chassis square (diagonals equal ±½&quot;)     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1040.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1058.4" class="ascii-text">║   │ 3  │ No visible damage, cracks, or corrosion  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1076.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1094.4" class="ascii-text">║   │ 4  │ Frame supports properly positioned       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1112.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1130.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1148.4" class="ascii-text">║   FLOOR JOIST SYSTEM                                                         ║</text>
+    <text x="0" y="1166.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1184.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1202.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1220.4" class="ascii-text">║   │ 5  │ Joist spacing correct (16&quot; O.C. ±¼&quot;)     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1238.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1256.4" class="ascii-text">║   │ 6  │ Rim boards installed &amp; fastened          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1274.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1292.4" class="ascii-text">║   │ 7  │ Joist hangers installed per plan         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1310.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1328.4" class="ascii-text">║   │ 8  │ Blocking installed at mid-span           │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1346.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1364.4" class="ascii-text">║   │ 9  │ No damaged or twisted joists             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1382.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1400.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1418.4" class="ascii-text">║   SUBFLOOR SHEATHING                                                         ║</text>
+    <text x="0" y="1436.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1454.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1472.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1490.4" class="ascii-text">║   │10  │ Sheathing type correct (¾&quot; T&amp;G OSB/Ply)  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1508.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1526.4" class="ascii-text">║   │11  │ Adhesive applied to all joists           │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1544.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1562.4" class="ascii-text">║   │12  │ Panels staggered properly                │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1580.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1598.4" class="ascii-text">║   │13  │ Expansion gaps at perimeter (1/8&quot;)       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1616.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1634.4" class="ascii-text">║   │14  │ Fastening pattern correct (8&quot; O.C.)      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1652.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1670.4" class="ascii-text">║   │15  │ No voids, raised areas, or delamination  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1688.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1706.4" class="ascii-text">║   │16  │ Surface clean and debris-free            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1724.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1742.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1760.4" class="ascii-text">║   MEP ROUGH-IN COORDINATION                                                  ║</text>
+    <text x="0" y="1778.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1796.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1814.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1832.4" class="ascii-text">║   │17  │ Penetration locations marked per plan    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1850.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1868.4" class="ascii-text">║   │18  │ Conduit runs accessible                  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1886.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1904.4" class="ascii-text">║   │19  │ Plumbing stubs positioned correctly      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1922.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1940.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1958.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1976.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1994.4" class="ascii-text">║   📏 DIMENSIONAL MEASUREMENTS                                                ║</text>
+    <text x="0" y="2012.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2030.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2048.4" class="ascii-text">║   ┌──────────────────┬────────────┬────────────┬────────────┬──────────┐    ║</text>
+    <text x="0" y="2066.4" class="ascii-text">║   │   MEASUREMENT    │    SPEC    │  TOLERANCE │   ACTUAL   │  STATUS  │    ║</text>
+    <text x="0" y="2084.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2102.4" class="ascii-text">║   │ Floor Length     │ Per Plan   │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2120.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2138.4" class="ascii-text">║   │ Floor Width      │ Per Plan   │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2156.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2174.4" class="ascii-text">║   │ Diagonal A       │ Equal      │   ± ½&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2192.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2210.4" class="ascii-text">║   │ Diagonal B       │ Equal      │   ± ½&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2228.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2246.4" class="ascii-text">║   │ Floor Flatness   │ ≤¼&quot; / 10&apos;  │   ± ⅛&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2264.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2282.4" class="ascii-text">║   │ Joist Spacing    │ 16&quot; O.C.   │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2300.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2318.4" class="ascii-text">║   │ Subfloor Thick.  │ ¾&quot;         │   ± ⅛&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2336.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2354.4" class="ascii-text">║   │ Moisture Reading │ ≤ 13%      │   ± 1%     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2372.4" class="ascii-text">║   └──────────────────┴────────────┴────────────┴────────────┴──────────┘    ║</text>
+    <text x="0" y="2390.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2408.4" class="ascii-text">║   MEASUREMENT DIAGRAM                                                        ║</text>
+    <text x="0" y="2426.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2444.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2462.4" class="ascii-text">║   │     ◆────────────────────────────────────────────────◆             │   ║</text>
+    <text x="0" y="2480.4" class="ascii-text">║   │     │                                                │             │   ║</text>
+    <text x="0" y="2498.4" class="ascii-text">║   │     │                  LENGTH                        │             │   ║</text>
+    <text x="0" y="2516.4" class="ascii-text">║   │     │ ◄────────────────────────────────────────────► │             │   ║</text>
+    <text x="0" y="2534.4" class="ascii-text">║   │     │                                                │             │   ║</text>
+    <text x="0" y="2552.4" class="ascii-text">║   │   W │    ╲                                    ╱      │ W           │   ║</text>
+    <text x="0" y="2570.4" class="ascii-text">║   │   I │      ╲  DIAGONAL A              ╱            │ I           │   ║</text>
+    <text x="0" y="2588.4" class="ascii-text">║   │   D │        ╲                    ╱                  │ D           │   ║</text>
+    <text x="0" y="2606.4" class="ascii-text">║   │   T │          ╲              ╱                      │ T           │   ║</text>
+    <text x="0" y="2624.4" class="ascii-text">║   │   H │            ╲        ╱   DIAGONAL B             │ H           │   ║</text>
+    <text x="0" y="2642.4" class="ascii-text">║   │     │              ╲  ╱                              │             │   ║</text>
+    <text x="0" y="2660.4" class="ascii-text">║   │     │                                                │             │   ║</text>
+    <text x="0" y="2678.4" class="ascii-text">║   │     ◆────────────────────────────────────────────────◆             │   ║</text>
+    <text x="0" y="2696.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2714.4" class="ascii-text">║   │     Measure diagonals A &amp; B — should be equal ± ½&quot;                 │   ║</text>
+    <text x="0" y="2732.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2750.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2768.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2786.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2804.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2822.4" class="ascii-text">║   📊 INSPECTION SUMMARY                                                      ║</text>
+    <text x="0" y="2840.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2858.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2876.4" class="ascii-text">║   CHECKLIST SUMMARY                                                          ║</text>
+    <text x="0" y="2894.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2912.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2930.4" class="ascii-text">║   │   Total Items:        19                                           │   ║</text>
+    <text x="0" y="2948.4" class="ascii-text">║   │   Items Passed:       ░░░░ / 19                                    │   ║</text>
+    <text x="0" y="2966.4" class="ascii-text">║   │   Items Failed:       ░░░░ / 19                                    │   ║</text>
+    <text x="0" y="2984.4" class="ascii-text">║   │   Items N/A:          ░░░░ / 19                                    │   ║</text>
+    <text x="0" y="3002.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3020.4" class="ascii-text">║   │   Measurements:       8                                            │   ║</text>
+    <text x="0" y="3038.4" class="ascii-text">║   │   In Tolerance:       ░░░░ / 8                                     │   ║</text>
+    <text x="0" y="3056.4" class="ascii-text">║   │   Out of Tolerance:   ░░░░ / 8                                     │   ║</text>
+    <text x="0" y="3074.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3092.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3110.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3128.4" class="ascii-text">║   QUALITY ACCEPTANCE CRITERIA                                                ║</text>
+    <text x="0" y="3146.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3164.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3182.4" class="ascii-text">║   │   ✅ PASS CRITERIA (ALL must be met):                              │   ║</text>
+    <text x="0" y="3200.4" class="ascii-text">║   │   □ All 19 visual inspection items = PASS                         │   ║</text>
+    <text x="0" y="3218.4" class="ascii-text">║   │   □ All 8 measurements within tolerance                           │   ║</text>
+    <text x="0" y="3236.4" class="ascii-text">║   │   □ No structural defects identified                               │   ║</text>
+    <text x="0" y="3254.4" class="ascii-text">║   │   □ Floor moisture ≤ 13%                                          │   ║</text>
+    <text x="0" y="3272.4" class="ascii-text">║   │   □ Surface clean and ready for next phase                        │   ║</text>
+    <text x="0" y="3290.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3308.4" class="ascii-text">║   │   ❌ FAIL CRITERIA (ANY one causes rejection):                     │   ║</text>
+    <text x="0" y="3326.4" class="ascii-text">║   │   □ Cracks or structural damage in chassis/frame                  │   ║</text>
+    <text x="0" y="3344.4" class="ascii-text">║   │   □ Out-of-spec dimensions beyond tolerance                       │   ║</text>
+    <text x="0" y="3362.4" class="ascii-text">║   │   □ Missing or improper fasteners (&gt;5% deficiency)                │   ║</text>
+    <text x="0" y="3380.4" class="ascii-text">║   │   □ Floor moisture &gt; 13%                                          │   ║</text>
+    <text x="0" y="3398.4" class="ascii-text">║   │   □ Safety hazard identified                                       │   ║</text>
+    <text x="0" y="3416.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3434.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3452.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3470.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3488.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3506.4" class="ascii-text">║   🎯 INSPECTION DECISION                                                     ║</text>
+    <text x="0" y="3524.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="3542.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3560.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3578.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3596.4" class="ascii-text">║   │   OVERALL RESULT:                                                   │   ║</text>
+    <text x="0" y="3614.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3632.4" class="ascii-text">║   │   □ ✅ PASS — Module approved for Phase 2 (Wall Framing)           │   ║</text>
+    <text x="0" y="3650.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3668.4" class="ascii-text">║   │   □ ⚠️ CONDITIONAL PASS — Minor corrections required               │   ║</text>
+    <text x="0" y="3686.4" class="ascii-text">║   │        Proceed to Phase 2 after noted corrections                  │   ║</text>
+    <text x="0" y="3704.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3722.4" class="ascii-text">║   │   □ ❌ FAIL — NCR required, module held for correction             │   ║</text>
+    <text x="0" y="3740.4" class="ascii-text">║   │        Do NOT proceed to Phase 2 until reinspection               │   ║</text>
+    <text x="0" y="3758.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3776.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3794.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3812.4" class="ascii-text">║   CONDITIONAL PASS / NOTES:                                                  ║</text>
+    <text x="0" y="3830.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3848.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3866.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3884.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3902.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3920.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3938.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3956.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3974.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3992.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4010.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4028.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4046.4" class="ascii-text">║   ⚠️ CORRECTIVE ACTION (If FAIL or Conditional Pass)                        ║</text>
+    <text x="0" y="4064.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4082.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4100.4" class="ascii-text">║   NCR REQUIRED:  □ Yes (NCR #: ________________)    □ No                    ║</text>
+    <text x="0" y="4118.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4136.4" class="ascii-text">║   DEFICIENCY DESCRIPTION:                                                    ║</text>
+    <text x="0" y="4154.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4172.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4190.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4208.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4226.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4244.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4262.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="4280.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4298.4" class="ascii-text">║   CORRECTIVE ACTION REQUIRED:                                                ║</text>
+    <text x="0" y="4316.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4334.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4352.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4370.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4388.4" class="ascii-text">║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4406.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4424.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="4442.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4460.4" class="ascii-text">║   Responsible Party: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░         ║</text>
+    <text x="0" y="4478.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4496.4" class="ascii-text">║   Target Completion: ░░░░░░░░░░░░░░░░    Actual: ░░░░░░░░░░░░░░░░         ║</text>
+    <text x="0" y="4514.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4532.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4550.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4568.4" class="ascii-text">║   🔄 RE-INSPECTION (If Required)                                             ║</text>
+    <text x="0" y="4586.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4604.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4622.4" class="ascii-text">║   Re-inspection Date: ░░░░░░░░░░░░░░░    Time: ░░░░░░░░░░░░░░░░            ║</text>
+    <text x="0" y="4640.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4658.4" class="ascii-text">║   Re-inspection Result:   □ ✅ PASS     □ ❌ FAIL (Escalate to QM)          ║</text>
+    <text x="0" y="4676.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4694.4" class="ascii-text">║   Re-inspector Name: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░         ║</text>
+    <text x="0" y="4712.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4730.4" class="ascii-text">║   Notes: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░       ║</text>
+    <text x="0" y="4748.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4766.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4784.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4802.4" class="ascii-text">║   ✍️ SIGNATURES                                                              ║</text>
+    <text x="0" y="4820.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4838.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4856.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4874.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4892.4" class="ascii-text">║   │   INSPECTOR                                                         │   ║</text>
+    <text x="0" y="4910.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="4928.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="4946.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4964.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────     │   ║</text>
+    <text x="0" y="4982.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5000.4" class="ascii-text">║   │   PRODUCTION SUPERVISOR                                             │   ║</text>
+    <text x="0" y="5018.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="5036.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="5054.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5072.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────     │   ║</text>
+    <text x="0" y="5090.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5108.4" class="ascii-text">║   │   QUALITY MANAGER (if NCR issued)                                   │   ║</text>
+    <text x="0" y="5126.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="5144.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="5162.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5180.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="5198.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5216.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="5234.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5252.4" class="ascii-text">║   📎 ATTACHMENTS                                                             ║</text>
+    <text x="0" y="5270.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="5288.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5306.4" class="ascii-text">║   □ Photos attached (qty: ______)      □ NCR form attached                  ║</text>
+    <text x="0" y="5324.4" class="ascii-text">║   □ Measurement log attached           □ As-built sketch attached           ║</text>
+    <text x="0" y="5342.4" class="ascii-text">║   □ Other: _______________________________________________________________  ║</text>
+    <text x="0" y="5360.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5378.4" class="ascii-text">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text x="0" y="5396.4" class="ascii-text"></text>
+    <text x="0" y="5414.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+    <text x="0" y="5432.4" class="ascii-text">                              OFFICE USE ONLY</text>
+    <text x="0" y="5450.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+    <text x="0" y="5468.4" class="ascii-text"></text>
+    <text x="0" y="5486.4" class="ascii-text">   Entered into Traveler:  □ Yes   Date: ___________   By: ________________</text>
+    <text x="0" y="5504.4" class="ascii-text">   QMS System Updated:     □ Yes   Date: ___________   By: ________________</text>
+    <text x="0" y="5522.4" class="ascii-text">   Filed in Project Folder: □ Yes  Date: ___________   By: ________________</text>
+    <text x="0" y="5540.4" class="ascii-text"></text>
+    <text x="0" y="5558.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+    <text x="0" y="5576.4" class="ascii-text"></text>
+    <text x="0" y="5594.4" class="ascii-text">   Fort and Homes LLC | Mesa County, Colorado | Quality Without Compromise™</text>
+    <text x="0" y="5612.4" class="ascii-text">   </text>
+    <text x="0" y="5630.4" class="ascii-text">   Related Documents: SOP-101, WI-101, SOP-013 (Hold Points)</text>
+    <text x="0" y="5648.4" class="ascii-text">   Document Control: SOP-001 | Retention: 7 Years | Form ID: FORM-I101-V2</text>
+    <text x="0" y="5666.4" class="ascii-text"></text>
+    <text x="0" y="5684.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+  </g>
+</svg>

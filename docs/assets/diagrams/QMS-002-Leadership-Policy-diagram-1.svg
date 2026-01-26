@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="762"
+     height="528"
+     viewBox="0 0 762 528">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="742" height="508"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="QMS-002-Leadership-Policy-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│  LEADERSHIP COMMITMENT DECLARATION                                         │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Fort Homes LLC leadership is fully committed to establishing,            │</text>
+    <text x="0" y="104.4" class="ascii-text">│  implementing, and continually improving our Quality Management System.   │</text>
+    <text x="0" y="122.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="140.4" class="ascii-text">│  WE COMMIT TO:                                                            │</text>
+    <text x="0" y="158.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="176.4" class="ascii-text">│  ✓  Ensure availability of resources for QMS effectiveness               │</text>
+    <text x="0" y="194.4" class="ascii-text">│  ✓  Communicate the importance of quality and compliance                 │</text>
+    <text x="0" y="212.4" class="ascii-text">│  ✓  Ensure QMS achieves its intended outcomes                            │</text>
+    <text x="0" y="230.4" class="ascii-text">│  ✓  Direct and support personnel contributing to QMS                     │</text>
+    <text x="0" y="248.4" class="ascii-text">│  ✓  Promote continual improvement culture                                │</text>
+    <text x="0" y="266.4" class="ascii-text">│  ✓  Support other relevant management roles in their areas               │</text>
+    <text x="0" y="284.4" class="ascii-text">│  ✓  Ensure customer focus throughout the organization                    │</text>
+    <text x="0" y="302.4" class="ascii-text">│  ✓  Ensure QMS requirements integrate with business processes            │</text>
+    <text x="0" y="320.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="338.4" class="ascii-text">│  Leadership demonstrates accountability for QMS effectiveness through:    │</text>
+    <text x="0" y="356.4" class="ascii-text">│  • Quarterly management reviews                                          │</text>
+    <text x="0" y="374.4" class="ascii-text">│  • Active participation in quality planning                              │</text>
+    <text x="0" y="392.4" class="ascii-text">│  • Resource allocation for quality initiatives                           │</text>
+    <text x="0" y="410.4" class="ascii-text">│  • Personal involvement in major nonconformity reviews                   │</text>
+    <text x="0" y="428.4" class="ascii-text">│  • Regular communication of quality expectations                         │</text>
+    <text x="0" y="446.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="464.4" class="ascii-text">└────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

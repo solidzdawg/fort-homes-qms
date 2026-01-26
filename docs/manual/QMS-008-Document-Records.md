@@ -131,6 +131,14 @@ All controlled documents must include:
 
 ### 3.1 Document Approval Process
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-008-Document-Records-diagram-1.svg" alt="QMS-008-Document-Records-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  DOCUMENT APPROVAL WORKFLOW                                     │
@@ -167,6 +175,8 @@ All controlled documents must include:
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 3.2 Change Control
 

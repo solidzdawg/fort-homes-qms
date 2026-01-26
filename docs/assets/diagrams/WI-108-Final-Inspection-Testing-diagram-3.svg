@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="492"
+     height="2904"
+     viewBox="0 0 492 2904">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="472" height="2884"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-108-Final-Inspection-Testing-diagram-3" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    INTERIOR FINISH QUALITY INSPECTION       │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Paint &amp; Drywall Inspection:                │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Using bright work light (45° angle)│     │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ Wall Paint Evaluation:             │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ ✓ Uniform color (no variation)     │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ ✓ No roller marks or brush lines   │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ ✓ No visible tape seams            │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ ✓ No sag or runs (paint drips)     │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ ✓ Edges clean (painter&apos;s line)     │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ ✓ Two-coat coverage complete       │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ ✓ No dust/debris on surface        │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ Ceiling Paint Evaluation:          │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ ✓ Bright white (no yellowing)      │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ ✓ Uniform matte finish             │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │ ✓ No drips or sags                 │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │ ✓ Edges clean at walls             │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ ✓ Two-coat coverage complete       │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ Joint Compound &amp; Tape:             │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │ ✓ All seams invisible under light  │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │ ✓ No tape ridges (feathered smooth)│      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │ ✓ No valleys or depressions        │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │ ✓ Inside corners smooth            │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │ ✓ Outside corners crisp &amp; clean    │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │ ✓ No sanding dust residue          │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │ Drywall Fasteners:                 │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │ ✓ All screws below surface (dimped)│      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │ ✓ No proud fasteners (popping out) │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │ ✓ No fasteners visible through     │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │   paint                            │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │ ✓ Spacing pattern correct          │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="734.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="752.4" class="ascii-text">│  Doors, Hardware &amp; Trim:                    │</text>
+    <text x="0" y="770.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ Interior Doors:                    │      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ ✓ All doors plumb &amp; level (±1/8&quot;) │      │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ ✓ Swing smooth (no binding)        │      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ ✓ Gap even all around (¼&quot;)         │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │ ✓ No cracks or damage              │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ ✓ Paint clean (no drips)           │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │ ✓ Hinges tight (no loose)          │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ Door Hardware:                     │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ ✓ Handles secure &amp; functional      │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ ✓ Locks operable (smooth)          │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │ ✓ Door stops in place              │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ ✓ Latch closes cleanly             │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ ✓ No squeaks or rattles            │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │ Baseboards &amp; Casing:               │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │ ✓ Baseboards level (floor may sag) │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │ ✓ All seams caulked tightly        │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ ✓ Miter joints tight (no gaps)     │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ ✓ Paint coverage complete          │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ ✓ No nail pops or separation       │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ ✓ Casings plumb &amp; square           │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ ✓ Door casings fully caulked       │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  Flooring Inspection:                       │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ Flooring Installation Quality:     │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ ✓ All planks level (±1/8&quot;)         │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ ✓ All planks clicked together      │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │ ✓ No gaps between planks           │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ ✓ ¼&quot; wall gap maintained (all)     │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ ✓ No lifting or movement           │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ ✓ No squeaks when walked on        │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ ✓ Transitions smooth (no trip)     │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │ ✓ Finish trim installed (all rooms)│      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │ ✓ No visible damage or dents       │      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │ ✓ No construction debris/dust      │      │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │ ✓ Surface clean (ready for use)    │      │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ Transitions:                       │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │ ✓ T-molding at doorways (tight)    │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ ✓ Reducers at elevation changes    │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │ ✓ Quarter-round at walls (if used) │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ ✓ No exposed edges                 │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ ✓ All fasteners covered/trimmed    │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  Kitchen/Bathroom Cabinets:                 │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│  │ Cabinet Installation Quality:      │      │</text>
+    <text x="0" y="1742.4" class="ascii-text">│  │ ✓ All cabinets level (±1/8&quot;)       │      │</text>
+    <text x="0" y="1760.4" class="ascii-text">│  │ ✓ All cabinets plumb (±1/8&quot;)       │      │</text>
+    <text x="0" y="1778.4" class="ascii-text">│  │ ✓ All doors aligned properly       │      │</text>
+    <text x="0" y="1796.4" class="ascii-text">│  │ ✓ All doors close smoothly         │      │</text>
+    <text x="0" y="1814.4" class="ascii-text">│  │ ✓ Door gaps even (consistent)      │      │</text>
+    <text x="0" y="1832.4" class="ascii-text">│  │ ✓ All drawers open smoothly        │      │</text>
+    <text x="0" y="1850.4" class="ascii-text">│  │ ✓ All drawer gaps even             │      │</text>
+    <text x="0" y="1868.4" class="ascii-text">│  │ ✓ All handles tight (no movement)  │      │</text>
+    <text x="0" y="1886.4" class="ascii-text">│  │ ✓ All hinges tight (no rattle)     │      │</text>
+    <text x="0" y="1904.4" class="ascii-text">│  │ ✓ No visible damage or scratches   │      │</text>
+    <text x="0" y="1922.4" class="ascii-text">│  │ ✓ No paint or stain drips          │      │</text>
+    <text x="0" y="1940.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1958.4" class="ascii-text">│  │ Countertops:                       │      │</text>
+    <text x="0" y="1976.4" class="ascii-text">│  │ ✓ Level (±1/8&quot; in 4 feet)          │      │</text>
+    <text x="0" y="1994.4" class="ascii-text">│  │ ✓ Properly sealed (caulked)        │      │</text>
+    <text x="0" y="2012.4" class="ascii-text">│  │ ✓ No cracks or damage              │      │</text>
+    <text x="0" y="2030.4" class="ascii-text">│  │ ✓ No loose seams or separations    │      │</text>
+    <text x="0" y="2048.4" class="ascii-text">│  │ ✓ Backsplash properly attached     │      │</text>
+    <text x="0" y="2066.4" class="ascii-text">│  │ ✓ Backsplash caulked at top        │      │</text>
+    <text x="0" y="2084.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2102.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="2120.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="2138.4" class="ascii-text">│  Outlets, Switches &amp; Fixtures:              │</text>
+    <text x="0" y="2156.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="2174.4" class="ascii-text">│  │ Outlet/Switch Covers:              │      │</text>
+    <text x="0" y="2192.4" class="ascii-text">│  │ ✓ All covers installed (no blanks) │      │</text>
+    <text x="0" y="2210.4" class="ascii-text">│  │ ✓ All covers level (straight)      │      │</text>
+    <text x="0" y="2228.4" class="ascii-text">│  │ ✓ All covers tight (no gaps)       │      │</text>
+    <text x="0" y="2246.4" class="ascii-text">│  │ ✓ All covers clean (no marks)      │      │</text>
+    <text x="0" y="2264.4" class="ascii-text">│  │ ✓ Correct cover type (1-gang, etc) │      │</text>
+    <text x="0" y="2282.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2300.4" class="ascii-text">│  │ Light Fixtures:                    │      │</text>
+    <text x="0" y="2318.4" class="ascii-text">│  │ ✓ All fixtures secure (no rattle)  │      │</text>
+    <text x="0" y="2336.4" class="ascii-text">│  │ ✓ All trim rings straight          │      │</text>
+    <text x="0" y="2354.4" class="ascii-text">│  │ ✓ No gaps between fixture &amp; ceiling│      │</text>
+    <text x="0" y="2372.4" class="ascii-text">│  │ ✓ All bulbs installed (correct W)  │      │</text>
+    <text x="0" y="2390.4" class="ascii-text">│  │ ✓ All shades clean (no dust)       │      │</text>
+    <text x="0" y="2408.4" class="ascii-text">│  │ ✓ No visible damage                │      │</text>
+    <text x="0" y="2426.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2444.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="2462.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="2480.4" class="ascii-text">│  Overall Cleanliness:                       │</text>
+    <text x="0" y="2498.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="2516.4" class="ascii-text">│  │ Interior Cleanliness Standard:     │      │</text>
+    <text x="0" y="2534.4" class="ascii-text">│  │ ✓ All floors vacuumed/swept        │      │</text>
+    <text x="0" y="2552.4" class="ascii-text">│  │ ✓ No dust on baseboards/trim       │      │</text>
+    <text x="0" y="2570.4" class="ascii-text">│  │ ✓ No paint drips on flooring       │      │</text>
+    <text x="0" y="2588.4" class="ascii-text">│  │ ✓ No debris under cabinets         │      │</text>
+    <text x="0" y="2606.4" class="ascii-text">│  │ ✓ Windows/doors clean              │      │</text>
+    <text x="0" y="2624.4" class="ascii-text">│  │ ✓ No fingerprints/smudges on trim  │      │</text>
+    <text x="0" y="2642.4" class="ascii-text">│  │ ✓ All protective coverings removed │      │</text>
+    <text x="0" y="2660.4" class="ascii-text">│  │ ✓ Ready for customer inspection    │      │</text>
+    <text x="0" y="2678.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2696.4" class="ascii-text">│  │ Defect Tracking:                   │      │</text>
+    <text x="0" y="2714.4" class="ascii-text">│  │ • Any defects marked with tags     │      │</text>
+    <text x="0" y="2732.4" class="ascii-text">│  │ • Minor: Paint touch-up, caulk     │      │</text>
+    <text x="0" y="2750.4" class="ascii-text">│  │ • Major: Rework required           │      │</text>
+    <text x="0" y="2768.4" class="ascii-text">│  │ • Schedule rework before delivery  │      │</text>
+    <text x="0" y="2786.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2804.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="2822.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="2840.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

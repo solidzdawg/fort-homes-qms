@@ -1,3 +1,11 @@
+
+<div align="center">
+  <img src="../assets/diagrams/FORM-I108-Final-Inspection-V2-diagram-1.svg" alt="FORM-I108-Final-Inspection-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -299,3 +307,5 @@
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+

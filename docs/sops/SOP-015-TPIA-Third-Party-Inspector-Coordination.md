@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-1.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-015        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-2.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -46,6 +64,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -67,6 +87,14 @@ This procedure applies to:
 
 **Applies to:** Quality Manager, Production Supervisor, Third-Party Inspectors, Plant Management
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-3.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -78,6 +106,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -94,6 +124,14 @@ This procedure applies to:
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-4.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -137,12 +175,22 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. TPIA INSPECTION SCHEDULING
 
 ### 5.1 Inspection Scheduling Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-5.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -197,6 +245,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Advance Notification Requirements
 
@@ -216,6 +266,14 @@ When scheduling TPIA inspection, Quality Manager must provide:
 
 **Timeline:** Notification must occur **minimum 7 days** before desired inspection date
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-6.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — INSPECTION SCHEDULING                               │
@@ -227,6 +285,8 @@ When scheduling TPIA inspection, Quality Manager must provide:
 │ ■ Production Supervisor notified and scheduled                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -235,6 +295,14 @@ When scheduling TPIA inspection, Quality Manager must provide:
 ### 6.1 Inspector Arrival & Documentation
 
 When TPIA inspector arrives:
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-7.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -270,6 +338,8 @@ When TPIA inspector arrives:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Inspection Findings Documentation
 
@@ -285,6 +355,14 @@ Upon completion of inspection:
 | **Re-inspection Requirement** | If needed; when; scope | Yes/No with timeline |
 | **Inspector Notes** | Observations and context | Professional documentation |
 | **Photos/Evidence** | Any supporting documentation | File references |
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-8.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -341,12 +419,22 @@ Upon completion of inspection:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 📋 7. POST-INSPECTION FOLLOW-UP
 
 ### 7.1 Immediate Follow-Up Actions
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-9.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -391,6 +479,8 @@ Upon completion of inspection:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.2 Corrective Action Tracking
 
@@ -407,6 +497,14 @@ All inspection findings requiring corrective action must be tracked:
 | **Inspector Sign-Off** | Re-inspection confirmation | Closure validation |
 | **Closure Date** | When corrective action verified complete | Historical record |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-10.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — CORRECTIVE ACTIONS                                  │
@@ -418,10 +516,20 @@ All inspection findings requiring corrective action must be tracked:
 │ ■ Re-inspection scheduled and completed for major findings                  │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.3 Inspection Results Archival
 
 All inspection documents must be properly archived:
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-11.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -450,10 +558,20 @@ All inspection documents must be properly archived:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 📊 8. METRICS & PERFORMANCE INDICATORS
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-12.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -479,6 +597,16 @@ All inspection documents must be properly archived:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-13.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -490,6 +618,8 @@ All inspection documents must be properly archived:
 │ ■ Corrective action effectiveness monitored for pattern trends              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -530,6 +660,14 @@ All inspection documents must be properly archived:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-14.svg" alt="SOP-015-TPIA-Third-Party-Inspector-Coordination-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                                END OF DOCUMENT
@@ -541,6 +679,8 @@ All inspection documents must be properly archived:
                        Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

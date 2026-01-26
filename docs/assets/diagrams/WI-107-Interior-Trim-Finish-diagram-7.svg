@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="492"
+     height="1464"
+     viewBox="0 0 492 1464">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="472" height="1444"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-107-Interior-Trim-Finish-diagram-7" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    PHASE 7 FINAL WALKTHROUGH CHECKLIST      │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Paint &amp; Trim Work (Verified):              │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ✓ All walls painted (2 coats uniform)      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  ✓ All ceilings painted (white, uniform)    │</text>
+    <text x="0" y="140.4" class="ascii-text">│  ✓ All trim painted (semi-gloss, clean)     │</text>
+    <text x="0" y="158.4" class="ascii-text">│  ✓ All outlet covers installed (level)      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  ✓ All light fixtures installed (functional)│</text>
+    <text x="0" y="194.4" class="ascii-text">│  ✓ No paint drips or splatters              │</text>
+    <text x="0" y="212.4" class="ascii-text">│  ✓ No visible seams or tape residue         │</text>
+    <text x="0" y="230.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="248.4" class="ascii-text">│  Doors &amp; Hardware (Verified):               │</text>
+    <text x="0" y="266.4" class="ascii-text">│  ✓ All interior doors hung (plumb, level)   │</text>
+    <text x="0" y="284.4" class="ascii-text">│  ✓ All doors swing smoothly (no binding)    │</text>
+    <text x="0" y="302.4" class="ascii-text">│  ✓ All door handles functional              │</text>
+    <text x="0" y="320.4" class="ascii-text">│  ✓ All door locks functional                │</text>
+    <text x="0" y="338.4" class="ascii-text">│  ✓ Door gaps even (¼&quot; all sides)            │</text>
+    <text x="0" y="356.4" class="ascii-text">│  ✓ All hinges tight                         │</text>
+    <text x="0" y="374.4" class="ascii-text">│  ✓ All door stops in place                  │</text>
+    <text x="0" y="392.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="410.4" class="ascii-text">│  Baseboards &amp; Casing (Verified):            │</text>
+    <text x="0" y="428.4" class="ascii-text">│  ✓ All baseboards installed (nailed down)   │</text>
+    <text x="0" y="446.4" class="ascii-text">│  ✓ All baseboards caulked (seams tight)     │</text>
+    <text x="0" y="464.4" class="ascii-text">│  ✓ All door casings installed (mitered)     │</text>
+    <text x="0" y="482.4" class="ascii-text">│  ✓ All casings caulked (joints tight)       │</text>
+    <text x="0" y="500.4" class="ascii-text">│  ✓ All trim painted (matching color)        │</text>
+    <text x="0" y="518.4" class="ascii-text">│  ✓ No gaps or separations                   │</text>
+    <text x="0" y="536.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="554.4" class="ascii-text">│  Flooring (Verified):                       │</text>
+    <text x="0" y="572.4" class="ascii-text">│  ✓ All flooring installed (level ±1/8&quot;)     │</text>
+    <text x="0" y="590.4" class="ascii-text">│  ✓ All planks clicked together securely     │</text>
+    <text x="0" y="608.4" class="ascii-text">│  ✓ ¼&quot; gap maintained at walls               │</text>
+    <text x="0" y="626.4" class="ascii-text">│  ✓ Transitions smooth (T-molding installed) │</text>
+    <text x="0" y="644.4" class="ascii-text">│  ✓ Finish trim installed (reducers, etc.)   │</text>
+    <text x="0" y="662.4" class="ascii-text">│  ✓ No gaps, squeaks, or lifting             │</text>
+    <text x="0" y="680.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="698.4" class="ascii-text">│  Cabinetry (Verified):                      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  ✓ All cabinets level &amp; plumb (±1/8&quot;)       │</text>
+    <text x="0" y="734.4" class="ascii-text">│  ✓ All doors aligned &amp; closing smoothly     │</text>
+    <text x="0" y="752.4" class="ascii-text">│  ✓ All drawers opening smoothly             │</text>
+    <text x="0" y="770.4" class="ascii-text">│  ✓ All hardware tight (handles, hinges)     │</text>
+    <text x="0" y="788.4" class="ascii-text">│  ✓ Countertop level &amp; secure                │</text>
+    <text x="0" y="806.4" class="ascii-text">│  ✓ Backsplash installed (if applicable)     │</text>
+    <text x="0" y="824.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="842.4" class="ascii-text">│  Electrical &amp; Lighting (Verified):          │</text>
+    <text x="0" y="860.4" class="ascii-text">│  ✓ All outlets functional (tested)          │</text>
+    <text x="0" y="878.4" class="ascii-text">│  ✓ All switches functional (lights on/off)  │</text>
+    <text x="0" y="896.4" class="ascii-text">│  ✓ All light fixtures functional (brightness)│</text>
+    <text x="0" y="914.4" class="ascii-text">│  ✓ All outlet covers installed (level)      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  ✓ All switch plates installed (level)      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  ✓ No loose covers or exposed wiring        │</text>
+    <text x="0" y="968.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="986.4" class="ascii-text">│  Overall Cleanliness (Verified):            │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  ✓ All floors vacuumed/swept (clean)        │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  ✓ No paint drips or marks on flooring      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  ✓ No dust on surfaces (baseboards, trim)   │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  ✓ Windows/doors clean (no smudges)         │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  ✓ No construction debris remaining         │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  ✓ Module ready for customer inspection     │</text>
+    <text x="0" y="1112.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  HP-7 Third-Party Inspection:               │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  Inspector verifies:                         │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  • All interior finishes per plan            │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  • All doors/trim/hardware functional        │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  • All electrical systems operational        │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  • Flooring level and secure                 │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  • Overall cleanliness and readiness         │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  • Module ready for Phase 8 final testing    │</text>
+    <text x="0" y="1274.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  Phase 7 Complete When:                     │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  ✓ All interior finishes complete           │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  ✓ All systems operational                  │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  ✓ HP-7 inspection PASSED                   │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  ✓ Module clean &amp; ready for Phase 8         │</text>
+    <text x="0" y="1382.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1400.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

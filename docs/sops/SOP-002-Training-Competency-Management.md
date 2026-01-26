@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-1.svg" alt="SOP-002-Training-Competency-Management-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-002        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-2.svg" alt="SOP-002-Training-Competency-Management-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -71,6 +91,14 @@ To establish a systematic approach for identifying training needs, delivering co
 
 ### 2.2 Personnel Coverage
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-3.svg" alt="SOP-002-Training-Competency-Management-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -82,6 +110,8 @@ To establish a systematic approach for identifying training needs, delivering co
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -97,6 +127,14 @@ To establish a systematic approach for identifying training needs, delivering co
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-4.svg" alt="SOP-002-Training-Competency-Management-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -140,10 +178,20 @@ To establish a systematic approach for identifying training needs, delivering co
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. TRAINING PROCESS FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-5.svg" alt="SOP-002-Training-Competency-Management-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -228,12 +276,22 @@ To establish a systematic approach for identifying training needs, delivering co
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🎯 6. TRAINING NEEDS ASSESSMENT
 
 ### 6.1 Identification Triggers
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-6.svg" alt="SOP-002-Training-Competency-Management-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -263,6 +321,8 @@ To establish a systematic approach for identifying training needs, delivering co
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Training Needs Matrix
 
@@ -272,6 +332,14 @@ To establish a systematic approach for identifying training needs, delivering co
 | 👷 Bay Supervisor | All above + Inspection, Leadership | Annual + New Hire | Classroom + Online |
 | 🔍 Quality Inspector | All above + Advanced Inspection | Annual + New Hire | Advanced course |
 | 👤 Manager/Lead | All above + Auditing, Regulatory | Annual + New Hire | Advanced course |
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-7.svg" alt="SOP-002-Training-Competency-Management-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -283,6 +351,8 @@ To establish a systematic approach for identifying training needs, delivering co
 │ ■ Training budget allocated based on identified needs                      │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -318,6 +388,14 @@ All training materials must include:
 ## 🆕 8. NEW EMPLOYEE ONBOARDING
 
 ### 8.1 Onboarding Timeline
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-8.svg" alt="SOP-002-Training-Competency-Management-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -362,6 +440,8 @@ All training materials must include:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 8.2 Onboarding Checklist
 
@@ -375,6 +455,14 @@ All training materials must include:
 | Hands-on practice completed | _____ | Supervisor | ☐ |
 | Competency assessment passed | _____ | Supervisor | ☐ |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-9.svg" alt="SOP-002-Training-Competency-Management-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — NEW HIRE ONBOARDING                                 │
@@ -385,6 +473,8 @@ All training materials must include:
 │ ■ Employee released to independent work with supervisor approval           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -393,6 +483,14 @@ All training materials must include:
 ### 9.1 Production Phase Training Structure
 
 For each production phase (Phases 1-8):
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-10.svg" alt="SOP-002-Training-Competency-Management-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -436,6 +534,8 @@ For each production phase (Phases 1-8):
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -452,6 +552,14 @@ For each production phase (Phases 1-8):
 | 📋 **Supervisor Evaluation** | Overall competence | Meets all competency requirements |
 
 ### 10.2 Competency Verification Form
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-11.svg" alt="SOP-002-Training-Competency-Management-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -506,12 +614,22 @@ For each production phase (Phases 1-8):
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🔄 11. ANNUAL REFRESHER & COMPETENCY MAINTENANCE
 
 ### 11.1 Annual Requirements
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-12.svg" alt="SOP-002-Training-Competency-Management-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -552,6 +670,8 @@ For each production phase (Phases 1-8):
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 11.2 Performance-Based Retraining
 
@@ -584,6 +704,14 @@ For each training event, maintain:
 
 ### 12.2 Record Storage & Retention
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-13.svg" alt="SOP-002-Training-Competency-Management-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      TRAINING RECORDS MANAGEMENT                            │
@@ -611,6 +739,16 @@ For each training event, maintain:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-14.svg" alt="SOP-002-Training-Competency-Management-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -622,6 +760,8 @@ For each training event, maintain:
 │ ■ Annual backup completed and verified                                     │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -638,6 +778,14 @@ For each training event, maintain:
 | 🔒 **Safety Certifications** | OSHA 30, First Aid, CPR | Safety compliance |
 
 ### 13.2 External Training Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-15.svg" alt="SOP-002-Training-Competency-Management-diagram-15" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -677,10 +825,20 @@ For each training event, maintain:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📊 14. TRAINING METRICS & PERFORMANCE INDICATORS
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-16.svg" alt="SOP-002-Training-Competency-Management-diagram-16" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -707,6 +865,16 @@ For each training event, maintain:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-17.svg" alt="SOP-002-Training-Competency-Management-diagram-17" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -718,6 +886,8 @@ For each training event, maintain:
 │ ■ Annual training effectiveness report prepared                            │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -769,6 +939,14 @@ Training must address all relevant safety and health topics:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-diagram-18.svg" alt="SOP-002-Training-Competency-Management-diagram-18" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -780,6 +958,8 @@ Training must address all relevant safety and health topics:
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

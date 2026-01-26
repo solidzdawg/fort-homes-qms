@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="492"
+     height="1482"
+     viewBox="0 0 492 1482">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="472" height="1462"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-104-MEP-Rough-In-diagram-4" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    HVAC SYSTEM LAYOUT - DUCTS &amp; FURNACE     │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Furnace/Heat Pump Location:                │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌─────────────────────────────────┐       │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Utility Room (Furnace Area)      │       │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                  │       │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ ┌──────────────────────────────┐│       │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ │ Furnace                       ││       │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ │ (60,000-100,000 BTU)          ││       │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │ │ Return air inlet (bottom)   ││       │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ │ │                             ││       │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ │ │ Supply air outlet (top)     ││       │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ │ │ (feeds main trunk duct)     ││       │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ │ │                             ││       │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ │ │ Gas inlet (yellow flex)     ││       │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │ │ │                           ││       │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ │ │ │ Exhaust vent (through roof││       │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ │ │ └─────────────┐             ││       │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │ └──────────────────────────────┘│       │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │                                  │       │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ Air Handler (if heat pump):      │       │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │ ┌──────────────────────────────┐│       │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ │ Wall-mounted or attic unit    ││       │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │ │ Refrigerant lines (insulated) ││       │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │ │ Condensate drain (to exterior) ││       │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │ └──────────────────────────────┘│       │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │                                  │       │</text>
+    <text x="0" y="536.4" class="ascii-text">│  └─────────────────────────────────┘       │</text>
+    <text x="0" y="554.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="572.4" class="ascii-text">│  Duct System (8&quot; main trunk):               │</text>
+    <text x="0" y="590.4" class="ascii-text">│       ┌─────────────┐                      │</text>
+    <text x="0" y="608.4" class="ascii-text">│       │  Main Trunk │                      │</text>
+    <text x="0" y="626.4" class="ascii-text">│       │   (8&quot; φ)    │                      │</text>
+    <text x="0" y="644.4" class="ascii-text">│       │             │                      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  ┌────┴─┐      ┌────┴─┐      ┌────┬─┐    │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │6&quot; BR1│      │6&quot; BR2│      │6&quot; LR │    │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │      │      │      │      │     │    │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │Bed 1 │      │Bed 2 │      │Vent │    │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │      │      │      │      │     │    │</text>
+    <text x="0" y="752.4" class="ascii-text">│  └──────┘      └──────┘      └─────┴─┘   │</text>
+    <text x="0" y="770.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="788.4" class="ascii-text">│  Each duct:                                 │</text>
+    <text x="0" y="806.4" class="ascii-text">│  • Sized per fixture (6&quot; for bedroom)       │</text>
+    <text x="0" y="824.4" class="ascii-text">│  • 1/4&quot; insulation (R-6 minimum)           │</text>
+    <text x="0" y="842.4" class="ascii-text">│  • Sealed with mastic (no tape)            │</text>
+    <text x="0" y="860.4" class="ascii-text">│  • Supported every 4 feet                  │</text>
+    <text x="0" y="878.4" class="ascii-text">│  • No kinks or crushed sections            │</text>
+    <text x="0" y="896.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="914.4" class="ascii-text">│  Return Air Path:                           │</text>
+    <text x="0" y="932.4" class="ascii-text">│  ║  ╔════════════════════════╗            │</text>
+    <text x="0" y="950.4" class="ascii-text">│  ║  ║ Return Air Plenum       ║            │</text>
+    <text x="0" y="968.4" class="ascii-text">│  ║  ║ (attic or crawl space)   ║            │</text>
+    <text x="0" y="986.4" class="ascii-text">│  ║  ║ ║                        ║            │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  ║  ║ Filters (18x20x1 MERV-8)║            │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  ║  ║ ║                        ║            │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  ║  ║ ▼ Furnace inlet          ║            │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  ║  ╚════════════════════════╝            │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  ║                                         │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  ║ Return vents: 1 per room (high wall)   │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  ║ Grilles: 16&quot; x 8&quot; minimum              │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  ║                                         │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  ║ Flex returns from each room to plenum  │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  ║                                         │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  ▼ Back to furnace                         │</text>
+    <text x="0" y="1202.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  Thermostat (wall-mounted):                 │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  ┌──────────────┐                          │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ Thermostat   │ 60&quot; AFF, interior wall   │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │   Digital    │ Away from heat sources   │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │   68°-72°F   │ (sunlight, kitchen)      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │   Setting    │                          │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  └──────────────┘                          │</text>
+    <text x="0" y="1346.4" class="ascii-text">│       │                                    │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  Connected to furnace with low-voltage     │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  thermostat wire (18-22 AWG, 4-conductor) │</text>
+    <text x="0" y="1400.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1418.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

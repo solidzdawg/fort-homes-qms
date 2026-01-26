@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-1.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-014        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-2.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -46,6 +64,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -67,6 +87,14 @@ This procedure applies to:
 
 **Applies to:** Production Manager, Supervisors, Quality Inspectors, all production personnel
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-3.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -78,6 +106,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -94,6 +124,14 @@ This procedure applies to:
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-4.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -141,12 +179,22 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. TRAVELER CREATION & INITIALIZATION
 
 ### 5.1 Traveler Setup Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-5.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -200,6 +248,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Traveler Information Requirements
 
@@ -227,6 +277,14 @@ Each production phase includes structured work packages:
 | Phase 7 | Interior Finish | 3 days | Drywall, trim, paint, appliances |
 | Phase 8 | Final Inspection | 1 day | QA inspection, documentation, sign-off |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-6.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — TRAVELER CREATION                                   │
@@ -239,6 +297,8 @@ Each production phase includes structured work packages:
 │ ■ Work packages clearly defined with owner assignments                     │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -247,6 +307,14 @@ Each production phase includes structured work packages:
 ### 6.1 Daily Update Requirements
 
 Each shift, the Work Center Lead must update the traveler with:
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-7.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -292,6 +360,8 @@ Each shift, the Work Center Lead must update the traveler with:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Hold Point Documentation on Traveler
 
@@ -317,6 +387,14 @@ When a hold point inspection occurs, the traveler must be updated with:
 - Supervisor maintains backup copy in office
 - No module can progress to next phase without traveler sign-off
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-8.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — DAILY MAINTENANCE                                   │
@@ -328,6 +406,8 @@ When a hold point inspection occurs, the traveler must be updated with:
 │ ■ Traveler passed to next work center with sign-off                        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -336,6 +416,14 @@ When a hold point inspection occurs, the traveler must be updated with:
 ### 7.1 Final Inspection Sign-off
 
 Upon completion of Phase 8 (Final Inspection - HP-8):
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-9.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -380,8 +468,18 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.2 Records Archival & Retention
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-10.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -416,6 +514,16 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-11.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -427,10 +535,20 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 │ ■ Quarterly archival report prepared showing compliance                     │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 📊 8. METRICS & PERFORMANCE INDICATORS
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-12.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -456,6 +574,16 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-13.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -467,6 +595,8 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 │ ■ Quarterly performance report prepared and reviewed with team             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -507,6 +637,14 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-014-Module-Traveler-Work-Package-Management-diagram-14.svg" alt="SOP-014-Module-Traveler-Work-Package-Management-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                                END OF DOCUMENT
@@ -518,6 +656,8 @@ Upon completion of Phase 8 (Final Inspection - HP-8):
                        Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

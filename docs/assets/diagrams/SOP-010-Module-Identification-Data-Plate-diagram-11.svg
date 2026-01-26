@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="771"
+     height="366"
+     viewBox="0 0 771 366">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="751" height="346"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="SOP-010-Module-Identification-Data-Plate-diagram-11" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│                       MODULE STATUS TRACKING                                │</text>
+    <text x="0" y="50.4" class="ascii-text">├─────────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                             │</text>
+    <text x="0" y="86.4" class="ascii-text">│   PHASE           STATUS PROGRESSION          HOLD POINT                   │</text>
+    <text x="0" y="104.4" class="ascii-text">│   ─────────────────────────────────────────────────────────────────        │</text>
+    <text x="0" y="122.4" class="ascii-text">│                                                                             │</text>
+    <text x="0" y="140.4" class="ascii-text">│   Phase 1         In Progress → HP-1          Yes (Chassis inspection)     │</text>
+    <text x="0" y="158.4" class="ascii-text">│   Phase 2         In Progress → HP-2          Yes (Wall frame inspection)  │</text>
+    <text x="0" y="176.4" class="ascii-text">│   Phase 3         In Progress → HP-3          Yes (Roof frame inspection)  │</text>
+    <text x="0" y="194.4" class="ascii-text">│   Phase 4         In Progress → HP-4          Yes (MEP rough inspection)   │</text>
+    <text x="0" y="212.4" class="ascii-text">│   Phase 5         In Progress                 No                           │</text>
+    <text x="0" y="230.4" class="ascii-text">│   Phase 6         In Progress                 No                           │</text>
+    <text x="0" y="248.4" class="ascii-text">│   Phase 7         In Progress                 No                           │</text>
+    <text x="0" y="266.4" class="ascii-text">│   Phase 8         Final Inspection → Released Yes (Final inspection)       │</text>
+    <text x="0" y="284.4" class="ascii-text">│                                                                             │</text>
+    <text x="0" y="302.4" class="ascii-text">└─────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

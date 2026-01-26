@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-1.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-008        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-2.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -78,6 +98,14 @@ To establish procedures for identifying measurement and test equipment, calibrat
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-3.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -114,10 +142,20 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. CALIBRATION PROCESS FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-4.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -179,12 +217,22 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📋 4. EQUIPMENT IDENTIFICATION & REGISTER
 
 ### 4.1 Equipment Master List
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-5.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -204,6 +252,8 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -231,6 +281,14 @@ To establish procedures for identifying measurement and test equipment, calibrat
 
 ### 5.3 Out-of-Calibration Equipment
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-6.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                   OUT-OF-CALIBRATION PROCEDURE                              │
@@ -248,6 +306,16 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-7.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -259,6 +327,8 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │ ■ Out-of-calibration equipment removed from service                        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -274,6 +344,14 @@ To establish procedures for identifying measurement and test equipment, calibrat
 | 🏭 **Production machines** | Full service per manual | Per OEM | Technician |
 
 ### 6.2 Maintenance Records
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-8.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -292,12 +370,22 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🚨 7. CORRECTIVE MAINTENANCE
 
 ### 7.1 Equipment Failure Response
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-9.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -344,6 +432,16 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-10.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -355,6 +453,8 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │ ■ All maintenance documented in equipment records                          │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -370,6 +470,14 @@ To establish procedures for identifying measurement and test equipment, calibrat
 | 🚨 **Repair records** | 7 years | Maintenance files |
 | ⚠️ **Out-of-service notifications** | 3 years | Quality files |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-11.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — EQUIPMENT RECORDS                                   │
@@ -380,6 +488,8 @@ To establish procedures for identifying measurement and test equipment, calibrat
 │ ■ Records retrievable for audits                                           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -403,6 +513,14 @@ To establish procedures for identifying measurement and test equipment, calibrat
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-008-Equipment-Calibration-Maintenance-diagram-12.svg" alt="SOP-008-Equipment-Calibration-Maintenance-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -414,6 +532,8 @@ To establish procedures for identifying measurement and test equipment, calibrat
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

@@ -1,3 +1,11 @@
+
+<div align="center">
+  <img src="../assets/diagrams/FORM-I104-MEP-Rough-Inspection-V2-diagram-1.svg" alt="FORM-I104-MEP-Rough-Inspection-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -199,3 +207,5 @@
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+

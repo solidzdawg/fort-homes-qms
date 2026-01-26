@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-1.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-007        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-2.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -78,6 +98,14 @@ To establish procedures for selecting qualified suppliers, defining requirements
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-3.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -114,10 +142,20 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. PROCUREMENT PROCESS FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-4.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -174,6 +212,8 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -191,6 +231,14 @@ To establish procedures for selecting qualified suppliers, defining requirements
 
 ### 4.2 Supplier Approval
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-5.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      SUPPLIER APPROVAL REQUIREMENTS                         │
@@ -203,6 +251,16 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-6.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -214,6 +272,8 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │ ■ Procurement Manager approval obtained                                    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -248,6 +308,14 @@ To establish procedures for selecting qualified suppliers, defining requirements
 
 ### 6.2 Non-Conforming Received Materials
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-7.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    NON-CONFORMING MATERIAL PROCEDURE                        │
@@ -262,6 +330,16 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-8.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -273,12 +351,22 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │ ■ Material certifications verified and filed                               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📈 7. SUPPLIER PERFORMANCE MONITORING
 
 ### 7.1 Performance Metrics
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-9.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -298,6 +386,8 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.2 Performance Review
 
@@ -313,6 +403,14 @@ To establish procedures for selecting qualified suppliers, defining requirements
 ## 🔧 8. SUPPLIER CORRECTIVE ACTIONS
 
 ### 8.1 CAR Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-10.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -351,6 +449,8 @@ To establish procedures for selecting qualified suppliers, defining requirements
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -389,6 +489,14 @@ To establish procedures for selecting qualified suppliers, defining requirements
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-007-Procurement-Supplier-Management-diagram-11.svg" alt="SOP-007-Procurement-Supplier-Management-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -400,6 +508,8 @@ To establish procedures for selecting qualified suppliers, defining requirements
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

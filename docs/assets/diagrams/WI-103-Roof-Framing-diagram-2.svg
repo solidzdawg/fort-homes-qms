@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="483"
+     height="528"
+     viewBox="0 0 483 528">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="463" height="508"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-103-Roof-Framing-diagram-2" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    ROOF TRUSS INSTALLATION PATTERN          │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Installation Layout (24&quot; O.C. typical):   │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ╱╲      ╱╲      ╱╲      ╱╲      ╱╲      │</text>
+    <text x="0" y="122.4" class="ascii-text">│╱  ╲24&quot;╱  ╲24&quot;╱  ╲24&quot;╱  ╲24&quot;╱  ╲24&quot;╱  ╲  │</text>
+    <text x="0" y="140.4" class="ascii-text">│ T1  │T2  │T3  │T4  │T5  │T6  │T7  │T8   │</text>
+    <text x="0" y="158.4" class="ascii-text">│├─24&quot;─┤├─24&quot;─┤├─24&quot;─┤├─24&quot;─┤├─24&quot;─┤├─24&quot;─┤</text>
+    <text x="0" y="176.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="194.4" class="ascii-text">│  Fastening to Top Plate (Birdsmouth):      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  ┌─ Wall Top Plate                   ─┐   │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │  ╱╲                                 │   │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ ╱  ╲ Seat cut = 3.5&quot; bearing        │   │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │      ╲                              │   │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │    ◆─◆  4 nails per side            │   │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ ┌─────┐  (3.5&quot; galvanized)          │   │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │ WLL │  Top plate                  │   │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ └─────┘                             │   │</text>
+    <text x="0" y="356.4" class="ascii-text">│  └─────────────────────────────────────┘   │</text>
+    <text x="0" y="374.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="392.4" class="ascii-text">│  Truss Spacing (24&quot; O.C. from center):     │</text>
+    <text x="0" y="410.4" class="ascii-text">│  T1---T2---T3---T4---T5---T6---T7---T8     │</text>
+    <text x="0" y="428.4" class="ascii-text">│   24&quot; 24&quot;  24&quot;  24&quot;  24&quot;  24&quot;  24&quot;  24&quot;    │</text>
+    <text x="0" y="446.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="464.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

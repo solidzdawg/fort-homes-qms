@@ -1250,6 +1250,14 @@ Manufacturing follows the Module Traveler system ([SOP-014](../sops/SOP-014-Modu
 
 #### 🏭 Production Workflow
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-005-Operations-diagram-1.svg" alt="QMS-005-Operations-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │  PRODUCTION SEQUENCE                                            │
@@ -1309,6 +1317,8 @@ Manufacturing follows the Module Traveler system ([SOP-014](../sops/SOP-014-Modu
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 

@@ -1,3 +1,11 @@
+
+<div align="center">
+  <img src="../assets/diagrams/FORM-I105-Insulation-Inspection-V2-diagram-1.svg" alt="FORM-I105-Insulation-Inspection-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -206,3 +214,5 @@
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+

@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-1.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-010        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-2.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -83,6 +103,14 @@ To establish procedures for assigning unique module identification numbers, mana
 
 ## 👥 4. ROLES & RESPONSIBILITIES
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-3.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        RACI RESPONSIBILITY MATRIX                           │
@@ -118,10 +146,20 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. MODULE IDENTIFICATION FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-4.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -189,12 +227,22 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🔢 4. MODULE SERIAL NUMBER SYSTEM
 
 ### 4.1 Serial Number Format
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-5.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -222,6 +270,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 4.2 Assignment Process
 
@@ -233,6 +283,14 @@ To establish procedures for assigning unique module identification numbers, mana
 | 4️⃣ | Linked to customer order | Order system |
 | 5️⃣ | Used throughout production tracking | All phase documentation |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-6.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — SERIAL NUMBER ASSIGNMENT                            │
@@ -243,12 +301,22 @@ To establish procedures for assigning unique module identification numbers, mana
 │ ■ Marked on module traveler before production start                        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📋 5. MODULE TRAVELER INITIATION
 
 ### 5.1 Traveler Document Requirements
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-7.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -268,6 +336,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Traveler Progression Through Phases
 
@@ -301,6 +371,14 @@ To establish procedures for assigning unique module identification numbers, mana
 
 ### 6.2 Data Plate Physical Specifications
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-8.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      DATA PLATE SPECIFICATIONS                              │
@@ -314,6 +392,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.3 Placement Requirements
 
@@ -330,6 +410,14 @@ To establish procedures for assigning unique module identification numbers, mana
 ## 🔧 7. DATA PLATE INSTALLATION
 
 ### 7.1 Installation Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-9.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -374,6 +462,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.2 Installation Verification Checklist
 
@@ -385,6 +475,14 @@ To establish procedures for assigning unique module identification numbers, mana
 | ✓ **Photograph taken** | Documentation on file | ☐ |
 | ✓ **Supervisor sign-off** | Approval documented | ☐ |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-10.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — DATA PLATE INSTALLATION                             │
@@ -395,12 +493,22 @@ To establish procedures for assigning unique module identification numbers, mana
 │ ■ Supervisor verification and sign-off completed                           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📊 8. MODULE TRACKING & STATUS
 
 ### 8.1 Status Tracking Throughout Production
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-11.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -421,6 +529,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 8.2 Location Tracking
 
@@ -433,6 +543,14 @@ To establish procedures for assigning unique module identification numbers, mana
 | 🔍 **Current status** | In progress, hold, complete | Real-time status |
 
 ### 8.3 Traceability for Recalls
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-12.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -450,6 +568,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -468,6 +588,14 @@ To establish procedures for assigning unique module identification numbers, mana
 
 ### 9.2 Required Documentation
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-13.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                   DATA PLATE DOCUMENTATION REQUIREMENTS                     │
@@ -482,12 +610,22 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## ⚠️ 10. CORRECTIVE ACTIONS FOR IDENTIFICATION ISSUES
 
 ### 10.1 Data Plate Issues
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-14.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -516,6 +654,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -533,6 +673,14 @@ To establish procedures for assigning unique module identification numbers, mana
 | ✅ **Installation verification forms** | 7 years | Quality files |
 | 🔄 **Recall tracking** (if applicable) | Permanent | Quality files |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-15.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-15" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — MODULE IDENTIFICATION RECORDS                       │
@@ -543,6 +691,8 @@ To establish procedures for assigning unique module identification numbers, mana
 │ ■ All records retrievable for audits and recalls                           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -566,6 +716,14 @@ To establish procedures for assigning unique module identification numbers, mana
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-010-Module-Identification-Data-Plate-diagram-16.svg" alt="SOP-010-Module-Identification-Data-Plate-diagram-16" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -577,6 +735,8 @@ To establish procedures for assigning unique module identification numbers, mana
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

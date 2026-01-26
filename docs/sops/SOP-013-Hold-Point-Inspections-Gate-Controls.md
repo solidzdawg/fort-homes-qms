@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-1.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-013        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-2.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -66,6 +86,14 @@ This procedure applies to:
 
 **Applies to:** Quality Inspectors, Production Supervisors, Module Production Team, Quality Manager
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-3.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -77,6 +105,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -93,6 +123,14 @@ This procedure applies to:
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-4.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -138,6 +176,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -157,6 +197,14 @@ This procedure applies to:
 | ⚫ **HP-8** | Final Inspection | Complete module quality sign-off, documentation | Quality Manager |
 
 ### 5.2 Inspection Scheduling & Timing
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-5.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -229,6 +277,8 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.3 Inspection Notification & Timing
 
@@ -241,6 +291,14 @@ This procedure applies to:
 ---
 
 ## 🔐 6. GATE APPROVAL AUTHORITY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-6.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -263,6 +321,16 @@ This procedure applies to:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-7.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -274,6 +342,8 @@ This procedure applies to:
 │ ■ No modules progress to next phase without proper gate sign-off           │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -293,6 +363,14 @@ When a module fails inspection at any gate:
 | 6️⃣ | Schedule re-inspection | Quality Manager | New inspection appointment |
 
 ### 7.2 Disposition Options
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-8.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -324,6 +402,8 @@ When a module fails inspection at any gate:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.3 Repeated Failures & Escalation
 
@@ -341,6 +421,14 @@ If a gate shows >10% failure rate across all modules:
 ---
 
 ## 📊 8. METRICS & PERFORMANCE INDICATORS
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-9.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -366,6 +454,16 @@ If a gate shows >10% failure rate across all modules:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-10.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -377,6 +475,8 @@ If a gate shows >10% failure rate across all modules:
 │ ■ Monthly trend report prepared by Quality Manager                         │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -414,6 +514,14 @@ If a gate shows >10% failure rate across all modules:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-11.svg" alt="SOP-013-Hold-Point-Inspections-Gate-Controls-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                                END OF DOCUMENT
@@ -425,6 +533,8 @@ If a gate shows >10% failure rate across all modules:
                        Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

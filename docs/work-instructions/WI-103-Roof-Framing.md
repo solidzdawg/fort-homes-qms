@@ -28,6 +28,14 @@
 
 ### Step 1: Roof Truss Delivery & Inspection
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-1.svg" alt="WI-103-Roof-Framing-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    ROOF TRUSS DELIVERY & STAGING            │
@@ -61,6 +69,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Receive trusses from delivery (sign bill of lading)
@@ -76,6 +86,14 @@
 ---
 
 ### Step 2: Roof Truss Installation & Spacing
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-2.svg" alt="WI-103-Roof-Framing-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -105,6 +123,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Position first truss at wall end (check squareness with string)
@@ -120,6 +140,14 @@
 ---
 
 ### Step 3: Roof Sheathing Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-3.svg" alt="WI-103-Roof-Framing-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -155,6 +183,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Start at eave edge with full width sheet, working up slope
@@ -170,6 +200,14 @@
 ---
 
 ### Step 4: Roof Underlayment Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-4.svg" alt="WI-103-Roof-Framing-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -208,6 +246,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Start at eave with synthetic/felt underlayment
@@ -224,6 +264,14 @@
 ---
 
 ### Step 5: Gutter & Downspout Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-5.svg" alt="WI-103-Roof-Framing-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -270,6 +318,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install gutter brackets at 32" o.c. (start at high point)
@@ -286,6 +336,14 @@
 ---
 
 ### Step 6: Roof Access & Safety Features
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-6.svg" alt="WI-103-Roof-Framing-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -327,6 +385,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install attic access hatch opening (minimum 22" wide)
@@ -342,6 +402,14 @@
 ---
 
 ### Step 7: Roof Inspection & HP-3 Completion
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-103-Roof-Framing-diagram-7.svg" alt="WI-103-Roof-Framing-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -379,6 +447,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Complete interior roof inspection (attic space)

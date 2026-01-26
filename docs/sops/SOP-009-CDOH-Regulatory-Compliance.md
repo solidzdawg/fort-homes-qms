@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-1.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-009        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-2.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -85,6 +105,14 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 
 ## 👥 4. ROLES & RESPONSIBILITIES
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-3.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        RACI RESPONSIBILITY MATRIX                           │
@@ -120,10 +148,20 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. INSPECTION COORDINATION FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-4.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -188,6 +226,8 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -204,6 +244,14 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 | 📁 **Documentation** | Complete compliance records | File maintained and retrievable |
 | 🧪 **Testing** | Load tests, electrical, plumbing | Test reports filed and approved |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-5.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — CDOH COMPLIANCE                                     │
@@ -214,12 +262,22 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │ ■ Data plate installed per requirements                                    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 🔍 5. THIRD-PARTY INSPECTOR COORDINATION
 
 ### 5.1 Inspector Selection
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-6.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -236,6 +294,8 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Inspection Planning
 
@@ -248,6 +308,14 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 ## 📋 6. INSPECTION FINDINGS MANAGEMENT
 
 ### 6.1 Handling Inspection Outcomes
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-7.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -274,6 +342,8 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -293,6 +363,14 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 
 ### 7.2 Placement Requirements
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-8.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        DATA PLATE INSTALLATION                              │
@@ -305,6 +383,8 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 7.3 Warning Labels
 
@@ -318,6 +398,14 @@ Required warning labels for:
 | 🔥 **Chimney/fireplace** | Use and maintenance requirements | Near appliance |
 | 🔧 **Maintenance** | Required maintenance schedules | Accessible location |
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-9.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ ✅ QUALITY CHECKPOINT — DATA PLATE & LABELING                               │
@@ -328,12 +416,22 @@ Required warning labels for:
 │ ■ Photographic documentation on file                                       │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📁 8. REGULATORY DOCUMENTATION
 
 ### 8.1 Required Records
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-10.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -351,6 +449,8 @@ Required warning labels for:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 8.2 Documentation Retention
 
@@ -367,6 +467,14 @@ Required warning labels for:
 
 ### 9.1 Monitoring Updates
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-11.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                      REGULATORY UPDATE MONITORING                           │
@@ -380,6 +488,8 @@ Required warning labels for:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 9.2 Implementation of Changes
 
@@ -395,6 +505,14 @@ Required warning labels for:
 ## ⚠️ 10. NON-COMPLIANT MODULE HANDLING
 
 ### 10.1 Non-Compliance Procedure
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-12.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -418,10 +536,20 @@ Required warning labels for:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📊 11. METRICS & INSPECTION PERFORMANCE
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-13.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -441,6 +569,8 @@ Required warning labels for:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -464,6 +594,14 @@ Required warning labels for:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-009-CDOH-Regulatory-Compliance-diagram-14.svg" alt="SOP-009-CDOH-Regulatory-Compliance-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -475,6 +613,8 @@ Required warning labels for:
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

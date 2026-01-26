@@ -47,6 +47,14 @@
 
 ### 1.1 Risk Management Process
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-1.svg" alt="QMS-003-Planning-Risk-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  RISK MANAGEMENT PROCESS FLOW                                              │
@@ -90,6 +98,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 1.2 Risk Rating Methodology (FMEA-Style)
 
@@ -140,6 +150,14 @@
 
 #### Risk Priority Number (RPN)
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-2.svg" alt="QMS-003-Planning-Risk-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 RPN = Severity × Occurrence × Detection
 
@@ -172,6 +190,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -249,6 +269,14 @@ RPN Range: 1 - 1,000
 
 **Critical Risks Requiring Immediate Action:**
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-3.svg" alt="QMS-003-Planning-Risk-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  RISK TREATMENT PRIORITY LIST                                              │
@@ -280,12 +308,22 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 3. OPPORTUNITY REGISTER
 
 ### 3.1 Opportunity Identification Framework
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-4.svg" alt="QMS-003-Planning-Risk-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -316,6 +354,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 3.2 Current Opportunity Register
 
@@ -346,6 +386,14 @@ RPN Range: 1 - 1,000
 
 ### 4.1 SMART Objectives Framework
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-5.svg" alt="QMS-003-Planning-Risk-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  SMART OBJECTIVES CRITERIA                                                 │
@@ -359,6 +407,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 4.2 2026 Quality Objectives
 
@@ -376,6 +426,14 @@ RPN Range: 1 - 1,000
 | **Audit Performance** | Major findings | 3 (2025) | 0 | Audit reports | Quality Mgr | Per audit |
 
 ### 4.3 Objectives Deployment Plan
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-6.svg" alt="QMS-003-Planning-Risk-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -407,6 +465,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 4.4 Objectives Action Plans
 
@@ -425,6 +485,14 @@ RPN Range: 1 - 1,000
 ## 5. CHANGE PLANNING FRAMEWORK
 
 ### 5.1 Change Control Process
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-7.svg" alt="QMS-003-Planning-Risk-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -473,6 +541,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Change Classification
 
@@ -514,6 +584,14 @@ RPN Range: 1 - 1,000
 
 ### 6.1 Risk Review Schedule
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-003-Planning-Risk-diagram-8.svg" alt="QMS-003-Planning-Risk-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  RISK MONITORING SCHEDULE                                                  │
@@ -549,6 +627,8 @@ RPN Range: 1 - 1,000
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Risk KPIs
 

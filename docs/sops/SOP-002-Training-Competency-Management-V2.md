@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-1.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-002        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -25,6 +35,14 @@
 ## 📊 EXECUTIVE SUMMARY
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-2.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -44,6 +62,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -70,6 +90,14 @@
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-3.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              🎯 PURPOSE                                     │
@@ -95,6 +123,8 @@
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -153,6 +183,14 @@ Ensures all personnel performing work affecting product quality are competent ba
 ## 5. PROCESS FLOW
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-4.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -221,6 +259,8 @@ Ensures all personnel performing work affecting product quality are competent ba
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -229,6 +269,14 @@ Ensures all personnel performing work affecting product quality are competent ba
 ## 6. TRAINING NEEDS ASSESSMENT
 
 ### 6.1 New Hire Assessment
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-5.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -243,6 +291,8 @@ Ensures all personnel performing work affecting product quality are competent ba
 │ ■ Competency assessment before independent work authorization               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Assessment Process:**
 1. HR Manager reviews job description and identifies required competencies
@@ -282,6 +332,14 @@ Ensures all personnel performing work affecting product quality are competent ba
 
 ### 7.2 Training Delivery Methods
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-6.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         TRAINING DELIVERY OPTIONS                           │
@@ -299,6 +357,8 @@ Ensures all personnel performing work affecting product quality are competent ba
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -315,6 +375,14 @@ Ensures all personnel performing work affecting product quality are competent ba
 | **Peer Review** | Quality inspection tasks | QA Manager approval |
 
 ### 8.2 Competency Documentation
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-7.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -343,6 +411,8 @@ Ensures all personnel performing work affecting product quality are competent ba
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 8.3 Retraining Requirements
 
@@ -393,6 +463,14 @@ Immediate Retraining Required When:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-8.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                         📊 TRAINING METRICS                                │
@@ -409,6 +487,8 @@ Immediate Retraining Required When:
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -446,6 +526,14 @@ Immediate Retraining Required When:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-002-Training-Competency-Management-V2-diagram-9.svg" alt="SOP-002-Training-Competency-Management-V2-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -457,6 +545,8 @@ Immediate Retraining Required When:
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **Document Classification:** CONTROLLED | Training Required:  Annual  
 **Regulatory Compliance:** CDOH 8 CCR 1302-14, HUD 24 CFR 3280

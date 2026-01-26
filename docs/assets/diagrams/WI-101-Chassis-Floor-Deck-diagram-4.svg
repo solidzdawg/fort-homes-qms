@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="483"
+     height="474"
+     viewBox="0 0 483 474">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="463" height="454"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-101-Chassis-Floor-Deck-diagram-4" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    UNDER-FLOOR MEP ROUTING DIAGRAM         │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Electrical Conduit Runs (2&quot; minimum)      │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌─────────────────────────────────────┐   │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ E ─ E ─ E ─ E ─ E    E = Conduit    │   │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                      │   │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ Plumbing Supply Lines (hot/cold)     │   │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ ╞═╞═╞═╞═╞═╞═╞═╞═     ═ = PEX/PVC   │   │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │                                      │   │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ Drain Lines (slope 1/4&quot; per 10 ft)   │   │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ ╠═╠═╠═╠═╠═╠═╠═╠═     Sloped DWV    │   │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │                                      │   │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ Gas Line (yellow): CSST or copper    │   │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ ▬▬ G ▬▬ G ▬▬ G ▬▬    G = Gas line   │   │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │                                      │   │</text>
+    <text x="0" y="320.4" class="ascii-text">│  └─────────────────────────────────────┘   │</text>
+    <text x="0" y="338.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="356.4" class="ascii-text">│  Spacing: 12&quot; minimum between systems      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  Protection: Clamp/support every 3 feet   │</text>
+    <text x="0" y="392.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="410.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

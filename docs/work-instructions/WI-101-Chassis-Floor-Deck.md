@@ -27,6 +27,14 @@
 
 ### Step 1: Chassis Positioning & Inspection
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-1.svg" alt="WI-101-Chassis-Floor-Deck-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │         CHASSIS POSITIONING LAYOUT         │
@@ -43,6 +51,8 @@
 │  Verify: Level ±¼", no twists, no damage   │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Receive chassis frame from delivery
@@ -57,6 +67,14 @@
 ---
 
 ### Step 2: Floor Joist Layout & Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-2.svg" alt="WI-101-Chassis-Floor-Deck-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -79,6 +97,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Snap chalk lines at 16" intervals
@@ -93,6 +113,14 @@
 ---
 
 ### Step 3: Subfloor Sheathing Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-3.svg" alt="WI-101-Chassis-Floor-Deck-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -115,6 +143,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Apply construction adhesive to joists
@@ -129,6 +159,14 @@
 ---
 
 ### Step 4: Below-Deck MEP Stubout Layout
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-4.svg" alt="WI-101-Chassis-Floor-Deck-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -155,6 +193,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Review electrical/plumbing/HVAC plans for penetrations
@@ -170,6 +210,14 @@
 ---
 
 ### Step 5: Pre-Wall Framing Preparation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-5.svg" alt="WI-101-Chassis-Floor-Deck-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -193,6 +241,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Snap chalk lines for all exterior walls (using plans)
@@ -222,6 +272,14 @@
 
 ### Step 7: Next Phase Transition (Phase 2: Walls)
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-101-Chassis-Floor-Deck-diagram-6.svg" alt="WI-101-Chassis-Floor-Deck-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    PHASE 1 COMPLETE → PHASE 2 READY        │
@@ -238,6 +296,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Pass HP-1 inspection with zero NCRs

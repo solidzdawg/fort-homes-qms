@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="483"
+     height="1122"
+     viewBox="0 0 483 1122">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="463" height="1102"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-104-MEP-Rough-In-diagram-7" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    MEP ROUGH-IN FINAL CHECKLIST             │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Electrical System (Complete):              │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ✓ Service mast installed &amp; weatherproof   │</text>
+    <text x="0" y="122.4" class="ascii-text">│  ✓ Main panel installed (200-400A rated)   │</text>
+    <text x="0" y="140.4" class="ascii-text">│  ✓ All breakers installed &amp; labeled        │</text>
+    <text x="0" y="158.4" class="ascii-text">│  ✓ All outlets &amp; switches installed        │</text>
+    <text x="0" y="176.4" class="ascii-text">│  ✓ All conduit runs sealed &amp; supported     │</text>
+    <text x="0" y="194.4" class="ascii-text">│  ✓ All boxes located per plan              │</text>
+    <text x="0" y="212.4" class="ascii-text">│  ✓ Grounding bonded to rod &amp; panel         │</text>
+    <text x="0" y="230.4" class="ascii-text">│  ✓ Electrical continuity tested            │</text>
+    <text x="0" y="248.4" class="ascii-text">│  ✓ High-low voltage separation (12&quot; min)   │</text>
+    <text x="0" y="266.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="284.4" class="ascii-text">│  Plumbing System (Complete):                │</text>
+    <text x="0" y="302.4" class="ascii-text">│  ✓ Water meter &amp; main shutoff installed    │</text>
+    <text x="0" y="320.4" class="ascii-text">│  ✓ All supply lines (hot &amp; cold) run       │</text>
+    <text x="0" y="338.4" class="ascii-text">│  ✓ Water heater connected                  │</text>
+    <text x="0" y="356.4" class="ascii-text">│  ✓ All DWV lines installed with slope      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  ✓ All P-traps under fixtures              │</text>
+    <text x="0" y="392.4" class="ascii-text">│  ✓ All vents extend 2+ ft above roof       │</text>
+    <text x="0" y="410.4" class="ascii-text">│  ✓ Main cleanout accessible                │</text>
+    <text x="0" y="428.4" class="ascii-text">│  ✓ Pressure test PASSED (80 psi, 15 min)   │</text>
+    <text x="0" y="446.4" class="ascii-text">│  ✓ Smoke test PASSED (vents only)          │</text>
+    <text x="0" y="464.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="482.4" class="ascii-text">│  HVAC System (Complete):                    │</text>
+    <text x="0" y="500.4" class="ascii-text">│  ✓ Furnace/heat pump installed             │</text>
+    <text x="0" y="518.4" class="ascii-text">│  ✓ All ducts run &amp; sealed                  │</text>
+    <text x="0" y="536.4" class="ascii-text">│  ✓ All registers &amp; grilles installed       │</text>
+    <text x="0" y="554.4" class="ascii-text">│  ✓ Thermostat installed (60&quot; AFF)          │</text>
+    <text x="0" y="572.4" class="ascii-text">│  ✓ Furnace vents through roof              │</text>
+    <text x="0" y="590.4" class="ascii-text">│  ✓ Return air path complete                │</text>
+    <text x="0" y="608.4" class="ascii-text">│  ✓ Furnace operates (temp rise verified)   │</text>
+    <text x="0" y="626.4" class="ascii-text">│  ✓ All duct pressures balanced             │</text>
+    <text x="0" y="644.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="662.4" class="ascii-text">│  Gas System (if applicable):                │</text>
+    <text x="0" y="680.4" class="ascii-text">│  ✓ Main shutoff valve installed &amp; labeled  │</text>
+    <text x="0" y="698.4" class="ascii-text">│  ✓ CSST lines run to all appliances        │</text>
+    <text x="0" y="716.4" class="ascii-text">│  ✓ Bonding strap installed                 │</text>
+    <text x="0" y="734.4" class="ascii-text">│  ✓ All connections pressure tested         │</text>
+    <text x="0" y="752.4" class="ascii-text">│  ✓ Soapy water test PASSED (zero leaks)    │</text>
+    <text x="0" y="770.4" class="ascii-text">│  ✓ Pressure verified at appliances         │</text>
+    <text x="0" y="788.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="806.4" class="ascii-text">│  HP-4 Third-Party Inspection:               │</text>
+    <text x="0" y="824.4" class="ascii-text">│  Inspector will verify:                     │</text>
+    <text x="0" y="842.4" class="ascii-text">│  • All MEP systems per code                 │</text>
+    <text x="0" y="860.4" class="ascii-text">│  • Proper spacing &amp; support                 │</text>
+    <text x="0" y="878.4" class="ascii-text">│  • Test results documented                  │</text>
+    <text x="0" y="896.4" class="ascii-text">│  • All safety features in place             │</text>
+    <text x="0" y="914.4" class="ascii-text">│  • Module ready for insulation (Phase 5)   │</text>
+    <text x="0" y="932.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="950.4" class="ascii-text">│  Phase 4 Complete When:                     │</text>
+    <text x="0" y="968.4" class="ascii-text">│  ✓ All MEP systems tested &amp; documented     │</text>
+    <text x="0" y="986.4" class="ascii-text">│  ✓ Zero major defects found                │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  ✓ HP-4 inspection PASSED                  │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  ✓ Ready for Phase 5 (Insulation)           │</text>
+    <text x="0" y="1040.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1058.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

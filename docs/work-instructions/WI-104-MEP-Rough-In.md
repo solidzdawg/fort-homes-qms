@@ -29,6 +29,14 @@
 
 ### Step 1: Electrical Rough-In (Conduit & Boxes)
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-1.svg" alt="WI-104-MEP-Rough-In-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    ELECTRICAL LAYOUT - WALL & ATTIC         │
@@ -82,6 +90,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Layout electrical run locations per plans (conduit routing)
@@ -97,6 +107,14 @@
 ---
 
 ### Step 2: Electrical Panel & Service Entry
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-2.svg" alt="WI-104-MEP-Rough-In-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -151,6 +169,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install service mast (conduit) through roof with weatherproof fitting
@@ -167,6 +187,14 @@
 ---
 
 ### Step 3: Plumbing Rough-In (Supply & Drain)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-3.svg" alt="WI-104-MEP-Rough-In-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -241,6 +269,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install water meter and main shutoff valve (typically in utility area)
@@ -259,6 +289,14 @@
 ---
 
 ### Step 4: HVAC Rough-In (Ducts & Equipment)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-4.svg" alt="WI-104-MEP-Rough-In-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -341,6 +379,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install furnace or air handler in utility space
@@ -359,6 +399,14 @@
 ---
 
 ### Step 5: Gas Line Installation (if applicable)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-5.svg" alt="WI-104-MEP-Rough-In-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -416,6 +464,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Coordinate with utility company for gas meter location
@@ -434,6 +484,14 @@
 ---
 
 ### Step 6: System Pressure Testing & Inspection
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-6.svg" alt="WI-104-MEP-Rough-In-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -522,6 +580,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Isolate main water shutoff valve
@@ -540,6 +600,14 @@
 ---
 
 ### Step 7: MEP Documentation & HP-4 Inspection Ready
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-104-MEP-Rough-In-diagram-7.svg" alt="WI-104-MEP-Rough-In-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -602,6 +670,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Compile all MEP test results (pressure, smoke, electrical)

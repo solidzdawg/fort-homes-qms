@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="474"
+     height="312"
+     viewBox="0 0 474 312">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="454" height="292"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-101-Chassis-Floor-Deck-diagram-6" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    PHASE 1 COMPLETE → PHASE 2 READY        │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  ✓ Chassis level and square                │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ✓ Joists installed and spaced 16&quot; o.c.   │</text>
+    <text x="0" y="122.4" class="ascii-text">│  ✓ Sheathing installed and fastened       │</text>
+    <text x="0" y="140.4" class="ascii-text">│  ✓ MEP stubouts in place                   │</text>
+    <text x="0" y="158.4" class="ascii-text">│  ✓ Floor marked for wall layout            │</text>
+    <text x="0" y="176.4" class="ascii-text">│  ✓ HP-1 inspection passed                  │</text>
+    <text x="0" y="194.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="212.4" class="ascii-text">│  NEXT: Wall Framing (Phase 2) - WI-102    │</text>
+    <text x="0" y="230.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="248.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="492"
+     height="1752"
+     viewBox="0 0 492 1752">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="472" height="1732"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-107-Interior-Trim-Finish-diagram-3" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    INTERIOR TRIM INSTALLATION DETAIL        │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Baseboard Molding Installation:            │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Baseboard Profile &amp; Installation:  │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ ┌────────────────────────────┐    │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ │ Wall                        │    │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ │ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀  │    │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │                            │    │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ │ Baseboard (3.5&quot; high typi):│    │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ │  ┌──────────────────────┐  │    │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ │  │                      │  │    │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │  ─┤ Trim molding (nailed  ├─ ─    │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │  ║ │ to studs, 16&quot; o.c.)  │ ║    │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │  ║ │                      │ ║    │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │  ║ │                      │ ║    │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │  ║ │   Caulked seam at    │ ║    │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │  ║ │   top edge (¼&quot;)      │ ║    │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │  ║ │                      │ ║    │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │  ║ │ 1&quot; nails every 16&quot;   │ ║    │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │  ║ │ into studs           │ ║    │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │  ║ │                      │ ║    │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │  ║ │ Caulk at seams       │ ║    │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │  ║ │ (cut miter joints)   │ ║    │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │  ║ │                      │ ║    │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │  ║ └──────────────────────┘ ║    │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │  ║                          ║    │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │  ║ Floor                    ║    │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │ Baseboard Layout:                 │      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │ • 3.5&quot; high (typical)             │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │ • Finished pine or MDF            │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │ • Pre-painted (or paint on-site)  │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │ • Mitered corners (45° angle)     │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │ • Coped seams (at wall junctions) │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │ Installation Steps:               │      │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │ 1. Measure baseboard lengths      │      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  │ 2. Cut 45° mitered corners        │      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ 3. Nail into studs (1&quot; finish nails│     │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ 4. Caulk all seams (paintable)    │      │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ 5. Caulk at wall/trim junction    │      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ 6. Paint or stain to match        │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="896.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="914.4" class="ascii-text">│  Door Casing Installation:                  │</text>
+    <text x="0" y="932.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ Door/Window Casing (Trim Around):  │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │  ┌────────────────────────────┐   │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │  │ Head Casing              ▀▀▀  │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │  │ ┌────────────────────────┐    │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │  │ │  45° miter joints      │    │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │  │ │                        │    │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │  │ └────────────────────────┘    │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │  │ ║    Door Frame    ║           │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │  │ ║    (Jamb)        ║           │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │  │ ║    Hinge side    ║ Latch    │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │  │ ║    (not cased)   ║ side     │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │  │ ║                  ║ Casing   │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │  │ ║ Side Casings     ║ ┌──────┐ │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │  │ ║ ┌─────────┐      ║ │  TRM │ │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │  │ ║ │ Casing  │      ║ │  ┌─┐ │ │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │  │ ║ │ 2.5&quot; W  │      ║ │  │○│ │ │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │  │ ║ │ (typical)       ║ │  └─┘ │ │      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │  │ ║ │ Mitered │      ║ │      │ │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │  │ ║ │ at head │      ║ │ Stop │ │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │  │ ║ └─────────┘      ║ └──────┘ │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │  │ ║                  ║           │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │  │ ║                  ║           │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │  │ ║    Finish at     ║           │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │  │ ║    baseboard     ║           │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │  │ ║    (miter or     ║           │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │  │ ║    butt joint)   ║           │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │  │ └─────────────────┘           │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │  │ Baseboard (below)              │      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │  └────────────────────────────────┘      │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │ Casing Installation:              │      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ 1. Install head casing (45° miters)│     │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │ 2. Install leg casings (45° miters)│     │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ 3. Nail into studs (1.25&quot; nails)  │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │ 4. Caulk all seams                │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ 5. Paint or stain                 │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ 6. Install door stop (on frame)   │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1688.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

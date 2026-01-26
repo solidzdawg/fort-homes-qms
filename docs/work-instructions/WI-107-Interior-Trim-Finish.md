@@ -29,6 +29,14 @@
 
 ### Step 1: Interior Paint Preparation & Application
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-1.svg" alt="WI-107-Interior-Trim-Finish-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    INTERIOR PAINT APPLICATION SYSTEM        │
@@ -126,6 +134,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Verify all drywall is primed and ready for paint
@@ -147,6 +157,14 @@
 ---
 
 ### Step 2: Interior Door Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-2.svg" alt="WI-107-Interior-Trim-Finish-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -281,6 +299,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Verify rough opening is correct (per schedule ±1/8")
@@ -303,6 +323,14 @@
 ---
 
 ### Step 3: Interior Trim Installation (Baseboards, Casing)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-3.svg" alt="WI-107-Interior-Trim-Finish-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -400,6 +428,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Measure and cut baseboard lengths (mitered corners 45°)
@@ -419,6 +449,14 @@
 ---
 
 ### Step 4: Flooring Installation (if applicable)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-4.svg" alt="WI-107-Interior-Trim-Finish-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -523,6 +561,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Prepare subfloor (clean, level ±¼", dry)
@@ -542,6 +582,14 @@
 ---
 
 ### Step 5: Cabinetry Installation (if applicable)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-5.svg" alt="WI-107-Interior-Trim-Finish-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -652,6 +700,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Locate wall studs with stud finder (mark at 16" o.c.)
@@ -672,6 +722,14 @@
 ---
 
 ### Step 6: Outlet Covers & Electrical Fixture Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-6.svg" alt="WI-107-Interior-Trim-Finish-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -757,6 +815,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Wait 24+ hours for paint to fully cure
@@ -776,6 +836,14 @@
 ---
 
 ### Step 7: Final Interior Walkthrough & Phase 7 Completion
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-107-Interior-Trim-Finish-diagram-7.svg" alt="WI-107-Interior-Trim-Finish-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -857,6 +925,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Complete visual walkthrough of all interior work

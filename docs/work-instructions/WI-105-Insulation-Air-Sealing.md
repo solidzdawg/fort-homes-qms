@@ -29,6 +29,14 @@
 
 ### Step 1: Air Sealing Preparation & Inspection
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-1.svg" alt="WI-105-Insulation-Air-Sealing-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    AIR SEALING - PENETRATION IDENTIFICATION  │
@@ -99,6 +107,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Review building plans for all mechanical penetrations
@@ -114,6 +124,14 @@
 ---
 
 ### Step 2: Electrical & Mechanical Penetration Sealing
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-2.svg" alt="WI-105-Insulation-Air-Sealing-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -211,6 +229,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Apply acoustic caulk (3.5" wide bead) around all electrical outlet boxes
@@ -228,6 +248,14 @@
 ---
 
 ### Step 3: Wall Cavity Insulation Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-3.svg" alt="WI-105-Insulation-Air-Sealing-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -301,6 +329,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Unroll first batt of insulation (4.5' wide, rolls)
@@ -319,6 +349,14 @@
 ---
 
 ### Step 4: Attic & Crawl Space Insulation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-4.svg" alt="WI-105-Insulation-Air-Sealing-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -419,6 +457,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install rafter vents (baffles) at soffit line to maintain air gap for soffit-to-ridge ventilation
@@ -436,6 +476,14 @@
 ---
 
 ### Step 5: Air Barrier & Gap Sealing (Top Plates)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-5.svg" alt="WI-105-Insulation-Air-Sealing-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -506,6 +554,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Inspect gap between top plate(s) and roof assembly (typically 1-2" uninsulated)
@@ -521,6 +571,14 @@
 ---
 
 ### Step 6: Blower Door Test Preparation & Execution
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-6.svg" alt="WI-105-Insulation-Air-Sealing-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -608,6 +666,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Schedule third-party blower door test (IECC compliance required)
@@ -626,6 +686,14 @@
 ---
 
 ### Step 7: Insulation & Air Sealing Inspection Final
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-105-Insulation-Air-Sealing-diagram-7.svg" alt="WI-105-Insulation-Air-Sealing-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -673,6 +741,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Complete visual inspection of all insulation and air sealing work

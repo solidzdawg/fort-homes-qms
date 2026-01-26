@@ -28,6 +28,14 @@
 
 ### Step 1: Wall Frame Layout & Marking
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-1.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    WALL FRAME LAYOUT FROM FLOOR MARKS      │
@@ -54,6 +62,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Verify all floor markings are visible and accurate
@@ -69,6 +79,14 @@
 ---
 
 ### Step 2: Stud Cutting & Preparation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-2.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -96,6 +114,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Set up circular saw cutting station with fence
@@ -111,6 +131,14 @@
 ---
 
 ### Step 3: Sole Plate & Top Plate Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-3.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -141,6 +169,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Position sole plate on chalk lines using shims
@@ -156,6 +186,14 @@
 ---
 
 ### Step 4: Stud Installation & Bracing
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-4.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -187,6 +225,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install studs at 16" o.c. positions (toe-nail with 3 nails top, 3 nails bottom)
@@ -202,6 +242,14 @@
 ---
 
 ### Step 5: Header Installation & Opening Framing
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-5.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -240,6 +288,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Position header at opening location (per plan)
@@ -255,6 +305,14 @@
 ---
 
 ### Step 6: Exterior Sheathing Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-6.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -293,6 +351,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Apply house wrap primer to wall if required
@@ -309,6 +369,14 @@
 ---
 
 ### Step 7: Exterior Membrane & Inspection Ready
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-102-Wall-Framing-Sheathing-diagram-7.svg" alt="WI-102-Wall-Framing-Sheathing-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -347,6 +415,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Roll out house wrap from bottom, overlap previous layer 6" horizontally

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="501"
+     height="2418"
+     viewBox="0 0 501 2418">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="481" height="2398"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-107-Interior-Trim-Finish-diagram-2" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    INTERIOR DOOR INSTALLATION               │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Interior Door Styles:                      │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Hollow Core (light use):          │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │ ┌─────────────────────────────┐   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ │  Paper/foam core            │   │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ │  Between veneer faces       │   │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ │  Light weight, hollow sound │   │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │  Low cost ($50-100 per door)│   │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ └─────────────────────────────┘   │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │  Typical: Bedrooms, closets      │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ Solid Core (sound reduction):     │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ ┌─────────────────────────────┐   │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │  MDF or wood particle board │   │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ │  Solid throughout           │   │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ │  Sound dampening (better)   │   │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │ │  Moderate cost ($150-250)   │   │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │ └─────────────────────────────┘   │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │  Typical: Master bedroom, bathroom│      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ Standard Dimensions:              │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │ Height: 80&quot; (6&apos;8&quot;)               │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │ Width: 24&quot;, 28&quot;, 30&quot;, 32&quot;, 36&quot;   │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │ Thickness: 1.375&quot; (1-3/8&quot;)       │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="554.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="572.4" class="ascii-text">│  Door Installation (Standard Procedure):    │</text>
+    <text x="0" y="590.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │ Step 1: Rough Opening Verification│      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │ ┌──────────────────────────────┐  │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │ │  Rough Opening (RO):          │  │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │ │  Width: 36.5&quot; (for 36&quot; door)  │  │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │ │  Height: 82.5&quot; (for 80&quot; door) │  │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │ │  Square: ±1/8&quot; diagonal       │  │      │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │ │  Plumb: ±1/8&quot; vertical        │  │      │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  │ │  ┌────────────────────────┐   │  │      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ │  │ Rough Opening 36.5&quot; W  │   │  │      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ │  │ │                    │ │   │  │      │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ │  │ │    36&quot; DOOR SPACE  │ │   │  │      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ │  │ │  ┌──────────────┐  │ │   │  │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │ │  │ │  │  Door Frame  │  │ │   │  │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ │  │ │  │  (Jamb)      │  │ │   │  │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │ │  │ │  │  Fitted with │  │ │   │  │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ │  │ │  │  shims       │  │ │   │  │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ │  │ │  │  ¼&quot; shim     │  │ │   │  │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ │  │ │  │  spacing     │  │ │   │  │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ │  │ │  └──────────────┘  │ │   │  │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │ │  │ │    82.5&quot; height    │ │   │  │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ │  │ │                    │ │   │  │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ │  │ └────────────────────┘ │   │  │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │ │  └──────────────────────────┘   │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │ Step 2: Door Frame Installation    │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ ┌──────────────────────────────┐  │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ │ Door Frame (Jamb Kit):        │  │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ │  • 2 side pieces (legs)       │  │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ │  • 1 head piece (top)         │  │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ │  • Assembled at job site      │  │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ │ Frame Assembly:               │  │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ │  ┌──────────────────────────┐ │  │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ │  │ Head                  │   │ │  │      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ │  │ ──────────────────────    │ │  │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ │  │ │                      │  │ │  │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ │  │ │ Mortise (hinges)     │  │ │  │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ │  │ │                      │  │ │  │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │ │  │ Leg (Left)  Leg (Right) │ │  │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ │  └──────────────────────────┘ │  │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ │ Installation:                 │  │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ │ 1. Position frame in RO       │  │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │ │ 2. Shim plumb (left leg first)│  │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │ │ 3. Shim plumb (right leg)     │  │      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │ │ 4. Shim level (head piece)    │  │      │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │ │ 5. Space even (¼&quot; all around) │  │      │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │ │ 6. Nail through shims         │  │      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ │ 7. Trim shims flush           │  │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ └──────────────────────────────┘  │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ Step 3: Door Slab Installation     │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │ ┌──────────────────────────────┐  │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  │ │ Door slab (loose panel):      │  │      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│  │ │ • Hinges pre-installed        │  │      │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  │ │ • Latch hole pre-drilled      │  │      │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  │ │ • Handle hardware fitted      │  │      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="1742.4" class="ascii-text">│  │ │ Hinge Installation:           │  │      │</text>
+    <text x="0" y="1760.4" class="ascii-text">│  │ │   ┌─────────────┐             │  │      │</text>
+    <text x="0" y="1778.4" class="ascii-text">│  │ │   │ Door Slab   │ Top hinge:  │  │      │</text>
+    <text x="0" y="1796.4" class="ascii-text">│  │ │   │ ╔═══════╗   │ 12&quot; down    │  │      │</text>
+    <text x="0" y="1814.4" class="ascii-text">│  │ │   │ ║ Hinge ║   │ from head   │  │      │</text>
+    <text x="0" y="1832.4" class="ascii-text">│  │ │   │ ╚═══════╝   │             │  │      │</text>
+    <text x="0" y="1850.4" class="ascii-text">│  │ │   │             │ Mid hinge:  │  │      │</text>
+    <text x="0" y="1868.4" class="ascii-text">│  │ │   │ ╔═══════╗   │ Center      │  │      │</text>
+    <text x="0" y="1886.4" class="ascii-text">│  │ │   │ ║ Hinge ║   │             │  │      │</text>
+    <text x="0" y="1904.4" class="ascii-text">│  │ │   │ ╚═══════╝   │ Bot hinge:  │  │      │</text>
+    <text x="0" y="1922.4" class="ascii-text">│  │ │   │             │ 12&quot; up      │  │      │</text>
+    <text x="0" y="1940.4" class="ascii-text">│  │ │   │ ╔═══════╗   │ from bottom │  │      │</text>
+    <text x="0" y="1958.4" class="ascii-text">│  │ │   │ ║ Hinge ║   │             │  │      │</text>
+    <text x="0" y="1976.4" class="ascii-text">│  │ │   │ ╚═══════╝   │             │  │      │</text>
+    <text x="0" y="1994.4" class="ascii-text">│  │ │   └─────────────┘             │  │      │</text>
+    <text x="0" y="2012.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="2030.4" class="ascii-text">│  │ │ Hanging Door:                 │  │      │</text>
+    <text x="0" y="2048.4" class="ascii-text">│  │ │ 1. Lift door onto hinges      │  │      │</text>
+    <text x="0" y="2066.4" class="ascii-text">│  │ │ 2. Secure top hinge first     │  │      │</text>
+    <text x="0" y="2084.4" class="ascii-text">│  │ │ 3. Check swing (smooth)       │  │      │</text>
+    <text x="0" y="2102.4" class="ascii-text">│  │ │ 4. Secure remaining hinges    │  │      │</text>
+    <text x="0" y="2120.4" class="ascii-text">│  │ │ 5. Adjust fit (¼&quot; gap frame)  │  │      │</text>
+    <text x="0" y="2138.4" class="ascii-text">│  │ │ 6. Install door closer (if)   │  │      │</text>
+    <text x="0" y="2156.4" class="ascii-text">│  │ │                               │  │      │</text>
+    <text x="0" y="2174.4" class="ascii-text">│  │ └──────────────────────────────┘  │      │</text>
+    <text x="0" y="2192.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2210.4" class="ascii-text">│  │ Step 4: Hardware Installation      │      │</text>
+    <text x="0" y="2228.4" class="ascii-text">│  │ • Door handle/lock               │      │</text>
+    <text x="0" y="2246.4" class="ascii-text">│  │ • Latch strike plate             │      │</text>
+    <text x="0" y="2264.4" class="ascii-text">│  │ • Door stop (wall mounted)        │      │</text>
+    <text x="0" y="2282.4" class="ascii-text">│  │ • Test operation (smooth swing)   │      │</text>
+    <text x="0" y="2300.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2318.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="2336.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="2354.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

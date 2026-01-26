@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="600"
+     height="384"
+     viewBox="0 0 600 384">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="580" height="364"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="QMS-Manual-Main-diagram-3" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">TIER 1: Quality Manual (This document)</text>
+    <text x="0" y="32.4" class="ascii-text">├─ System overview, policy, organizational structure</text>
+    <text x="0" y="50.4" class="ascii-text">└─ Reference for all other tiers</text>
+    <text x="0" y="68.4" class="ascii-text">         ↓</text>
+    <text x="0" y="86.4" class="ascii-text">TIER 2: Standard Operating Procedures (SOPs)</text>
+    <text x="0" y="104.4" class="ascii-text">├─ Detailed process descriptions (1 per manufacturing phase)</text>
+    <text x="0" y="122.4" class="ascii-text">├─ Roles, responsibilities, materials, equipment</text>
+    <text x="0" y="140.4" class="ascii-text">└─ Quality acceptance criteria &amp; hold points</text>
+    <text x="0" y="158.4" class="ascii-text">         ↓</text>
+    <text x="0" y="176.4" class="ascii-text">TIER 3: Work Instructions &amp; Detailed Procedures</text>
+    <text x="0" y="194.4" class="ascii-text">├─ Step-by-step execution guides (visual emphasis)</text>
+    <text x="0" y="212.4" class="ascii-text">├─ Troubleshooting &amp; common errors</text>
+    <text x="0" y="230.4" class="ascii-text">└─ Cross-references to inspection forms</text>
+    <text x="0" y="248.4" class="ascii-text">         ↓</text>
+    <text x="0" y="266.4" class="ascii-text">TIER 4: Records &amp; Module Travelers</text>
+    <text x="0" y="284.4" class="ascii-text">├─ Actual execution evidence (sign-offs, measurements)</text>
+    <text x="0" y="302.4" class="ascii-text">├─ Inspection results, nonconformance notices</text>
+    <text x="0" y="320.4" class="ascii-text">└─ Regulatory compliance documentation</text>
+  </g>
+</svg>

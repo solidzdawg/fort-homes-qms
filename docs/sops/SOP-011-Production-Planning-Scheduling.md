@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-1.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-011        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -23,6 +33,14 @@
 ---
 
 ## 📊 EXECUTIVE SUMMARY
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-2.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -45,6 +63,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -68,6 +88,14 @@ To establish procedures for module scheduling, bay assignment, and production ti
 
 ### 2.2 Personnel Coverage
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-3.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -79,6 +107,8 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -94,6 +124,14 @@ To establish procedures for module scheduling, bay assignment, and production ti
 ---
 
 ## 👥 4. ROLES & RESPONSIBILITIES
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-4.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -137,10 +175,20 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 🔄 5. PRODUCTION PLANNING FLOWCHART
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-5.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -221,12 +269,22 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📅 6. SCHEDULE DEVELOPMENT & PLANNING
 
 ### 6.1 Initial Planning
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-6.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -259,6 +317,8 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Master Schedule Creation
 
@@ -268,6 +328,14 @@ To establish procedures for module scheduling, bay assignment, and production ti
 | 📅 **Phase Timelines** | Set target completion dates for each production phase | Planning Coordinator |
 | 🔍 **Hold Point Scheduling** | Schedule all HP-1 through HP-8 inspections | Quality Manager |
 | 👥 **Labor Assignment** | Reserve specialized labor and equipment operators | Production Supervisor |
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-7.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -279,6 +347,8 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │ ■ Schedule communicated to all production teams                            │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -295,6 +365,14 @@ To establish procedures for module scheduling, bay assignment, and production ti
 | 🔍 **Inspection Access** | Hold point scheduling conflicts | TPIA coordination timing |
 
 ### 7.2 Timeline Adjustments
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-8.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -332,12 +410,22 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📣 8. PRODUCTION TIMELINE COMMUNICATION
 
 ### 8.1 Communication Channels
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-9.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -370,6 +458,16 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-10.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -381,10 +479,20 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │ ■ Module travelers reflect current timeline and milestones                 │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 📊 9. METRICS & PERFORMANCE INDICATORS
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-11.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -408,6 +516,16 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-12.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -419,6 +537,8 @@ To establish procedures for module scheduling, bay assignment, and production ti
 │ ■ Best practices documented and shared across teams                        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -456,6 +576,14 @@ To establish procedures for module scheduling, bay assignment, and production ti
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-011-Production-Planning-Scheduling-diagram-13.svg" alt="SOP-011-Production-Planning-Scheduling-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ═══════════════════════════════════════════════════════════════════════════════
                               END OF DOCUMENT
@@ -467,6 +595,8 @@ To establish procedures for module scheduling, bay assignment, and production ti
                       Quality Without Compromise™
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 **DOCUMENT STATUS:** ✅ ACTIVE  
 **EFFECTIVE DATE:** January 2026  

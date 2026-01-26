@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="762"
+     height="564"
+     viewBox="0 0 762 564">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="742" height="544"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="QMS-003-Planning-Risk-diagram-6" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│  OBJECTIVES DEPLOYMENT CASCADE                                             │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  ORGANIZATIONAL OBJECTIVE: Customer Satisfaction ≥90%                      │</text>
+    <text x="0" y="104.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="122.4" class="ascii-text">│     ├──&gt; OPERATIONS: Defect rate &lt;2%                                      │</text>
+    <text x="0" y="140.4" class="ascii-text">│     │       └──&gt; FRAMING: Square/level 100% within tolerance              │</text>
+    <text x="0" y="158.4" class="ascii-text">│     │       └──&gt; ELECTRICAL: Zero rework                                  │</text>
+    <text x="0" y="176.4" class="ascii-text">│     │       └──&gt; PLUMBING: Zero leaks                                     │</text>
+    <text x="0" y="194.4" class="ascii-text">│     │       └──&gt; FINISH: &lt;1% cosmetic defects                             │</text>
+    <text x="0" y="212.4" class="ascii-text">│     │                                                                      │</text>
+    <text x="0" y="230.4" class="ascii-text">│     ├──&gt; INSTALLATION: First-time complete ≥95%                            │</text>
+    <text x="0" y="248.4" class="ascii-text">│     │       └──&gt; SITE PREP: 100% checklist compliance                     │</text>
+    <text x="0" y="266.4" class="ascii-text">│     │       └──&gt; INSTALLATION: 24 CFR 3285 compliance 100%                │</text>
+    <text x="0" y="284.4" class="ascii-text">│     │       └──&gt; HANDOVER: Complete documentation 100%                    │</text>
+    <text x="0" y="302.4" class="ascii-text">│     │                                                                      │</text>
+    <text x="0" y="320.4" class="ascii-text">│     ├──&gt; QUALITY: CAPA effectiveness ≥90%                                  │</text>
+    <text x="0" y="338.4" class="ascii-text">│     │       └──&gt; Root cause analysis complete                             │</text>
+    <text x="0" y="356.4" class="ascii-text">│     │       └──&gt; Corrective actions verified                              │</text>
+    <text x="0" y="374.4" class="ascii-text">│     │       └──&gt; Preventive actions effective                             │</text>
+    <text x="0" y="392.4" class="ascii-text">│     │                                                                      │</text>
+    <text x="0" y="410.4" class="ascii-text">│     └──&gt; PURCHASING: Supplier defect rate &lt;1%                              │</text>
+    <text x="0" y="428.4" class="ascii-text">│            └──&gt; Incoming inspection 100%                                  │</text>
+    <text x="0" y="446.4" class="ascii-text">│            └──&gt; Supplier audits quarterly                                 │</text>
+    <text x="0" y="464.4" class="ascii-text">│            └──&gt; Cert verification 100%                                    │</text>
+    <text x="0" y="482.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="500.4" class="ascii-text">└────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

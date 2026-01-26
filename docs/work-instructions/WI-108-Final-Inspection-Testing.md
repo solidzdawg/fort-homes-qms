@@ -29,6 +29,14 @@
 
 ### Step 1: Structural & Building Envelope Inspection
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-108-Final-Inspection-Testing-diagram-1.svg" alt="WI-108-Final-Inspection-Testing-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    STRUCTURAL & ENVELOPE FINAL INSPECTION   │
@@ -156,6 +164,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Verify module is plumb & square (measure diagonals, ±½" max difference)
@@ -175,6 +185,14 @@
 ---
 
 ### Step 2: Mechanical Systems Testing (MEP)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-108-Final-Inspection-Testing-diagram-2.svg" alt="WI-108-Final-Inspection-Testing-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -382,6 +400,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Test main electrical panel (breaker functionality, no corrosion)
@@ -404,6 +424,14 @@
 ---
 
 ### Step 3: Interior Finish Quality Inspection
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-108-Final-Inspection-Testing-diagram-3.svg" alt="WI-108-Final-Inspection-Testing-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -565,6 +593,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Inspect all paint finish with bright work light (45° angle)
@@ -586,6 +616,14 @@
 ---
 
 ### Step 4: Final Documentation & Delivery Readiness
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-108-Final-Inspection-Testing-diagram-4.svg" alt="WI-108-Final-Inspection-Testing-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -715,6 +753,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Complete Module Traveler documentation (all phases verified)
@@ -736,6 +776,14 @@
 ---
 
 ### Step 5: Customer Handoff & Warranty Registration
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-108-Final-Inspection-Testing-diagram-5.svg" alt="WI-108-Final-Inspection-Testing-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -847,6 +895,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Arrange module transportation to customer site

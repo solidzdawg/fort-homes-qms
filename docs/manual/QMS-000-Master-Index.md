@@ -47,6 +47,14 @@
 
 ## 1. QMS DOCUMENT HIERARCHY
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-000-Master-Index-diagram-1.svg" alt="QMS-000-Master-Index-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                        QMS DOCUMENT PYRAMID                                │
@@ -82,6 +90,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -226,6 +236,14 @@
 
 ### 🔍 Search by Category
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-000-Master-Index-diagram-2.svg" alt="QMS-000-Master-Index-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  CATEGORY FINDER                                                           │
@@ -242,6 +260,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 📞 Document Ownership Contacts
 

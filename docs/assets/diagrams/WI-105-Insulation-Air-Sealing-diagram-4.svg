@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="492"
+     height="1806"
+     viewBox="0 0 492 1806">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="472" height="1786"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-105-Insulation-Air-Sealing-diagram-4" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    ATTIC INSULATION INSTALLATION            │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Attic Joists Layout (Blown-in Insulation):│</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Roof trusses above                │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ Attic space (open between joists) │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ ┌───────────┬───────────┬────────┐│      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │           │           │        ││      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ │   Blown   │   Blown   │ Blown  ││      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ │  Fiberglass Insulation (R-38)  ││      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ │  12&quot; depth (poured to 12&quot;)      ││      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ │  Level with attic joists        ││      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ │           │           │        ││      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │           │           │        ││      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ └───────────┴───────────┴────────┘│      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ Joists     Joists      Joists     │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │ 16&quot; o.c.   16&quot; o.c.    16&quot; o.c.   │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ Attic floor (drywall or subfloor) │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ Ceiling insulation installed      │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │ Attic insulation (above ceiling)   │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │ Total: R-38 or R-49 (climate zone)│      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="536.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="554.4" class="ascii-text">│  Installation Method (Blown-In):            │</text>
+    <text x="0" y="572.4" class="ascii-text">│  1. Attic must be completely ventilated    │</text>
+    <text x="0" y="590.4" class="ascii-text">│  2. Damper off (no conditioned air loss)   │</text>
+    <text x="0" y="608.4" class="ascii-text">│  3. Set up blowing machine at attic access │</text>
+    <text x="0" y="626.4" class="ascii-text">│  4. Hose extends to all areas of attic     │</text>
+    <text x="0" y="644.4" class="ascii-text">│  5. Fill to uniform 12&quot; depth (R-38)       │</text>
+    <text x="0" y="662.4" class="ascii-text">│  6. Keep 6&quot; clearance around:               │</text>
+    <text x="0" y="680.4" class="ascii-text">│     • Exhaust flues (furnace vents)         │</text>
+    <text x="0" y="698.4" class="ascii-text">│     • Recessed light fixtures (if any)      │</text>
+    <text x="0" y="716.4" class="ascii-text">│     • Electrical boxes (fire hazard)        │</text>
+    <text x="0" y="734.4" class="ascii-text">│  7. Level insulation with board (screed)   │</text>
+    <text x="0" y="752.4" class="ascii-text">│  8. Verify depth with measurement stick    │</text>
+    <text x="0" y="770.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="788.4" class="ascii-text">│  Soffit Vent Air Flow Path (CRITICAL):      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  ┌────────────────────────────────────┐    │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ Roof peak (ridge vent)             │    │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀     │    │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │            ║                       │    │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ Attic space (with insulation)      │    │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │            ║                       │    │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ Insulation ║ Must NOT BLOCK soffit │    │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ level      ║ vent intake airflow   │    │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │            ║                       │    │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ ┌──────────╨──────────┐            │    │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │ │ Soffit Vent         │ Cold air   │    │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ │ (bottom of eave)    │ enters -&gt;  │    │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ │ Must have 12&quot;+ gap  │ -&gt; warm    │    │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │ │ for air to flow     │ air exits  │    │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │ │ into attic          │ ridge     │    │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │ └─────────────────────┘ vent      │    │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │                                    │    │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ Install blocking (rafter vents):   │    │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ ┌──────────────────────────────┐  │    │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ │ Cardboard baffle installed    │  │    │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ │ between rafters @ soffit      │  │    │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ │ Maintains 12&quot; air gap above   │  │    │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ │ insulation for air circulation│  │    │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ │                               │  │    │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ │ Result: Proper attic          │  │    │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ │ ventilation (soffit-&gt;ridge)   │  │    │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ └──────────────────────────────┘  │    │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │                                    │    │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  └────────────────────────────────────┘    │</text>
+    <text x="0" y="1328.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  Crawl Space Insulation (if applicable):    │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ Foundation wall                   │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ ┌──────────────────────────────┐ │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ │ Rigid foam (2&quot; polyiso, R-10) │ │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │ │ Installed on interior side    │ │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │ │ Taped seams (foil tape)       │ │      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │ │ Sealed to rim joist           │ │      │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │ │ (foam gasket or caulk)        │ │      │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │ │                               │ │      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ │ Crawl floor (if needed):      │ │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │ │ Vapor barrier (6-mil poly)    │ │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ │ Sealed at walls &amp; posts       │ │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │ │ (tape all seams &amp; edges)      │ │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ │                               │ │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ └──────────────────────────────┘ │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │ Ventilation (if not conditioned):        │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  │ Crawl space vents (4 sides)       │      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│  │ Insect screen (1/4&quot; mesh)         │      │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1742.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

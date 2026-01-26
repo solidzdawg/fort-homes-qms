@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="771"
+     height="1644"
+     viewBox="0 0 771 1644">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="751" height="1624"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="SOP-006-Design-Control-Plan-Review-diagram-4" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│                    DESIGN CONTROL &amp; APPROVAL WORKFLOW                       │</text>
+    <text x="0" y="50.4" class="ascii-text">├─────────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                             │</text>
+    <text x="0" y="86.4" class="ascii-text">│                              START                                          │</text>
+    <text x="0" y="104.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="122.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="140.4" class="ascii-text">│                    ┌───────────────────────┐                               │</text>
+    <text x="0" y="158.4" class="ascii-text">│                    │  DESIGN INPUT         │                               │</text>
+    <text x="0" y="176.4" class="ascii-text">│                    │  - Customer needs     │                               │</text>
+    <text x="0" y="194.4" class="ascii-text">│                    │  - Regulatory req.    │                               │</text>
+    <text x="0" y="212.4" class="ascii-text">│                    │  - Specifications     │                               │</text>
+    <text x="0" y="230.4" class="ascii-text">│                    └───────────┬───────────┘                               │</text>
+    <text x="0" y="248.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="266.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="284.4" class="ascii-text">│                    ┌───────────────────────┐                               │</text>
+    <text x="0" y="302.4" class="ascii-text">│                    │  CONCEPT DEVELOPMENT  │                               │</text>
+    <text x="0" y="320.4" class="ascii-text">│                    │  - Sketches           │                               │</text>
+    <text x="0" y="338.4" class="ascii-text">│                    │  - Layout options     │                               │</text>
+    <text x="0" y="356.4" class="ascii-text">│                    │  - Feasibility check  │                               │</text>
+    <text x="0" y="374.4" class="ascii-text">│                    └───────────┬───────────┘                               │</text>
+    <text x="0" y="392.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="410.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="428.4" class="ascii-text">│            ╔═══════════════════════════════╗                               │</text>
+    <text x="0" y="446.4" class="ascii-text">│            ║   ✅ QUALITY CHECKPOINT       ║                               │</text>
+    <text x="0" y="464.4" class="ascii-text">│            ╠═══════════════════════════════╣                               │</text>
+    <text x="0" y="482.4" class="ascii-text">│            ║ • Design inputs documented    ║                               │</text>
+    <text x="0" y="500.4" class="ascii-text">│            ║ • Feasibility approved        ║                               │</text>
+    <text x="0" y="518.4" class="ascii-text">│            ║ • Budget/timeline confirmed   ║                               │</text>
+    <text x="0" y="536.4" class="ascii-text">│            ╚═══════════════════════════════╝                               │</text>
+    <text x="0" y="554.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="572.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="590.4" class="ascii-text">│                    ┌───────────────────────┐                               │</text>
+    <text x="0" y="608.4" class="ascii-text">│                    │  DETAILED DESIGN      │                               │</text>
+    <text x="0" y="626.4" class="ascii-text">│                    │  - Calculations       │                               │</text>
+    <text x="0" y="644.4" class="ascii-text">│                    │  - Drawings           │                               │</text>
+    <text x="0" y="662.4" class="ascii-text">│                    │  - Specifications     │                               │</text>
+    <text x="0" y="680.4" class="ascii-text">│                    └───────────┬───────────┘                               │</text>
+    <text x="0" y="698.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="716.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="734.4" class="ascii-text">│                    ┌───────────────────────┐                               │</text>
+    <text x="0" y="752.4" class="ascii-text">│                    │  DESIGN VERIFICATION  │                               │</text>
+    <text x="0" y="770.4" class="ascii-text">│                    │  - Independent PE     │                               │</text>
+    <text x="0" y="788.4" class="ascii-text">│                    │  - Calculations check │                               │</text>
+    <text x="0" y="806.4" class="ascii-text">│                    │  - Completeness       │                               │</text>
+    <text x="0" y="824.4" class="ascii-text">│                    └───────────┬───────────┘                               │</text>
+    <text x="0" y="842.4" class="ascii-text">│                                │                                            │</text>
+    <text x="0" y="860.4" class="ascii-text">│                                ▼                                            │</text>
+    <text x="0" y="878.4" class="ascii-text">│                    ◇───────────────────────◇                               │</text>
+    <text x="0" y="896.4" class="ascii-text">│                   ╱  Verification Pass?     ╲                              │</text>
+    <text x="0" y="914.4" class="ascii-text">│                  ◇───────────────────────────◇                             │</text>
+    <text x="0" y="932.4" class="ascii-text">│                 ╱                             ╲                            │</text>
+    <text x="0" y="950.4" class="ascii-text">│           YES  ╱                               ╲  NO                       │</text>
+    <text x="0" y="968.4" class="ascii-text">│               ▼                                 ▼                          │</text>
+    <text x="0" y="986.4" class="ascii-text">│   ┌──────────────────┐              ┌──────────────────────┐              │</text>
+    <text x="0" y="1004.4" class="ascii-text">│   │  PE STAMP        │              │  REVISE DESIGN       │              │</text>
+    <text x="0" y="1022.4" class="ascii-text">│   │  - Drawings      │              │  - Corrections       │              │</text>
+    <text x="0" y="1040.4" class="ascii-text">│   │  - Approval      │              │  - Re-verify         │              │</text>
+    <text x="0" y="1058.4" class="ascii-text">│   └────────┬─────────┘              └──────────┬───────────┘              │</text>
+    <text x="0" y="1076.4" class="ascii-text">│            │                                   │                           │</text>
+    <text x="0" y="1094.4" class="ascii-text">│            │                                   └────────────┐              │</text>
+    <text x="0" y="1112.4" class="ascii-text">│            ▼                                                │              │</text>
+    <text x="0" y="1130.4" class="ascii-text">│   ┌──────────────────┐                                     │              │</text>
+    <text x="0" y="1148.4" class="ascii-text">│   │  REGULATORY      │◄────────────────────────────────────┘              │</text>
+    <text x="0" y="1166.4" class="ascii-text">│   │  APPROVAL        │                                                    │</text>
+    <text x="0" y="1184.4" class="ascii-text">│   │  - CDOH review   │                                                    │</text>
+    <text x="0" y="1202.4" class="ascii-text">│   │  - File approval │                                                    │</text>
+    <text x="0" y="1220.4" class="ascii-text">│   └────────┬─────────┘                                                    │</text>
+    <text x="0" y="1238.4" class="ascii-text">│            │                                                              │</text>
+    <text x="0" y="1256.4" class="ascii-text">│            ▼                                                              │</text>
+    <text x="0" y="1274.4" class="ascii-text">│            ╔═══════════════════════════════╗                             │</text>
+    <text x="0" y="1292.4" class="ascii-text">│            ║   ✅ QUALITY CHECKPOINT       ║                             │</text>
+    <text x="0" y="1310.4" class="ascii-text">│            ╠═══════════════════════════════╣                             │</text>
+    <text x="0" y="1328.4" class="ascii-text">│            ║ • All verifications complete  ║                             │</text>
+    <text x="0" y="1346.4" class="ascii-text">│            ║ • PE stamp obtained           ║                             │</text>
+    <text x="0" y="1364.4" class="ascii-text">│            ║ • Regulatory approval filed   ║                             │</text>
+    <text x="0" y="1382.4" class="ascii-text">│            ╚═══════════════════════════════╝                             │</text>
+    <text x="0" y="1400.4" class="ascii-text">│                            │                                              │</text>
+    <text x="0" y="1418.4" class="ascii-text">│                            ▼                                              │</text>
+    <text x="0" y="1436.4" class="ascii-text">│                    ┌──────────────────┐                                   │</text>
+    <text x="0" y="1454.4" class="ascii-text">│                    │  RELEASE TO      │                                   │</text>
+    <text x="0" y="1472.4" class="ascii-text">│                    │  PRODUCTION      │                                   │</text>
+    <text x="0" y="1490.4" class="ascii-text">│                    └──────────────────┘                                   │</text>
+    <text x="0" y="1508.4" class="ascii-text">│                            │                                              │</text>
+    <text x="0" y="1526.4" class="ascii-text">│                            ▼                                              │</text>
+    <text x="0" y="1544.4" class="ascii-text">│                          END                                              │</text>
+    <text x="0" y="1562.4" class="ascii-text">│                                                                             │</text>
+    <text x="0" y="1580.4" class="ascii-text">└─────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

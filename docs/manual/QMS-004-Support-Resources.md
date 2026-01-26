@@ -47,6 +47,14 @@
 
 ### 1.1 Resource Planning Overview
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-1.svg" alt="QMS-004-Support-Resources-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  RESOURCE MANAGEMENT SYSTEM                                                │
@@ -86,6 +94,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 1.2 Resource Allocation Process
 
@@ -106,6 +116,14 @@
 
 ### 2.1 Competency Requirements Matrix
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-2.svg" alt="QMS-004-Support-Resources-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  COMPETENCY FRAMEWORK STRUCTURE                                            │
@@ -122,6 +140,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 2.2 Role-Based Competency Requirements
 
@@ -249,6 +269,14 @@
 
 ### 2.3 Training Requirements
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-3.svg" alt="QMS-004-Support-Resources-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  TRAINING PROGRAM STRUCTURE                                                │
@@ -298,6 +326,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 2.4 Training Effectiveness Evaluation
 
@@ -330,6 +360,14 @@
 ## 3. INFRASTRUCTURE REQUIREMENTS
 
 ### 3.1 Facility Infrastructure
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-4.svg" alt="QMS-004-Support-Resources-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -371,6 +409,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 3.2 Production Equipment Inventory
 
@@ -405,6 +445,14 @@
 | **Financial/Accounting** | Accounting, payroll, invoicing | • Daily backup<br>• Professional IT support<br>• Compliance updates | Finance (outsourced) |
 
 ### 3.5 Infrastructure Maintenance Program
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-5.svg" alt="QMS-004-Support-Resources-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -441,12 +489,22 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
 ## 4. WORK ENVIRONMENT STANDARDS
 
 ### 4.1 Environmental Conditions
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-6.svg" alt="QMS-004-Support-Resources-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -488,6 +546,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 4.2 Safety Requirements
 
@@ -510,6 +570,14 @@
 | **Environmental Comfort** | • Adequate lighting<br>• Climate control<br>• Noise management | Per environmental standards above |
 
 ### 4.4 Social and Psychological Environment
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-7.svg" alt="QMS-004-Support-Resources-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -542,6 +610,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -563,6 +633,14 @@
 | **Infrared Thermometers** | Temperature verification | ±2°F | Annual calibration |
 
 ### 5.2 Calibration Program
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-8.svg" alt="QMS-004-Support-Resources-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -597,6 +675,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.3 Measurement Traceability
 
@@ -620,6 +700,14 @@ All measurement equipment calibration is traceable to:
 ## 6. ORGANIZATIONAL KNOWLEDGE MANAGEMENT
 
 ### 6.1 Knowledge Management Framework
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-004-Support-Resources-diagram-9.svg" alt="QMS-004-Support-Resources-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -669,6 +757,8 @@ All measurement equipment calibration is traceable to:
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Knowledge Capture and Retention
 

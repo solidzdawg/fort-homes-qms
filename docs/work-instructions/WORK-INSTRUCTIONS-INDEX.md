@@ -364,6 +364,14 @@ Overall QMS governance and performance metrics:
 
 ## PRODUCTION PHASE TIMELINE
 
+
+<div align="center">
+  <img src="../assets/diagrams/WORK-INSTRUCTIONS-INDEX-diagram-1.svg" alt="WORK-INSTRUCTIONS-INDEX-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    8-PHASE PRODUCTION SEQUENCE                   │
@@ -386,6 +394,8 @@ Overall QMS governance and performance metrics:
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 

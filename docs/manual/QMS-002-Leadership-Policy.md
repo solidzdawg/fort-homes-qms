@@ -47,6 +47,14 @@
 
 ### 1.1 Executive Commitment to Quality
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-1.svg" alt="QMS-002-Leadership-Policy-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  LEADERSHIP COMMITMENT DECLARATION                                         │
@@ -75,6 +83,8 @@
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 1.2 Customer Focus
 
@@ -92,6 +102,14 @@ Leadership ensures risks and opportunities affecting:
 ---
 
 ## 2. QUALITY POLICY
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-2.svg" alt="QMS-002-Leadership-Policy-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -148,6 +166,8 @@ Leadership ensures risks and opportunities affecting:
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 ### 2.1 Policy Communication
 
@@ -174,6 +194,14 @@ The Quality Policy is:
 ## 3. RISK APPETITE STATEMENT
 
 ### 3.1 Risk Appetite Framework
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-3.svg" alt="QMS-002-Leadership-Policy-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -226,6 +254,8 @@ The Quality Policy is:
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 3.2 Risk Appetite Application
 
@@ -240,6 +270,14 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 ## 4. QUALITY OBJECTIVES CASCADE
 
 ### 4.1 Strategic Quality Objectives
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-4.svg" alt="QMS-002-Leadership-Policy-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -315,6 +353,8 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 4.2 SMART Objectives Matrix
 
@@ -340,6 +380,14 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 ## 5. ROLES AND RESPONSIBILITIES
 
 ### 5.1 QMS Organization Chart
+
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-5.svg" alt="QMS-002-Leadership-Policy-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
@@ -374,6 +422,8 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 5.2 Key QMS Roles and Responsibilities
 
@@ -444,6 +494,14 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 
 ### 5.3 RACI Matrix - QMS Core Processes
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-6.svg" alt="QMS-002-Leadership-Policy-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  RACI MATRIX - QMS RESPONSIBILITIES                                        │
@@ -456,6 +514,8 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 | Activity | CEO | Quality Mgr | Ops Mgr | Install Mgr | Purchasing Mgr | HR Mgr |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -491,6 +551,14 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 
 ### 6.1 Quality Management Committee
 
+
+<div align="center">
+  <img src="../assets/diagrams/QMS-002-Leadership-Policy-diagram-7.svg" alt="QMS-002-Leadership-Policy-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │  QUALITY MANAGEMENT COMMITTEE                                              │
@@ -525,6 +593,8 @@ All risks identified in QMS-003 are evaluated against this framework to determin
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ### 6.2 Quality Review Meetings
 

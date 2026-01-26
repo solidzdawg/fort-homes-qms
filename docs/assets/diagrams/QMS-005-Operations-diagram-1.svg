@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="663"
+     height="1086"
+     viewBox="0 0 663 1086">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="643" height="1066"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="QMS-005-Operations-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌─────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│  PRODUCTION SEQUENCE                                            │</text>
+    <text x="0" y="50.4" class="ascii-text">├─────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="86.4" class="ascii-text">│  1️⃣ FLOOR SYSTEM                                               │</text>
+    <text x="0" y="104.4" class="ascii-text">│     • Floor frame assembly                                      │</text>
+    <text x="0" y="122.4" class="ascii-text">│     • Insulation installation                                   │</text>
+    <text x="0" y="140.4" class="ascii-text">│     • Floor sheathing                                           │</text>
+    <text x="0" y="158.4" class="ascii-text">│     ✅ NTA TPIA Hold Point #1                                   │</text>
+    <text x="0" y="176.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="194.4" class="ascii-text">│  2️⃣ WALL SYSTEMS                                               │</text>
+    <text x="0" y="212.4" class="ascii-text">│     • Wall frame assembly (exterior &amp; interior)                 │</text>
+    <text x="0" y="230.4" class="ascii-text">│     • Sheathing and vapor barriers                              │</text>
+    <text x="0" y="248.4" class="ascii-text">│     • Window/door installation                                  │</text>
+    <text x="0" y="266.4" class="ascii-text">│     ✅ NTA TPIA Hold Point #2                                   │</text>
+    <text x="0" y="284.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="302.4" class="ascii-text">│  3️⃣ ROOF SYSTEM                                                │</text>
+    <text x="0" y="320.4" class="ascii-text">│     • Roof truss installation                                   │</text>
+    <text x="0" y="338.4" class="ascii-text">│     • Roof sheathing                                            │</text>
+    <text x="0" y="356.4" class="ascii-text">│     • Roofing material application                              │</text>
+    <text x="0" y="374.4" class="ascii-text">│     ✅ NTA TPIA Hold Point #3                                   │</text>
+    <text x="0" y="392.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="410.4" class="ascii-text">│  4️⃣ ELECTRICAL ROUGH-IN (NEC 2023)                             │</text>
+    <text x="0" y="428.4" class="ascii-text">│     • Electrical panel installation                             │</text>
+    <text x="0" y="446.4" class="ascii-text">│     • Branch circuit wiring                                     │</text>
+    <text x="0" y="464.4" class="ascii-text">│     • Receptacle/switch installation                            │</text>
+    <text x="0" y="482.4" class="ascii-text">│     ✅ NTA TPIA Hold Point #4 - NEC Compliance                  │</text>
+    <text x="0" y="500.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="518.4" class="ascii-text">│  5️⃣ PLUMBING ROUGH-IN                                          │</text>
+    <text x="0" y="536.4" class="ascii-text">│     • Supply and drain piping                                   │</text>
+    <text x="0" y="554.4" class="ascii-text">│     • Fixture connections                                       │</text>
+    <text x="0" y="572.4" class="ascii-text">│     • Pressure testing                                          │</text>
+    <text x="0" y="590.4" class="ascii-text">│     ✅ NTA TPIA Hold Point #5                                   │</text>
+    <text x="0" y="608.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="626.4" class="ascii-text">│  6️⃣ INSULATION &amp; DRYWALL                                       │</text>
+    <text x="0" y="644.4" class="ascii-text">│     • Wall and ceiling insulation                               │</text>
+    <text x="0" y="662.4" class="ascii-text">│     • Drywall installation and finishing                        │</text>
+    <text x="0" y="680.4" class="ascii-text">│     • Interior paint                                            │</text>
+    <text x="0" y="698.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="716.4" class="ascii-text">│  7️⃣ FINISH TRADES                                              │</text>
+    <text x="0" y="734.4" class="ascii-text">│     • Flooring installation                                     │</text>
+    <text x="0" y="752.4" class="ascii-text">│     • Trim and millwork                                         │</text>
+    <text x="0" y="770.4" class="ascii-text">│     • Fixture installation                                      │</text>
+    <text x="0" y="788.4" class="ascii-text">│     • Final electrical and plumbing connections                 │</text>
+    <text x="0" y="806.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="824.4" class="ascii-text">│  8️⃣ FINAL INSPECTION                                           │</text>
+    <text x="0" y="842.4" class="ascii-text">│     • Quality final walkthrough                                 │</text>
+    <text x="0" y="860.4" class="ascii-text">│     • NTA TPIA final inspection                                 │</text>
+    <text x="0" y="878.4" class="ascii-text">│     • Data plate affixing (per SOP-010)                         │</text>
+    <text x="0" y="896.4" class="ascii-text">│     ✅ NTA TPIA Final Hold Point                                │</text>
+    <text x="0" y="914.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="932.4" class="ascii-text">│  9️⃣ SHIPPING PREPARATION                                       │</text>
+    <text x="0" y="950.4" class="ascii-text">│     • Protection and securing                                   │</text>
+    <text x="0" y="968.4" class="ascii-text">│     • Documentation package                                     │</text>
+    <text x="0" y="986.4" class="ascii-text">│     • Transport coordination                                    │</text>
+    <text x="0" y="1004.4" class="ascii-text">│                                                                 │</text>
+    <text x="0" y="1022.4" class="ascii-text">└─────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

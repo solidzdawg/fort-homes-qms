@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="510"
+     height="1536"
+     viewBox="0 0 510 1536">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="490" height="1516"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-107-Interior-Trim-Finish-diagram-6" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    ELECTRICAL OUTLET &amp; FIXTURE FINISHING    │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Outlet Cover Installation:                 │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ After paint is fully cured (24h):  │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ ┌──────────────────────────────┐  │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ │ Power Outlet (Wall):           │  │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ │                                │  │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │   ◆ ◆                          │  │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ │   ◆ ◆  Outlet holes            │  │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ │                                │  │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ │ Outlet Cover (Stainless Steel):│  │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ │ ┌────────────────────────────┐ │  │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ │ │  ┌─────────────────────┐   │ │  │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │ │  │ ◆  ◆               │   │ │  │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ │ │  │ ◆  ◆ Duplex outlet │   │ │  │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ │ │  │                   │   │ │  │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │ │ │  │ Screw center      │   │ │  │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │ │ │  │ (4 screw holes)   │   │ │  │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ │ │  └─────────────────────┘   │ │  │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │ │ │                            │ │  │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │ │ └────────────────────────────┘ │  │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │ │  (Cover plate)                  │  │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │ │                                │  │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │ │ Installation:                  │  │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │ │ 1. Verify power OFF (test)     │  │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │ │ 2. Insert outlet from box      │  │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │ │ 3. Screw cover plate           │  │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │ │ 4. Check alignment (level)     │  │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │ │                                │  │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │ └──────────────────────────────┘  │      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │ Electrical Fixture Installation:   │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │ (Light fixtures, ceiling fans)     │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │ ┌────────────────────────────┐    │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │ │ Ceiling Light Fixture:      │    │      │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │ │                             │    │      │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │ │  Electrical Box (in ceiling)│    │      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  │ │  ◆ Mounting bracket (metal) │    │      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ │  │ ║                        │    │      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ │  │ ║ Fixture wires          │    │      │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ │  │ ║ (hot, neutral, ground) │    │      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ │  ║ ║ Twist connectors       │    │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │ │  ║ ║ (wire nuts)            │    │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ │  ║ ║                        │    │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │ │  │ ◆ Fixture fastened to    │    │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ │  │   bracket (2 screws)     │    │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ │  │                          │    │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ │  │  ╔═══════════════════╗  │    │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ │  │  ║  Light Fixture    ║  │    │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │ │  │  ║  (Glass shade/     ║  │    │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ │  │  ║   metal body)      ║  │    │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ │  │  ║                    ║  │    │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │ │  │  ║  Finials hold trim │  │    │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │ │  │  ║  ring (decorative) ║  │    │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │ │  │  ╚═══════════════════╝  │    │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │ │  │                          │    │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ │  │ Canopy (covers gap)      │    │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ │  │                          │    │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ └────────────────────────────┘    │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ Installation Steps:               │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ 1. Turn off power to box (breaker)│      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ 2. Test with voltage tester       │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ 3. Remove old fixture (if any)    │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ 4. Strip wire insulation (½&quot;)     │      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ 5. Connect hot to hot (black)     │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ 6. Connect neutral to neutral     │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ 7. Connect ground to ground       │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ 8. Tuck wires into box            │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │ 9. Secure fixture to bracket      │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ 10. Install trim ring (finials)   │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ 11. Install bulbs &amp; shades        │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ 12. Turn power ON, test           │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1472.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

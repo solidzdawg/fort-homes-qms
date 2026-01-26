@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="501"
+     height="2310"
+     viewBox="0 0 501 2310">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="481" height="2290"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-108-Final-Inspection-Testing-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    STRUCTURAL &amp; ENVELOPE FINAL INSPECTION   │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Visual Inspection Checklist:               │</text>
+    <text x="0" y="104.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="122.4" class="ascii-text">│  Exterior Inspection Points:                │</text>
+    <text x="0" y="140.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ ✓ Walls plumb &amp; square            │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │   Diagonal measurements equal ±½&quot; │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │   No visible sag or lean           │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ ✓ Roof structure level            │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │   Trusses plumb both directions    │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │   No sag visible at ridge/eaves    │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │   Peak centered on walls           │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ ✓ House wrap sealed &amp; taped        │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │   All seams visible (no gaps)      │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │   Corners folded properly          │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │   All penetrations flashed         │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ ✓ Flashing complete                │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │   Window/door flashing tied in     │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │   Roof/wall flashing sealed        │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │   Gutter/downspout functional      │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │ ✓ Roof coverage complete           │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │   All sheathing installed          │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │   Underlayment installed           │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │   Ready for roofing material       │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │ ✓ No water damage visible          │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │   No stains on house wrap          │      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │   No condensation in windows       │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │   No wet insulation                │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │ ✓ No visible structural defects    │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │   No cracks in structural members  │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │   No split or broken timbers       │      │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │   All fasteners secure             │      │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="788.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="806.4" class="ascii-text">│  Measurements &amp; Tolerances:                 │</text>
+    <text x="0" y="824.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ Diagonal Measurement (Square):     │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ ┌───────────────────────────────┐ │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │ │  Module Width = 40 feet        │ │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ │  Module Length = 60 feet       │ │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ │                                 │ │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ │  Diagonal A (corner to corner):│ │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │ │  √(40² + 60²) = 72.1 feet      │ │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │ │  ◆ ─────────────────── ◆       │ │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │ │  │                     │       │ │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │ │ 60&apos;│                   │40&apos;    │ │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │ │  │                     │       │ │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │ │  ◆ ─────────────────── ◆       │ │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │ │    Diagonal B (opposite)        │ │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │ │                                 │ │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │ │ Difference (A vs B):            │ │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │ │ 72.1 - 72.1 = 0.0&quot; = SQUARE    │ │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │ │ Tolerance: ±½&quot; (max difference) │ │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ │                                 │ │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ │ If difference &gt; ½&quot; = OUT OF SQUA│ │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ │ (Rework walls until square)     │ │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ │                                 │ │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ └───────────────────────────────┘ │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ Plumb Check (walls):               │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ Level applied vertically at       │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ top and bottom of wall (4-6 ft)   │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ Tolerance: ±1/8&quot; in 8 feet        │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ Level Check (roof/ceiling):        │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ Level applied horizontally at     │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ ridge and eaves                   │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ Tolerance: ±¼&quot; in 32 feet         │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  Attic Inspection:                          │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │ ✓ Insulation installed (R-38)     │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │   Depth measured (12&quot; uniform)     │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │   No voids or gaps                 │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │   No damaged/settling              │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ ✓ Ventilation clear               │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │   Soffit vents unobstructed        │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  │   Ridge vent unobstructed          │      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│  │   Air flow path visible (baffles)  │      │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  │ ✓ MEP systems intact               │      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│  │   Electrical conduit secured       │      │</text>
+    <text x="0" y="1742.4" class="ascii-text">│  │   No damaged wires                 │      │</text>
+    <text x="0" y="1760.4" class="ascii-text">│  │   Ductwork intact (no leaks)       │      │</text>
+    <text x="0" y="1778.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1796.4" class="ascii-text">│  │ ✓ No moisture/condensation         │      │</text>
+    <text x="0" y="1814.4" class="ascii-text">│  │   Insulation dry (no wet spots)    │      │</text>
+    <text x="0" y="1832.4" class="ascii-text">│  │   No frost/icing                   │      │</text>
+    <text x="0" y="1850.4" class="ascii-text">│  │   No visible mold                  │      │</text>
+    <text x="0" y="1868.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1886.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1904.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1922.4" class="ascii-text">│  Exterior Trim/Details:                     │</text>
+    <text x="0" y="1940.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="1958.4" class="ascii-text">│  │ ✓ Soffits &amp; fascia straight       │      │</text>
+    <text x="0" y="1976.4" class="ascii-text">│  │   No warping or damage             │      │</text>
+    <text x="0" y="1994.4" class="ascii-text">│  │   All fasteners visible            │      │</text>
+    <text x="0" y="2012.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2030.4" class="ascii-text">│  │ ✓ Gutters/downspouts functional   │      │</text>
+    <text x="0" y="2048.4" class="ascii-text">│  │   Gutters level (1/16&quot; per 10&apos;)    │      │</text>
+    <text x="0" y="2066.4" class="ascii-text">│  │   Downspouts attached at bottom    │      │</text>
+    <text x="0" y="2084.4" class="ascii-text">│  │   Water diverts away (4+ feet)     │      │</text>
+    <text x="0" y="2102.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2120.4" class="ascii-text">│  │ ✓ Electrical/plumbing penetrations│      │</text>
+    <text x="0" y="2138.4" class="ascii-text">│  │   All flashed or caulked           │      │</text>
+    <text x="0" y="2156.4" class="ascii-text">│  │   No gaps or exposed holes         │      │</text>
+    <text x="0" y="2174.4" class="ascii-text">│  │   Labeled for future reference     │      │</text>
+    <text x="0" y="2192.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="2210.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="2228.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="2246.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

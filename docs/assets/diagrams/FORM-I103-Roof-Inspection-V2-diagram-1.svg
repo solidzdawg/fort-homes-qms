@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="780"
+     height="3300"
+     viewBox="0 0 780 3300">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="760" height="3280"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="FORM-I103-Roof-Inspection-V2-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text x="0" y="32.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="50.4" class="ascii-text">║   🏗️ FORT HOMES QMS                                        FORM-I103       ║</text>
+    <text x="0" y="68.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="86.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="104.4" class="ascii-text">║                    ROOF &amp; CEILING INSPECTION                                 ║</text>
+    <text x="0" y="122.4" class="ascii-text">║                    Phase 3 | Hold Point HP-3                                 ║</text>
+    <text x="0" y="140.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="158.4" class="ascii-text">║   Revision: 2.0  │  Effective: January 2026  │  Retention: 7 Years          ║</text>
+    <text x="0" y="176.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="194.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="212.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="230.4" class="ascii-text">║   📋 MODULE INFORMATION                                                      ║</text>
+    <text x="0" y="248.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="266.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="284.4" class="ascii-text">║   │   Module Serial #:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="302.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="320.4" class="ascii-text">║   │   Production Bay:   ░░░░░░░░░░░░░░░░    Lot #: ░░░░░░░░░░░░░░   │    ║</text>
+    <text x="0" y="338.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="356.4" class="ascii-text">║   │   Model Type:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="374.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="392.4" class="ascii-text">║   │   Supervisor:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="410.4" class="ascii-text">║   │                                                                    │    ║</text>
+    <text x="0" y="428.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="446.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="464.4" class="ascii-text">║   📅 INSPECTION TIMING                                                       ║</text>
+    <text x="0" y="482.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="500.4" class="ascii-text">║   │   Date: ░░░░░░░░░░░░░░░    Time Start: ░░░░░░░   End: ░░░░░░░   │    ║</text>
+    <text x="0" y="518.4" class="ascii-text">║   │   Shift:  □ Day (6am-2pm)   □ Swing (2pm-10pm)   □ Night         │    ║</text>
+    <text x="0" y="536.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="554.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="572.4" class="ascii-text">║   👤 INSPECTOR                                                               ║</text>
+    <text x="0" y="590.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="608.4" class="ascii-text">║   │   Name: ░░░░░░░░░░░░░░░░░░░░░    ID: ░░░░░░░   Cert: ░░░░░░░░   │    ║</text>
+    <text x="0" y="626.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="644.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="662.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="680.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="698.4" class="ascii-text">║   🔍 VISUAL INSPECTION CHECKLIST                                             ║</text>
+    <text x="0" y="716.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="734.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="752.4" class="ascii-text">║   ROOF FRAMING STRUCTURE                                                     ║</text>
+    <text x="0" y="770.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="788.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="806.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="824.4" class="ascii-text">║   │ 1  │ Roof frame aligned, no damage/defects    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="842.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="860.4" class="ascii-text">║   │ 2  │ Trusses correctly spaced &amp; secured       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="878.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="896.4" class="ascii-text">║   │ 3  │ Ridge board aligned with adequate support│ ✅ ❌  │           │    ║</text>
+    <text x="0" y="914.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="932.4" class="ascii-text">║   │ 4  │ Ceiling joists spaced/fastened per SOP   │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="950.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="968.4" class="ascii-text">║   │ 5  │ Hurricane ties/straps installed          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="986.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1004.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1022.4" class="ascii-text">║   ROOF SHEATHING &amp; DECK                                                      ║</text>
+    <text x="0" y="1040.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1058.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1076.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1094.4" class="ascii-text">║   │ 6  │ Sheathing fully attached, no gaps/buckle │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1112.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1130.4" class="ascii-text">║   │ 7  │ Fasteners: 6&quot; perim / 12&quot; field spacing  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1148.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1166.4" class="ascii-text">║   │ 8  │ Panel joints staggered properly          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1184.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1202.4" class="ascii-text">║   │ 9  │ H-clips installed between panels         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1220.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1238.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1256.4" class="ascii-text">║   VENTILATION &amp; PENETRATIONS                                                 ║</text>
+    <text x="0" y="1274.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1292.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1310.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1328.4" class="ascii-text">║   │10  │ Ventilation openings framed, not blocked │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1346.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1364.4" class="ascii-text">║   │11  │ Skylight frames installed (if applicable)│ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1382.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1400.4" class="ascii-text">║   │12  │ Vent stack penetrations properly framed  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1418.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1436.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1454.4" class="ascii-text">║   ROOF GEOMETRY &amp; FINISH                                                     ║</text>
+    <text x="0" y="1472.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1490.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1508.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1526.4" class="ascii-text">║   │13  │ Roof pitch correct per design            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1544.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1562.4" class="ascii-text">║   │14  │ Flashings temporarily set, no gaps       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1580.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1598.4" class="ascii-text">║   │15  │ Drip edge/gutters temp aligned           │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1616.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1634.4" class="ascii-text">║   │16  │ Roof surface clean, no debris/damage     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1652.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1670.4" class="ascii-text">║   │17  │ Safety handrails per OSHA (if required)  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1688.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1706.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1724.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1742.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1760.4" class="ascii-text">║   📏 DIMENSIONAL MEASUREMENTS                                                ║</text>
+    <text x="0" y="1778.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="1796.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1814.4" class="ascii-text">║   ┌──────────────────┬────────────┬────────────┬────────────┬──────────┐    ║</text>
+    <text x="0" y="1832.4" class="ascii-text">║   │   MEASUREMENT    │    SPEC    │  TOLERANCE │   ACTUAL   │  STATUS  │    ║</text>
+    <text x="0" y="1850.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="1868.4" class="ascii-text">║   │ Roof Pitch       │ Per Design │ ± ¼&quot;/ft    │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="1886.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="1904.4" class="ascii-text">║   │ Truss Spacing    │ 16/24&quot; OC  │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="1922.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="1940.4" class="ascii-text">║   │ Ridge Height     │ Per Design │   ± ½&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="1958.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="1976.4" class="ascii-text">║   │ Overhang Length  │ Per Design │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="1994.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2012.4" class="ascii-text">║   │ Crown/Flatness   │ ≤¼&quot; in 10&apos; │   ± ¼&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2030.4" class="ascii-text">║   ├──────────────────┼────────────┼────────────┼────────────┼──────────┤    ║</text>
+    <text x="0" y="2048.4" class="ascii-text">║   │ Sheathing Thick. │ Per Spec   │   ± ⅛&quot;     │ ░░░░░░░░░  │  ✅ ❌   │    ║</text>
+    <text x="0" y="2066.4" class="ascii-text">║   └──────────────────┴────────────┴────────────┴────────────┴──────────┘    ║</text>
+    <text x="0" y="2084.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2102.4" class="ascii-text">║   ROOF SECTION DIAGRAM                                                       ║</text>
+    <text x="0" y="2120.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2138.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2156.4" class="ascii-text">║   │                         ▲ RIDGE BOARD                               │   ║</text>
+    <text x="0" y="2174.4" class="ascii-text">║   │                        ╱ ╲                                          │   ║</text>
+    <text x="0" y="2192.4" class="ascii-text">║   │                       ╱   ╲                                         │   ║</text>
+    <text x="0" y="2210.4" class="ascii-text">║   │            SHEATHING ╱     ╲ SHEATHING                              │   ║</text>
+    <text x="0" y="2228.4" class="ascii-text">║   │                     ╱       ╲                                       │   ║</text>
+    <text x="0" y="2246.4" class="ascii-text">║   │           TRUSS ─► ╱─────────╲ ◄─ TRUSS                             │   ║</text>
+    <text x="0" y="2264.4" class="ascii-text">║   │                   ╱           ╲                                     │   ║</text>
+    <text x="0" y="2282.4" class="ascii-text">║   │        OVERHANG ─╱─────────────╲─ OVERHANG                          │   ║</text>
+    <text x="0" y="2300.4" class="ascii-text">║   │                 ═══════════════════ TOP PLATE                       │   ║</text>
+    <text x="0" y="2318.4" class="ascii-text">║   │                     │ CEILING │                                     │   ║</text>
+    <text x="0" y="2336.4" class="ascii-text">║   │                     │  JOIST  │                                     │   ║</text>
+    <text x="0" y="2354.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2372.4" class="ascii-text">║   │   Verify: Pitch ___:12    Overhang: ___&quot;    Ridge Height: ___&quot;     │   ║</text>
+    <text x="0" y="2390.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2408.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2426.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2444.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2462.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2480.4" class="ascii-text">║   📊 INSPECTION SUMMARY                                                      ║</text>
+    <text x="0" y="2498.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2516.4" class="ascii-text">║   │   Total Items:    17  │  Passed: ░░  │  Failed: ░░  │  N/A: ░░     │   ║</text>
+    <text x="0" y="2534.4" class="ascii-text">║   │   Measurements:    6  │  In Tol: ░░  │  Out: ░░                    │   ║</text>
+    <text x="0" y="2552.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2570.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2588.4" class="ascii-text">║   🎯 INSPECTION DECISION                                                     ║</text>
+    <text x="0" y="2606.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2624.4" class="ascii-text">║   │   □ ✅ PASS — Module approved for Phase 4 (MEP Rough)              │   ║</text>
+    <text x="0" y="2642.4" class="ascii-text">║   │   □ ⚠️ CONDITIONAL PASS — Minor corrections required               │   ║</text>
+    <text x="0" y="2660.4" class="ascii-text">║   │   □ ❌ FAIL — NCR required, module held                            │   ║</text>
+    <text x="0" y="2678.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2696.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2714.4" class="ascii-text">║   NOTES: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     ║</text>
+    <text x="0" y="2732.4" class="ascii-text">║          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     ║</text>
+    <text x="0" y="2750.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2768.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2786.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2804.4" class="ascii-text">║   ⚠️ CORRECTIVE ACTION (If Required)                                        ║</text>
+    <text x="0" y="2822.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2840.4" class="ascii-text">║   │   NCR Required: □ Yes (NCR #: ░░░░░░░░░)    □ No                   │   ║</text>
+    <text x="0" y="2858.4" class="ascii-text">║   │   Deficiency: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="2876.4" class="ascii-text">║   │   Correction: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="2894.4" class="ascii-text">║   │   Responsible: ░░░░░░░░░░░░░░░░    Target Date: ░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="2912.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2930.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2948.4" class="ascii-text">║   🔄 RE-INSPECTION: Date: ░░░░░░░░░    Result: □ ✅ PASS  □ ❌ FAIL         ║</text>
+    <text x="0" y="2966.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2984.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3002.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3020.4" class="ascii-text">║   ✍️ SIGNATURES                                                              ║</text>
+    <text x="0" y="3038.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3056.4" class="ascii-text">║   │   INSPECTOR:   _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3074.4" class="ascii-text">║   │   SUPERVISOR:  _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3092.4" class="ascii-text">║   │   QM (if NCR): _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3110.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3128.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3146.4" class="ascii-text">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text x="0" y="3164.4" class="ascii-text"></text>
+    <text x="0" y="3182.4" class="ascii-text">   Fort and Homes LLC | Mesa County, Colorado | Quality Without Compromise™</text>
+    <text x="0" y="3200.4" class="ascii-text">   Related: SOP-103, WI-103 | Control: SOP-001 | Retention: 7 Years</text>
+    <text x="0" y="3218.4" class="ascii-text"></text>
+    <text x="0" y="3236.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+  </g>
+</svg>

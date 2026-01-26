@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="780"
+     height="3894"
+     viewBox="0 0 780 3894">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="760" height="3874"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="FORM-I106-Drywall-Inspection-V2-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text x="0" y="32.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="50.4" class="ascii-text">║   🏗️ FORT HOMES QMS                                        FORM-I106       ║</text>
+    <text x="0" y="68.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="86.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="104.4" class="ascii-text">║                    DRYWALL INSPECTION                                        ║</text>
+    <text x="0" y="122.4" class="ascii-text">║                    Phase 6 | Hold Point HP-6                                 ║</text>
+    <text x="0" y="140.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="158.4" class="ascii-text">║   Revision: 2.0  │  Effective: January 2026  │  Retention: 7 Years          ║</text>
+    <text x="0" y="176.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="194.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="212.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="230.4" class="ascii-text">║   📋 MODULE INFORMATION                                                      ║</text>
+    <text x="0" y="248.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="266.4" class="ascii-text">║   │   Module Serial #:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="284.4" class="ascii-text">║   │   Production Bay:   ░░░░░░░░░░░░░░░░    Lot #: ░░░░░░░░░░░░░░   │    ║</text>
+    <text x="0" y="302.4" class="ascii-text">║   │   Model Type:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="320.4" class="ascii-text">║   │   Supervisor:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="338.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="356.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="374.4" class="ascii-text">║   📅 INSPECTION TIMING                                                       ║</text>
+    <text x="0" y="392.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="410.4" class="ascii-text">║   │   Date: ░░░░░░░░░░░░░░░    Time Start: ░░░░░░░   End: ░░░░░░░   │    ║</text>
+    <text x="0" y="428.4" class="ascii-text">║   │   Shift:  □ Day (6am-2pm)   □ Swing (2pm-10pm)   □ Night         │    ║</text>
+    <text x="0" y="446.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="464.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="482.4" class="ascii-text">║   👤 INSPECTOR                                                               ║</text>
+    <text x="0" y="500.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="518.4" class="ascii-text">║   │   Name: ░░░░░░░░░░░░░░░░░░░░░    ID: ░░░░░░░   Cert: ░░░░░░░░   │    ║</text>
+    <text x="0" y="536.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="554.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="572.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="590.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="608.4" class="ascii-text">║   📐 DRYWALL SPECIFICATIONS                                                  ║</text>
+    <text x="0" y="626.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="644.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="662.4" class="ascii-text">║   ┌────────────────────┬─────────────┬─────────────┬────────────────────┐   ║</text>
+    <text x="0" y="680.4" class="ascii-text">║   │     LOCATION       │  REQUIRED   │   ACTUAL    │       STATUS       │   ║</text>
+    <text x="0" y="698.4" class="ascii-text">║   ├────────────────────┼─────────────┼─────────────┼────────────────────┤   ║</text>
+    <text x="0" y="716.4" class="ascii-text">║   │ Walls - Standard   │  ½&quot; Type X  │ ░░░░░░░░░░  │       ✅ ❌        │   ║</text>
+    <text x="0" y="734.4" class="ascii-text">║   ├────────────────────┼─────────────┼─────────────┼────────────────────┤   ║</text>
+    <text x="0" y="752.4" class="ascii-text">║   │ Ceilings           │  ½&quot; Type X  │ ░░░░░░░░░░  │       ✅ ❌        │   ║</text>
+    <text x="0" y="770.4" class="ascii-text">║   ├────────────────────┼─────────────┼─────────────┼────────────────────┤   ║</text>
+    <text x="0" y="788.4" class="ascii-text">║   │ Wet Areas (Bath)   │  ½&quot; Mold-R  │ ░░░░░░░░░░  │       ✅ ❌        │   ║</text>
+    <text x="0" y="806.4" class="ascii-text">║   ├────────────────────┼─────────────┼─────────────┼────────────────────┤   ║</text>
+    <text x="0" y="824.4" class="ascii-text">║   │ Garage Separation  │  ⅝&quot; Type X  │ ░░░░░░░░░░  │       ✅ ❌        │   ║</text>
+    <text x="0" y="842.4" class="ascii-text">║   └────────────────────┴─────────────┴─────────────┴────────────────────┘   ║</text>
+    <text x="0" y="860.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="878.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="896.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="914.4" class="ascii-text">║   🔍 DRYWALL INSTALLATION INSPECTION                                         ║</text>
+    <text x="0" y="932.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="950.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="968.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="986.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1004.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1022.4" class="ascii-text">║   │ D1 │ Correct drywall type in each location    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1040.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1058.4" class="ascii-text">║   │ D2 │ Panels properly oriented (long dim ⊥)    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1076.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1094.4" class="ascii-text">║   │ D3 │ Fasteners at studs (1¼&quot; screws)          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1112.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1130.4" class="ascii-text">║   │ D4 │ Fastener spacing: 12&quot; field, 8&quot; edges    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1148.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1166.4" class="ascii-text">║   │ D5 │ Screws properly set (slight dimple)      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1184.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1202.4" class="ascii-text">║   │ D6 │ No paper tears at screw heads            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1220.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1238.4" class="ascii-text">║   │ D7 │ Joints staggered (no 4-way corners)      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1256.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1274.4" class="ascii-text">║   │ D8 │ Butt joints at studs                     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1292.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1310.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1328.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1346.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1364.4" class="ascii-text">║   🔍 TAPING &amp; FINISHING INSPECTION                                           ║</text>
+    <text x="0" y="1382.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="1400.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1418.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1436.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1454.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1472.4" class="ascii-text">║   │ T1 │ All joints taped and mudded              │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1490.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1508.4" class="ascii-text">║   │ T2 │ Tape fully embedded (no bubbles)         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1526.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1544.4" class="ascii-text">║   │ T3 │ Proper feathering at edges               │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1562.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1580.4" class="ascii-text">║   │ T4 │ All fastener heads covered               │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1598.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1616.4" class="ascii-text">║   │ T5 │ Inside corners taped and finished        │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1634.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1652.4" class="ascii-text">║   │ T6 │ Outside corners with corner bead         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1670.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1688.4" class="ascii-text">║   │ T7 │ Surface sanded smooth                    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1706.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1724.4" class="ascii-text">║   │ T8 │ No visible ridges, bumps, or waves       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1742.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1760.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1778.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1796.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1814.4" class="ascii-text">║   🔍 OPENINGS &amp; PENETRATIONS                                                 ║</text>
+    <text x="0" y="1832.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="1850.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1868.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1886.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1904.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1922.4" class="ascii-text">║   │ O1 │ Window openings cut clean (±⅛&quot;)          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1940.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1958.4" class="ascii-text">║   │ O2 │ Door openings cut clean (±⅛&quot;)            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1976.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1994.4" class="ascii-text">║   │ O3 │ Electrical boxes cut flush               │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2012.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2030.4" class="ascii-text">║   │ O4 │ HVAC register openings correct size      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2048.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2066.4" class="ascii-text">║   │ O5 │ Plumbing penetrations properly cut       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2084.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2102.4" class="ascii-text">║   │ O6 │ No cracks at corners of openings         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2120.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="2138.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2156.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2174.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2192.4" class="ascii-text">║   🔍 SURFACE QUALITY CHECK                                                   ║</text>
+    <text x="0" y="2210.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2228.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2246.4" class="ascii-text">║   FINISH LEVEL VERIFICATION (per GA-214)                                     ║</text>
+    <text x="0" y="2264.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2282.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2300.4" class="ascii-text">║   │   SPECIFIED LEVEL: □ Level 3  □ Level 4  □ Level 5                 │   ║</text>
+    <text x="0" y="2318.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2336.4" class="ascii-text">║   │   Level 3: Tape embedded, one coat compound (textured finish)      │   ║</text>
+    <text x="0" y="2354.4" class="ascii-text">║   │   Level 4: Two coats at joints, three at angles (light texture)    │   ║</text>
+    <text x="0" y="2372.4" class="ascii-text">║   │   Level 5: Skim coat entire surface (smooth/critical lighting)     │   ║</text>
+    <text x="0" y="2390.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2408.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2426.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2444.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="2462.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="2480.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2498.4" class="ascii-text">║   │ S1 │ Surface ready for specified finish level │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2516.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2534.4" class="ascii-text">║   │ S2 │ No water damage or staining              │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2552.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2570.4" class="ascii-text">║   │ S3 │ Surface clean, dust-free                 │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2588.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2606.4" class="ascii-text">║   │ S4 │ Prime coat applied (if required)         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2624.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="2642.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2660.4" class="ascii-text">║   DRYWALL FASTENING PATTERN                                                  ║</text>
+    <text x="0" y="2678.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="2696.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2714.4" class="ascii-text">║   │    WALL PANEL                        CEILING PANEL                  │   ║</text>
+    <text x="0" y="2732.4" class="ascii-text">║   │    ┌──────────────────┐              ┌──────────────────┐           │   ║</text>
+    <text x="0" y="2750.4" class="ascii-text">║   │    │ • • • • • • • • │              │ • • • • • • • • │           │   ║</text>
+    <text x="0" y="2768.4" class="ascii-text">║   │    │ •   •   •   •   │              │ • • • • • • • • │           │   ║</text>
+    <text x="0" y="2786.4" class="ascii-text">║   │    │ • • • • • • • • │              │ • • • • • • • • │           │   ║</text>
+    <text x="0" y="2804.4" class="ascii-text">║   │    │ •   •   •   •   │              │ • • • • • • • • │           │   ║</text>
+    <text x="0" y="2822.4" class="ascii-text">║   │    │ • • • • • • • • │              │ • • • • • • • • │           │   ║</text>
+    <text x="0" y="2840.4" class="ascii-text">║   │    └──────────────────┘              └──────────────────┘           │   ║</text>
+    <text x="0" y="2858.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2876.4" class="ascii-text">║   │    Wall: 12&quot; field, 8&quot; edges        Ceiling: 12&quot; max all screws    │   ║</text>
+    <text x="0" y="2894.4" class="ascii-text">║   │    • = Screw location                                               │   ║</text>
+    <text x="0" y="2912.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="2930.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="2948.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2966.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2984.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3002.4" class="ascii-text">║   📊 INSPECTION SUMMARY                                                      ║</text>
+    <text x="0" y="3020.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3038.4" class="ascii-text">║   │   INSTALLATION:    8 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3056.4" class="ascii-text">║   │   TAPING/FINISH:   8 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3074.4" class="ascii-text">║   │   OPENINGS:        6 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3092.4" class="ascii-text">║   │   SURFACE:         4 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3110.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────    │   ║</text>
+    <text x="0" y="3128.4" class="ascii-text">║   │   TOTAL:          26 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3146.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3164.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3182.4" class="ascii-text">║   🎯 INSPECTION DECISION                                                     ║</text>
+    <text x="0" y="3200.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3218.4" class="ascii-text">║   │   □ ✅ PASS — Module approved for Phase 7 (Interior Trim)          │   ║</text>
+    <text x="0" y="3236.4" class="ascii-text">║   │   □ ⚠️ CONDITIONAL PASS — Minor touch-up required                  │   ║</text>
+    <text x="0" y="3254.4" class="ascii-text">║   │   □ ❌ FAIL — NCR required, module held                            │   ║</text>
+    <text x="0" y="3272.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3290.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3308.4" class="ascii-text">║   NOTES: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     ║</text>
+    <text x="0" y="3326.4" class="ascii-text">║          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     ║</text>
+    <text x="0" y="3344.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3362.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3380.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3398.4" class="ascii-text">║   ⚠️ CORRECTIVE ACTION (If Required)                                        ║</text>
+    <text x="0" y="3416.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3434.4" class="ascii-text">║   │   NCR Required: □ Yes (NCR #: ░░░░░░░░░)    □ No                   │   ║</text>
+    <text x="0" y="3452.4" class="ascii-text">║   │   Deficiency: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3470.4" class="ascii-text">║   │   Correction: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3488.4" class="ascii-text">║   │   Responsible: ░░░░░░░░░░░░░░░░    Target Date: ░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="3506.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3524.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3542.4" class="ascii-text">║   🔄 RE-INSPECTION: Date: ░░░░░░░░░    Result: □ ✅ PASS  □ ❌ FAIL         ║</text>
+    <text x="0" y="3560.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3578.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3596.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3614.4" class="ascii-text">║   ✍️ SIGNATURES                                                              ║</text>
+    <text x="0" y="3632.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3650.4" class="ascii-text">║   │   INSPECTOR:   _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3668.4" class="ascii-text">║   │   SUPERVISOR:  _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3686.4" class="ascii-text">║   │   QM (if NCR): _______________________  Date: ______  Time: _____   │   ║</text>
+    <text x="0" y="3704.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3722.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3740.4" class="ascii-text">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text x="0" y="3758.4" class="ascii-text"></text>
+    <text x="0" y="3776.4" class="ascii-text">   Fort and Homes LLC | Mesa County, Colorado | Quality Without Compromise™</text>
+    <text x="0" y="3794.4" class="ascii-text">   Related: SOP-106, WI-106 | Control: SOP-001 | Retention: 7 Years</text>
+    <text x="0" y="3812.4" class="ascii-text"></text>
+    <text x="0" y="3830.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+  </g>
+</svg>

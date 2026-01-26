@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="501"
+     height="1626"
+     viewBox="0 0 501 1626">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="481" height="1606"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-106-Drywall-Installation-diagram-2" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    WALL DRYWALL INSTALLATION PATTERN        │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Wall Layout (Horizontal Orientation):      │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Ceiling (top)                     │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │ ═════════════════════════════════ │      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ ┌───────────────┬───────────────┐│      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ │ Sheet 1       │ Sheet 2       ││      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │ │ (4&apos;x8&apos;)       │ (4&apos;x8&apos;)       ││      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ │ Top row       │ Top row       ││      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ │ Horizontal    │ Horizontal    ││      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ ├───────────────┼───────────────┤│      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ │ Sheet 3       │ Sheet 4       ││      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ │ (4&apos;x8&apos;)       │ (4&apos;x8&apos;)       ││      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │ │ Bottom row    │ Bottom row    ││      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ │ (trimmed 12&quot;) │ (trimmed 12&quot;) ││      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │ └───────────────┴───────────────┘│      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │ Floor level                       │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │ ═════════════════════════════════ │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="464.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="482.4" class="ascii-text">│  Screw Pattern (16&quot; o.c. on studs):        │</text>
+    <text x="0" y="500.4" class="ascii-text">│  ┌───────────────────────────────────┐    │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │ ⊡  ⊡  ⊡  ⊡  ⊡  ⊡  ⊡  (16&quot; spacing) │    │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │ Studs at 16&quot; centers              │    │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │ (Screws aligned vertically)       │    │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │ │ │ │ │ │ │ │ │ │ │ │            │    │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │ ⊡  ⊡  ⊡  ⊡  ⊡  ⊡  ⊡              │    │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │                                    │    │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │ Intermediate Row (mid-span):       │    │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │ │ │ │ │ │ │ │ │ │ │ │            │    │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │ ⊡  ⊡  ⊡  ⊡  ⊡  ⊡  ⊡              │    │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │ (12&quot; from top edge)                │    │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │                                    │    │</text>
+    <text x="0" y="716.4" class="ascii-text">│  │ Fastening Schedule:                │    │</text>
+    <text x="0" y="734.4" class="ascii-text">│  │ • 1.25&quot; drywall screws             │    │</text>
+    <text x="0" y="752.4" class="ascii-text">│  │ • 16&quot; o.c. on studs (vertical col) │    │</text>
+    <text x="0" y="770.4" class="ascii-text">│  │ • 12&quot; o.c. mid-span (horizontal)   │    │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ • Screws snug, not over-driven     │    │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ • ⊡ = Screw location               │    │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │                                    │    │</text>
+    <text x="0" y="842.4" class="ascii-text">│  └───────────────────────────────────┘    │</text>
+    <text x="0" y="860.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="878.4" class="ascii-text">│  Installation Method (per stud):            │</text>
+    <text x="0" y="896.4" class="ascii-text">│  ┌───────────────────────────────────┐    │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │  Stud spacing 16&quot; O.C.             │    │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │  ├─────16&quot;─────┤                   │    │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │  │             │                   │    │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │  │ Drywall     │ Next drywall      │    │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │  │ Sheet 1     │ Sheet 2           │    │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │  │ ║  ║  ║  ║ │ ║  ║  ║  ║        │    │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │  │ Vertical screw lines at studs   │    │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │  │ Horizontal rows every 12&quot;       │    │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │  │                                 │    │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │  │ Vertical joints should break    │    │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │  │ at stud (or every other stud)   │    │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │  │                                 │    │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │  └───────────────────────────────┘    │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │                                            │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │ Cutting Out Openings (outlets, etc):      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ ┌─────────────────────────────────────┐  │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ │ Mark opening location on sheet      │  │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ │ Measure from corner (X, Y position) │  │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │ │                                     │  │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ │ ┌──────────────────────────────┐   │  │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ │ │ Sheet Layout:                │   │  │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ │ │                              │   │  │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │ │ │ ┌────┬────┐                  │   │  │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │ │ │ │ ○  │    │ ○ = outlet hole │   │  │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │ │ │ │    │    │ 3&quot;x2&quot; (typical) │   │  │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │ │ │ ├────┼────┤                  │   │  │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │ │ │ │    │ ○  │ Cut with drywall│   │  │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │ │ │ │    │    │ saw or hole saw │   │  │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │ │ │ └────┴────┘                  │   │  │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │ │ │                              │   │  │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │ │ └──────────────────────────────┘   │  │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │ │                                     │  │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │ └─────────────────────────────────────┘  │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │                                            │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  └────────────────────────────────────────┘  │</text>
+    <text x="0" y="1544.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1562.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>

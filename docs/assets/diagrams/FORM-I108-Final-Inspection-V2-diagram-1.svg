@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="780"
+     height="5442"
+     viewBox="0 0 780 5442">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="760" height="5422"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="FORM-I108-Final-Inspection-V2-diagram-1" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text x="0" y="32.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="50.4" class="ascii-text">║   🏗️ FORT HOMES QMS                                        FORM-I108       ║</text>
+    <text x="0" y="68.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="86.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="104.4" class="ascii-text">║                    FINAL INSPECTION                                          ║</text>
+    <text x="0" y="122.4" class="ascii-text">║                    Phase 8 | Hold Point HP-8 | SHIP RELEASE                  ║</text>
+    <text x="0" y="140.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="158.4" class="ascii-text">║   Revision: 2.0  │  Effective: January 2026  │  Retention: 7 Years          ║</text>
+    <text x="0" y="176.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="194.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="212.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="230.4" class="ascii-text">║   📋 MODULE INFORMATION                                                      ║</text>
+    <text x="0" y="248.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="266.4" class="ascii-text">║   │   Module Serial #:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="284.4" class="ascii-text">║   │   Production Bay:   ░░░░░░░░░░░░░░░░    Lot #: ░░░░░░░░░░░░░░   │    ║</text>
+    <text x="0" y="302.4" class="ascii-text">║   │   Model Type:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="320.4" class="ascii-text">║   │   Supervisor:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="338.4" class="ascii-text">║   │   Customer:         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="356.4" class="ascii-text">║   │   Destination:      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║</text>
+    <text x="0" y="374.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="392.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="410.4" class="ascii-text">║   📅 INSPECTION TIMING                                                       ║</text>
+    <text x="0" y="428.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="446.4" class="ascii-text">║   │   Date: ░░░░░░░░░░░░░░░    Time Start: ░░░░░░░   End: ░░░░░░░   │    ║</text>
+    <text x="0" y="464.4" class="ascii-text">║   │   Shift:  □ Day (6am-2pm)   □ Swing (2pm-10pm)   □ Night         │    ║</text>
+    <text x="0" y="482.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="500.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="518.4" class="ascii-text">║   👤 FINAL INSPECTOR                                                         ║</text>
+    <text x="0" y="536.4" class="ascii-text">║   ┌────────────────────────────────────────────────────────────────────┐    ║</text>
+    <text x="0" y="554.4" class="ascii-text">║   │   Name: ░░░░░░░░░░░░░░░░░░░░░    ID: ░░░░░░░   Cert: ░░░░░░░░   │    ║</text>
+    <text x="0" y="572.4" class="ascii-text">║   └────────────────────────────────────────────────────────────────────┘    ║</text>
+    <text x="0" y="590.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="608.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="626.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="644.4" class="ascii-text">║   ✅ PRIOR HOLDPOINT VERIFICATION                                            ║</text>
+    <text x="0" y="662.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="680.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="698.4" class="ascii-text">║   All prior holdpoints must be PASSED before final inspection.              ║</text>
+    <text x="0" y="716.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="734.4" class="ascii-text">║   ┌──────────┬──────────────────────────┬──────────┬──────────┬─────────┐   ║</text>
+    <text x="0" y="752.4" class="ascii-text">║   │ HOLDPOINT│     PHASE                │  STATUS  │   DATE   │  INIT   │   ║</text>
+    <text x="0" y="770.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="788.4" class="ascii-text">║   │  HP-1    │ Floor System             │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="806.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="824.4" class="ascii-text">║   │  HP-2    │ Wall Framing             │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="842.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="860.4" class="ascii-text">║   │  HP-3    │ Roof &amp; Ceiling           │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="878.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="896.4" class="ascii-text">║   │  HP-4    │ MEP Rough-In             │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="914.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="932.4" class="ascii-text">║   │  HP-5    │ Insulation               │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="950.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="968.4" class="ascii-text">║   │  HP-6    │ Drywall                  │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="986.4" class="ascii-text">║   ├──────────┼──────────────────────────┼──────────┼──────────┼─────────┤   ║</text>
+    <text x="0" y="1004.4" class="ascii-text">║   │  HP-7    │ Interior Trim            │  ✅ ❌   │ ░░░░░░░  │  ░░░░   │   ║</text>
+    <text x="0" y="1022.4" class="ascii-text">║   └──────────┴──────────────────────────┴──────────┴──────────┴─────────┘   ║</text>
+    <text x="0" y="1040.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1058.4" class="ascii-text">║   ⚠️ ALL HOLDPOINTS MUST BE ✅ BEFORE PROCEEDING                             ║</text>
+    <text x="0" y="1076.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1094.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1112.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1130.4" class="ascii-text">║   ⚡ ELECTRICAL FINAL                                                        ║</text>
+    <text x="0" y="1148.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="1166.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1184.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1202.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1220.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1238.4" class="ascii-text">║   │ E1 │ Panel cover installed, circuits labeled  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1256.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1274.4" class="ascii-text">║   │ E2 │ All outlets operational (tested)         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1292.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1310.4" class="ascii-text">║   │ E3 │ GFCI outlets test functional             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1328.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1346.4" class="ascii-text">║   │ E4 │ All switches operational                 │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1364.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1382.4" class="ascii-text">║   │ E5 │ Light fixtures installed and working     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1400.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1418.4" class="ascii-text">║   │ E6 │ Smoke detectors installed and tested     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1436.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1454.4" class="ascii-text">║   │ E7 │ CO detectors installed and tested        │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1472.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1490.4" class="ascii-text">║   │ E8 │ Cover plates installed (all outlets/sw)  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1508.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1526.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1544.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1562.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1580.4" class="ascii-text">║   🚿 PLUMBING FINAL                                                          ║</text>
+    <text x="0" y="1598.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="1616.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1634.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="1652.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="1670.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1688.4" class="ascii-text">║   │ P1 │ All fixtures installed and operational   │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1706.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1724.4" class="ascii-text">║   │ P2 │ No leaks at supply connections           │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1742.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1760.4" class="ascii-text">║   │ P3 │ No leaks at drain connections            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1778.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1796.4" class="ascii-text">║   │ P4 │ Hot/cold connections correct             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1814.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1832.4" class="ascii-text">║   │ P5 │ Toilet installed, secure, flushes        │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1850.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1868.4" class="ascii-text">║   │ P6 │ Water heater installed and functional    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1886.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="1904.4" class="ascii-text">║   │ P7 │ Shut-off valves accessible               │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="1922.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="1940.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1958.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="1976.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="1994.4" class="ascii-text">║   🌡️ HVAC FINAL                                                             ║</text>
+    <text x="0" y="2012.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2030.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2048.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="2066.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="2084.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2102.4" class="ascii-text">║   │ H1 │ HVAC unit installed and operational      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2120.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2138.4" class="ascii-text">║   │ H2 │ Thermostat installed and functional      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2156.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2174.4" class="ascii-text">║   │ H3 │ All registers installed and open         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2192.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2210.4" class="ascii-text">║   │ H4 │ Airflow at each register verified        │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2228.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2246.4" class="ascii-text">║   │ H5 │ Return air grille(s) installed           │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2264.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2282.4" class="ascii-text">║   │ H6 │ Filter installed and accessible          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2300.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="2318.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2336.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2354.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2372.4" class="ascii-text">║   🏠 EXTERIOR &amp; STRUCTURE                                                    ║</text>
+    <text x="0" y="2390.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2408.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2426.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="2444.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="2462.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2480.4" class="ascii-text">║   │ X1 │ Exterior siding complete and secure      │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2498.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2516.4" class="ascii-text">║   │ X2 │ Exterior doors installed, lock &amp; latch   │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2534.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2552.4" class="ascii-text">║   │ X3 │ Windows weathersealed                    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2570.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2588.4" class="ascii-text">║   │ X4 │ Roofing complete, no exposed areas       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2606.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2624.4" class="ascii-text">║   │ X5 │ Gutters/downspouts installed             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2642.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2660.4" class="ascii-text">║   │ X6 │ Chassis secure, no damage                │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2678.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2696.4" class="ascii-text">║   │ X7 │ Transport blocking points identified     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2714.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="2732.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2750.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="2768.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2786.4" class="ascii-text">║   🧹 GENERAL QUALITY &amp; CLEANLINESS                                           ║</text>
+    <text x="0" y="2804.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="2822.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="2840.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="2858.4" class="ascii-text">║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║</text>
+    <text x="0" y="2876.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2894.4" class="ascii-text">║   │ G1 │ Interior cleaned, debris removed         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2912.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2930.4" class="ascii-text">║   │ G2 │ Floors swept/vacuumed                    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2948.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="2966.4" class="ascii-text">║   │ G3 │ Windows cleaned                          │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="2984.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3002.4" class="ascii-text">║   │ G4 │ Appliances clean, plastic removed        │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3020.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3038.4" class="ascii-text">║   │ G5 │ Protective coverings removed             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3056.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3074.4" class="ascii-text">║   │ G6 │ Touch-up paint complete                  │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3092.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3110.4" class="ascii-text">║   │ G7 │ No cosmetic defects visible              │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3128.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3146.4" class="ascii-text">║   │ G8 │ Exterior cleaned                         │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3164.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="3182.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3200.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3218.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3236.4" class="ascii-text">║   📄 DOCUMENTATION VERIFICATION                                              ║</text>
+    <text x="0" y="3254.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="3272.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3290.4" class="ascii-text">║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║</text>
+    <text x="0" y="3308.4" class="ascii-text">║   │ #  │ DOCUMENT                                 │ STATUS │  LOCATION │    ║</text>
+    <text x="0" y="3326.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3344.4" class="ascii-text">║   │ DC1│ Module Traveler completed (all phases)   │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3362.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3380.4" class="ascii-text">║   │ DC2│ All inspection forms attached            │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3398.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3416.4" class="ascii-text">║   │ DC3│ NCRs closed (if any)                     │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3434.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3452.4" class="ascii-text">║   │ DC4│ HUD Data Plate ready for installation    │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3470.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3488.4" class="ascii-text">║   │ DC5│ Manufacturer&apos;s Installation Manual       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3506.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3524.4" class="ascii-text">║   │ DC6│ Homeowner&apos;s Manual                       │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3542.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3560.4" class="ascii-text">║   │ DC7│ Warranty registration forms              │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3578.4" class="ascii-text">║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║</text>
+    <text x="0" y="3596.4" class="ascii-text">║   │ DC8│ Appliance manuals/warranties             │ ✅ ❌  │           │    ║</text>
+    <text x="0" y="3614.4" class="ascii-text">║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║</text>
+    <text x="0" y="3632.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3650.4" class="ascii-text">║   PRODUCTION QUALITY METRICS                                                 ║</text>
+    <text x="0" y="3668.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3686.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3704.4" class="ascii-text">║   │   Production Time:     ░░░░ days      Budget: ░░░░ days            │   ║</text>
+    <text x="0" y="3722.4" class="ascii-text">║   │   NCRs Issued:         ░░░░           NCRs Closed: ░░░░            │   ║</text>
+    <text x="0" y="3740.4" class="ascii-text">║   │   First Pass Yield:    ░░░░ %         Target: 95%                  │   ║</text>
+    <text x="0" y="3758.4" class="ascii-text">║   │   Rework Hours:        ░░░░           Target: &lt; 8 hrs              │   ║</text>
+    <text x="0" y="3776.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="3794.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="3812.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3830.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="3848.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="3866.4" class="ascii-text">║   📊 FINAL INSPECTION SUMMARY                                                ║</text>
+    <text x="0" y="3884.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="3902.4" class="ascii-text">║   │   PRIOR HOLDPTS:    7 items  │  Passed: ░░  │  Failed: ░░          │   ║</text>
+    <text x="0" y="3920.4" class="ascii-text">║   │   ELECTRICAL:       8 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3938.4" class="ascii-text">║   │   PLUMBING:         7 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3956.4" class="ascii-text">║   │   HVAC:             6 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3974.4" class="ascii-text">║   │   EXTERIOR:         7 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="3992.4" class="ascii-text">║   │   GENERAL:          8 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="4010.4" class="ascii-text">║   │   DOCUMENTS:        8 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="4028.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────    │   ║</text>
+    <text x="0" y="4046.4" class="ascii-text">║   │   TOTAL:           51 items  │  Passed: ░░  │  Failed: ░░  │ N/A: ░░│   ║</text>
+    <text x="0" y="4064.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="4082.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4100.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4118.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4136.4" class="ascii-text">║   🎯 FINAL INSPECTION DECISION                                               ║</text>
+    <text x="0" y="4154.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4172.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4190.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4208.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4226.4" class="ascii-text">║   │   □ ✅ APPROVED FOR SHIPMENT                                        │   ║</text>
+    <text x="0" y="4244.4" class="ascii-text">║   │       Module meets all quality standards and is ready for           │   ║</text>
+    <text x="0" y="4262.4" class="ascii-text">║   │       transport to customer site                                    │   ║</text>
+    <text x="0" y="4280.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4298.4" class="ascii-text">║   │   □ ⚠️ CONDITIONAL APPROVAL                                         │   ║</text>
+    <text x="0" y="4316.4" class="ascii-text">║   │       Minor items to be addressed before shipment:                  │   ║</text>
+    <text x="0" y="4334.4" class="ascii-text">║   │       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4352.4" class="ascii-text">║   │       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4370.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4388.4" class="ascii-text">║   │   □ ❌ NOT APPROVED — HOLD FOR REWORK                               │   ║</text>
+    <text x="0" y="4406.4" class="ascii-text">║   │       Critical issues requiring resolution:                         │   ║</text>
+    <text x="0" y="4424.4" class="ascii-text">║   │       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4442.4" class="ascii-text">║   │       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4460.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4478.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="4496.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4514.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4532.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4550.4" class="ascii-text">║   📦 SHIP RELEASE AUTHORIZATION                                              ║</text>
+    <text x="0" y="4568.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4586.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4604.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4622.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4640.4" class="ascii-text">║   │   TRANSPORT INFORMATION                                             │   ║</text>
+    <text x="0" y="4658.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────     │   ║</text>
+    <text x="0" y="4676.4" class="ascii-text">║   │   Transport Company:    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4694.4" class="ascii-text">║   │   Driver Name:          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4712.4" class="ascii-text">║   │   Trailer Number:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4730.4" class="ascii-text">║   │   Scheduled Ship Date:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │   ║</text>
+    <text x="0" y="4748.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4766.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="4784.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4802.4" class="ascii-text">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="4820.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4838.4" class="ascii-text">║   ✍️ SIGNATURES — SHIP RELEASE AUTHORIZATION                                 ║</text>
+    <text x="0" y="4856.4" class="ascii-text">║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║</text>
+    <text x="0" y="4874.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="4892.4" class="ascii-text">║   ┌─────────────────────────────────────────────────────────────────────┐   ║</text>
+    <text x="0" y="4910.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="4928.4" class="ascii-text">║   │   FINAL INSPECTOR                                                   │   ║</text>
+    <text x="0" y="4946.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="4964.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="4982.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5000.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────     │   ║</text>
+    <text x="0" y="5018.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5036.4" class="ascii-text">║   │   QUALITY MANAGER                                                   │   ║</text>
+    <text x="0" y="5054.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="5072.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="5090.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5108.4" class="ascii-text">║   │   ─────────────────────────────────────────────────────────────     │   ║</text>
+    <text x="0" y="5126.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5144.4" class="ascii-text">║   │   PRODUCTION MANAGER                                                │   ║</text>
+    <text x="0" y="5162.4" class="ascii-text">║   │   Signature: _______________________________  Date: _____________   │   ║</text>
+    <text x="0" y="5180.4" class="ascii-text">║   │   Printed:   _______________________________  Time: _____________   │   ║</text>
+    <text x="0" y="5198.4" class="ascii-text">║   │                                                                     │   ║</text>
+    <text x="0" y="5216.4" class="ascii-text">║   └─────────────────────────────────────────────────────────────────────┘   ║</text>
+    <text x="0" y="5234.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5252.4" class="ascii-text">║   ⚠️ MODULE MUST NOT BE SHIPPED WITHOUT ALL THREE SIGNATURES                ║</text>
+    <text x="0" y="5270.4" class="ascii-text">║                                                                              ║</text>
+    <text x="0" y="5288.4" class="ascii-text">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text x="0" y="5306.4" class="ascii-text"></text>
+    <text x="0" y="5324.4" class="ascii-text">   Fort and Homes LLC | Mesa County, Colorado | Quality Without Compromise™</text>
+    <text x="0" y="5342.4" class="ascii-text">   Related: SOP-108, SOP-013 | Control: SOP-001 | Retention: PERMANENT</text>
+    <text x="0" y="5360.4" class="ascii-text"></text>
+    <text x="0" y="5378.4" class="ascii-text">═══════════════════════════════════════════════════════════════════════════════</text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="762"
+     height="492"
+     viewBox="0 0 762 492">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="742" height="472"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="QMS-001-Context-Stakeholders-diagram-3" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│  STRATEGIC SWOT MATRIX                                                     │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  STRENGTHS + OPPORTUNITIES (SO)         WEAKNESSES + OPPORTUNITIES (WO)   │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ─────────────────────────────          ──────────────────────────────    │</text>
+    <text x="0" y="122.4" class="ascii-text">│  • Leverage quality culture for         • Increase capacity to meet       │</text>
+    <text x="0" y="140.4" class="ascii-text">│    premium positioning in growing         growing market demand            │</text>
+    <text x="0" y="158.4" class="ascii-text">│    affordable housing market            • Enhance brand awareness          │</text>
+    <text x="0" y="176.4" class="ascii-text">│  • Use AI/technology expertise for        through quality reputation       │</text>
+    <text x="0" y="194.4" class="ascii-text">│    competitive advantage                • Develop training programs        │</text>
+    <text x="0" y="212.4" class="ascii-text">│                                           to address labor challenges      │</text>
+    <text x="0" y="230.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="248.4" class="ascii-text">│  STRENGTHS + THREATS (ST)               WEAKNESSES + THREATS (WT)         │</text>
+    <text x="0" y="266.4" class="ascii-text">│  ─────────────────────────              ────────────────────────          │</text>
+    <text x="0" y="284.4" class="ascii-text">│  • Strong compliance culture to         • Limited capacity increases      │</text>
+    <text x="0" y="302.4" class="ascii-text">│    mitigate regulatory risks              vulnerability to economic        │</text>
+    <text x="0" y="320.4" class="ascii-text">│  • Quality reputation to defend           downturns                        │</text>
+    <text x="0" y="338.4" class="ascii-text">│    against competition                  • Labor dependency in tight       │</text>
+    <text x="0" y="356.4" class="ascii-text">│  • Modern facility provides               market conditions                │</text>
+    <text x="0" y="374.4" class="ascii-text">│    flexibility for adaptations          • Need diversification to          │</text>
+    <text x="0" y="392.4" class="ascii-text">│                                           reduce single-point risks        │</text>
+    <text x="0" y="410.4" class="ascii-text">│                                                                            │</text>
+    <text x="0" y="428.4" class="ascii-text">└────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
+</svg>

@@ -1,5 +1,13 @@
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-1.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║  🏗️ FORT HOMES QMS                                           SOP-001        ║
@@ -11,6 +19,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 | 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
 |:---:|:---:|:---:|:---:|:---:|
@@ -44,6 +54,14 @@
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-2.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              🎯 PURPOSE                                     │
@@ -71,6 +89,8 @@
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -94,6 +114,14 @@ This procedure applies to **all QMS documents** including:
 
 ### 2.2 Personnel Coverage
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-3.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         PERSONNEL APPLICABILITY                             │
@@ -105,6 +133,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -123,6 +153,14 @@ This procedure applies to **all QMS documents** including:
 ## 4. ROLES & RESPONSIBILITIES
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-4.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -163,6 +201,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -173,6 +213,14 @@ This procedure applies to **all QMS documents** including:
 ### 5.1 Document Hierarchy
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-5.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -205,6 +253,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -220,6 +270,14 @@ This procedure applies to **all QMS documents** including:
 | Module Traveler | `TRAVELER` | 7 years | Production Manager | Module lifecycle record |
 
 ### 5.3 Naming Convention
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-6.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -248,6 +306,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -256,6 +316,14 @@ This procedure applies to **all QMS documents** including:
 ### 6.1 New Document Creation Process
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-7.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -324,12 +392,22 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
 ### 6.2 Document Change Request Process
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-8.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-8" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -385,6 +463,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -393,6 +473,14 @@ This procedure applies to **all QMS documents** including:
 ## 7. DOCUMENT DEVELOPMENT
 
 ### 7.1 Creation Checklist
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-9.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-9" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -436,6 +524,8 @@ This procedure applies to **all QMS documents** including:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -467,6 +557,14 @@ All changes must include:
 
 <div align="center">
 
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-10.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-10" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                       RECORD RETENTION SCHEDULE                             │
@@ -489,6 +587,8 @@ All changes must include:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -507,6 +607,14 @@ All changes must include:
 ### 10.1 Access Control Matrix
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-11.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-11" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -532,6 +640,8 @@ All changes must include:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
@@ -550,6 +660,14 @@ All changes must include:
 | Unauthorized Document Usage | 0 incidents | Monthly audit | All Supervisors |
 
 ### 11.2 Dashboard Metrics
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-12.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-12" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -571,6 +689,8 @@ All changes must include:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 ---
 
@@ -596,6 +716,14 @@ All changes must include:
 ## 13. APPENDICES
 
 ### Appendix A: Document Change Request Form
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-13.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-13" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -630,6 +758,8 @@ All changes must include:
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+</details>
+
 
 ### Appendix B: Revision History
 
@@ -643,6 +773,14 @@ All changes must include:
 ## ✍️ APPROVAL & AUTHORITY
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-14.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-14" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -663,12 +801,22 @@ All changes must include:
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+</details>
+
 
 </div>
 
 ---
 
 <div align="center">
+
+
+<div align="center">
+  <img src="../assets/diagrams/SOP-001-Document-Control-Records-Management-V2-diagram-15.svg" alt="SOP-001-Document-Control-Records-Management-V2-diagram-15" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ═══════════════════════════════════════════════════════════════════════════════
@@ -684,5 +832,7 @@ All changes must include:
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+
 
 </div>

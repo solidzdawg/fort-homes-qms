@@ -29,6 +29,14 @@
 
 ### Step 1: Drywall Material Staging & Layout
 
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-1.svg" alt="WI-106-Drywall-Installation-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ┌────────────────────────────────────────────┐
 │    DRYWALL STAGING & MATERIAL PREPARATION   │
@@ -94,6 +102,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Deliver drywall sheets to job site (protected from weather)
@@ -111,6 +121,14 @@
 ---
 
 ### Step 2: Wall Drywall Installation (Hanging)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-2.svg" alt="WI-106-Drywall-Installation-diagram-2" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -201,6 +219,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Measure and mark all wall heights (typically 8'6" to ceiling)
@@ -218,6 +238,14 @@
 ---
 
 ### Step 3: Ceiling Drywall Installation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-3.svg" alt="WI-106-Drywall-Installation-diagram-3" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -298,6 +326,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Install drywall stilts for safe ceiling work
@@ -315,6 +345,14 @@
 ---
 
 ### Step 4: Drywall Finishing - Taping & Mudding (3-Coat Method)
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-4.svg" alt="WI-106-Drywall-Installation-diagram-4" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -431,6 +469,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. **Coat 1 (Embedding coat):** Apply joint compound over all seams (3" wide)
@@ -454,6 +494,14 @@
 ---
 
 ### Step 5: Sanding & Surface Preparation
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-5.svg" alt="WI-106-Drywall-Installation-diagram-5" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -535,6 +583,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Set up dust containment (plastic barriers, negative air fans)
@@ -555,6 +605,14 @@
 ---
 
 ### Step 6: Primer Application
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-6.svg" alt="WI-106-Drywall-Installation-diagram-6" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -638,6 +696,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Select drywall primer/sealer (latex-based, low VOC)
@@ -658,6 +718,14 @@
 ---
 
 ### Step 7: Final Inspection & Phase 6 Completion
+
+
+<div align="center">
+  <img src="../assets/diagrams/WI-106-Drywall-Installation-diagram-7.svg" alt="WI-106-Drywall-Installation-diagram-7" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
 
 ```
 ┌────────────────────────────────────────────┐
@@ -710,6 +778,8 @@
 │                                            │
 └────────────────────────────────────────────┘
 ```
+</details>
+
 
 **Actions:**
 1. Complete visual inspection of all drywall work

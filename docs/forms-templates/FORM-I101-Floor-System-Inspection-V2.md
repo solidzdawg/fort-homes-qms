@@ -1,3 +1,11 @@
+
+<div align="center">
+  <img src="../assets/diagrams/FORM-I101-Floor-System-Inspection-V2-diagram-1.svg" alt="FORM-I101-Floor-System-Inspection-V2-diagram-1" width="90%" />
+</div>
+
+<details>
+<summary>View ASCII Source</summary>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -316,3 +324,5 @@
 
 ═══════════════════════════════════════════════════════════════════════════════
 ```
+</details>
+

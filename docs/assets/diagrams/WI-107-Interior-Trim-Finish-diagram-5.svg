@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="537"
+     height="1986"
+     viewBox="0 0 537 1986">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .diagram-background {
+        fill: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      }
+      .ascii-text {
+        font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #2D5016;
+        font-weight: 600;
+      }
+      .ascii-box {
+        fill: none;
+        stroke: #2D5016;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      .ascii-emphasis {
+        fill: #101810;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa" rx="8"/>
+  <rect x="10" y="10" width="517" height="1966"
+        fill="white" rx="4" filter="url(#shadow)"/>
+
+  <!-- Diagram Content -->
+  <g id="WI-107-Interior-Trim-Finish-diagram-5" transform="translate(30, 30)">
+    <text x="0" y="14.4" class="ascii-text">┌────────────────────────────────────────────┐</text>
+    <text x="0" y="32.4" class="ascii-text">│    KITCHEN CABINET INSTALLATION             │</text>
+    <text x="0" y="50.4" class="ascii-text">├────────────────────────────────────────────┤</text>
+    <text x="0" y="68.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="86.4" class="ascii-text">│  Cabinet Types &amp; Layout:                    │</text>
+    <text x="0" y="104.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="122.4" class="ascii-text">│  │ Base Cabinets (Lower):            │      │</text>
+    <text x="0" y="140.4" class="ascii-text">│  │ Height: 34.5&quot; (with 1.5&quot; counter)│      │</text>
+    <text x="0" y="158.4" class="ascii-text">│  │ Depth: 24&quot; (front to back)        │      │</text>
+    <text x="0" y="176.4" class="ascii-text">│  │ Face: 24-60&quot; wide sections        │      │</text>
+    <text x="0" y="194.4" class="ascii-text">│  │ Drawers &amp; doors with hardware     │      │</text>
+    <text x="0" y="212.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="230.4" class="ascii-text">│  │ Wall Cabinets (Upper):            │      │</text>
+    <text x="0" y="248.4" class="ascii-text">│  │ Height: 12-18&quot; tall               │      │</text>
+    <text x="0" y="266.4" class="ascii-text">│  │ Depth: 12&quot; (shallower than base)  │      │</text>
+    <text x="0" y="284.4" class="ascii-text">│  │ Width: 12-48&quot; sections            │      │</text>
+    <text x="0" y="302.4" class="ascii-text">│  │ Shelves (fixed or adjustable)     │      │</text>
+    <text x="0" y="320.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="338.4" class="ascii-text">│  │ Kitchen Layout (Typical):         │      │</text>
+    <text x="0" y="356.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="374.4" class="ascii-text">│  │    Upper Cabinets                 │      │</text>
+    <text x="0" y="392.4" class="ascii-text">│  │   ┌────────────────────────────┐  │      │</text>
+    <text x="0" y="410.4" class="ascii-text">│  │   │  ┌────┐ ┌────┐ ┌────┐     │  │      │</text>
+    <text x="0" y="428.4" class="ascii-text">│  │   │  │ 18&quot;│ │ 24&quot;│ │ 18&quot;│ ... │  │      │</text>
+    <text x="0" y="446.4" class="ascii-text">│  │   │  └────┘ └────┘ └────┘     │  │      │</text>
+    <text x="0" y="464.4" class="ascii-text">│  │   └────────────────────────────┘  │      │</text>
+    <text x="0" y="482.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="500.4" class="ascii-text">│  │    Counter (30&quot; height AFF)       │      │</text>
+    <text x="0" y="518.4" class="ascii-text">│  │   ┌────────────────────────────┐  │      │</text>
+    <text x="0" y="536.4" class="ascii-text">│  │   │  Sink   Range   Dishwasher │  │      │</text>
+    <text x="0" y="554.4" class="ascii-text">│  │   └────────────────────────────┘  │      │</text>
+    <text x="0" y="572.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="590.4" class="ascii-text">│  │   Base Cabinets                   │      │</text>
+    <text x="0" y="608.4" class="ascii-text">│  │   ┌────────────────────────────┐  │      │</text>
+    <text x="0" y="626.4" class="ascii-text">│  │   │  ┌────┐ ┌────┐ ┌────┐     │  │      │</text>
+    <text x="0" y="644.4" class="ascii-text">│  │   │  │ 36&quot;│ │ 30&quot;│ │ 24&quot;│ ... │  │      │</text>
+    <text x="0" y="662.4" class="ascii-text">│  │   │  └────┘ └────┘ └────┘     │  │      │</text>
+    <text x="0" y="680.4" class="ascii-text">│  │   └────────────────────────────┘  │      │</text>
+    <text x="0" y="698.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="716.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="734.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="752.4" class="ascii-text">│  Installation Process:                      │</text>
+    <text x="0" y="770.4" class="ascii-text">│  ┌──────────────────────────────────┐      │</text>
+    <text x="0" y="788.4" class="ascii-text">│  │ Step 1: Locate Wall Studs         │      │</text>
+    <text x="0" y="806.4" class="ascii-text">│  │ • Mark stud locations on wall     │      │</text>
+    <text x="0" y="824.4" class="ascii-text">│  │ • Find studs with stud finder     │      │</text>
+    <text x="0" y="842.4" class="ascii-text">│  │ • Mark at 16&quot; o.c.               │      │</text>
+    <text x="0" y="860.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="878.4" class="ascii-text">│  │ Step 2: Install Base Cabinets     │      │</text>
+    <text x="0" y="896.4" class="ascii-text">│  │ • Level with shims at feet        │      │</text>
+    <text x="0" y="914.4" class="ascii-text">│  │ • Screw to wall studs (2&quot; screws) │      │</text>
+    <text x="0" y="932.4" class="ascii-text">│  │ • Cabinet-to-cabinet screwing     │      │</text>
+    <text x="0" y="950.4" class="ascii-text">│  │ • Verify level (within ±1/8&quot;)     │      │</text>
+    <text x="0" y="968.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="986.4" class="ascii-text">│  │  ┌──────────┐ ┌──────────┐        │      │</text>
+    <text x="0" y="1004.4" class="ascii-text">│  │  │ Cabinet1 │ │ Cabinet2 │        │      │</text>
+    <text x="0" y="1022.4" class="ascii-text">│  │  │ Screwed  │ │ Together │ Wall   │      │</text>
+    <text x="0" y="1040.4" class="ascii-text">│  │  │ to wall  │ │ Screwing │ studs  │      │</text>
+    <text x="0" y="1058.4" class="ascii-text">│  │  │ studs    │ │ (frames) │ (16&quot;O.C)     │      │</text>
+    <text x="0" y="1076.4" class="ascii-text">│  │  │ ◆        │ │ ◆        │ ◆      │      │</text>
+    <text x="0" y="1094.4" class="ascii-text">│  │  │ ◆        │ │ ◆        │ ◆      │      │</text>
+    <text x="0" y="1112.4" class="ascii-text">│  │  │ ◆        │ │ ◆        │ ◆      │      │</text>
+    <text x="0" y="1130.4" class="ascii-text">│  │  └──────────┘ └──────────┘        │      │</text>
+    <text x="0" y="1148.4" class="ascii-text">│  │  Shims under feet (level)         │      │</text>
+    <text x="0" y="1166.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1184.4" class="ascii-text">│  │ Step 3: Install Wall Cabinets     │      │</text>
+    <text x="0" y="1202.4" class="ascii-text">│  │ • Locate studs (mark on wall)     │      │</text>
+    <text x="0" y="1220.4" class="ascii-text">│  │ • Cabinet height: 18-20&quot; above    │      │</text>
+    <text x="0" y="1238.4" class="ascii-text">│  │   counter (typically)             │      │</text>
+    <text x="0" y="1256.4" class="ascii-text">│  │ • Screw into wall studs (2&quot; screws│      │</text>
+    <text x="0" y="1274.4" class="ascii-text">│  │ • Cabinet-to-cabinet screwing     │      │</text>
+    <text x="0" y="1292.4" class="ascii-text">│  │ • Verify level &amp; plumb            │      │</text>
+    <text x="0" y="1310.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1328.4" class="ascii-text">│  │  Wall Studs (16&quot; O.C.)            │      │</text>
+    <text x="0" y="1346.4" class="ascii-text">│  │  ◆          ◆          ◆          │      │</text>
+    <text x="0" y="1364.4" class="ascii-text">│  │  │          │          │          │      │</text>
+    <text x="0" y="1382.4" class="ascii-text">│  │  ┌──────────┬──────────┬──────┐   │      │</text>
+    <text x="0" y="1400.4" class="ascii-text">│  │  │ Cabinet1 │ Cabinet2 │ Cabinet│  │      │</text>
+    <text x="0" y="1418.4" class="ascii-text">│  │  │          │          │    3  │  │      │</text>
+    <text x="0" y="1436.4" class="ascii-text">│  │  │ ◆  ◆  ◆ │ ◆  ◆  ◆ │ ◆ ◆   │  │      │</text>
+    <text x="0" y="1454.4" class="ascii-text">│  │  │ Screw to studs     │ ◆     │  │      │</text>
+    <text x="0" y="1472.4" class="ascii-text">│  │  │ 2&quot; flathead wood   │       │  │      │</text>
+    <text x="0" y="1490.4" class="ascii-text">│  │  │ screws (2+ per cab)│       │  │      │</text>
+    <text x="0" y="1508.4" class="ascii-text">│  │  └──────────┴──────────┴──────┘   │      │</text>
+    <text x="0" y="1526.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1544.4" class="ascii-text">│  │ Step 4: Install Hardware           │      │</text>
+    <text x="0" y="1562.4" class="ascii-text">│  │ • Cabinet handles/knobs            │      │</text>
+    <text x="0" y="1580.4" class="ascii-text">│  │ • Hinges (soft-close typical)      │      │</text>
+    <text x="0" y="1598.4" class="ascii-text">│  │ • Drawer guides (full-extension)   │      │</text>
+    <text x="0" y="1616.4" class="ascii-text">│  │ • Test operation (smooth)          │      │</text>
+    <text x="0" y="1634.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1652.4" class="ascii-text">│  │ Step 5: Countertop Installation    │      │</text>
+    <text x="0" y="1670.4" class="ascii-text">│  │ • Set over base cabinets           │      │</text>
+    <text x="0" y="1688.4" class="ascii-text">│  │ • Fasten with screws (from below)  │      │</text>
+    <text x="0" y="1706.4" class="ascii-text">│  │ • Seal seams (caulk or adhesive)   │      │</text>
+    <text x="0" y="1724.4" class="ascii-text">│  │ • Install backsplash (if tile)     │      │</text>
+    <text x="0" y="1742.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1760.4" class="ascii-text">│  │ Step 6: Final Inspection           │      │</text>
+    <text x="0" y="1778.4" class="ascii-text">│  │ • All doors aligned &amp; closing      │      │</text>
+    <text x="0" y="1796.4" class="ascii-text">│  │ • Drawers opening smoothly         │      │</text>
+    <text x="0" y="1814.4" class="ascii-text">│  │ • Hardware tight                   │      │</text>
+    <text x="0" y="1832.4" class="ascii-text">│  │ • Countertop level &amp; secure        │      │</text>
+    <text x="0" y="1850.4" class="ascii-text">│  │ • Gap at walls even (3/8&quot;-1/2&quot;)    │      │</text>
+    <text x="0" y="1868.4" class="ascii-text">│  │                                   │      │</text>
+    <text x="0" y="1886.4" class="ascii-text">│  └──────────────────────────────────┘      │</text>
+    <text x="0" y="1904.4" class="ascii-text">│                                            │</text>
+    <text x="0" y="1922.4" class="ascii-text">└────────────────────────────────────────────┘</text>
+  </g>
+</svg>
