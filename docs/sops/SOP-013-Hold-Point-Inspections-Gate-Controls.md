@@ -24,27 +24,50 @@
 
 ## 📊 EXECUTIVE SUMMARY
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         📊 EXECUTIVE DASHBOARD                             │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   KEY METRICS                                                              │
-│   ───────────────────────────────────────────────────────────             │
-│   🎯 Target: 90%+ first-pass rate across all gates (HP-1 to HP-8)         │
-│   ⏱️ Target: 4-hour average hold point duration                           │
-│   ✅ Target: 100% gate documentation accuracy                             │
-│   🔍 Review: Weekly hold point metrics and trends                         │
-│                                                                            │
-│   CRITICAL SUCCESS FACTORS                                                 │
-│   ───────────────────────────────────────────────────────────             │
-│   • All 8 gates properly scheduled with 24-hour notice                     │
-│   • Inspectors qualified and certified for gate criteria                   │
-│   • Gate approvals documented and traceable on travelers                   │
-│   • <5% module rejection rate at any gate                                  │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### KEY METRICS
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🎯</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;">90%+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">First-Pass Rate</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">HP-1 to HP-8</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">⏱️</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">4hrs</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Avg Duration</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Per hold point</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Doc Accuracy</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Gate records</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📊</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">Weekly</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Metrics Review</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Trend analysis</div>
+  </div>
+  
+</div>
+
+### CRITICAL SUCCESS FACTORS
+
+<div style="background:linear-gradient(135deg,#E8F5E9 0%,#F1F8F1 100%);padding:20px;border-radius:8px;border:2px solid #4CAF50;margin:20px 0;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>All 8 gates properly scheduled with 24-hour notice</li>
+    <li>Inspectors qualified and certified for gate criteria</li>
+    <li>Gate approvals documented and traceable on travelers</li>
+    <li>&lt;5% module rejection rate at any gate</li>
+  </ul>
+</div>
 
 ---
 
@@ -82,13 +105,52 @@ This procedure applies to:
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| Hold Points Master Schedule | Inspection gate timeline | Internal |
-| Phase Documentation | phases.json | Internal |
-| FORM-I002 | Floor Inspection Template | Internal |
-| SOP-004 | Nonconformance & CAPA | Internal |
-| HUD Code 24 CFR 3280 | Manufacturing Requirements | Federal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Hold Points Master Schedule</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Inspection gate timeline</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Phase Documentation</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">phases.json</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>FORM-I002</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Floor Inspection Template</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-004</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Nonconformance & CAPA</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>HUD Code 24 CFR 3280</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Manufacturing Requirements</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">FEDERAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -145,9 +207,26 @@ This procedure applies to:
 
 ### 5.1 Gate Definitions & Inspection Criteria
 
-| Gate | Phase Focus | Key Inspection Points | Approval Authority |
-|:---|:---|:---|:---|
-| 🔵 **HP-1** | Material Receipt | Material lot verification, floor deck prep, documentation | Production Supervisor |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Gate</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:20%;">Phase Focus</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:45%;">Key Inspection Points</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:25%;">Approval Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#2196F3;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">🔵 HP-1</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Material Receipt</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Material lot verification, floor deck prep, documentation</td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Supervisor</td>
+    </tr>
+  </tbody>
+</table>
 | 🟢 **HP-2** | Floor Assembly | Deck assembly, fasteners, dimensional accuracy | Inspector + Supervisor |
 | 🟡 **HP-3** | Wall Framing | Frame square, plumb, sheathing, structural integrity | Inspector + Supervisor |
 | 🟠 **HP-4** | Electrical Rough-in | Wire routing, boxes, panel placement, safety compliance | Quality Manager |

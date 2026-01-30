@@ -24,11 +24,10 @@ classification: "CONTROLLED"
 | **Revision** | `2.0` |
 | **Effective Date** | January 2026 |
 | **Process Owner** | Operations Manager |
-| **Classification** | CONTROLLED |
+| **Classification** | <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span> |
 | **Review Cycle** | Semi-Annual |
 | **Next Review** | July 2026 |
-| **ISO 9001:2015 Clause** | 8.1-8.7 |
-| **HUD Code Reference** | 24 CFR 3280/3282 |
+| **Regulatory Basis** | 24 CFR § 3280/3282, 8 CCR 1302-14 |
 
 ---
 
@@ -36,13 +35,36 @@ classification: "CONTROLLED"
 
 ## 📋 Document Control
 
-| **Attribute** | **Details** |
-|:--------------|:------------|
-| **Supersedes** | QMS-005 Rev 1.0 |
-| **Related Sections** | QMS-001, QMS-003, QMS-006, QMS-007 |
-| **Supporting SOPs** | SOP-011 through SOP-018, SOP-101 through SOP-108 |
-| **Distribution** | All Operations Personnel, Production Staff, TPIA, CDOH |
-| **Custodian** | Document Controller |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Supersedes</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-005 Rev 1.0</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Related Sections</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-001, QMS-003, QMS-006, QMS-007</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Supporting SOPs</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-011 through SOP-018, SOP-101 through SOP-108</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Distribution</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">All Operations Personnel, Production Staff, TPIA, CDOH</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Custodian</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Controller</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

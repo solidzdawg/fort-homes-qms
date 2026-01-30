@@ -4,14 +4,46 @@
 
 ## Document Control
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-016 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 14, 2026 |
-| **Process Owner** | Quality Manager |
-| **Last Reviewed** | January 14, 2026 |
-| **Next Review** | July 14, 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-016</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 14, 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Last Reviewed</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 14, 2026</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 14, 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -57,12 +89,42 @@ This procedure applies to:
 
 ### 5.1 Production Quality Metrics
 
-| KPI | Target | Calculation | Review |
-| :--- | :--- | :--- | :--- |
-| First Pass Yield | 90% | (Modules passing HP-8 / Total modules started) × 100 | Weekly |
-| Defect Rate | <2% | (Total defects / Total modules) × 100 | Weekly |
-| Inspection Pass Rate | 95% | (Hold points passed first attempt / Total hold points) × 100 | Weekly |
-| Schedule Adherence | 95% | (On-time completions / Total completions) × 100 | Weekly |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:25%;">KPI</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:15%;">Target</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:45%;">Calculation</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:15%;">Review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>First Pass Yield</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">90%</td>
+      <td style="padding:10px;border:1px solid #ddd;">(Modules passing HP-8 / Total modules started) × 100</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Defect Rate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><2%</td>
+      <td style="padding:10px;border:1px solid #ddd;">(Total defects / Total modules) × 100</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Inspection Pass Rate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">95%</td>
+      <td style="padding:10px;border:1px solid #ddd;">(Hold points passed first attempt / Total hold points) × 100</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Schedule Adherence</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">95%</td>
+      <td style="padding:10px;border:1px solid #ddd;">(On-time completions / Total completions) × 100</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.2 Customer Quality Metrics
 

@@ -1,5 +1,7 @@
 # WI-107: Interior Trim & Finish (Phase 7)
 
+**CC21TE Variant:** A CC21TE-specific version is available: [WI-107 CC21TE](WI-107-Interior-Trim-Finish-CC21TE.md). See `data/cc21te/traceability.md` for mapping.
+
 ---
 
 ## Work Instruction Overview

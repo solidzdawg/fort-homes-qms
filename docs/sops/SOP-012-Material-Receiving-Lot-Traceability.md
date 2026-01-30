@@ -4,13 +4,42 @@
 
 ## Document Control
 
-| Field | Value |
-|:---|:---|
-| **Document ID** | SOP-012 |
-| **Revision** | 2.0 |
-| **Effective Date** | January 2026 |
-| **Process Owner** | Materials Manager |
-| **Next Review** | July 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-012</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Materials Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -18,17 +47,48 @@
 
 ### KEY METRICS
 
-- ✅ **Material Acceptance:** 98%+ target rate
-- 🔍 **Lot Documentation:** 100% accuracy required
-- 📦 **Material Shortages:** <2 incidents per month
-- 🔎 **Traceability Audits:** 100% pass rate quarterly
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;">98%+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Acceptance Rate</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Material quality</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🔍</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Lot Documentation</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Accuracy required</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📦</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;"><2</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Material Shortages</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Incidents per month</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🔎</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Traceability Audits</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Pass rate quarterly</div>
+  </div>
+  
+</div>
 
 ### CRITICAL SUCCESS FACTORS
 
-- Comprehensive receiving inspection process
-- Unique lot identification and labeling system
-- Complete supplier certification documentation
-- Rapid traceability for supplier issues or field failures
+<div style="background:linear-gradient(135deg,#E8F5E9 0%,#F1F8F1 100%);padding:20px;border-radius:8px;border:2px solid #4CAF50;margin:20px 0;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>Comprehensive receiving inspection process</li>
+    <li>Unique lot identification and labeling system</li>
+    <li>Complete supplier certification documentation</li>
+    <li>Rapid traceability for supplier issues or field failures</li>
+  </ul>
+</div>
 
 ---
 
@@ -63,12 +123,45 @@ To establish procedures for material receiving inspection, lot identification, a
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| CDOH HUD Code | Material requirements and certifications | State/Federal |
-| Approved Supplier List (ASL) | Qualified supplier documentation | Internal |
-| SOP-007 | Procurement & Supplier Management | Internal |
-| SOP-004 | Nonconformance & CAPA | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:50%;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>CDOH HUD Code</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Material requirements and certifications</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">FEDERAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Approved Supplier List (ASL)</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Qualified supplier documentation</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-007</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Procurement & Supplier Management</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-004</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Nonconformance & CAPA</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

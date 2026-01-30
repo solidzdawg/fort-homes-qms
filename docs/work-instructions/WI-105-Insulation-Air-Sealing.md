@@ -1,4 +1,18 @@
-# WI-105: Insulation & Air Sealing (Phase 5)
+# WI-105: Insulation & Air Sealing (Phase 5) — CC21TE Update
+
+---
+
+**Source drawing:** Shop Drawings for CC21TE (SHOP FINAL)
+
+Notes: Verify required R-values, cavity depths, and blower-door targets from CC21TE drawings. Update `data/cc21te/traceability.md` with insulation schedule references.
+
+Deliverables (CC21TE):
+- `insulation-checklist-cc21te.md`
+- Traceability updates in `data/cc21te/traceability.md`
+
+---
+
+Use the procedures in this file, substituting CC21TE-specified insulation values and targets.
 
 ---
 

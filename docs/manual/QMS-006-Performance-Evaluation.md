@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-006-PERFORMANCE-EVALUATION |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | Quality Manager |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Semi-Annual |
-| **Next Review Date** | 2026-07-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-006-PERFORMANCE-EVALUATION</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Semi-Annual</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-07-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -86,39 +117,206 @@ graph LR
 
 ### 2.1 Key Performance Indicators
 
-<div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
-
-| KPI Category | Metric | Target | Frequency | Data Source | Owner |
-|:---|:---|:---|:---|:---|:---|
-| **🎯 Quality** | | | | | |
-| | NTA TPIA First-Pass Rate | ≥90% | Per Inspection | NTA Reports | Quality Mgr |
-| | Internal Inspection Pass Rate | ≥95% | Weekly | QC Records | Quality Mgr |
-| | Rework Rate (% of labor hours) | ≤5% | Weekly | Traveler Data | Production Mgr |
-| | NCR Count (per module) | ≤2 | Weekly | NCR System | Quality Mgr |
-| | Customer Complaints | ≤1 per quarter | Monthly | Customer Service | GM |
-| **⚡ Production** | | | | | |
-| | On-Time Delivery | ≥95% | Weekly | Schedule System | Operations Mgr |
-| | Production Throughput (modules/week) | 2-4 | Weekly | Production Log | Operations Mgr |
-| | Schedule Adherence | ≥90% | Daily | Planning System | Production Mgr |
-| | NTA Hold Point Closure Time | ≤24 hrs | Per Hold | NTA Tracking | Quality Mgr |
-| **⚖️ Compliance** | | | | | |
-| | HUD Code Compliance Rate | 100% | Per Module | NTA Final Report | Compliance Officer |
-| | CCR 8 CCR 1302-14 Compliance | 100% | Per Module | CDOH Records | Compliance Officer |
-| | NEC 2023 Electrical Compliance | 100% | Per Module | NTA Electrical Report | Electrical Lead |
-| | Audit Findings (Critical/Major) | 0 | Per Audit | Audit Reports | Quality Mgr |
-| **📦 Supply Chain** | | | | | |
-| | Supplier On-Time Delivery | ≥95% | Monthly | Receiving Log | Procurement Mgr |
-| | Material Conformance Rate | ≥98% | Monthly | Receiving Inspection | QC Inspector |
-| | Supplier Quality Score | ≥85/100 | Quarterly | Supplier Evaluation | Procurement Mgr |
-| **👥 People** | | | | | |
-| | Training Compliance Rate | 100% | Monthly | Training Records | HR Manager |
-| | Competency Assessment Pass Rate | ≥90% | Quarterly | Competency Tests | HR Manager |
-| | Safety Incident Rate | 0 | Monthly | Safety Log | Safety Officer |
-| **💰 Financial** | | | | | |
-| | Cost of Poor Quality (COPQ) | ≤3% revenue | Monthly | Financial System | Finance Mgr |
-| | Warranty Claims Cost | ≤1% revenue | Quarterly | Warranty System | Finance Mgr |
-
-</div>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:15%;">KPI Category</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:25%;">Metric</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Target</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:12%;">Frequency</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:18%;">Data Source</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:20%;">Owner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#E8F5E9;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">🎯 Quality</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA TPIA First-Pass Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥90%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Inspection</td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA Reports</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Internal Inspection Pass Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥95%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">QC Records</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Mgr</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Rework Rate (% of labor hours)</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤5%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Traveler Data</td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">NCR Count (per module)</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤2</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">NCR System</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Mgr</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Customer Complaints</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤1 per quarter</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Customer Service</td>
+      <td style="padding:10px;border:1px solid #ddd;">GM</td>
+    </tr>
+    <tr style="background:#E3F2FD;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">⚡ Production</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">On-Time Delivery</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥95%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Schedule System</td>
+      <td style="padding:10px;border:1px solid #ddd;">Operations Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Throughput (modules/week)</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">2-4</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Log</td>
+      <td style="padding:10px;border:1px solid #ddd;">Operations Mgr</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Schedule Adherence</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥90%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Daily</td>
+      <td style="padding:10px;border:1px solid #ddd;">Planning System</td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA Hold Point Closure Time</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤24 hrs</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Hold</td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA Tracking</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Mgr</td>
+    </tr>
+    <tr style="background:#FFF3E0;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">⚖️ Compliance</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">HUD Code Compliance Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">100%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Module</td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA Final Report</td>
+      <td style="padding:10px;border:1px solid #ddd;">Compliance Officer</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">CCR 8 CCR 1302-14 Compliance</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">100%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Module</td>
+      <td style="padding:10px;border:1px solid #ddd;">CDOH Records</td>
+      <td style="padding:10px;border:1px solid #ddd;">Compliance Officer</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">NEC 2023 Electrical Compliance</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">100%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Module</td>
+      <td style="padding:10px;border:1px solid #ddd;">NTA Electrical Report</td>
+      <td style="padding:10px;border:1px solid #ddd;">Electrical Lead</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Audit Findings (Critical/Major)</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">0</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per Audit</td>
+      <td style="padding:10px;border:1px solid #ddd;">Audit Reports</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Mgr</td>
+    </tr>
+    <tr style="background:#F3E5F5;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">📦 Supply Chain</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Supplier On-Time Delivery</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥95%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Receiving Log</td>
+      <td style="padding:10px;border:1px solid #ddd;">Procurement Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Material Conformance Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥98%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Receiving Inspection</td>
+      <td style="padding:10px;border:1px solid #ddd;">QC Inspector</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Supplier Quality Score</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥85/100</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Quarterly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Supplier Evaluation</td>
+      <td style="padding:10px;border:1px solid #ddd;">Procurement Mgr</td>
+    </tr>
+    <tr style="background:#E8F5E9;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">👥 People</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Training Compliance Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">100%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Training Records</td>
+      <td style="padding:10px;border:1px solid #ddd;">HR Manager</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Competency Assessment Pass Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≥90%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Quarterly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Competency Tests</td>
+      <td style="padding:10px;border:1px solid #ddd;">HR Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Safety Incident Rate</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">0</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Safety Log</td>
+      <td style="padding:10px;border:1px solid #ddd;">Safety Officer</td>
+    </tr>
+    <tr style="background:#FFF3E0;">
+      <td colspan="6" style="padding:10px;border:1px solid #ddd;font-weight:bold;">💰 Financial</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Cost of Poor Quality (COPQ)</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤3% revenue</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Financial System</td>
+      <td style="padding:10px;border:1px solid #ddd;">Finance Mgr</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"></td>
+      <td style="padding:10px;border:1px solid #ddd;">Warranty Claims Cost</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">≤1% revenue</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Quarterly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Warranty System</td>
+      <td style="padding:10px;border:1px solid #ddd;">Finance Mgr</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.2 KPI Dashboard Template
 

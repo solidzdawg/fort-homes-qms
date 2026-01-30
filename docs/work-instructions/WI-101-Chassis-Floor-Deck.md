@@ -1,4 +1,66 @@
-# WI-101: Chassis & Floor Deck Assembly (Phase 1)
+# WI-101: Chassis & Floor Deck Assembly (Phase 1) — CC21TE Update
+
+---
+
+## Work Instruction Overview (CC21TE)
+
+**Phase:** 1 of 8
+**Target Module:** CC21TE
+**Estimated Duration:** 1 bay = 1 day (typical) — verify in `data/cc21te/cc21te-summary.md`
+**Crew:** Structural/Framing team (2-4 technicians)
+**Hold Point:** HP-1 (third-party inspection per CC21TE)
+**Source:** Shop Drawings for CC21TE (shop final) — see `data/cc21te/traceability.md`
+
+---
+
+## Safety Callouts
+
+- Hard hat, safety glasses, hi-vis, and hearing protection required
+- Fall protection when working >6 ft; follow CC21TE fall-arrest requirements
+- Nail gun and pneumatic tool rules per CC21TE tool spec
+- Adhesives and solvents: use ventilation and MSDS controls
+
+---
+
+## CC21TE-Specific Requirements (extracted)
+
+- Specified joist spacing: 16" O.C. (confirm in PDF)
+- Subfloor: 3/4" T&G OSB, subfloor-rated adhesive, ring-shank nails (8" on joists, 16" on edges)
+- Rim board: LVL 2x8 (confirm per module sheet)
+- Blocking: every 4 ft; diagonal bridging per structural notes
+- MEP clearances: 12" min between rough-ins; support/clamps every 3 ft
+
+If the Shop Drawing specifies values different from above, follow the drawing and update `data/cc21te/cc21te-tasks.json`.
+
+---
+
+## Step-by-Step Procedure (CC21TE actionable steps)
+
+1) Chassis Receipt, Inspection & Positioning
+	- Deliverable: `chassis-inspection.jpg`, `chassis-baseline.json`
+	- Actions: Receive chassis, inspect for damage, position in bay, level and square, document measurements.
+
+2) Joist Layout & Installation
+	- Deliverable: `joist-layout-plan.pdf`, `joist-check.csv`
+	- Actions: Snap layout lines, install rim, place joists per CC21TE spacing, secure hangers/blocking, record elevations.
+
+3) Subfloor Sheathing
+	- Deliverable: `subfloor-installation-log.md`
+	- Actions: Apply adhesive, stagger panels, fasten per CC21TE fastener schedule, inspect for voids.
+
+4) MEP Stubouts
+	- Deliverable: `mep-stubout-photo-log.md`
+	- Actions: Mark penetrations, install conduits/pipes with protective collars, label and protect for inspection.
+
+5) Documentation & HP-1 Prep
+	- Actions: Compile inspection packet (photos, measurements, QC logs), schedule third-party inspection.
+
+---
+
+**Document Status:** ACTIVE — CC21TE revision
+**Last Updated:** January 29, 2026
+
+See `data/cc21te/traceability.md` for source mapping and required follow-ups.
 
 ---
 

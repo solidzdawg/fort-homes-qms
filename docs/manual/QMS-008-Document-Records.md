@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-008-DOCUMENT-RECORDS |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | Document Controller |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Annual |
-| **Next Review Date** | 2027-01-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-008-DOCUMENT-RECORDS</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Controller</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Annual</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2027-01-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -57,18 +88,73 @@ Full document control procedures are defined in [SOP-001](../sops/SOP-001-Docume
 
 ### 1.2 Document Types
 
-<div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
-
-| Document Level | Document Type | Prefix | Control Level | Examples |
-|:---|:---|:---|:---|:---|
-| **Level 1** | Quality Manual | QMS- | CONTROLLED | QMS-001, QMS-002, QMS-003 |
-| **Level 2** | Standard Operating Procedures | SOP- | CONTROLLED | SOP-001, SOP-011, SOP-102 |
-| **Level 3** | Work Instructions | WI- | CONTROLLED | WI-F-001, WI-W-002, WI-E-001 |
-| **Level 4** | Forms & Templates | FORM- | CONTROLLED | FORM-001, FORM-INSPECTION-001 |
-| **Level 4** | Records | Various | RETAINED | NCR-2026-001, TRAVELER-12345 |
-| **Reference** | External Documents | REF- | REFERENCE ONLY | HUD Code, NEC 2023, CCR |
-
-</div>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:15%;">Document Level</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:20%;">Document Type</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Prefix</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Control Level</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Level 1</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manual</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">QMS-</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">CONTROLLED</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-001, QMS-002, QMS-003</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Level 2</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Standard Operating Procedures</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">SOP-</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">CONTROLLED</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-001, SOP-011, SOP-102</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Level 3</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Work Instructions</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">WI-</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">CONTROLLED</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">WI-F-001, WI-W-002, WI-E-001</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Level 4</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Forms & Templates</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">FORM-</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">CONTROLLED</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">FORM-001, FORM-INSPECTION-001</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Level 4</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Records</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Various</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#2196F3;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">RETAINED</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">NCR-2026-001, TRAVELER-12345</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Reference</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">External Documents</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">REF-</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9E9E9E;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">REFERENCE ONLY</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;">HUD Code, NEC 2023, CCR</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 1.3 Document Control Metadata
 

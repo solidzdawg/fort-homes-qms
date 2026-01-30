@@ -4,13 +4,42 @@
 
 ## Document Control
 
-| Field | Value |
-|:---|:---|
-| **Document ID** | SOP-003 |
-| **Revision** | 2.0 |
-| **Effective Date** | January 2026 |
-| **Process Owner** | Quality Manager |
-| **Next Review** | July 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-003</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Status</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -18,10 +47,33 @@
 
 ### KEY METRICS
 
-- 📈 **Target:** 4+ audits per year (quarterly minimum)
-- ✅ **KPI:** 100% audit schedule completion rate
-- 📅 **Review:** Quarterly management review meetings
-- 🔍 **Closure:** 100% nonconformity closure within 30 days
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📈</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;">4+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Audits/Year</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Schedule Complete</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📅</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;">4</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Reviews/Year</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🔍</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">30</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Days to Close</div>
+  </div>
+  
+</div>
 
 ### CRITICAL SUCCESS FACTORS
 
@@ -55,11 +107,38 @@ This procedure covers:
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| CDOH Audit Requirements | Colorado Division of Housing | State |
-| SOP-001 | Document Control | Internal |
-| SOP-004 | Nonconformance & CAPA | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>CDOH Audit Requirements</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Colorado Division of Housing</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#2196F3;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">STATE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-001</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Control</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-004</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Nonconformance & CAPA</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -160,15 +239,80 @@ This procedure covers:
 
 ### 6.2 Audit Scope & Selection
 
-| Process Area | Risk Level | Frequency |
-|:---|:---|:---|
-| 🔒 **Document Control** | High | Quarterly |
-| 🏗️ **Production Phases 1-4** | High | Quarterly |
-| 🏗️ **Production Phases 5-8** | High | Quarterly |
-| 🔍 **Inspection & Testing** | High | Quarterly |
-| ⚠️ **NCR & CAPA Process** | High | Semi-annually |
-| 🎓 **Training & Competency** | Medium | Semi-annually |
-| 📦 **Supplier Management** | Medium | Annually |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Process Area</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">Risk Level</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">Frequency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;">🔒 <strong>Document Control</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">HIGH</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">QUARTERLY</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;">🏭 <strong>Production Phases 1-4</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">HIGH</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">QUARTERLY</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;">🏭 <strong>Production Phases 5-8</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">HIGH</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">QUARTERLY</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;">🔍 <strong>Inspection & Testing</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">HIGH</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">QUARTERLY</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;">⚠️ <strong>NCR & CAPA Process</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#F44336;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">HIGH</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FFC107;color:#000;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">SEMI-ANNUAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;">🎓 <strong>Training & Competency</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">MEDIUM</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FFC107;color:#000;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">SEMI-ANNUAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;">📦 <strong>Supplier Management</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">MEDIUM</span>
+      </td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">ANNUAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 | 🔧 **Equipment Calibration** | Low | Annually |
 
 

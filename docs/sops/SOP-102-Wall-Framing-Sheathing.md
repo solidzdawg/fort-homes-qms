@@ -4,14 +4,46 @@
 
 ## Document Control
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-102 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 13, 2026 |
-| **Process Owner** | Production Manager |
-| **Last Reviewed** | January 13, 2026 |
-| **Next Review** | July 13, 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-102</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 13, 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Last Reviewed</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 13, 2026</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 13, 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

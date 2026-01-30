@@ -4,13 +4,42 @@
 
 ## Document Control
 
-| Field | Value |
-|:---|:---|
-| **Document ID** | SOP-004 |
-| **Revision** | 2.0 |
-| **Effective Date** | January 2026 |
-| **Process Owner** | Quality Manager |
-| **Next Review** | July 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-004</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Status</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -18,10 +47,37 @@
 
 ### KEY METRICS
 
-- 📈 **Target:** 100% NCR closure rate within 30 days
-- ✅ **KPI:** >95% CAPA effectiveness verification
-- 📅 **Review:** Monthly NCR trending analysis
-- 🔍 **Audit:** Quarterly CAPA process review
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📈</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Closure Rate</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Within 30 days</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">>95%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Effectiveness</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">CAPA verified</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📅</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;">Monthly</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">NCR Analysis</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Trend review</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🔍</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">Quarterly</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Process Audit</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">CAPA review</div>
+  </div>
+  
+</div>
 
 ### CRITICAL SUCCESS FACTORS
 
@@ -44,14 +100,47 @@ To establish systematic procedures for identifying, documenting, investigating, 
 
 This procedure applies to:
 
-| 🔧 NC Type | Description | Examples |
-|:---|:---|:---|
-| **Product Nonconformances** | Modules not meeting specifications | Dimensional issues, defects |
-| **Process Nonconformances** | Procedures not followed correctly | Skipped hold points, missing records |
-| **System Nonconformances** | QMS failures | Document control issues, audit findings |
-| **Customer Complaints** | Field issues after delivery | Performance issues, defects |
-| **Internal Audit Findings** | Procedure gaps identified | Non-compliance, missing documentation |
-| **Regulatory Findings** | Inspection observations | CDOH findings, code violations |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">🔧 NC Type</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Description</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Product Nonconformances</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Modules not meeting specifications</td>
+      <td style="padding:10px;border:1px solid #ddd;">Dimensional issues, defects</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Nonconformances</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Procedures not followed correctly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Skipped hold points, missing records</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>System Nonconformances</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS failures</td>
+      <td style="padding:10px;border:1px solid #ddd;">Document control issues, audit findings</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Customer Complaints</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Field issues after delivery</td>
+      <td style="padding:10px;border:1px solid #ddd;">Performance issues, defects</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Internal Audit Findings</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Procedure gaps identified</td>
+      <td style="padding:10px;border:1px solid #ddd;">Non-compliance, missing documentation</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Regulatory Findings</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Inspection observations</td>
+      <td style="padding:10px;border:1px solid #ddd;">CDOH findings, code violations</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.2 Applicability
 
@@ -66,11 +155,38 @@ This procedure applies to:
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| CDOH Requirements | Colorado Division of Housing | State |
-| SOP-001 | Document Control | Internal |
-| SOP-003 | Internal Audits | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>CDOH Requirements</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Colorado Division of Housing</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#2196F3;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">STATE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-001</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Control</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-003</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Internal Audits</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

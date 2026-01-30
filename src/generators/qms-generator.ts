@@ -237,7 +237,8 @@ export class QMSGenerator {
     const result = await orchestrator.generateInspectionForm(holdPointId);
 
     if (!result.success) {
-      throw new Error(`Failed to generate form: ${result.error}`);
+      console.warn(`[QMSGenerator] Warning: could not generate form ${holdPointId}: ${result.error}`);
+      return { files: [], document: null };
     }
 
     const formContent = result.content;
@@ -327,12 +328,17 @@ export class QMSGenerator {
     // Generate Inspection Forms for all 8 hold points
     console.log('\n3. Generating Inspection Forms...');
     for (let hp = 1; hp <= 8; hp++) {
-      const form = await this.generateInspectionForm(`HP-${hp}`, {
-        ...options,
-        outputDir: path.join(options.outputDir, 'forms'),
-      });
-      results.forms.push(form);
-      results.summary.formFiles += form.files.length;
+      try {
+        const form = await this.generateInspectionForm(`HP-${hp}`, {
+          ...options,
+          outputDir: path.join(options.outputDir, 'forms'),
+        });
+        results.forms.push(form);
+        results.summary.formFiles += form.files.length;
+      } catch (err) {
+        console.warn(`[QMSGenerator] Warning: skipping form HP-${hp} — ${err instanceof Error ? err.message : String(err)}`);
+        // continue to next hold point
+      }
     }
 
     results.summary.totalFiles =

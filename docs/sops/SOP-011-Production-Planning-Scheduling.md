@@ -12,9 +12,26 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
-|:---:|:---:|:---:|:---:|:---:|
-| `SOP-011` | `2.0` | `January 2026` | `Production Manager` | `July 2026` |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📄 Document ID</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📋 Revision</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📅 Effective</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">👤 Process Owner</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">🔍 Next Review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;"><code>SOP-011</code></td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;"><code>2.0</code></td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">January 2026</td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">Production Manager</td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -84,12 +101,45 @@ To establish procedures for module scheduling, bay assignment, and production ti
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| Hold Point Schedule | hold-points.json | Internal |
-| Module Specifications | Customer order documentation | Customer/Sales |
-| Phases & Gate Schedule | phases.json | Internal |
-| SOP-013 | Hold Point Inspections & Gate Controls | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:50%;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Hold Point Schedule</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">hold-points.json</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Module Specifications</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Customer order documentation</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#2196F3;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">CUSTOMER</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Phases & Gate Schedule</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">phases.json</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-013</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Hold Point Inspections & Gate Controls</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

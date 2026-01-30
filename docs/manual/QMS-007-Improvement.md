@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-007-IMPROVEMENT |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | Quality Manager |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Annual |
-| **Next Review Date** | 2027-01-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-007-IMPROVEMENT</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Annual</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2027-01-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -143,16 +174,42 @@ All nonconformities are managed per [SOP-004](../sops/SOP-004-Nonconformance-CAP
 
 ### 2.3 CAPA Tracking Metrics
 
-<div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
-
-| Metric | Target | Measurement | Purpose |
-|:---|:---|:---|:---|
-| **CAPA Closure Rate** | 100% on time | Monthly | Track completion |
-| **Recurrence Rate** | <5% | Per CAPA | Measure effectiveness |
-| **Average Closure Time** | <30 days | Per CAPA | Monitor responsiveness |
-| **Overdue CAPAs** | 0 | Weekly | Escalation trigger |
-
-</div>
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Metric</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:15%;">Target</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Measurement</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>CAPA Closure Rate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">100% on time</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Monthly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Track completion</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Recurrence Rate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><5%</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per CAPA</td>
+      <td style="padding:10px;border:1px solid #ddd;">Measure effectiveness</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Average Closure Time</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><30 days</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Per CAPA</td>
+      <td style="padding:10px;border:1px solid #ddd;">Monitor responsiveness</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Overdue CAPAs</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">0</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">Weekly</td>
+      <td style="padding:10px;border:1px solid #ddd;">Escalation trigger</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

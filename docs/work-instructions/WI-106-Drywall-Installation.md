@@ -1,4 +1,17 @@
-# WI-106: Drywall Installation (Phase 6)
+# WI-106: Drywall Installation (Phase 6) — CC21TE Update
+
+---
+
+**Source drawing:** Shop Drawings for CC21TE (SHOP FINAL)
+
+Notes: Confirm any CC21TE-specific fire-rating, ceiling requirements, and backing details. Update `data/cc21te/traceability.md` with any model-specific finish requirements.
+
+Deliverables (CC21TE):
+- `drywall-checklist-cc21te.md`
+
+---
+
+Proceed with the drywall procedures in this file, using CC21TE callouts for material selection and finish levels.
 
 ---
 

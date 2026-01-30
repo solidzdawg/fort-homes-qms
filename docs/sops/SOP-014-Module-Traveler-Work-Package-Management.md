@@ -12,9 +12,26 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-| 📄 Document ID | 📋 Revision | 📅 Effective | 👤 Process Owner | 🔍 Next Review |
-|:---:|:---:|:---:|:---:|:---:|
-| `SOP-014` | `2.0` | `January 2026` | `Production Manager` | `July 2026` |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📄 Document ID</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📋 Revision</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">📅 Effective</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">👤 Process Owner</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;">🔍 Next Review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;"><code>SOP-014</code></td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;"><code>2.0</code></td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">January 2026</td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">Production Manager</td>
+      <td style="padding:12px;text-align:center;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -24,28 +41,51 @@
 
 ## 📊 EXECUTIVE SUMMARY
 
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         📊 EXECUTIVE DASHBOARD                             │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   KEY METRICS                                                              │
-│   ───────────────────────────────────────────────────────────             │
-│   📋 Target: 100% traveler completion rate                                │
-│   ✅ Target: 99%+ documentation accuracy                                  │
-│   ⏰ Target: Daily traveler updates during production                      │
-│   🔍 Target: 100% archival compliance for records                          │
-│                                                                            │
-│   CRITICAL SUCCESS FACTORS                                                 │
-│   ───────────────────────────────────────────────────────────             │
-│   • Travelers created at order receipt with unique identifiers             │
-│   • Work packages clearly defined per production phase                     │
-│   • Daily updates by work center leads and supervisors                     │
-│   • Hold point results documented on travelers                             │
-│   • Complete travelers archived for 7+ year retention                      │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### KEY METRICS
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📋</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Completion Rate</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Traveler tracking</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">99%+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Doc Accuracy</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Quality target</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">⏰</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;">Daily</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Traveler Updates</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">During production</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🔍</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Archival Compliance</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Records retention</div>
+  </div>
+  
+</div>
+
+### CRITICAL SUCCESS FACTORS
+
+<div style="background:linear-gradient(135deg,#E8F5E9 0%,#F1F8F1 100%);padding:20px;border-radius:8px;border:2px solid #4CAF50;margin:20px 0;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>Travelers created at order receipt with unique identifiers</li>
+    <li>Work packages clearly defined per production phase</li>
+    <li>Daily updates by work center leads and supervisors</li>
+    <li>Hold point results documented on travelers</li>
+    <li>Complete travelers archived for 7+ year retention</li>
+  </ul>
+</div>
 
 ---
 
@@ -83,13 +123,52 @@ This procedure applies to:
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| Traveler Template | Module traveler JSON schema | Internal |
-| SOP-001 | Document Control & Records Management | Internal |
-| SOP-011 | Production Planning & Scheduling | Internal |
-| SOP-012 | Material Receiving & Lot Traceability | Internal |
-| SOP-013 | Hold Point Inspections & Gate Controls | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:50%;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Traveler Template</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Module traveler JSON schema</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-001</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Control & Records Management</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-011</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Planning & Scheduling</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-012</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Material Receiving & Lot Traceability</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-013</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Hold Point Inspections & Gate Controls</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

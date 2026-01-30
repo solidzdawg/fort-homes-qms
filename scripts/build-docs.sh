@@ -62,7 +62,8 @@ build_pdf() {
     pandoc "$input_file" \
         --from markdown+yaml_metadata_block \
         --to pdf \
-        --pdf-engine=pdflatex \
+        --pdf-engine=xelatex \
+        --pdf-engine-opt=-shell-escape \
         --toc \
         --toc-depth=3 \
         --number-sections \
@@ -71,8 +72,11 @@ build_pdf() {
         --variable geometry:right=0.75in \
         --variable fontsize=11pt \
         --variable papersize=letter \
+        --variable mainfont="Segoe UI" \
+        --variable sansfont="Segoe UI" \
+        --variable monofont="Consolas" \
         --metadata title="Fort Homes QMS Documentation" \
-        --output "$output_file" 2>/dev/null || {
+        --output "$output_file" || {
             echo -e "${RED}PDF generation failed for $(basename "$output_file")${NC}"
             return 1
         }

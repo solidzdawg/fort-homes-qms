@@ -1,4 +1,18 @@
-# WI-104: MEP Rough-In (Phase 4)
+# WI-104: MEP Rough-In (Phase 4) — CC21TE Update
+
+---
+
+**Source drawing:** Shop Drawings for CC21TE (SHOP FINAL)
+
+Notes: CC21TE shop drawings contain panel locations, conduit runs, drain slopes, and penetration schedules. Confirm exact routing and clearances and update `data/cc21te/traceability.md`.
+
+Deliverables (CC21TE):
+- `mep-stubout-photo-log.md` annotated with CC21TE tags
+- Updated traceability entries in `data/cc21te/traceability.md`
+
+---
+
+Follow the existing step-by-step MEP procedures, substituting CC21TE dimensions and routing where specified.
 
 ---
 

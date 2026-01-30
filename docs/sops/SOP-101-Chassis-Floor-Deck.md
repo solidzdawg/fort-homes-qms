@@ -4,14 +4,46 @@
 
 ## Document Control
 
-| Field | Value |
-| :--- | :--- |
-| **Document ID** | SOP-101 |
-| **Revision** | 1.0 |
-| **Effective Date** | January 13, 2026 |
-| **Process Owner** | Production Manager |
-| **Last Reviewed** | January 13, 2026 |
-| **Next Review** | July 13, 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-101</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 13, 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Production Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Last Reviewed</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 13, 2026</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 13, 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -65,16 +97,66 @@ This procedure applies to:
 
 ### 5.1 Materials
 
-| Item | Spec | Qty (Typical) | Verification |
-| :--- | :--- | :--- | :--- |
-| Steel Chassis | Model-specific; engineered | 1 | Cert. on file; visual inspect for damage |
-| I-Joists | Size/grade per plan (e.g., 11⅞" @ 16" o.c.) | Per plan | Check stamp; moisture content ≤18% |
-| Rim Boards | LVL or 2x lumber; grade per plan | 4 linear feet | Grade stamp visible; no splits >12" |
-| Blocking/Bridging | 2x6, 2x8 per plan | Per plan | Visual; no splits or twists |
-| Subfloor Sheathing | OSB or plywood; typically ¾" T&G | Per plan sq.ft. | Grade stamp; no water damage; dry |
-| Construction Adhesive | Subfloor-rated (e.g., Titebond, Loctite) | Per application rate | Expiration date current |
-| Fasteners | Nails (ring shank) or screws per schedule | Per schedule | Size/type matches schedule |
-| Flashing/Membranes | Vapor barriers, WRB (if installed at this stage) | Per plan | Integrity intact |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:25%;">Item</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Spec</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:20%;">Qty (Typical)</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:25%;">Verification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Steel Chassis</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Model-specific; engineered</td>
+      <td style="padding:10px;border:1px solid #ddd;">1</td>
+      <td style="padding:10px;border:1px solid #ddd;">Cert. on file; visual inspect for damage</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>I-Joists</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Size/grade per plan (e.g., 11⅛" @ 16" o.c.)</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per plan</td>
+      <td style="padding:10px;border:1px solid #ddd;">Check stamp; moisture content ≤18%</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Rim Boards</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">LVL or 2x lumber; grade per plan</td>
+      <td style="padding:10px;border:1px solid #ddd;">4 linear feet</td>
+      <td style="padding:10px;border:1px solid #ddd;">Grade stamp visible; no splits >12"</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Blocking/Bridging</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2x6, 2x8 per plan</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per plan</td>
+      <td style="padding:10px;border:1px solid #ddd;">Visual; no splits or twists</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Subfloor Sheathing</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">OSB or plywood; typically ¾" T&G</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per plan sq.ft.</td>
+      <td style="padding:10px;border:1px solid #ddd;">Grade stamp; no water damage; dry</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Construction Adhesive</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Subfloor-rated (e.g., Titebond, Loctite)</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per application rate</td>
+      <td style="padding:10px;border:1px solid #ddd;">Expiration date current</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Fasteners</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Nails (ring shank) or screws per schedule</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per schedule</td>
+      <td style="padding:10px;border:1px solid #ddd;">Size/type matches schedule</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Flashing/Membranes</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Vapor barriers, WRB (if installed at this stage)</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per plan</td>
+      <td style="padding:10px;border:1px solid #ddd;">Integrity intact</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 5.2 Equipment & Tools
 

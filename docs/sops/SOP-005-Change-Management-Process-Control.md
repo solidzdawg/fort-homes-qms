@@ -4,13 +4,42 @@
 
 ## Document Control
 
-| Field | Value |
-|:---|:---|
-| **Document ID** | SOP-005 |
-| **Revision** | 2.0 |
-| **Effective Date** | January 2026 |
-| **Process Owner** | Operations Manager |
-| **Next Review** | July 2026 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Field</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">SOP-005</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Revision</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">January 2026</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Operations Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ ACTIVE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">July 2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -18,17 +47,48 @@
 
 ### KEY METRICS
 
-- ⏱️ **Target:** <5 business days for change approval
-- ✅ **KPI:** 100% implementation per schedule
-- 📊 **Metric:** >95% first article acceptance
-- 🎯 **Goal:** >90% performance goals met post-change
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin:20px 0;">
+  
+  <div style="background:linear-gradient(135deg,#E8F5E9 0%,#C8E6C9 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">⏱️</div>
+    <div style="font-size:32px;font-weight:bold;color:#2E7D32;margin:5px 0;"><5 days</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Approval Time</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Target turnaround</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#E3F2FD 0%,#BBDEFB 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">✅</div>
+    <div style="font-size:32px;font-weight:bold;color:#1565C0;margin:5px 0;">100%</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">On Schedule</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Implementation rate</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#F3E5F5 0%,#E1BEE7 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">📊</div>
+    <div style="font-size:32px;font-weight:bold;color:#6A1B9A;margin:5px 0;">95%+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">First Article</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Acceptance rate</div>
+  </div>
+  
+  <div style="background:linear-gradient(135deg,#FFF3E0 0%,#FFE0B2 100%);padding:20px;border-radius:8px;text-align:center;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+    <div style="font-size:28px;margin-bottom:8px;">🎯</div>
+    <div style="font-size:32px;font-weight:bold;color:#E65100;margin:5px 0;">90%+</div>
+    <div style="font-size:14px;color:#666;margin-top:5px;">Goals Met</div>
+    <div style="font-size:12px;color:#999;margin-top:5px;">Post-change perf</div>
+  </div>
+  
+</div>
 
 ### CRITICAL SUCCESS FACTORS
 
-- All changes properly assessed and approved
-- Risk analysis completed before implementation
-- Personnel trained before change effective
-- Performance verified within 30-60 days
+<div style="background:linear-gradient(135deg,#E8F5E9 0%,#F1F8F1 100%);padding:20px;border-radius:8px;border:2px solid #4CAF50;margin:20px 0;">
+  <ul style="margin:0;padding-left:20px;">
+    <li>All changes properly assessed and approved</li>
+    <li>Risk analysis completed before implementation</li>
+    <li>Personnel trained before change effective</li>
+    <li>Performance verified within 30-60 days</li>
+  </ul>
+</div>
 
 ---
 
@@ -60,12 +120,45 @@ To establish procedures for planning, evaluating, approving, implementing, and v
 
 ## 📚 3. REFERENCES & STANDARDS
 
-| Reference | Description | Authority |
-|:---|:---|:---|
-| CDOH Change Notification Requirements | Colorado regulatory requirements | State |
-| SOP-001 | Document Control | Internal |
-| SOP-002 | Training & Competency Management | Internal |
-| SOP-003 | Internal Audits | Internal |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Reference</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:45%;">Description</th>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:20%;">Authority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>CDOH Change Notification Requirements</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Colorado regulatory requirements</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#FF9800;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">STATE</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-001</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Document Control</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-002</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Training & Competency Management</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>SOP-003</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Internal Audits</td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#9C27B0;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">INTERNAL</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

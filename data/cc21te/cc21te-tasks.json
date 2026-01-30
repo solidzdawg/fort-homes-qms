@@ -1,0 +1,123 @@
+{
+  "source_pdf": "c:\\Users\\Zacha\\Downloads\\Shop Drawings for CC21TE (SHOP FINAL DONT CONFUSE W OTHER).pdf",
+  "extracted_on": "2026-01-29T12:00:00Z",
+  "extraction_status": "COMPLETE - Values verified from PDF",
+  
+  "module_info": {
+    "name": "CC21TE Colorado Cottage",
+    "dimensions": "12'-5\" x 44'-10\"",
+    "square_footage": 557,
+    "building_type": "Type VB",
+    "occupancy": "Residential Single-Family Dwelling",
+    "climate_zone": 5,
+    "revision_date": "01/19/26"
+  },
+  
+  "codes_standards": {
+    "building_code": "2024 IRC/IBC w/ Grand Junction Amendments",
+    "energy_code": "2021 IECC w/ Grand Junction Amendments",
+    "electrical_code": "2023 NEC",
+    "plumbing_code": "2024 Colorado Plumbing & Fuel Gas Code",
+    "mechanical_code": "2024 IMC w/ Grand Junction Amendments",
+    "referenced_asce": "ASCE 7-22",
+    "regulatory_authority": "8 CCR 1302-14"
+  },
+  
+  "design_loads": {
+    "roof_dead_load_psf": 20,
+    "roof_live_load_psf": 20,
+    "floor_live_load_psf": 40,
+    "ground_snow_load_psf": 30,
+    "wind_load_vult_mph": 104,
+    "wind_load_vasd_mph": 81,
+    "exposure_category": "C",
+    "seismic_design_category": "B",
+    "ss": 0.22,
+    "s1": 0.047
+  },
+  
+  "floor_system": {
+    "floor_trusses": "9-1/4\" pre-engineered @ 16\" O.C.",
+    "joist_spacing": "16\" O.C.",
+    "lvl_outer_rim": "1-3/4\" x 9-1/4\" LVL",
+    "inner_rim": "2x10 dimensional lumber",
+    "floor_beam": "(3) 1-3/4\" x 9-1/4\" LVL at Grid B",
+    "subfloor": "23/32\" (3/4\" nominal) T&G APA rated plywood or OSB"
+  },
+  
+  "wall_system": {
+    "exterior_sip": "6-3/8\" SIP (7/16\" OSB + 5-1/2\" EPS)",
+    "interior_studs": "2x4 @ 16\" O.C.",
+    "interior_studs_6": "2x6 @ 16\" O.C. (select walls)",
+    "shear_wall_sheathing": "7/16\" OSB",
+    "sip_top_plate": "2x6 + 1-3/4\" LVL cap"
+  },
+  
+  "roof_system": {
+    "sip_roof": "12-1/8\" SIP (7/16\" OSB + 11-1/4\" EPS)",
+    "ridge_beam": "(3) 1-3/4\" x 9-1/4\" LVL (Grid A, B, C)",
+    "roof_pitch": "12:12",
+    "ceiling_furring": "2x4 @ 24\" O.C."
+  },
+  
+  "insulation_rvalues": {
+    "roof_sip": "R-45",
+    "wall_sip": "R-23",
+    "floor_cavity": "R-30 batt"
+  },
+  
+  "fastener_schedule": {
+    "floor_sheathing_edge": "0.131\" x 2-1/2\" nails @ 6\" O.C.",
+    "floor_sheathing_field": "0.131\" x 2-1/2\" nails @ 12\" O.C.",
+    "lvl_rim_to_framing": "0.131\" x 3\" nails @ 6\" O.C.",
+    "rim_corner_screws": "(3) SDWS22800DB per corner",
+    "lvl_beam_splice": "(8) SDWS22400 per splice",
+    "sip_sill_plate": "0.131\" x 2-1/2\" nails @ 4\" O.C.",
+    "sip_panel_to_sill": "0.131\" x 3\" nails @ 4\" O.C.",
+    "sip_spline_osb": "0.131\" x 2-1/2\" nails @ 4\" O.C. ea. side",
+    "sip_spline_lumber": "0.131\" x 2-1/2\" nails @ 6\" O.C. (2 rows)",
+    "sip_top_plate_screws": "SDWS22300DB @ 12\" O.C. staggered",
+    "sip_roof_to_ridge": "0.19\" SIP screws @ 12\" O.C.",
+    "shear_wall_edge": "0.131\" x 2-1/2\" nails @ 4\" O.C.",
+    "shear_wall_field": "0.131\" x 2-1/2\" nails @ 12\" O.C.",
+    "drywall_to_sip_wall": "1-5/8\" screws @ 7\" O.C. perim, 12\" O.C. field",
+    "drywall_to_sip_ceiling": "1-5/8\" screws @ 6\" O.C. perim, 8\" O.C. field"
+  },
+  
+  "structural_hardware": {
+    "hold_down_hd1": "(1) CS16 x 2'-0\", 1049 lb ASD",
+    "hold_down_hd3": "(3) CS16 x 2'-0\", 3147 lb ASD",
+    "beam_bearing_low": "(6) Simpson A34",
+    "beam_bearing_high": "(4) Simpson A34 + (2) DTT2Z-SDS2.5"
+  },
+  
+  "hold_points": {
+    "HP-1": "Floor system inspection (third-party)",
+    "HP-2": "Wall framing inspection",
+    "HP-3": "Roof system inspection",
+    "HP-4": "MEP rough-in inspection",
+    "HP-5": "Insulation & air barrier inspection"
+  },
+  
+  "mep_summary": {
+    "electrical_panel": "225A, 120/240V, 3W, NEMA 3R, Solar-Ready",
+    "plumbing_drain": "2\" and 3\" PVC-DWV",
+    "water_supply": "1\", 3/4\", 1/2\" copper/PEX",
+    "hvac_supply_trunk": "8\"",
+    "hvac_supply_branches": "5\"-6\""
+  },
+  
+  "pdf_page_references": {
+    "cover_sheet": "Page 1 (GM00)",
+    "floor_plan": "Page 2 (AM10)",
+    "floor_framing": "Page 11 (SM10)",
+    "wall_framing_lower": "Pages 13-14 (SM10.2, SM10.3)",
+    "wall_framing_upper": "Pages 15-16 (SM10.4, SM10.5)",
+    "roof_framing": "Page 17 (SM11)",
+    "structural_details": "Pages 20-21 (SM40, SM41)",
+    "mechanical": "Page 22 (M02.1)",
+    "electrical": "Page 23 (E02)",
+    "plumbing": "Pages 24-25 (P03.1, P03.2)",
+    "energy": "Page 9 (AM50)"
+  }
+}

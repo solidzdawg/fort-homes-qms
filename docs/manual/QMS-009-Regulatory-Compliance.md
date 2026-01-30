@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-009-REGULATORY-COMPLIANCE |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | Compliance Officer |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Annual (or upon regulatory change) |
-| **Next Review Date** | 2027-01-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-009-REGULATORY-COMPLIANCE</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Compliance Officer</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Annual (or upon regulatory change)</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2027-01-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -108,19 +139,72 @@ graph TD
 
 ### 📋 24 CFR 3280 Key Subparts
 
-| Subpart | Title | Fort Homes Implementation |
-|:---|:---|:---|
-| **A** | General | Data plate requirements (SOP-010) |
-| **B** | Planning Considerations | Design standards, room dimensions |
-| **C** | Fire Safety | Fire-rated materials, egress windows, smoke alarms |
-| **D** | Structural Design | Wind/snow loads, floor/wall/roof design |
-| **E** | Testing | Structural testing as required |
-| **F** | Thermal Protection | Insulation, vapor barriers, ventilation |
-| **G** | Plumbing Systems | Water supply, drainage, fixtures |
-| **H** | Heat, Ventilating, Air Conditioning | HVAC sizing, installation, combustion air |
-| **I** | Electrical Systems | **See NEC 2023 requirements below** |
-| **J** | Transportation | Structural adequacy for transport |
-| **K** | Sound Transmission | Acoustic performance (multi-section) |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Subpart</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:30%;">Title</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:60%;">Fort Homes Implementation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>A</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">General</td>
+      <td style="padding:10px;border:1px solid #ddd;">Data plate requirements (SOP-010)</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>B</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Planning Considerations</td>
+      <td style="padding:10px;border:1px solid #ddd;">Design standards, room dimensions</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>C</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Fire Safety</td>
+      <td style="padding:10px;border:1px solid #ddd;">Fire-rated materials, egress windows, smoke alarms</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>D</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Structural Design</td>
+      <td style="padding:10px;border:1px solid #ddd;">Wind/snow loads, floor/wall/roof design</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>E</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Testing</td>
+      <td style="padding:10px;border:1px solid #ddd;">Structural testing as required</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>F</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Thermal Protection</td>
+      <td style="padding:10px;border:1px solid #ddd;">Insulation, vapor barriers, ventilation</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>G</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Plumbing Systems</td>
+      <td style="padding:10px;border:1px solid #ddd;">Water supply, drainage, fixtures</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>H</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Heat, Ventilating, Air Conditioning</td>
+      <td style="padding:10px;border:1px solid #ddd;">HVAC sizing, installation, combustion air</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>I</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Electrical Systems</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>See NEC 2023 requirements below</strong></td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>J</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Transportation</td>
+      <td style="padding:10px;border:1px solid #ddd;">Structural adequacy for transport</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;"><strong>K</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Sound Transmission</td>
+      <td style="padding:10px;border:1px solid #ddd;">Acoustic performance (multi-section)</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 

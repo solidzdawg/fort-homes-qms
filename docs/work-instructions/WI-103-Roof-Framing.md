@@ -1,4 +1,18 @@
-# WI-103: Roof Framing (Phase 3)
+# WI-103: Roof Framing (Phase 3) — CC21TE Update
+
+---
+
+**Source drawing:** Shop Drawings for CC21TE (SHOP FINAL)
+
+Notes: Confirm truss spacing, bearing requirements, connector plate types, and bracing details from the CC21TE shop drawings. Follow the procedures in this file, substituting the CC21TE callouts from `data/cc21te/cc21te-tasks.json` once extracted.
+
+Deliverables (CC21TE):
+- Update `data/cc21te/traceability.md` with truss table page references.
+- `wi-103-cc21te.md` (this variant)
+
+---
+
+Proceed with the Roof Framing steps in this document, using CC21TE drawing callouts for fastening, spacing, and bracing.
 
 ---
 

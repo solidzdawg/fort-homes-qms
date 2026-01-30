@@ -359,6 +359,28 @@
       "referenceITP": "ITP-A-04, ITP-A-05, ITP-E-03, ITP-P-05"
     },
     {
+      "id": "HP-7",
+      "phase": 7,
+      "name": "Interior Trim & Finish",
+      "trigger": "Phase 7 work complete (interior trim and finish), before final inspection",
+      "blocksPhase": 8,
+      "mandatory": false,
+      "tpiaWitness": "optional",
+      "inspectionCriteria": [
+        { "item": "Trim alignment and gaps", "tolerance": "No gaps >1/8\"", "method": "Visual and measurement" },
+        { "item": "Cabinet installation", "tolerance": "Level and plumb", "method": "Visual check and level" },
+        { "item": "Door and hardware operation", "tolerance": "Smooth operation", "method": "Functional test" },
+        { "item": "Finish quality (paint/stain)", "tolerance": "Even coverage", "method": "Visual inspection" },
+        { "item": "Flooring transitions", "tolerance": "Flush and secure", "method": "Visual and tactile check" }
+      ],
+      "documentation": [
+        "Traveler HP-7 section signed",
+        "Photos of installed trim and finishes",
+        "Punch list items recorded"
+      ],
+      "referenceITP": "ITP-F-01"
+    },
+    {
       "id": "HP-8",
       "phase": 8,
       "name": "Final Inspection",

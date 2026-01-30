@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-003-PLANNING-RISK |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | Quality Manager |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Semi-Annual |
-| **Next Review Date** | 2026-07-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-003-PLANNING-RISK</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Semi-Annual</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-07-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -95,18 +126,78 @@
 
 #### Severity Rating (S)
 
-| Score | Severity Level | Description | Impact |
-|:---:|:---|:---|:---|
-| **10** | Catastrophic | Life safety hazard | Fatality or critical injury |
-| **9** | Critical | Major regulatory violation | HUD decertification risk |
-| **8** | Very High | Significant regulatory issue | CDOH enforcement action |
-| **7** | High | Major customer impact | Product recall required |
-| **6** | Moderate-High | Significant quality issue | Major rework/warranty claim |
-| **5** | Moderate | Customer dissatisfaction | Complaint, minor rework |
-| **4** | Low-Moderate | Noticeable defect | Customer notices, no impact |
-| **3** | Low | Minor defect | Rarely noticed by customer |
-| **2** | Very Low | Minimal impact | Internal only, easily corrected |
-| **1** | Negligible | No real impact | Insignificant |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Score</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:20%;">Severity Level</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Description</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:35%;">Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#F44336;color:white;font-weight:bold;font-size:16px;">10</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Catastrophic</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Life safety hazard</td>
+      <td style="padding:10px;border:1px solid #ddd;">Fatality or critical injury</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#F44336;color:white;font-weight:bold;font-size:16px;">9</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Critical</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Major regulatory violation</td>
+      <td style="padding:10px;border:1px solid #ddd;">HUD decertification risk</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#FF5722;color:white;font-weight:bold;font-size:16px;">8</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Very High</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Significant regulatory issue</td>
+      <td style="padding:10px;border:1px solid #ddd;">CDOH enforcement action</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#FF9800;color:white;font-weight:bold;font-size:16px;">7</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>High</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Major customer impact</td>
+      <td style="padding:10px;border:1px solid #ddd;">Product recall required</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#FFC107;color:#000;font-weight:bold;font-size:16px;">6</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Moderate-High</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Significant quality issue</td>
+      <td style="padding:10px;border:1px solid #ddd;">Major rework/warranty claim</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#FFEB3B;color:#000;font-weight:bold;font-size:16px;">5</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Moderate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Customer dissatisfaction</td>
+      <td style="padding:10px;border:1px solid #ddd;">Complaint, minor rework</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#C8E6C9;color:#000;font-weight:bold;font-size:16px;">4</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Low-Moderate</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Noticeable defect</td>
+      <td style="padding:10px;border:1px solid #ddd;">Customer notices, no impact</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#A5D6A7;color:#000;font-weight:bold;font-size:16px;">3</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Low</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Minor defect</td>
+      <td style="padding:10px;border:1px solid #ddd;">Rarely noticed by customer</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#81C784;color:white;font-weight:bold;font-size:16px;">2</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Very Low</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Minimal impact</td>
+      <td style="padding:10px;border:1px solid #ddd;">Internal only, easily corrected</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;background:#4CAF50;color:white;font-weight:bold;font-size:16px;">1</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Negligible</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">No real impact</td>
+      <td style="padding:10px;border:1px solid #ddd;">Insignificant</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Occurrence Rating (O)
 

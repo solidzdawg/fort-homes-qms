@@ -20,15 +20,46 @@
 
 ## 📋 DOCUMENT CONTROL
 
-| **Attribute** | **Details** |
-|:---|:---|
-| **Document ID** | QMS-004-SUPPORT-RESOURCES |
-| **Version** | 1.0 |
-| **Effective Date** | 2026-01-15 |
-| **Process Owner** | HR Manager / Operations Manager |
-| **Classification** | CONTROLLED |
-| **Review Cycle** | Annual |
-| **Next Review Date** | 2027-01-15 |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Attribute</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Document ID</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">QMS-004-SUPPORT-RESOURCES</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Version</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">1.0</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Effective Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2026-01-15</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Process Owner</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">HR Manager / Operations Manager</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Classification</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;">
+        <span style="background:#4CAF50;color:white;padding:4px 12px;border-radius:12px;font-weight:bold;font-size:12px;">✅ CONTROLLED</span>
+      </td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Review Cycle</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Annual</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Next Review Date</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">2027-01-15</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -89,16 +120,57 @@
 
 ### 1.2 Resource Allocation Process
 
-| Step | Activity | Responsibility |
-|:---:|:---|:---|
-| **1** | **Identify needs** - Determine resources required for QMS processes | Process Owners |
-| **2** | **Assess current resources** - Evaluate existing resources vs. needs | Department Managers |
-| **3** | **Identify gaps** - Determine shortfalls in resources | Quality Manager |
-| **4** | **Request resources** - Submit resource requests with justification | Department Managers |
-| **5** | **Approve allocation** - Review and approve resource requests | CEO / Management Committee |
-| **6** | **Acquire resources** - Procure or develop needed resources | Department Managers |
-| **7** | **Deploy resources** - Assign resources to processes | Process Owners |
-| **8** | **Monitor effectiveness** - Verify resources meet needs | Quality Manager |
+<table style="width:100%;border-collapse:collapse;margin:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+  <thead style="background:linear-gradient(135deg,#2D5016 0%,#1a2f0d 100%);color:white;">
+    <tr>
+      <th style="padding:12px;text-align:center;border:1px solid #ddd;width:10%;">Step</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:50%;">Activity</th>
+      <th style="padding:12px;text-align:left;border:1px solid #ddd;width:40%;">Responsibility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">1</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Identify needs</strong> - Determine resources required for QMS processes</td>
+      <td style="padding:10px;border:1px solid #ddd;">Process Owners</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">2</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Assess current resources</strong> - Evaluate existing resources vs. needs</td>
+      <td style="padding:10px;border:1px solid #ddd;">Department Managers</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">3</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Identify gaps</strong> - Determine shortfalls in resources</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">4</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Request resources</strong> - Submit resource requests with justification</td>
+      <td style="padding:10px;border:1px solid #ddd;">Department Managers</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">5</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Approve allocation</strong> - Review and approve resource requests</td>
+      <td style="padding:10px;border:1px solid #ddd;">CEO / Management Committee</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">6</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Acquire resources</strong> - Procure or develop needed resources</td>
+      <td style="padding:10px;border:1px solid #ddd;">Department Managers</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">7</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Deploy resources</strong> - Assign resources to processes</td>
+      <td style="padding:10px;border:1px solid #ddd;">Process Owners</td>
+    </tr>
+    <tr style="background:#f9f9f9;">
+      <td style="padding:10px;border:1px solid #ddd;text-align:center;font-weight:bold;font-size:16px;color:#2D5016;">8</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Monitor effectiveness</strong> - Verify resources meet needs</td>
+      <td style="padding:10px;border:1px solid #ddd;">Quality Manager</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

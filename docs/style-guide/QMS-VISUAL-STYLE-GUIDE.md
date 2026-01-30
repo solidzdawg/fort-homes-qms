@@ -189,7 +189,7 @@ classification: "CONTROLLED"
 | Attribute | Value |
 |:----------|:------|
 | **Document ID** | `QMS-00X` |
-| **ISO 9001:2015 Clause** | [Clause Number] |
+| **Regulatory Basis** | [24 CFR §, 8 CCR §, etc.] |
 ```
 
 **Standard Operating Procedure:**

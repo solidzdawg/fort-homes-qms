@@ -1,0 +1,36 @@
+Category,Item,Suggested Model,Qty per Crew,Qty per Warehouse,Priority,Notes
+Lumber,Pin moisture meter,Delmhorst J-4,1,3,High,Acceptance testing for delivered lumber
+Lumber,Pinless moisture meter,Wagner MMC220,1,2,High,Non-destructive moisture checks
+Lumber,Calipers (digital),Mitutoyo 150mm,1,2,Medium,Thickness and dimension checks
+Concrete,Slump cone & tamping rod,Standard ASTM kit,1 per pour,2,High,Fresh concrete consistency
+Concrete,Compression test cylinder molds,ASTM cylinders,As needed,10,High,Send to lab for compressive strength
+Concrete,Rebound hammer,Schmidt style,1,1,Medium,Screening for strength
+Masonry,Rebar cover gauge,Magnetic cover meter,1,1,Medium,Verify cover depth
+Framing,Laser level,Bosch GLL or equivalent,1,2,High,Level and plumb for framing
+Framing,Digital inclinometer/angle finder,Milwaukee or equivalent,1,1,Medium,Roof pitches and angles
+Drywall,Straightedge/flatness gauge,2m aluminum straightedge,2,2,Medium,Flatness checks
+Insulation,Infrared thermal camera,FLIR C5 or equivalent,1,1,Medium,Identify voids/thermal bridges
+Insulation,Insulation depth probe,Mechanical probe,1,1,Medium,Verify installed depth
+Roofing,Roof moisture meter,Protimeter or equivalent,1,1,Medium,Detect wet areas under roofing
+Windows/Doors,Air/water test kit,ASTM kit/hand pump,1,1,Medium,Site infiltration tests
+Electrical,True-RMS multimeter,Fluke 179,1,3,High,Voltage/current/continuity testing
+Electrical,Clamp meter,Fluke/Amprobe 300A,1,2,High,Load checks without disconnecting
+Electrical,Insulation resistance tester (megger),Megger 2.5kV,1,1,High,Insulation resistance tests
+Electrical,GFCI/arc-fault tester,Generic 2-in-1 tester,1,1,High,Verify protective devices
+Electrical,Non-contact voltage tester,Fluke/RK Tools,2,4,High,Quick live-voltage checks
+Plumbing,Hydrostatic/pressure test pump,Portable hydrostatic pump with gauge,1 per crew,2,High,Pressure/leak tests
+Plumbing,Manometer/digital pressure gauge,Testo or Dwyer,1,2,High,Accurate pressure readings
+Plumbing,Drain inspection camera,USB borescope 5-15m,1,1,Medium,Inspect drain interiors
+Plumbing,Backflow test kit,Watts/Conbraco test kit,1,1,High,Backflow prevention assemblies
+HVAC,Manifold gauge set,Yellow Jacket or equivalent,1,1,High,Refrigerant system service/checks
+HVAC,Digital anemometer,Extech or Testo,1,1,High,Airflow verification
+HVAC,Duct leakage tester (blower),Retrotec/TPI option,1 per project,1,Medium,Duct system leakage tests
+Fire Protection,Portable hydrostatic tester,Portable pump & gauge,1,1,High,Sprinkler line acceptance
+Environmental,CO/combustible gas detector,Multi-gas monitor,1,2,High,Site safety checks
+Environmental,Sound level meter,Class 2 meter,1,1,Medium,Noise assessments
+Inspection Imaging,Inspection borescope,Wireless USB borescope,1,1,Medium,Low-access visual inspections
+Documentation,Rugged tablet,Panasonic Toughbook or Galaxy Tab Active,1,2,High,Field data collection and photos
+Documentation,Label/printer,Brother Rugged label printer,1,1,Medium,Sample and equipment labeling
+Calibration,Calibration block/standards,Reference standards kit,1,1,High,Field calibration verification
+Consumables,Batteries & chargers,AA/AAA/Rechargeable kits,Plenty,Warehouse,High,Spare power and consumables
+Consumables,Photo scale cards,Calibrated photo scale,5,20,Medium,Standardized photo measurements

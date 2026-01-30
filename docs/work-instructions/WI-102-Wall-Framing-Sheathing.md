@@ -1,4 +1,18 @@
-# WI-102: Wall Framing & Sheathing (Phase 2)
+# WI-102: Wall Framing & Sheathing (Phase 2) — CC21TE Update
+
+---
+
+**Source drawing:** Shop Drawings for CC21TE (SHOP FINAL)
+
+Notes: Confirm CC21TE-specific stud spacing, header schedules, and sheathing fastening patterns in the shop drawings. Use the base WI steps and substitute CC21TE numeric values from `data/cc21te/cc21te-tasks.json`.
+
+Deliverables (CC21TE):
+- `wall-framing-checklist-cc21te.md`
+- Updated traceability entries in `data/cc21te/traceability.md`.
+
+---
+
+Proceed to follow the existing step-by-step procedures in this file, replacing measurements and material callouts with confirmed CC21TE values.
 
 ---
 

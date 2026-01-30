@@ -26,8 +26,7 @@ classification: "CONTROLLED"
 | **Classification** | CONTROLLED |
 | **Review Cycle** | Semi-Annual |
 | **Next Review** | July 2026 |
-| **ISO 9001:2015 Clause** | [Clause Number - if applicable] |
-| **HUD Code Reference** | [Reference - if applicable] |
+| **Regulatory Basis** | [24 CFR §, 8 CCR §, NEC §, etc.] |
 
 ---
 

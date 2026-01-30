@@ -17,6 +17,7 @@ This comprehensive style guide system provides everything needed to create profe
 | **[COLOR-PALETTE.md](COLOR-PALETTE.md)** | Complete color system | Selecting colors for status, diagrams |
 | **[ICON-EMOJI-REFERENCE.md](ICON-EMOJI-REFERENCE.md)** | Approved icons and usage | Adding visual elements |
 | **[MERMAID-DIAGRAM-LIBRARY.md](MERMAID-DIAGRAM-LIBRARY.md)** | Diagram templates (10 types) | Creating process flows, charts |
+| **[VISUAL-WORK-INSTRUCTIONS-GUIDE.md](VISUAL-WORK-INSTRUCTIONS-GUIDE.md)** | 🆕 AI image generation for VWIs | Creating photo-rich step-by-step guides |
 
 ### Document Templates
 

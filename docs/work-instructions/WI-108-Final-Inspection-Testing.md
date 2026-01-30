@@ -1,5 +1,7 @@
 # WI-108: Final Inspection & Testing (Phase 8)
 
+**CC21TE Variant:** A CC21TE-specific version is available: [WI-108 CC21TE](WI-108-Final-Inspection-Testing-CC21TE.md). See `data/cc21te/traceability.md` for mapping.
+
 ---
 
 ## Work Instruction Overview
