@@ -1,4 +1,4 @@
-# SOP-101: Chassis & Floor Deck Assembly (PHASE-1)
+# SOP-101: Floor System Assembly (PHASE-1)
 
 ---
 
@@ -49,7 +49,9 @@
 
 ## 1. Purpose
 
-To establish consistent, high-quality standards for **chassis receipt, positioning, floor system assembly, and structural integrity verification** in the Bay production workflow. This SOP ensures that all floor decks meet engineered specifications, regulatory requirements, and company quality standards before advancing to Phase 2 (Wall Framing).
+To establish consistent, high-quality standards for **modular floor system assembly and structural integrity verification** in the factory production workflow. This SOP ensures that all floor systems meet IRC Chapter 5 requirements, engineered specifications, Colorado 8 CCR 1302-14 regulations, and company quality standards before advancing to Phase 2 (Wall Framing). 
+
+**Note:** Fort Homes builds modular homes (IRC-compliant, permanent foundation) per 8 CCR 1302-14, NOT manufactured homes (HUD Code). Modular homes use engineered wood floor systems, not steel chassis.
 
 ---
 
@@ -58,8 +60,9 @@ To establish consistent, high-quality standards for **chassis receipt, positioni
 **PHASE-1** production station (all bays, Bay 1–5)
 
 This procedure applies to:
-- Receipt and positioning of steel chassis frames
-- Floor joist installation (I-joists per engineered plans)
+- Module floor platform setup and preparation
+- Sill plate installation (pressure-treated lumber per plan)
+- Floor joist installation (engineered I-joists per IRC Chapter 5)
 - Blocking, bridging, and rim board installation
 - Subfloor sheathing (OSB/Plywood) gluing and fastening
 - Layout marking for walls and MEP penetrations
@@ -73,6 +76,7 @@ This procedure applies to:
 
 ## 3. References & Standards
 
+- **8 CCR 1302-14** (Colorado Factory-Built Structures - source of truth)
 - **Engineered Plans** (Model Specific, stamped by registered engineer)
 - **IRC Chapter 5** (Building Code - Floors)
 - **APA Guide** (Subfloor installation)
@@ -108,10 +112,10 @@ This procedure applies to:
   </thead>
   <tbody>
     <tr style="background:#ffffff;">
-      <td style="padding:10px;border:1px solid #ddd;"><strong>Steel Chassis</strong></td>
-      <td style="padding:10px;border:1px solid #ddd;">Model-specific; engineered</td>
-      <td style="padding:10px;border:1px solid #ddd;">1</td>
-      <td style="padding:10px;border:1px solid #ddd;">Cert. on file; visual inspect for damage</td>
+      <td style="padding:10px;border:1px solid #ddd;"><strong>Sill Plates</strong></td>
+      <td style="padding:10px;border:1px solid #ddd;">Pressure-treated 2x6 or per plan; IRC compliant</td>
+      <td style="padding:10px;border:1px solid #ddd;">Per plan perimeter</td>
+      <td style="padding:10px;border:1px solid #ddd;">Grade stamp visible; treatment tag present</td>
     </tr>
     <tr style="background:#f9f9f9;">
       <td style="padding:10px;border:1px solid #ddd;"><strong>I-Joists</strong></td>
@@ -178,9 +182,9 @@ This procedure applies to:
 **Before any work begins:**
 
 - [ ] Engineered plans reviewed and in Bay Supervisor's hands (legible, current stamp)
-- [ ] Chassis frame identified and scheduled for positioning
+- [ ] Floor platform area identified and prepared for module construction
 - [ ] Materials on-site or confirmed delivery date (no delayed starts)
-- [ ] Bay work area cleaned and prepared for chassis positioning
+- [ ] Bay work area cleaned and prepared for floor system construction
 - [ ] Crew briefing completed (SOP walkthrough, daily safety toolbox talk)
 - [ ] Pneumatic pressure tested and adjusted (100–120 psi)
 - [ ] Adhesive mixed per manufacturer instructions; temperature suitable (typically 50°F+)
@@ -191,21 +195,20 @@ This procedure applies to:
 
 ## 7. Detailed Procedure
 
-### 7.1 Chassis Receipt & Positioning
+### 7.1 Floor Platform Setup & Sill Plate Installation
 
-#### Step 1: Inspect Incoming Chassis
-1. Visual inspection for shipping damage (cracks, bends, rust scale)
-2. Verify model number and configuration match order/plan
-3. Confirm steel certifications and mill reports on file
-4. Check axle condition and wheel hubs (if not yet removed)
-5. Document any defects on **Receiving Inspection Form** (SOP-006)
+#### Step 1: Prepare Floor Platform
+1. Clear and level the production bay floor area per engineered plan dimensions
+2. Verify work surface is clean, level, and properly marked for module layout
+3. Position temporary support stands or blocking as required per plan
+4. Document platform setup on **Production Setup Form** (SOP-011)
 
-#### Step 2: Position in Bay
-1. Use forklift or crane to position chassis in designated bay
-2. Place on leveling blocks or shims to establish plane
-3. Verify chassis is centered on floor (measure from walls)
-4. Use laser level or transit to verify chassis plane (tolerance: ±¼" across length)
-5. Secure loose items; remove or pin axles if applicable
+#### Step 2: Install Sill Plates (Pressure-Treated)
+1. Measure and cut pressure-treated sill plates per engineered plan
+2. Position sill plates to establish module perimeter
+3. Verify dimensions and squareness (measure diagonals - must differ by ≤¼")
+4. Secure sill plates to temporary platform supports
+5. Apply sill sealer or gasket if required by plan
 
 ---
 
@@ -218,11 +221,11 @@ This procedure applies to:
 4. If frame is out of square >¼", flag with red tag and escalate to Bay Supervisor before proceeding
 
 #### Step 4: Install Rim Boards & Blocking
-1. Cut and fit rim boards (LVL or 2x) to chassis perimeter
-2. Apply construction adhesive to top of chassis frame (full coverage, ¼" bead)
+1. Cut and fit rim boards (LVL or 2x) to sill plate perimeter per IRC Chapter 5
+2. Apply construction adhesive to top of sill plates (full coverage, ¼" bead)
 3. Set rim boards; fasten per **Fastener Schedule** (typical: 16d nails @ 12" o.c. or equivalent)
 4. Install corner blocks and bracing per engineered plan
-5. Verify rim board is level and flush with chassis frame
+5. Verify rim board is level and flush with sill plates
 
 #### Step 5: Install Floor Joists (I-Joists or Dimensional Lumber)
 1. **For each joist location:**
