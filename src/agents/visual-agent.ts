@@ -56,15 +56,14 @@ flowchart TD
 
     phases.forEach((phase: any, idx: number) => {
       const phaseNum = idx + 1;
-      const nextPhase = idx + 1;
       const holdPoint = phase.hold_point;
       const tpiaRequired = phase.tpia_required ? ' - TPIA Required' : '';
 
       mermaid += `    Phase${phaseNum}[Phase ${phaseNum}: ${phase.name}] --> HP${phaseNum}
     HP${phaseNum}{Hold Point ${holdPoint}${tpiaRequired}} --> |Pass| `;
       
-      if (nextPhase < phases.length) {
-        mermaid += `Phase${nextPhase + 1}\n`;
+      if (idx + 1 < phases.length) {
+        mermaid += `Phase${phaseNum + 1}\n`;
       } else {
         mermaid += `Complete\n`;
       }

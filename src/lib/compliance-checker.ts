@@ -96,10 +96,12 @@ export function checkProhibitedReferences(content: string): {
   }
 
   // Check for generic terms vs specific standards
-  const isoMatches = content.match(/ISO\s*\d+/gi);
+  const isoMatches = content.match(/ISO\s*\d{4,}/gi);
   if (isoMatches && isoMatches.length > 0) {
     const allowedISO = ['ISO 10002']; // Customer satisfaction
-    const foundISO = isoMatches.filter(iso => !allowedISO.includes(iso));
+    const normalizedMatches = isoMatches.map(iso => iso.replace(/\s+/g, ' ').toUpperCase());
+    const normalizedAllowed = allowedISO.map(iso => iso.replace(/\s+/g, ' ').toUpperCase());
+    const foundISO = isoMatches.filter((iso, idx) => !normalizedAllowed.includes(normalizedMatches[idx]));
     
     if (foundISO.length > 0) {
       issues.push(`Review ISO references: ${foundISO.join(', ')} - ensure they are appropriate`);
