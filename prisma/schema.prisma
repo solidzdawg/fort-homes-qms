@@ -1,0 +1,305 @@
+// Fort Homes QMS - Database Schema
+// This schema defines the data model for the Quality Management System
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// Document Management
+// ============================================
+
+model Document {
+  id           String   @id @default(cuid())
+  type         String   // 'manual', 'sop', 'wi', 'form'
+  number       String   @unique
+  title        String
+  version      String
+  status       String   // 'draft', 'review', 'approved', 'superseded'
+  content      String   // JSON-serialized content
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  createdBy    String?
+  approvedBy   String?
+  approvedAt   DateTime?
+  effectiveDate DateTime?
+  nextReview   DateTime?
+  
+  auditTrail   AuditTrail[]
+  
+  @@index([type, status])
+  @@index([number])
+}
+
+// ============================================
+// Audit Trail & Change Tracking
+// ============================================
+
+model AuditTrail {
+  id          String   @id @default(cuid())
+  documentId  String
+  action      String   // 'created', 'updated', 'approved', 'superseded'
+  userId      String
+  username    String?
+  timestamp   DateTime @default(now())
+  changes     String   // JSON-serialized diff
+  comment     String?
+  
+  document    Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  
+  @@index([documentId, timestamp])
+}
+
+// ============================================
+// Production Procedures & Phases
+// ============================================
+
+model Procedure {
+  id           String   @id @default(cuid())
+  phase        Int      // 1-8
+  code         String   @unique // e.g., 'SOP-101', 'WI-104'
+  title        String
+  description  String
+  holdPoint    String?  // 'HP-1' through 'HP-8'
+  tpiaRequired Boolean  @default(false)
+  duration     Int?     // estimated duration in hours
+  crewSize     Int?
+  sequence     Int?
+  status       String   @default("active")
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  @@index([phase, sequence])
+}
+
+// ============================================
+// Hold Points & Quality Gates
+// ============================================
+
+model HoldPoint {
+  id           String   @id @default(cuid())
+  number       String   @unique  // 'HP-1' through 'HP-8'
+  phase        Int      // 1-8
+  name         String
+  description  String
+  criteria     String   // JSON array of inspection criteria
+  tpiaRequired Boolean  @default(false)
+  formRequired String?  // e.g., 'FORM-I004'
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  inspections  Inspection[]
+  
+  @@index([phase])
+}
+
+model Inspection {
+  id              String   @id @default(cuid())
+  holdPointId     String
+  moduleId        String
+  inspectionDate  DateTime
+  inspector       String
+  tpiaInspector   String?
+  status          String   // 'pending', 'passed', 'failed', 'conditional'
+  findings        String   // JSON array
+  ncrGenerated    Boolean  @default(false)
+  ncrId           String?
+  
+  holdPoint       HoldPoint @relation(fields: [holdPointId], references: [id])
+  
+  @@index([moduleId, holdPointId])
+  @@index([inspectionDate])
+}
+
+// ============================================
+// Nonconformance & CAPA Management
+// ============================================
+
+model NCR {
+  id              String   @id @default(cuid())
+  number          String   @unique  // Auto-generated: NCR-2026-001
+  moduleId        String
+  phase           Int?
+  holdPoint       String?
+  description     String
+  severity        String   // 'minor', 'major', 'critical'
+  status          String   // 'open', 'investigating', 'capa-required', 'resolved', 'closed'
+  detectedBy      String
+  detectedDate    DateTime
+  rootCause       String?
+  disposition     String?  // 'rework', 'scrap', 'use-as-is', 'repair'
+  
+  capaRequired    Boolean  @default(false)
+  capaId          String?
+  
+  closedBy        String?
+  closedDate      DateTime?
+  verifiedBy      String?
+  verifiedDate    DateTime?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@index([moduleId])
+  @@index([status, severity])
+}
+
+model CAPA {
+  id              String   @id @default(cuid())
+  number          String   @unique  // Auto-generated: CAPA-2026-001
+  ncrId           String?
+  type            String   // 'corrective', 'preventive'
+  description     String
+  rootCause       String
+  proposedAction  String
+  assignedTo      String
+  dueDate         DateTime
+  status          String   // 'planned', 'in-progress', 'completed', 'verified', 'closed'
+  
+  completedDate   DateTime?
+  verifiedBy      String?
+  verifiedDate    DateTime?
+  effectiveness   String?  // 'effective', 'not-effective', 'pending'
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@index([status])
+  @@index([dueDate])
+}
+
+// ============================================
+// Training & Competency Management
+// ============================================
+
+model Employee {
+  id              String   @id @default(cuid())
+  employeeNumber  String   @unique
+  firstName       String
+  lastName        String
+  position        String
+  department      String
+  hireDate        DateTime
+  status          String   @default("active")
+  
+  trainingRecords TrainingRecord[]
+  
+  @@index([status])
+}
+
+model TrainingCourse {
+  id              String   @id @default(cuid())
+  courseCode      String   @unique
+  courseName      String
+  description     String?
+  category        String   // 'orientation', 'technical', 'safety', 'quality'
+  duration        Int      // duration in hours
+  validityPeriod  Int?     // months until expiration (null = no expiration)
+  requiredFor     String   // JSON array of positions/phases
+  
+  trainingRecords TrainingRecord[]
+}
+
+model TrainingRecord {
+  id              String   @id @default(cuid())
+  employeeId      String
+  courseId        String
+  completedDate   DateTime
+  expiresAt       DateTime?
+  score           Float?
+  instructor      String?
+  status          String   @default("completed")
+  
+  employee        Employee @relation(fields: [employeeId], references: [id])
+  course          TrainingCourse @relation(fields: [courseId], references: [id])
+  
+  @@index([employeeId, courseId])
+  @@index([expiresAt])
+}
+
+// ============================================
+// Quality Metrics & KPIs
+// ============================================
+
+model QualityMetric {
+  id          String   @id @default(cuid())
+  metricType  String   // 'first-time-quality', 'ncr-rate', 'on-time-delivery', etc.
+  category    String   // 'quality', 'efficiency', 'safety', 'compliance'
+  value       Float
+  target      Float?
+  unit        String   // '%', 'count', 'hours', 'days'
+  period      String   // 'daily', 'weekly', 'monthly', 'quarterly'
+  periodDate  DateTime // date representing the period
+  moduleId    String?
+  phase       Int?
+  notes       String?
+  
+  recordedAt  DateTime @default(now())
+  
+  @@index([metricType, periodDate])
+  @@index([period, periodDate])
+}
+
+// ============================================
+// Supplier & Material Management
+// ============================================
+
+model Supplier {
+  id              String   @id @default(cuid())
+  supplierCode    String   @unique
+  name            String
+  status          String   // 'approved', 'conditional', 'suspended', 'not-approved'
+  category        String   // 'lumber', 'electrical', 'plumbing', 'hvac', etc.
+  contactName     String?
+  email           String?
+  phone           String?
+  address         String?
+  
+  rating          Float?   // 1-5 scale
+  lastAuditDate   DateTime?
+  nextAuditDate   DateTime?
+  
+  certifications  String?  // JSON array
+  notes           String?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@index([status, category])
+}
+
+// ============================================
+// Module Production Tracking
+// ============================================
+
+model Module {
+  id              String   @id @default(cuid())
+  moduleNumber    String   @unique
+  projectCode     String   // e.g., 'CC21TE'
+  modelName       String   // e.g., 'Colorado Cottage'
+  dimensions      String   // e.g., '12x44'
+  status          String   // 'planning', 'in-production', 'hold', 'completed', 'shipped'
+  currentPhase    Int?     // 1-8
+  currentHoldPoint String? // 'HP-1' through 'HP-8'
+  
+  startDate       DateTime?
+  targetDate      DateTime?
+  completionDate  DateTime?
+  shipDate        DateTime?
+  
+  customerName    String?
+  deliveryAddress String?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@index([status, currentPhase])
+  @@index([projectCode])
+}
