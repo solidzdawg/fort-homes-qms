@@ -10,6 +10,8 @@ export { ComplianceAgent } from './compliance-agent';
 export { VisualAgent } from './visual-agent';
 export { ReviewAgent } from './review-agent';
 export { AuditAgent } from './audit-agent';
+export { FormAgent } from './form-agent';
+export { TrainingAgent } from './training-agent';
 export { Orchestrator } from './orchestrator';
 
 // Export default orchestrator instance

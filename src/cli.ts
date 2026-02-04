@@ -116,6 +116,88 @@ generateCmd
     }
   });
 
+generateCmd
+  .command('forms [type]')
+  .description('Generate forms (inspection, ncr, approval, training, checklist)')
+  .action(async (type) => {
+    try {
+      const { FormAgent } = await import('./agents/form-agent');
+      const formAgent = new FormAgent();
+      
+      if (!type) {
+        console.log('📋 Generating all inspection forms...\n');
+        const forms = await formAgent.execute('inspection');
+        console.log(`\n✅ Success! Generated ${forms.length} inspection forms.`);
+      } else if (type === 'inspection') {
+        console.log('📋 Generating inspection forms...\n');
+        const forms = await formAgent.execute('inspection');
+        console.log(`\n✅ Success! Generated ${forms.length} inspection forms.`);
+      } else if (type === 'ncr') {
+        console.log('📋 Generating NCR form...\n');
+        await formAgent.execute('ncr');
+        console.log('\n✅ Success! Generated NCR form.');
+      } else if (type === 'approval') {
+        console.log('📋 Generating approval form...\n');
+        await formAgent.execute('approval');
+        console.log('\n✅ Success! Generated approval form.');
+      } else if (type === 'training') {
+        console.log('📋 Generating training form...\n');
+        await formAgent.execute('training');
+        console.log('\n✅ Success! Generated training form.');
+      } else if (type === 'checklist') {
+        console.log('📋 Generating checklist form...\n');
+        await formAgent.execute('checklist');
+        console.log('\n✅ Success! Generated checklist form.');
+      } else {
+        console.error('❌ Unknown form type. Use: inspection, ncr, approval, training, or checklist');
+        process.exit(1);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+generateCmd
+  .command('training <type>')
+  .description('Generate training materials (matrix, material, assessment, record, acknowledgment)')
+  .option('-r, --role <role>', 'Role for training (e.g., "Production Operator")')
+  .option('-t, --topic <topic>', 'Topic for training material')
+  .option('-p, --phase <phase>', 'Phase number for training material (1-8)')
+  .action(async (type, cmdOptions) => {
+    try {
+      const { TrainingAgent } = await import('./agents/training-agent');
+      const trainingAgent = new TrainingAgent();
+      
+      const validTypes = ['matrix', 'material', 'assessment', 'record', 'acknowledgment'];
+      
+      if (!validTypes.includes(type)) {
+        console.error(`❌ Unknown training type. Use: ${validTypes.join(', ')}`);
+        process.exit(1);
+      }
+
+      console.log(`📚 Generating training ${type}...\n`);
+      
+      const trainingOptions: any = {};
+      if (cmdOptions.role) trainingOptions.role = cmdOptions.role;
+      if (cmdOptions.topic) trainingOptions.topic = cmdOptions.topic;
+      if (cmdOptions.phase) {
+        const phaseNum = parseInt(cmdOptions.phase);
+        if (phaseNum < 1 || phaseNum > 8) {
+          console.error('❌ Phase must be between 1 and 8');
+          process.exit(1);
+        }
+        trainingOptions.phase = phaseNum;
+      }
+      
+      const docs = await trainingAgent.execute(type as any, trainingOptions);
+      console.log(`\n✅ Success! Generated ${docs.length} training document(s).`);
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
 // Database commands
 const dbCmd = program
   .command('db')
