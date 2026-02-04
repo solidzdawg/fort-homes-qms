@@ -66,16 +66,35 @@
 ## 📑 TABLE OF CONTENTS
 
 1. [Regulatory Framework Overview](#1-regulatory-framework-overview)
-2. [HUD Code Requirements (24 CFR 3280/3282)](#2-hud-code-requirements-24-cfr-32803282)
-3. [24 CFR 3285 Installation Standards](#3-24-cfr-3285-installation-standards)
-4. [Colorado CCR 8 CCR 1302-14 Requirements](#4-colorado-ccr-8-ccr-1302-14-requirements)
-5. [National Electrical Code (NEC) 2023](#5-national-electrical-code-nec-2023)
-6. [NTA Third-Party Inspection Agency (TPIA)](#6-nta-third-party-inspection-agency-tpia)
-7. [Compliance Monitoring Schedule](#7-compliance-monitoring-schedule)
+2. [Colorado CCR 8 CCR 1302-14 Requirements (PRIMARY)](#4-colorado-ccr-8-ccr-1302-14-requirements)
+3. [National Electrical Code (NEC) 2023](#5-national-electrical-code-nec-2023)
+4. [NTA Third-Party Inspection Agency (TPIA)](#6-nta-third-party-inspection-agency-tpia)
+5. [Compliance Monitoring Schedule](#7-compliance-monitoring-schedule)
+6. [Reference: HUD Code (NOT applicable to modular homes)](#2-hud-code-requirements-24-cfr-32803282)
+7. [Reference: 24 CFR 3285 (NOT applicable to modular homes)](#3-24-cfr-3285-installation-standards)
 
 ---
 
 ## 1. REGULATORY FRAMEWORK OVERVIEW
+
+### 🚨 IMPORTANT: MODULAR vs. MANUFACTURED HOMES
+
+<div style="background: #fff3cd; padding: 20px; border-left: 4px solid #ff9800; margin: 20px 0;">
+
+**Fort Homes LLC builds MODULAR HOMES, NOT manufactured homes.**
+
+- **Modular Homes** (Fort Homes): Built to IRC (International Residential Code), permanent foundations, NO steel chassis
+- **Manufactured Homes**: Built to HUD Code (24 CFR 3280), permanent steel chassis, may have temporary foundations
+
+**Our Primary Regulatory Framework (per 8 CCR 1302-14):**
+- International Residential Code (IRC 2021)
+- International Building Code (IBC 2021) 
+- National Electrical Code (NEC 2023)
+- Colorado amendments per 8 CCR 1302-14
+
+**References to "HUD Code" in this document are for context/comparison only. Fort Homes does NOT build to HUD Code.**
+
+</div>
 
 ### 1.1 Regulatory Hierarchy
 
@@ -83,18 +102,19 @@
 
 Fort Homes LLC modular home manufacturing is governed by:
 
-**🏛️ Federal Level**
-- **HUD Code** (24 CFR Parts 3280, 3282, 3285) - Primary authority
-- **NEC 2023** (Article 550) - Electrical requirements
-
-**🏛️ State Level**
-- **CCR 8 CCR 1302-14** - Colorado Division of Housing regulations
+**🏛️ State Level (Primary Authority per 8 CCR 1302-14)**
+- **8 CCR 1302-14** - Colorado Division of Housing regulations for factory-built structures
+- **IRC 2021** - International Residential Code (building code)
+- **IBC 2021** - International Building Code
+- **NEC 2023** - National Electrical Code
 
 **🏛️ Third-Party Oversight**
-- **NTA, Inc.** - Third-Party Inspection Agency (TPIA) per HUD approval
+- **NTA, Inc.** - Third-Party Inspection Agency (TPIA) per CDOH approval
 
 **🏛️ Local Level**
-- **Mesa County** - Local building/zoning requirements (installation phase)
+- **Mesa County / Grand Junction** - Local building/zoning requirements (installation phase)
+
+**Note:** HUD Code (24 CFR 3280) applies to manufactured homes only, NOT modular homes.
 
 </div>
 
@@ -129,11 +149,21 @@ graph TD
 
 ## 2. HUD CODE REQUIREMENTS (24 CFR 3280/3282)
 
+<div style="background: #ffebee; padding: 20px; border-left: 4px solid #f44336; margin: 20px 0;">
+
+**⚠️ REFERENCE ONLY - NOT APPLICABLE TO FORT HOMES**
+
+This section is provided for reference and educational purposes only. **Fort Homes builds MODULAR homes (IRC), NOT manufactured homes (HUD Code).** 
+
+HUD Code applies to manufactured homes with permanent steel chassis, while Fort Homes builds IRC-compliant modular homes on permanent foundations per Colorado 8 CCR 1302-14.
+
+</div>
+
 ### 2.1 HUD Code Overview
 
 **Title:** Manufactured Home Construction and Safety Standards  
 **Authority:** U.S. Department of Housing and Urban Development  
-**Applicability:** All manufactured homes built for sale in the United States
+**Applicability:** Manufactured homes only (NOT Fort Homes modular homes)
 
 <div style="background: white; padding: 20px; border: 2px solid #ddd; border-radius: 8px; margin: 20px 0;">
 

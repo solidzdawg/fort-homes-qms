@@ -62,11 +62,21 @@ This matrix provides **complete traceability** from external regulatory requirem
 ### 1.2 Scope
 
 Covers all regulatory requirements applicable to Fort Homes LLC offsite modular home manufacturing:
-- **24 CFR Part 3280:** Construction and Safety Standards (HUD Code)
-- **24 CFR Part 3282:** Manufactured Home Procedural and Enforcement Regulations
-- **24 CFR Part 3285:** Model Manufactured Home Installation Standards
-- **8 CCR 1302-14:** Colorado Division of Housing Rules and Regulations for Factory-Built Structures
-- **NEC Article 550:** Mobile Homes, Manufactured Homes, and Mobile Home Parks (2023 Edition)
+
+**PRIMARY REGULATIONS (Modular Construction):**
+- **8 CCR 1302-14:** Colorado Division of Housing Rules and Regulations for Factory-Built Structures (PRIMARY)
+- **IRC 2021:** International Residential Code (Building Code)
+- **IBC 2021:** International Building Code
+- **NEC 2023:** National Electrical Code (Residential Articles)
+- **IPC 2021:** International Plumbing Code
+- **IMC 2021:** International Mechanical Code
+- **IECC 2021:** International Energy Conservation Code
+
+**REFERENCE ONLY (NOT applicable to Fort Homes LLC modular homes):**
+- **24 CFR Part 3280:** HUD Code - Manufactured Housing (trailers) - NOT APPLICABLE
+- **24 CFR Part 3282:** Manufactured Home Procedural Regulations - NOT APPLICABLE
+- **24 CFR Part 3285:** Manufactured Home Installation Standards - NOT APPLICABLE
+- **NEC Article 550:** Mobile/Manufactured Homes - NOT APPLICABLE
 
 ### 1.3 Matrix Structure
 

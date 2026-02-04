@@ -702,13 +702,12 @@
 │  │ ✓ Module weather-tight            │      │
 │  │ ✓ Doors/windows operational       │      │
 │  │                                   │      │
-│  │ Transportation:                    │      │
-│  │ ✓ Module secure on trailer         │      │
+│  │ Transportation Preparation:         │      │
+│  │ ✓ Module ready for transport       │      │
 │  │ ✓ All penetrations closed/sealed   │      │
-│  │ ✓ Axles/braking system functional │      │
-│  │ ✓ Lights/reflectors operational   │      │
-│  │ ✓ Registration/insurance valid    │      │
-│  │ ✓ Route planned (width/height OK) │      │
+│  │ ✓ Transport securing points ready  │      │
+│  │ ✓ Route planned (width/height OK)  │      │
+│  │ ✓ Transport insurance valid        │      │
 │  │                                   │      │
 │  │ DELIVERY APPROVED: ______________  │      │
 │  │ (Manager signature & date)         │      │
@@ -729,7 +728,7 @@
 8. Final interior cleaning (vacuum, dust, windows, etc.)
 9. Verify all equipment operational (lights, outlets, fixtures)
 10. Verify module is weather-tight (all doors/windows sealed)
-11. Arrange transportation (trailer secure, route planned)
+11. Arrange modular home transportation (professional modular transport company, route planned)
 12. Schedule final manager walkthrough and approval
 13. Verify customer ready for delivery (all documentation complete)
 

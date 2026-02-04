@@ -90,12 +90,13 @@
 │  EXTERNAL ENVIRONMENT ANALYSIS                                             │
 ├────────────────────────────────────────────────────────────────────────────┤
 │                                                                            │
-│  ⚖️ REGULATORY ENVIRONMENT                                                 │
-│     • HUD Code (24 CFR 3280/3282) - Federal manufactured housing regs    │
-│     • 24 CFR 3285 - Installation standards                                │
-│     • Colorado Division of Housing (8 CCR 1302-14)                        │
-│     • Mesa County local building requirements                             │
-│     • NTA third-party inspection requirements                             │
+│  ⚖️ REGULATORY ENVIRONMENT (Modular Construction)                         │
+│     • 8 CCR 1302-14 - Colorado Factory-Built Structures (PRIMARY)        │
+│     • IRC 2021 - International Residential Code                          │
+│     • NEC 2023 - National Electrical Code                                │
+│     • Mesa County / Grand Junction local building requirements           │
+│     • NTA third-party inspection requirements                            │
+│     • Note: HUD Code applies to manufactured homes only, NOT modular     │
 │                                                                            │
 │  📊 MARKET CONDITIONS                                                      │
 │     • Growing demand for affordable housing in Colorado                   │
