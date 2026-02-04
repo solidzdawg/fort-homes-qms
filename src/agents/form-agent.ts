@@ -150,119 +150,165 @@ export class FormAgent extends BaseAgent {
     phase: any
   ): string {
     const company = this.context.companyInfo?.company || {};
-    const date = new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    const { ProfessionalFormatter } = require('../lib/professional-formatter');
 
     const checklistItems = this.generateChecklistItems(phase);
 
-    return `\`\`\`
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   🏗️ ${company.legal_name || 'FORT HOMES LLC'} QMS                        ${formNumber}       ║
-║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║
-║                                                                              ║
-║                    ${title.toUpperCase().padEnd(56)}  ║
-║                    Phase ${phase.id} | Hold Point ${phase.holdPoint}                                 ║
-║                                                                              ║
-║   Revision: 2.0  │  Effective: ${date}  │  Retention: 7 Years          ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   📋 MODULE INFORMATION                                                      ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   Module Serial #:  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║
-║   │                                                                    │    ║
-║   │   Production Bay:   ░░░░░░░░░░░░░░░░    Lot #: ░░░░░░░░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   │   Model Type:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║
-║   │                                                                    │    ║
-║   │   Supervisor:       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-║   📅 INSPECTION TIMING                                                       ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   Date: ░░░░░░░░░░░░░░░    Time Start: ░░░░░░░   End: ░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   │   Shift:  □ Day (6am-2pm)   □ Swing (2pm-10pm)   □ Night         │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   👤 INSPECTOR INFORMATION                                                   ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   Inspector Name:   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    │    ║
-║   │                                                                    │    ║
-║   │   Inspector ID:     ░░░░░░░░░░░░░░░░   Cert. Exp: ░░░░░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   🔍 VISUAL INSPECTION CHECKLIST                                             ║
-║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   ║
-║                                                                              ║
+    const header = ProfessionalFormatter.generateDocumentHeader({
+      documentId: formNumber,
+      title: `${title} - Phase ${phase.id}`,
+      revision: '2.0',
+      effectiveDate: new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      processOwner: 'QA Manager',
+      classification: 'CONTROLLED',
+      reviewDate: 'Annual'
+    });
+
+    const footer = ProfessionalFormatter.generateDocumentFooter({
+      documentId: formNumber,
+      title: title,
+      revision: '2.0',
+      effectiveDate: new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      processOwner: 'QA Manager',
+      classification: 'CONTROLLED'
+    });
+
+    return `${header}
+
+<!-- Form Content -->
+
+<div style="background: #e3f2fd; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;" class="no-break">
+  <h3 style="margin-top: 0; color: #1976D2;">📋 Inspection Overview</h3>
+  <p style="margin-bottom: 5px;"><strong>Phase:</strong> ${phase.id} - ${phase.name}</p>
+  <p style="margin-bottom: 5px;"><strong>Hold Point:</strong> ${phase.holdPoint}</p>
+  <p style="margin-bottom: 5px;"><strong>TPIA Required:</strong> ${phase.tpiaRequired ? 'Yes - NTA Inspector must verify' : 'No - Internal inspection only'}</p>
+  <p style="margin-bottom: 0;"><strong>Purpose:</strong> Verify completion and quality of all work activities before proceeding to next phase</p>
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(1)} Module Information</h2>
+
+<div class="no-break">
+${ProfessionalFormatter.generateTable(
+  ['Field', 'Value'],
+  [
+    ['Module Serial Number', '___________________________________________'],
+    ['Production Bay', '_______________ Lot Number: _______________'],
+    ['Model Type', '___________________________________________'],
+    ['Production Supervisor', '___________________________________________'],
+    ['Inspection Date', '_______________ Time: _______________'],
+    ['Production Shift', '☐ Day (6am-2pm)  ☐ Swing (2pm-10pm)  ☐ Night']
+  ]
+)}
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(2)} Inspector Information</h2>
+
+<div class="no-break">
+${ProfessionalFormatter.generateTable(
+  ['Field', 'Value'],
+  [
+    ['Inspector Name', '___________________________________________'],
+    ['Inspector ID', '_______________ Certification Exp: _______________'],
+    ['Inspector Type', '☐ Internal QA  ☐ NTA TPIA  ☐ Other: _______________']
+  ]
+)}
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(3)} Inspection Checklist</h2>
+
+<p>Verify each item below meets requirements. Mark as <strong>PASS (✓)</strong> or <strong>FAIL (✗)</strong>. Document any deficiencies in the Comments section.</p>
+
 ${checklistItems}
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   📸 PHOTOGRAPHIC DOCUMENTATION                                              ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   Photos Required: □ Yes  □ No   Total Photos: ░░░░░░░░░         │    ║
-║   │                                                                    │    ║
-║   │   Photo Storage Location: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   📊 INSPECTION RESULTS                                                      ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   □ PASS - All items meet requirements, proceed to next phase     │    ║
-║   │                                                                    │    ║
-║   │   □ CONDITIONAL PASS - Minor defects noted, corrected in-phase    │    ║
-║   │                                                                    │    ║
-║   │   □ FAIL - Nonconformance found, NCR required                     │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-║   🚨 NONCONFORMANCES (If any)                                                ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   NCR Number: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   │   Description: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │    ║
-║   │   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║   ✅ INSPECTOR CERTIFICATION                                                 ║
-║   ┌────────────────────────────────────────────────────────────────────┐    ║
-║   │                                                                    │    ║
-║   │   I certify that this inspection was performed in accordance      │    ║
-║   │   with applicable codes and Fort Homes QMS procedures.            │    ║
-║   │                                                                    │    ║
-║   │   Inspector Signature: ░░░░░░░░░░░░░░░   Date: ░░░░░░░░░░░░░░   │    ║
-║   │                                                                    │    ║
-║   └────────────────────────────────────────────────────────────────────┘    ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-\`\`\`
 
----
+<h2>${ProfessionalFormatter.formatSectionNumber(4)} Measurement and Testing</h2>
 
-**Document Control:**
-- Form ID: ${formNumber}
-- Created: ${new Date().toISOString().split('T')[0]}
-- Generated by: FormAgent (AI)
-- Status: Active
+<div class="no-break">
+${phase.tpiaRequired ? `
+<div style="background: #fff3cd; border-left: 4px solid #ff9800; padding: 15px; margin: 10px 0;">
+  <strong>⚠️ TPIA VERIFICATION REQUIRED</strong><br>
+  NTA Third-Party Inspector must verify and sign before module proceeds to next phase.
+</div>
+` : ''}
+
+${ProfessionalFormatter.generateTable(
+  ['Test/Measurement', 'Specification', 'Result', 'Pass/Fail'],
+  phase.id === 4 ? [
+    ['Electrical Panel Installation', 'Per NEC 2023', '_______________', '☐ P ☐ F'],
+    ['Water Pressure Test', '100 PSI, 15 min hold', '_______________', '☐ P ☐ F'],
+    ['DWV Test', '10 ft water OR 5 PSI air, 15 min', '_______________', '☐ P ☐ F'],
+    ['HVAC Line Set', 'Leak test per mfg specs', '_______________', '☐ P ☐ F']
+  ] : [
+    ['Dimensional Check', 'Per approved plans', '_______________', '☐ P ☐ F'],
+    ['Visual Inspection', 'No defects/damage', '_______________', '☐ P ☐ F'],
+    ['Material Verification', 'Per bill of materials', '_______________', '☐ P ☐ F']
+  ]
+)}
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(5)} Photographic Documentation</h2>
+
+<div class="no-break" style="border: 1px solid #ddd; padding: 15px; background: #fafafa;">
+  <p><strong>Photos Required:</strong> ☐ Yes  ☐ No  &nbsp;&nbsp;&nbsp; <strong>Total Photos Taken:</strong> ___________</p>
+  <p><strong>Photo Storage Location:</strong> ___________________________________________</p>
+  <p style="font-size: 9pt; color: #666; margin: 10px 0 0 0;">
+    Note: Photographic documentation is required for all hold points. Photos must clearly show 
+    completed work and any deficiencies identified.
+  </p>
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(6)} Inspection Results</h2>
+
+<div class="no-break" style="border: 2px solid #333; padding: 20px; margin: 20px 0;">
+  <h3 style="margin-top: 0;">Final Determination</h3>
+  
+  <div style="margin: 15px 0;">
+    <label style="display: block; padding: 10px; border: 2px solid #4CAF50; background: #f1f8f4; margin-bottom: 10px;">
+      <input type="checkbox"> <strong>PASS</strong> - All items meet requirements. Module may proceed to next phase.
+    </label>
+    
+    <label style="display: block; padding: 10px; border: 2px solid #FF9800; background: #fff8e1; margin-bottom: 10px;">
+      <input type="checkbox"> <strong>CONDITIONAL PASS</strong> - Minor defects noted and corrected during this phase. See comments.
+    </label>
+    
+    <label style="display: block; padding: 10px; border: 2px solid #f44336; background: #ffebee;">
+      <input type="checkbox"> <strong>FAIL</strong> - Nonconformance found. NCR required. Module held at this phase.
+    </label>
+  </div>
+  
+  <h3>Comments and Observations</h3>
+  <div style="border: 1px solid #666; min-height: 100px; padding: 10px; background: white;">
+    
+  </div>
+</div>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(7)} Nonconformances (If Applicable)</h2>
+
+<div class="no-break">
+${ProfessionalFormatter.generateTable(
+  ['Field', 'Value'],
+  [
+    ['NCR Number (if applicable)', '___________________________________________'],
+    ['Description of Nonconformance', '___________________________________________'],
+    ['', '___________________________________________'],
+    ['Corrective Action Required', '___________________________________________'],
+    ['', '___________________________________________']
+  ]
+)}
+</div>
+
+${ProfessionalFormatter.generateSignatureBlock([
+  'Inspector Signature',
+  'Production Supervisor',
+  phase.tpiaRequired ? 'NTA TPIA Inspector (Required)' : 'QA Manager Approval'
+])}
+
+<div class="confidentiality-notice">
+  <strong>INSPECTION CERTIFICATION:</strong> I certify that this inspection was performed in 
+  accordance with Fort Homes LLC procedures, applicable building codes (IRC 2021, NEC 2023, IPC 2021), 
+  and Colorado Division of Housing regulations (8 CCR 1302-14).
+</div>
+
+${footer}
 `;
   }
 
@@ -271,31 +317,27 @@ ${checklistItems}
    */
   private generateChecklistItems(phase: any): string {
     const activities = phase.workActivities || [];
-    let checklist = '';
-    let itemNum = 1;
+    const { ProfessionalFormatter } = require('../lib/professional-formatter');
 
     // Group activities into logical sections
     const sections = this.groupActivitiesBySection(activities);
+    let checklist = '';
 
     for (const [sectionName, items] of Object.entries(sections)) {
-      checklist += `║   ${sectionName.toUpperCase().padEnd(76)}║\n`;
-      checklist += `║   ┌────┬──────────────────────────────────────────┬────────┬───────────┐    ║\n`;
-      checklist += `║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║\n`;
-      checklist += `║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║\n`;
-
       const itemArray = items as string[];
-      for (let i = 0; i < itemArray.length; i++) {
-        const item = itemArray[i];
-        const itemText = item.substring(0, 40).padEnd(40);
-        checklist += `║   │ ${itemNum.toString().padStart(2)}  │ ${itemText} │ ✅ ❌  │           │    ║\n`;
-        if (i < itemArray.length - 1) {
-          checklist += `║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║\n`;
-        }
-        itemNum++;
-      }
+      const rows = itemArray.map((item, index) => [
+        `${index + 1}`,
+        item,
+        '☐ Pass  ☐ Fail',
+        '_______________'
+      ]);
 
-      checklist += `║   └────┴──────────────────────────────────────────┴────────┴───────────┘    ║\n`;
-      checklist += `║                                                                              ║\n`;
+      checklist += `<h3 class="no-break">${sectionName}</h3>\n`;
+      checklist += ProfessionalFormatter.generateTable(
+        ['#', 'Inspection Item', 'Result', 'Comments'],
+        rows
+      );
+      checklist += '\n';
     }
 
     return checklist;

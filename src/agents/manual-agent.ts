@@ -143,76 +143,159 @@ export class ManualAgent extends BaseAgent {
    */
   private generateSectionContent(sectionNumber: string, title: string): string {
     const company = this.context.companyInfo?.company || {};
+    const { ProfessionalFormatter } = require('../lib/professional-formatter');
     
-    return `---
-title: "${title}"
-document_id: "${sectionNumber}"
-revision: "1.0"
-effective_date: "${new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}"
-process_owner: "QA Manager"
-next_review: "${new Date(Date.now() + 6 * 30 * 24 * 60 * 60 * 1000).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}"
-classification: "CONTROLLED"
----
+    const header = ProfessionalFormatter.generateDocumentHeader({
+      documentId: sectionNumber,
+      title: title,
+      revision: '1.0',
+      effectiveDate: new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      processOwner: 'QA Manager',
+      classification: 'CONTROLLED',
+      reviewDate: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+    });
 
-<div align="center">
+    const signatureBlock = ProfessionalFormatter.generateSignatureBlock([
+      'Prepared By (QA Manager)',
+      'Reviewed By (Operations Manager)',
+      'Approved By (President)'
+    ]);
 
-# 🏗️ ${company.legal_name || 'FORT HOMES LLC'}
-## Quality Management System
+    const footer = ProfessionalFormatter.generateDocumentFooter({
+      documentId: sectionNumber,
+      title: title,
+      revision: '1.0',
+      effectiveDate: new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      processOwner: 'QA Manager',
+      classification: 'CONTROLLED'
+    });
+    
+    return `${header}
 
----
+<!-- Document Content -->
 
-### ${title.toUpperCase()}
+<h2>${ProfessionalFormatter.formatSectionNumber(1)} Purpose</h2>
 
-| Attribute | Value |
-|:----------|:------|
-| **Document ID** | \`${sectionNumber}\` |
-| **Revision** | \`1.0\` |
-| **Effective Date** | ${new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })} |
-| **Process Owner** | QA Manager |
-| **Classification** | CONTROLLED |
+<p>This section of the Quality Management System Manual establishes the requirements for ${title.toLowerCase()} at ${company.legal_name || 'Fort Homes LLC'}. This document defines the policies, procedures, and responsibilities necessary to ensure consistent quality in modular home manufacturing operations.</p>
 
----
+<h2>${ProfessionalFormatter.formatSectionNumber(2)} Scope</h2>
 
+<p>This procedure applies to all personnel, processes, and activities related to ${title.toLowerCase()} within Fort Homes LLC manufacturing facility located in Grand Junction, Colorado.</p>
+
+<p><strong>Applicable to:</strong></p>
+<ul>
+  <li>All manufacturing personnel</li>
+  <li>Quality assurance team</li>
+  <li>Management and supervision</li>
+  <li>Contractors and temporary workers as applicable</li>
+</ul>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(3)} Definitions and References</h2>
+
+<h3>${ProfessionalFormatter.formatSectionNumber(3, 1)} Definitions</h3>
+
+${ProfessionalFormatter.generateTable(
+  ['Term', 'Definition'],
+  [
+    ['QMS', 'Quality Management System - The integrated framework of policies, processes, and procedures used to ensure quality'],
+    ['SOP', 'Standard Operating Procedure - Documented instructions for routine operations'],
+    ['WI', 'Work Instruction - Detailed step-by-step instructions for specific tasks'],
+    ['NCR', 'Nonconformance Report - Documentation of quality issues and corrective actions'],
+    ['CAPA', 'Corrective and Preventive Action - Systematic approach to resolving quality issues']
+  ]
+)}
+
+<h3>${ProfessionalFormatter.formatSectionNumber(3, 2)} Referenced Documents</h3>
+
+<ul>
+  <li>Colorado Division of Housing Regulations (8 CCR 1302-14)</li>
+  <li>International Residential Code (IRC 2021)</li>
+  <li>National Electrical Code (NEC 2023)</li>
+  <li>International Plumbing Code (IPC 2021)</li>
+  <li>Fort Homes LLC Standard Operating Procedures</li>
+</ul>
+
+<h2>${ProfessionalFormatter.formatSectionNumber(4)} Requirements and Procedures</h2>
+
+<h3>${ProfessionalFormatter.formatSectionNumber(4, 1)} Overview</h3>
+
+<p>Fort Homes LLC maintains a comprehensive quality management system that ensures all modular homes are manufactured in compliance with applicable codes and regulations. The following key requirements apply:</p>
+
+<div class="no-break">
+${ProfessionalFormatter.generateTable(
+  ['Requirement Area', 'Description', 'Reference Document'],
+  [
+    ['Quality Policy', 'Commitment to quality and continuous improvement', 'QMS-002'],
+    ['Process Controls', 'Manufacturing process documentation and control', 'QMS-005'],
+    ['Inspection Points', 'Hold point inspections and TPIA coordination', 'SOPs 101-108'],
+    ['Documentation', 'Records maintenance and traceability', 'QMS-008'],
+    ['Training', 'Personnel competency and training requirements', 'QMS-004']
+  ]
+)}
 </div>
 
-## 📋 Purpose
+<h3>${ProfessionalFormatter.formatSectionNumber(4, 2)} Responsibilities</h3>
 
-This section of the Quality Manual addresses ${title.toLowerCase()} for ${company.legal_name || 'Fort Homes LLC'}.
+${ProfessionalFormatter.generateTable(
+  ['Role', 'Responsibilities'],
+  [
+    ['President/COO', 'Overall accountability for quality management system; Resource allocation; Policy approval'],
+    ['QA Manager', 'QMS implementation and maintenance; Internal audits; TPIA coordination; Document control'],
+    ['Production Supervisor', 'Daily quality oversight; Work instruction compliance; Team training; Issue escalation'],
+    ['Quality Inspectors', 'Hold point inspections; Documentation; Nonconformance identification; Testing verification'],
+    ['Production Team', 'Following work instructions; Quality awareness; Reporting issues; Maintaining work areas']
+  ]
+)}
 
-## 🎯 Scope
+<h3>${ProfessionalFormatter.formatSectionNumber(4, 3)} Process Requirements</h3>
 
-This applies to all quality management system activities related to ${title.toLowerCase()}.
+<p>All activities related to ${title.toLowerCase()} shall be conducted in accordance with documented procedures. Key process requirements include:</p>
 
-## 📌 Key Requirements
+<ol>
+  <li><strong>Planning:</strong> Activities shall be planned and documented before execution</li>
+  <li><strong>Execution:</strong> Work shall follow approved procedures and work instructions</li>
+  <li><strong>Verification:</strong> Results shall be inspected and verified against requirements</li>
+  <li><strong>Documentation:</strong> Records shall be maintained for traceability</li>
+  <li><strong>Improvement:</strong> Lessons learned shall be captured and implemented</li>
+</ol>
 
-### ${sectionNumber}.1 Overview
+<h2>${ProfessionalFormatter.formatSectionNumber(5)} Records and Documentation</h2>
 
-[Content to be developed based on specific section requirements]
+<p>The following records shall be maintained to demonstrate compliance with ${title.toLowerCase()} requirements:</p>
 
-### ${sectionNumber}.2 Responsibilities
+${ProfessionalFormatter.generateTable(
+  ['Record Type', 'Retention Period', 'Storage Location'],
+  [
+    ['Quality Manual Sections', 'Superseded + 7 years', 'Document Control'],
+    ['Procedure Approvals', 'Life of document + 7 years', 'Document Control'],
+    ['Training Records', 'Employment + 5 years', 'HR / QA'],
+    ['Audit Reports', '7 years', 'QA Files'],
+    ['Management Reviews', '7 years', 'QA Files']
+  ]
+)}
 
-[Define roles and responsibilities]
+<h2>${ProfessionalFormatter.formatSectionNumber(6)} Review and Updates</h2>
 
-### ${sectionNumber}.3 Procedures
+<p>This document shall be reviewed annually or when:</p>
+<ul>
+  <li>Regulatory requirements change</li>
+  <li>Significant process changes occur</li>
+  <li>Audit findings require updates</li>
+  <li>Management determines review is necessary</li>
+</ul>
 
-[Reference applicable SOPs and Work Instructions]
+<div class="no-break" style="background: #f0f8ff; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+  <h3 style="margin-top: 0; color: #1976D2;">📋 Quality Commitment</h3>
+  <p style="margin-bottom: 0;">
+    Fort Homes LLC is committed to manufacturing high-quality modular homes that meet or exceed 
+    customer expectations and regulatory requirements. We continuously improve our processes 
+    through systematic monitoring, measurement, and corrective action.
+  </p>
+</div>
 
-## 📊 Related Documents
+${signatureBlock}
 
-- Refer to applicable Standard Operating Procedures (SOPs)
-- See Work Instructions (WIs) for detailed procedures
-- Complete required Forms as specified
-
-## 📝 Records
-
-Records maintained in accordance with Document Control procedures.
-
----
-
-**Document Control:**
-- Created: ${new Date().toISOString().split('T')[0]}
-- Generated by: ManualAgent (AI)
-- Status: Draft
+${footer}
 `;
   }
 
