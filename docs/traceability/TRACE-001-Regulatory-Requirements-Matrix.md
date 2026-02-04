@@ -72,7 +72,7 @@ Covers all regulatory requirements applicable to Fort Homes LLC offsite modular 
 - **IMC 2021:** International Mechanical Code
 - **IECC 2021:** International Energy Conservation Code
 
-**REFERENCE ONLY (NOT applicable to Fort Homes modular homes):**
+**REFERENCE ONLY (NOT applicable to Fort Homes LLC modular homes):**
 - **24 CFR Part 3280:** HUD Code - Manufactured Housing (trailers) - NOT APPLICABLE
 - **24 CFR Part 3282:** Manufactured Home Procedural Regulations - NOT APPLICABLE
 - **24 CFR Part 3285:** Manufactured Home Installation Standards - NOT APPLICABLE

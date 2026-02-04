@@ -49,7 +49,7 @@
 
 ## 1. Purpose
 
-To establish consistent, high-quality standards for **modular floor system assembly and structural integrity verification** in the factory production workflow. This SOP ensures that all floor systems meet IRC Chapter 5 requirements, engineered specifications, Colorado 8 CCR 1302-14 regulations, and company quality standards before advancing to Phase 2 (Wall Framing). 
+To establish consistent, high-quality standards for **modular floor system assembly and structural integrity verification** in the factory production workflow. This SOP ensures that all floor systems meet IRC Chapter 5 requirements, engineered specifications, Colorado 8 CCR 1302-14 regulations, and company quality standards before advancing to Phase 2 (Wall Framing).
 
 **Note:** Fort Homes builds modular homes (IRC-compliant, permanent foundation) per 8 CCR 1302-14, NOT manufactured homes (HUD Code). Modular homes use engineered wood floor systems, not steel chassis.
 
