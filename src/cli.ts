@@ -1,0 +1,246 @@
+#!/usr/bin/env node
+/**
+ * Fort Homes QMS - Command Line Interface
+ * Generate and manage QMS documents using AI agents
+ */
+
+import { Command } from 'commander';
+import { orchestrator } from './agents';
+import { prisma } from './database';
+
+const program = new Command();
+
+program
+  .name('qms')
+  .description('Fort Homes QMS - AI-powered document generation and management')
+  .version('3.0.0');
+
+// Generate commands
+const generateCmd = program
+  .command('generate')
+  .description('Generate QMS documents');
+
+generateCmd
+  .command('all')
+  .description('Generate complete QMS documentation suite (Manual + SOPs + WIs)')
+  .action(async () => {
+    try {
+      console.log('🚀 Starting complete QMS generation...\n');
+      const result = await orchestrator.execute('generate-all');
+      
+      if (result.success) {
+        console.log(`\n✅ Success! Generated ${result.documents.length} documents.`);
+      } else {
+        console.log(`\n⚠️  Completed with ${result.errors.length} errors:`);
+        result.errors.forEach(err => console.log(`  - ${err}`));
+        process.exit(1);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+generateCmd
+  .command('manual')
+  .description('Generate Quality Manual sections only')
+  .action(async () => {
+    try {
+      console.log('📋 Generating Quality Manual...\n');
+      const result = await orchestrator.execute('generate-manual');
+      
+      if (result.success) {
+        console.log(`\n✅ Success! Generated ${result.documents.length} manual sections.`);
+      } else {
+        console.log(`\n⚠️  Completed with ${result.errors.length} errors:`);
+        result.errors.forEach(err => console.log(`  - ${err}`));
+        process.exit(1);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+generateCmd
+  .command('sop [phase]')
+  .description('Generate Standard Operating Procedures (optionally for specific phase 1-8)')
+  .action(async (phase) => {
+    try {
+      const phaseNum = phase ? parseInt(phase) : undefined;
+      
+      if (phaseNum !== undefined && (phaseNum < 1 || phaseNum > 8)) {
+        console.error('❌ Phase must be between 1 and 8');
+        process.exit(1);
+      }
+
+      if (phaseNum) {
+        console.log(`📋 Generating SOP for Phase ${phaseNum}...\n`);
+        const result = await orchestrator.execute('generate-phase', { phase: phaseNum });
+        console.log(`\n✅ Success! Generated SOP-${100 + phaseNum}`);
+      } else {
+        console.log('📋 Generating all SOPs...\n');
+        const result = await orchestrator.execute('generate-sops');
+        console.log(`\n✅ Success! Generated ${result.documents.length} SOPs.`);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+generateCmd
+  .command('wi [phase]')
+  .description('Generate Work Instructions (optionally for specific phase 1-8)')
+  .action(async (phase) => {
+    try {
+      const phaseNum = phase ? parseInt(phase) : undefined;
+      
+      if (phaseNum !== undefined && (phaseNum < 1 || phaseNum > 8)) {
+        console.error('❌ Phase must be between 1 and 8');
+        process.exit(1);
+      }
+
+      if (phaseNum) {
+        console.log(`📋 Generating Work Instruction for Phase ${phaseNum}...\n`);
+        const result = await orchestrator.execute('generate-phase', { phase: phaseNum });
+        console.log(`\n✅ Success! Generated WI-${100 + phaseNum}`);
+      } else {
+        console.log('📋 Generating all Work Instructions...\n');
+        const result = await orchestrator.execute('generate-wis');
+        console.log(`\n✅ Success! Generated ${result.documents.length} Work Instructions.`);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+// Database commands
+const dbCmd = program
+  .command('db')
+  .description('Database operations');
+
+dbCmd
+  .command('status')
+  .description('Check database connection and statistics')
+  .action(async () => {
+    try {
+      const docCount = await prisma.document.count();
+      const auditCount = await prisma.auditTrail.count();
+      const procCount = await prisma.procedure.count();
+
+      console.log('📊 Database Status:\n');
+      console.log(`  Documents: ${docCount}`);
+      console.log(`  Audit Trail Entries: ${auditCount}`);
+      console.log(`  Procedures: ${procCount}`);
+      console.log('\n✅ Database connection OK');
+    } catch (error) {
+      console.error('❌ Database error:', error);
+      process.exit(1);
+    }
+  });
+
+dbCmd
+  .command('list')
+  .description('List all documents in database')
+  .action(async () => {
+    try {
+      const docs = await prisma.document.findMany({
+        orderBy: { number: 'asc' },
+      });
+
+      console.log('📄 Documents in Database:\n');
+      
+      if (docs.length === 0) {
+        console.log('  No documents found.');
+        return;
+      }
+
+      console.log('  Type | Number      | Title                           | Status   | Version');
+      console.log('  -----|-------------|--------------------------------|----------|--------');
+      
+      docs.forEach(doc => {
+        const type = doc.type.padEnd(4);
+        const number = doc.number.padEnd(11);
+        const title = doc.title.length > 30 ? doc.title.substring(0, 27) + '...' : doc.title.padEnd(30);
+        const status = doc.status.padEnd(8);
+        
+        console.log(`  ${type} | ${number} | ${title} | ${status} | ${doc.version}`);
+      });
+
+      console.log(`\n  Total: ${docs.length} documents`);
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+// Validate command
+program
+  .command('validate <file>')
+  .description('Validate a document file for compliance and quality')
+  .action(async (file) => {
+    try {
+      const fs = await import('fs');
+      const path = await import('path');
+      
+      if (!fs.existsSync(file)) {
+        console.error(`❌ File not found: ${file}`);
+        process.exit(1);
+      }
+
+      const content = fs.readFileSync(file, 'utf-8');
+      const docType = path.basename(file);
+
+      console.log(`🔍 Validating ${docType}...\n`);
+      
+      const result = await orchestrator.validateDocument(content, docType);
+      
+      console.log('\n📊 Validation Report:\n');
+      console.log(`  Overall Score: ${result.overallScore}%`);
+      console.log(`  Compliance: ${result.compliance.score}% (${result.compliance.isCompliant ? '✅ Pass' : '❌ Fail'})`);
+      console.log(`  Review: ${result.review.score}%`);
+      
+      if (result.compliance.issues.length > 0) {
+        console.log('\n  Compliance Issues:');
+        result.compliance.issues.forEach((issue: any) => {
+          console.log(`    - [${issue.severity}] ${issue.description}`);
+        });
+      }
+
+      if (result.review.improvements.length > 0) {
+        console.log('\n  Improvements Needed:');
+        result.review.improvements.forEach((imp: string) => {
+          console.log(`    - ${imp}`);
+        });
+      }
+
+      if (result.overallScore < 80) {
+        process.exit(1);
+      }
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+// Audit command
+program
+  .command('audit [documentId]')
+  .description('Show audit trail for a document or recent activity')
+  .action(async (documentId) => {
+    try {
+      const { AuditAgent } = await import('./agents/audit-agent');
+      const auditAgent = new AuditAgent();
+      
+      const report = await auditAgent.generateReport(documentId);
+      console.log(report);
+    } catch (error) {
+      console.error('❌ Error:', error);
+      process.exit(1);
+    }
+  });
+
+// Parse command line arguments
+program.parse(process.argv);
