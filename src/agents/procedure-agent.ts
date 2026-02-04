@@ -482,6 +482,144 @@ ${tpiaRequired ? '- NTA approval rate\n' : ''}
       console.error('Error storing procedure in database:', error);
     }
   }
+
+  /**
+   * Generate procedure summary for all phases
+   */
+  async generateProcedureSummary(): Promise<string> {
+    let summary = '# Production Procedures Summary\n\n';
+    summary += '## Standard Operating Procedures (SOPs)\n\n';
+    summary += '| Phase | SOP Number | Procedure Name | Hold Point | TPIA Required |\n';
+    summary += '|:------|:-----------|:---------------|:-----------|:--------------|\n';
+
+    for (let phase = 1; phase <= 8; phase++) {
+      const phaseInfo = this.getPhaseInfo(phase);
+      if (phaseInfo) {
+        const sopNumber = `SOP-${100 + phase}`;
+        const tpia = phaseInfo.tpiaRequired ? 'Yes' : 'No';
+        summary += `| ${phase} | ${sopNumber} | ${phaseInfo.name} | ${phaseInfo.holdPoint} | ${tpia} |\n`;
+      }
+    }
+
+    summary += '\n## Work Instructions (WIs)\n\n';
+    summary += '| Phase | WI Number | Instruction Name | Related SOP |\n';
+    summary += '|:------|:----------|:-----------------|:------------|\n';
+
+    for (let phase = 1; phase <= 8; phase++) {
+      const phaseInfo = this.getPhaseInfo(phase);
+      if (phaseInfo) {
+        const wiNumber = `WI-${100 + phase}`;
+        const sopNumber = `SOP-${100 + phase}`;
+        summary += `| ${phase} | ${wiNumber} | ${phaseInfo.name} | ${sopNumber} |\n`;
+      }
+    }
+
+    return summary;
+  }
+
+  /**
+   * Generate work activity checklist for a phase
+   */
+  generateWorkActivityChecklist(phaseNumber: number): string {
+    const phase = this.getPhaseInfo(phaseNumber);
+    if (!phase) {
+      throw new Error(`Phase ${phaseNumber} not found`);
+    }
+
+    const activities = phase.workActivities || [];
+    let checklist = `# Phase ${phaseNumber} Work Activity Checklist\n\n`;
+    checklist += `**Phase:** ${phase.name}\n`;
+    checklist += `**Hold Point:** ${phase.holdPoint}\n\n`;
+    checklist += '## Work Activities\n\n';
+
+    for (let i = 0; i < activities.length; i++) {
+      checklist += `- [ ] ${activities[i]}\n`;
+    }
+
+    checklist += '\n## Sign-Off\n\n';
+    checklist += '- [ ] All activities completed\n';
+    checklist += '- [ ] Quality inspection passed\n';
+    checklist += '- [ ] Documentation complete\n\n';
+    checklist += '**Supervisor Signature:** ________________  **Date:** ________\n';
+
+    return checklist;
+  }
+
+  /**
+   * Generate phase dependency map
+   */
+  generatePhaseDependencyMap(): string {
+    let map = '# Production Phase Dependencies\n\n';
+    map += 'This document shows the sequential dependencies between production phases.\n\n';
+    map += '```mermaid\n';
+    map += 'graph TD\n';
+
+    for (let phase = 1; phase <= 8; phase++) {
+      const phaseInfo = this.getPhaseInfo(phase);
+      if (phaseInfo) {
+        const currentNode = `P${phase}[Phase ${phase}: ${phaseInfo.name}]`;
+        
+        if (phase === 1) {
+          map += `  ${currentNode}\n`;
+        }
+        
+        if (phase < 8) {
+          const nextPhase = phase + 1;
+          const nextInfo = this.getPhaseInfo(nextPhase);
+          if (nextInfo) {
+            const nextNode = `P${nextPhase}[Phase ${nextPhase}: ${nextInfo.name}]`;
+            map += `  P${phase} --> |${phaseInfo.holdPoint}| P${nextPhase}\n`;
+          }
+        }
+      }
+    }
+
+    map += '```\n\n';
+    map += '## Hold Point Gates\n\n';
+
+    for (let phase = 1; phase <= 8; phase++) {
+      const phaseInfo = this.getPhaseInfo(phase);
+      if (phaseInfo) {
+        const tpiaReq = phaseInfo.tpiaRequired ? ' (NTA TPIA Required)' : '';
+        map += `- **${phaseInfo.holdPoint}**: ${phaseInfo.name}${tpiaReq}\n`;
+      }
+    }
+
+    return map;
+  }
+
+  /**
+   * Validate procedure completeness
+   */
+  async validateProcedureCompleteness(
+    type: 'sop' | 'wi',
+    phaseNumber: number
+  ): Promise<{
+    isComplete: boolean;
+    missingElements: string[];
+  }> {
+    const procedure = await this.generateProcedure(type, phaseNumber);
+    const missingElements: string[] = [];
+
+    const requiredElements = [
+      { name: 'Purpose', pattern: /##\s+.*Purpose/i },
+      { name: 'Scope', pattern: /##\s+.*Scope/i },
+      { name: 'Procedure Steps', pattern: /##\s+.*Procedure|##\s+.*Steps/i },
+      { name: 'Quality Requirements', pattern: /quality|inspection/i },
+      { name: 'Safety', pattern: /safety|ppe|hazard/i },
+    ];
+
+    for (const element of requiredElements) {
+      if (!element.pattern.test(procedure.content)) {
+        missingElements.push(element.name);
+      }
+    }
+
+    return {
+      isComplete: missingElements.length === 0,
+      missingElements,
+    };
+  }
 }
 
 export default ProcedureAgent;

@@ -18,6 +18,10 @@ Base class providing common functionality for all agents:
 - Load existing documents from `docs/manual/`
 - Follow QMS framework structure
 - Store documents in database with audit trail
+- **NEW:** Generate manual summary
+- **NEW:** Generate cross-reference tables
+- **NEW:** Validate section completeness
+- **NEW:** Generate table of contents
 
 **Usage:**
 ```typescript
@@ -26,6 +30,12 @@ import { ManualAgent } from './agents';
 const agent = new ManualAgent();
 const sections = await agent.execute(); // Generate all sections
 const section = await agent.execute('QMS-001'); // Generate specific section
+
+// NEW SKILLS:
+const summary = await agent.generateSummary();
+const xref = agent.generateCrossReferenceTable();
+const toc = await agent.generateTableOfContents();
+const validation = await agent.validateSectionCompleteness('QMS-001');
 ```
 
 ### ProcedureAgent
@@ -36,6 +46,10 @@ const section = await agent.execute('QMS-001'); // Generate specific section
 - Include hold point inspection criteria
 - Reference TPIA requirements for HP-4 and HP-8
 - Load existing documents from `docs/sops/` and `docs/work-instructions/`
+- **NEW:** Generate procedure summary for all phases
+- **NEW:** Generate work activity checklists
+- **NEW:** Generate phase dependency maps (Mermaid diagrams)
+- **NEW:** Validate procedure completeness
 
 **Usage:**
 ```typescript
@@ -45,6 +59,80 @@ const agent = new ProcedureAgent();
 const sops = await agent.execute('sop'); // Generate all SOPs
 const sop = await agent.execute('sop', 4); // Generate SOP for Phase 4
 const wis = await agent.execute('wi'); // Generate all WIs
+
+// NEW SKILLS:
+const summary = await agent.generateProcedureSummary();
+const checklist = agent.generateWorkActivityChecklist(4);
+const depMap = agent.generatePhaseDependencyMap();
+const validation = await agent.validateProcedureCompleteness('sop', 4);
+```
+
+### FormAgent
+**Purpose:** Generates inspection forms, NCR forms, and various templates  
+**Capabilities:**
+- Generate phase-specific inspection forms (FORM-I101 through FORM-I108)
+- Generate NCR (Nonconformance Report) forms
+- Generate approval forms
+- Generate training acknowledgment forms
+- Generate checklist forms
+- Professional ASCII-art bordered form layouts
+- Load existing forms from `docs/forms-templates/`
+
+**Usage:**
+```typescript
+import { FormAgent } from './agents';
+
+const agent = new FormAgent();
+
+// Generate all inspection forms
+const inspectionForms = await agent.execute('inspection');
+
+// Generate specific form for Phase 4
+const phase4Form = await agent.execute('inspection', 4);
+
+// Generate NCR form
+const ncrForm = await agent.execute('ncr');
+
+// Generate other forms
+const approvalForm = await agent.execute('approval');
+const trainingForm = await agent.execute('training');
+const checklist = await agent.execute('checklist');
+```
+
+### TrainingAgent
+**Purpose:** Generates training materials and competency assessments  
+**Capabilities:**
+- Generate role-based training matrices
+- Generate phase-specific training materials (1-8)
+- Generate topic-based training materials
+- Generate competency assessments
+- Generate training records
+- Generate training acknowledgment forms
+- Support for multiple delivery methods (classroom, OJT, online, practical)
+
+**Usage:**
+```typescript
+import { TrainingAgent } from './agents';
+
+const agent = new TrainingAgent();
+
+// Generate training matrix for a role
+const matrix = await agent.execute('matrix', { role: 'Quality Inspector' });
+
+// Generate training material for Phase 4
+const phaseMaterial = await agent.execute('material', { phase: 4 });
+
+// Generate topic-specific training
+const topicMaterial = await agent.execute('material', { topic: 'NEC 2023' });
+
+// Generate competency assessment
+const assessment = await agent.execute('assessment', { 
+  role: 'Production Supervisor' 
+});
+
+// Generate training records
+const record = await agent.execute('record');
+const ack = await agent.execute('acknowledgment');
 ```
 
 ### ComplianceAgent
