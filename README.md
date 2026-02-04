@@ -1,6 +1,6 @@
 # Fort Homes LLC QMS - Quality Management System
 
-A cutting-edge, AI-powered Quality Management System for **Colorado off-site modular home construction** with **NTA (National Technical Systems)** as third-party inspector.
+A comprehensive Quality Management System for **Colorado off-site modular home construction** with **NTA (National Technical Systems)** as third-party inspector.
 
 ## 🏠 About Fort Homes LLC
 
@@ -10,95 +10,75 @@ Fort Homes LLC manufactures modular residential structures in Grand Junction, Co
 - **NTA, Inc.** Third-Party Inspection Agency (TPIA) coordination
 - **IRC 2021, NEC 2023, IPC 2021, IECC 2021** building codes
 
-## 🚀 Key Features
+## 🚀 Current Features
 
-### 🤖 AI Agent Framework
-Multi-agent system for autonomous document generation:
-- **QMSManualAgent** - Generates complete quality manual sections
-- **ProcedureAgent** - Creates SOPs, Work Instructions, and inspection forms
-- **ComplianceAgent** - Validates documents against Colorado DHO and HUD regulations
-- **VisualAgent** - Generates diagrams, flowcharts, and visual process documentation
-- **ReviewAgent** - Automated document review and improvement suggestions
-- **AuditAgent** - Tracks document versions, changes, and audit trails
+### 📄 Comprehensive Documentation Library
+Complete QMS documentation in Markdown format:
+- **Quality Manual** - Complete 9-section quality management system manual
+- **Standard Operating Procedures (SOPs)** - 28 detailed SOPs covering all aspects of operations
+- **Work Instructions** - Detailed production work instructions for all 8 phases
+- **Inspection Forms** - Quality hold point inspection templates
+- **Training Materials** - Employee training documentation
 
-### 📄 Professional Document Generation
-- **PDF** export with professional formatting (headers, footers, page numbers, TOC)
-- **DOCX** export for editing
-- **Markdown** as source format
-- Template-based generation
-- Version control and revision history
-- Document numbering system (QM-001, SOP-001, WI-001, FORM-001)
-- Approval workflow tracking
-- Watermarks for draft/controlled documents
+### 📊 Professional Document Generation
+- **PDF Generation** scripts for professional formatting
+- Markdown-based source documentation for version control
+- Document numbering system (QM-XXX, SOP-XXX, WI-XXX, FORM-XXX)
+- Template-based document structure
 
-### 🗄️ Database Persistence
-SQLite database with Prisma ORM for:
-- Document storage and versioning
-- Audit trail tracking
-- Procedure and hold point management
-- NCR/CAPA records
-- Training records
-- Quality metrics
-- Supplier management
+### 🎨 Next.js Web Interface (In Development)
+- React-based web application framework
+- Tailwind CSS for styling
+- Document viewing and management interface
 
-### 📊 Visual Documentation
-Generates comprehensive visual documentation:
-- Process flowcharts (Mermaid.js)
-- Inspection checklists
-- Organizational charts
-- SIPOC diagrams
-- Control charts and Pareto charts
-- Fishbone/Ishikawa diagrams
+## 🔮 Future Enhancements (Planned)
+
+The following features are planned for future development:
+
+### 🤖 AI Agent Framework (Planned)
+Multi-agent system for autonomous document generation and management
+
+### 🗄️ Database Persistence (Planned)
+SQLite/PostgreSQL database with Prisma ORM for document management, audit trails, and quality metrics
+
+### 📊 Advanced Visual Documentation (Planned)
+Automated generation of flowcharts, diagrams, and quality metrics visualizations
 
 ## 📁 Project Structure
 
 ```
 fort-homes-qms/
-├── src/
-│   ├── agents/              # AI agents for autonomous document work
-│   │   ├── manual-agent.ts  # Quality manual generation
-│   │   ├── procedure-agent.ts # SOPs and WIs
-│   │   ├── compliance-agent.ts # Regulatory compliance
-│   │   ├── visual-agent.ts  # Diagram generation
-│   │   ├── review-agent.ts  # Document review
-│   │   ├── audit-agent.ts   # Version tracking
-│   │   └── orchestrator.ts  # Agent coordination
-│   ├── database/            # Prisma/database layer
-│   │   ├── client.ts
-│   │   └── index.ts
-│   ├── generators/          # Document generation
-│   │   ├── pdf-generator.ts
-│   │   ├── docx-generator.ts
-│   │   └── qms-generator.ts
-│   ├── lib/                 # Utilities
-│   │   ├── compliance-checker.ts
-│   │   ├── version-control.ts
-│   │   └── audit-trail.ts
-│   ├── templates/           # Document templates
-│   │   ├── manual/
-│   │   ├── sops/
-│   │   ├── work-instructions/
-│   │   └── forms/
-│   └── cli.ts               # Command-line interface
-├── data/                    # Company data
-│   ├── company-info.json
-│   ├── phases.json
-│   ├── hold-points.json
-│   └── itps.json
-├── output/                  # Generated documents
-│   ├── manual/
-│   ├── sops/
-│   ├── work-instructions/
-│   └── forms/
-├── prisma/                  # Database schema
-│   └── schema.prisma
-└── docs/                    # Existing QMS documentation
+├── docs/                    # QMS Documentation (Markdown)
+│   ├── manual/              # Quality Management System Manual
+│   ├── sops/                # Standard Operating Procedures
+│   ├── work-instructions/   # Detailed work instructions
+│   ├── forms-templates/     # Inspection forms and templates
+│   ├── training/            # Training materials
+│   ├── implementation/      # Implementation guides
+│   ├── ai-agents/           # AI agent documentation
+│   ├── context/             # Project context
+│   ├── qc-tools/            # Quality control tools
+│   ├── style-guide/         # Documentation style guide
+│   └── traceability/        # Traceability documentation
+├── scripts/                 # Utility scripts
+│   ├── generate-professional-pdf.js  # PDF generation
+│   ├── extract-cc21te.js             # Data extraction
+│   └── setup-github-auth.ps1         # GitHub setup
+├── templates/               # Document templates
+├── data/                    # Company and regulatory data
+│   └── cc21te/              # Colorado Code reference data
+├── assets/                  # Static assets
+│   ├── css/                 # Stylesheets
+│   ├── fonts/               # Fonts
+│   ├── img/                 # Images
+│   └── svg/                 # SVG graphics
+└── package.json             # Node.js dependencies and scripts
 ```
 
 ## 🎯 Quick Start
 
 ### Prerequisites
-- Node.js 20+
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -109,42 +89,69 @@ cd fort-homes-qms
 npm install
 ```
 
-### Setup Database
+### Environment Setup
 
 ```bash
-# Generate Prisma client
-npm run db:generate
-
-# Create database
-npm run db:push
+# Copy environment file and configure
+cp .env.example .env
+# Edit .env if needed (DATABASE_URL, OPENAI_API_KEY for future features)
 ```
 
-### Generate QMS Documents
+### Working with Documentation
+
+All QMS documentation is available as Markdown files in the `docs/` directory:
 
 ```bash
-# Generate complete QMS package (Manual + SOPs + Forms)
-npm run qms-generate all
+# View Quality Manual sections
+ls docs/manual/
 
-# Generate Quality Manual only
-npm run qms-generate manual
+# View Standard Operating Procedures
+ls docs/sops/
 
-# Generate SOP for specific phase (1-8)
-npm run qms-generate sop 1
+# View Work Instructions
+ls docs/work-instructions/
 
-# Generate Work Instruction
-npm run qms-generate wi 1 0
-
-# Generate Inspection Form
-npm run qms-generate form HP-1
+# View Inspection Forms
+ls docs/forms-templates/
 ```
 
-### View Generated Documents
+### Generate PDF Documents
 
-All generated documents are saved to `./output/` directory in multiple formats:
-- **PDF** - Ready for printing and official use
-- **DOCX** - Editable Microsoft Word format
-- **Markdown** - Version control friendly
-- **JSON** - Interactive forms data
+```bash
+# Generate professional PDFs from documentation
+npm run generate:pdf
+
+# Generate SOPs as PDFs
+npm run generate:pdf:sops
+
+# Generate all documents
+npm run generate:all
+```
+
+### Start Development Server (Next.js)
+
+```bash
+# Start the web interface
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+### Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start Next.js development server |
+| `npm run build` | Build Next.js application |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run generate:pdf` | Generate PDF documents |
+| `npm run generate:pdf:sops` | Generate SOP PDFs |
+| `npm run generate:all` | Generate all PDFs |
 
 ## 📊 Production Phases
 
@@ -163,35 +170,33 @@ Fort Homes uses a **Build-in-Place (Static Bay)** manufacturing approach with 8 
 
 ## 🔍 Quality Management System Structure
 
-The QMS Manual follows industry-standard quality management structure (without ISO 9001 references):
+The QMS Manual in `docs/manual/` follows industry-standard quality management structure:
 
-1. Introduction & Scope
-2. Company Overview & Quality Policy
-3. Organizational Structure
-4. Document Control System
-5. Management Responsibility
-6. Resource Management
-7. Product Realization Process
-8. Manufacturing Operations
-9. Inspection & Testing
-10. Nonconformance & Corrective Action
-11. Supplier Management
-12. Training & Competency
-13. Internal Auditing
-14. Continuous Improvement
-15. Records Management
+1. **QMS-001** - Context & Stakeholders
+2. **QMS-002** - Leadership & Quality Policy
+3. **QMS-003** - Planning & Risk Management
+4. **QMS-004** - Support & Resources
+5. **QMS-005** - Operations
+6. **QMS-006** - Performance Evaluation
+7. **QMS-007** - Improvement
+8. **QMS-008** - Document & Records Control
+9. **QMS-009** - Regulatory Compliance
+
+### Standard Operating Procedures
+
+The repository includes 28 comprehensive SOPs covering:
+- **Core QMS Operations** (SOP-001 to SOP-020) - Document control, training, audits, NCR/CAPA, etc.
+- **Production Operations** (SOP-101 to SOP-108) - Phase-specific manufacturing procedures
 
 ## 🛠️ Tech Stack
 
-- **Runtime:** Node.js 20+ / Next.js 14+
-- **Language:** TypeScript
-- **AI Framework:** LangChain.js concepts (custom implementation)
-- **Database:** Prisma + SQLite (portable) / PostgreSQL ready
-- **PDF Generation:** PDFKit
-- **DOCX Generation:** docx package
-- **Visualization:** Mermaid.js, Chart.js, D3.js concepts
+- **Runtime:** Node.js 18+
+- **Framework:** Next.js 14
+- **Language:** TypeScript / JavaScript
+- **PDF Generation:** PDFKit, puppeteer
 - **Frontend:** React with Tailwind CSS
-- **CLI:** tsx for TypeScript execution
+- **Documentation:** Markdown
+- **Version Control:** Git/GitHub
 
 ## 📜 Regulatory Compliance
 
@@ -206,17 +211,19 @@ This QMS addresses requirements from:
 
 **Important:** This QMS uses generic quality management terminology and **does not reference ISO 9001** anywhere.
 
-## 🔐 Database Schema
+## 📋 Documentation Overview
 
-The system uses a comprehensive database schema with these core entities:
-- **Document** - All QMS documents with versioning
-- **AuditTrail** - Complete change history
-- **Procedure** - Production procedures by phase
-- **HoldPoint** - Quality gate definitions
-- **NCR** - Nonconformance records
-- **TrainingRecord** - Employee training tracking
-- **QualityMetric** - KPIs and performance metrics
-- **Supplier** - Approved supplier list
+### Quality Manual
+Complete 9-section quality management system manual covering all aspects of operations, from context and leadership to continuous improvement.
+
+### Standard Operating Procedures (SOPs)
+- **Core Operations** (20 SOPs) - Document control, training, audits, supplier management, etc.
+- **Production Operations** (8 SOPs) - Phase-specific manufacturing procedures for all production stages
+
+### Work Instructions & Forms
+- Detailed work instructions for each production phase
+- Inspection forms and checklists for quality hold points
+- Training materials and competency assessments
 
 ## 🤝 Contributing
 
@@ -224,6 +231,13 @@ This is a proprietary system for Fort Homes LLC. For questions or support, conta
 - **Jeff Zimmerman** - President
 - **Marty Magill** - COO  
 - **Zach Lamont** - QA Manager
+
+## 📖 Additional Documentation
+
+For more detailed information, see:
+- [GETTING-STARTED.md](./GETTING-STARTED.md) - Comprehensive setup and usage guide
+- [CLAUDE.MD](./CLAUDE.MD) - AI assistant context guide with project background
+- `docs/` directory - Complete QMS documentation library
 
 ## 📄 License
 
