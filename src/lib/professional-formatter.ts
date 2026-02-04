@@ -17,14 +17,21 @@ export interface DocumentMetadata {
 
 export class ProfessionalFormatter {
   /**
-   * Generate professional document header with ISO-style layout
+   * Format date in long format (e.g., "February 2026")
    */
-  static generateDocumentHeader(metadata: DocumentMetadata): string {
-    const today = new Date().toLocaleDateString('en-US', { 
+  private static formatLongDate(date: Date = new Date()): string {
+    return date.toLocaleDateString('en-US', { 
       year: 'numeric', 
       month: 'long', 
       day: 'numeric' 
     });
+  }
+
+  /**
+   * Generate professional document header with ISO-style layout
+   */
+  static generateDocumentHeader(metadata: DocumentMetadata): string {
+    const today = this.formatLongDate();
 
     return `<style>
 @media print {
@@ -428,11 +435,7 @@ table.professional tr:nth-child(even) {
     <div>
       <strong>Document Control Information</strong><br>
       Document ID: ${metadata.documentId} | Revision: ${metadata.revision}<br>
-      Printed: ${new Date().toLocaleDateString('en-US', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-      })}
+      Printed: ${this.formatLongDate()}
     </div>
     <div style="text-align: right;">
       <strong>Fort Homes LLC</strong><br>

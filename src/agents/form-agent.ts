@@ -5,6 +5,7 @@
 
 import { BaseAgent, AgentConfig } from './base-agent';
 import { prisma } from '../database';
+import { ProfessionalFormatter } from '../lib/professional-formatter';
 import fs from 'fs';
 import path from 'path';
 
@@ -150,7 +151,6 @@ export class FormAgent extends BaseAgent {
     phase: any
   ): string {
     const company = this.context.companyInfo?.company || {};
-    const { ProfessionalFormatter } = require('../lib/professional-formatter');
 
     const checklistItems = this.generateChecklistItems(phase);
 
@@ -317,7 +317,6 @@ ${footer}
    */
   private generateChecklistItems(phase: any): string {
     const activities = phase.workActivities || [];
-    const { ProfessionalFormatter } = require('../lib/professional-formatter');
 
     // Group activities into logical sections
     const sections = this.groupActivitiesBySection(activities);
