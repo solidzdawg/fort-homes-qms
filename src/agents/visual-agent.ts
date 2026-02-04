@@ -253,14 +253,14 @@ flowchart TD
    */
   generatePhaseFlowchart(phaseNumber: number): string {
     const phase = this.context.phases?.phases?.find(
-      (p: any) => p.phase_number === phaseNumber
+      (p: any) => p.id === phaseNumber
     );
 
     if (!phase) {
       throw new Error(`Phase ${phaseNumber} not found`);
     }
 
-    const activities = phase.activities || [];
+    const activities = phase.workActivities || [];
 
     let mermaid = `\`\`\`mermaid
 flowchart TD
@@ -274,7 +274,7 @@ flowchart TD
     ${current} --> ${next}\n`;
     });
 
-    mermaid += `    QC{Quality Check} --> |Pass| HP[Hold Point ${phase.hold_point}]
+    mermaid += `    QC{Quality Check} --> |Pass| HP[Hold Point ${phase.holdPoint}]
     QC --> |Fail| NCR[Generate NCR]
     NCR --> Act1
     HP --> Complete([Phase Complete])

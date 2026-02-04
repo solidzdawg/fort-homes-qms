@@ -110,7 +110,7 @@ export class ProcedureAgent extends BaseAgent {
     }
 
     return this.context.phases.phases.find(
-      (p: any) => p.phase_number === phaseNumber
+      (p: any) => p.id === phaseNumber
     );
   }
 
@@ -169,8 +169,8 @@ export class ProcedureAgent extends BaseAgent {
     phase: any
   ): string {
     const company = this.context.companyInfo?.company || {};
-    const holdPoint = this.getHoldPointInfo(phase.hold_point);
-    const tpiaRequired = holdPoint?.tpia_required || false;
+    const holdPoint = this.getHoldPointInfo(phase.holdPoint);
+    const tpiaRequired = holdPoint?.tpiaRequired || phase.tpiaRequired || false;
 
     const docType = type === 'sop' ? 'Standard Operating Procedure' : 'Work Instruction';
     const docTypeShort = type.toUpperCase();
@@ -192,14 +192,14 @@ classification: "CONTROLLED"
 
 ---
 
-### ${docTypeShort}-${100 + phase.phase_number}: ${phase.name.toUpperCase()}
+### ${docTypeShort}-${100 + phase.id}: ${phase.name.toUpperCase()}
 
 | Attribute | Value |
 |:----------|:------|
 | **Document ID** | \`${docNumber}\` |
 | **Revision** | \`1.0\` |
-| **Phase** | ${phase.phase_number} of 8 |
-| **Hold Point** | \`${phase.hold_point}\` |
+| **Phase** | ${phase.id} of 8 |
+| **Hold Point** | \`${phase.holdPoint}\` |
 | **TPIA Required** | ${tpiaRequired ? '✅ Yes' : '❌ No'} |
 | **Effective Date** | ${new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })} |
 | **Process Owner** | Production Manager |
@@ -210,14 +210,14 @@ classification: "CONTROLLED"
 
 ## 📋 Purpose
 
-This ${docType.toLowerCase()} defines the requirements and procedures for **${phase.name}** (Phase ${phase.phase_number}) in the modular home manufacturing process.
+This ${docType.toLowerCase()} defines the requirements and procedures for **${phase.name}** (Phase ${phase.id}) in the modular home manufacturing process.
 
 ## 🎯 Scope
 
-This procedure applies to all production activities during Phase ${phase.phase_number} and includes:
+This procedure applies to all production activities during Phase ${phase.id} and includes:
 - Process steps and sequence
 - Quality control requirements
-- Hold Point ${phase.hold_point} inspection criteria
+- Hold Point ${phase.holdPoint} inspection criteria
 ${tpiaRequired ? '- Third-Party Inspection Agency (NTA) coordination\n' : ''}
 - Material and documentation requirements
 
@@ -229,7 +229,7 @@ ${tpiaRequired ? '- Third-Party Inspection Agency (NTA) coordination\n' : ''}
 - Issue resolution and NCR management
 
 ### QA Manager
-- Hold Point ${phase.hold_point} inspection
+- Hold Point ${phase.holdPoint} inspection
 ${tpiaRequired ? '- TPIA coordination and approval\n' : ''}- Quality verification and documentation
 - NCR initiation if nonconformances detected
 
@@ -239,7 +239,7 @@ ${tpiaRequired ? '- TPIA coordination and approval\n' : ''}- Quality verificatio
 - Complete required documentation
 
 ${tpiaRequired ? `### NTA Third-Party Inspector
-- Conduct independent inspection at Hold Point ${phase.hold_point}
+- Conduct independent inspection at Hold Point ${phase.holdPoint}
 - Verify compliance with IRC 2021 and applicable codes
 - Approve module to proceed or identify deficiencies
 ` : ''}
@@ -248,7 +248,7 @@ ${tpiaRequired ? `### NTA Third-Party Inspector
 
 ${phase.prerequisites && phase.prerequisites.length > 0 ? 
   phase.prerequisites.map((p: string) => `- ${p}`).join('\n') :
-  `- Previous phase (Phase ${phase.phase_number - 1}) completed and approved
+  `- Previous phase (Phase ${phase.id - 1}) completed and approved
 - Required materials and components available
 - Work area prepared and safe
 - Module traveler updated with previous phase completion`
@@ -262,20 +262,22 @@ ${phase.prerequisites && phase.prerequisites.length > 0 ?
 - Measuring and inspection tools
 
 ### Materials
-- [List materials specific to this phase]
-- Reference Module Traveler for project-specific materials
+${phase.keyMaterials && phase.keyMaterials.length > 0 ?
+  phase.keyMaterials.map((m: string) => `- ${m}`).join('\n') :
+  '- [List materials specific to this phase]\n- Reference Module Traveler for project-specific materials'
+}
 
 ## 📝 Procedure Steps
 
-### ${phase.phase_number}.1 Preparation
+### ${phase.id}.1 Preparation
 1. Review module traveler and shop drawings
 2. Verify all materials are available and inspected
 3. Ensure work area is clean and organized
 4. Conduct safety briefing with production team
 
-### ${phase.phase_number}.2 Execution
-${phase.activities && phase.activities.length > 0 ?
-  phase.activities.map((activity: string, idx: number) => 
+### ${phase.id}.2 Execution
+${phase.workActivities && phase.workActivities.length > 0 ?
+  phase.workActivities.map((activity: string, idx: number) => 
     `${idx + 1}. ${activity}`
   ).join('\n') :
   `1. [Step-by-step procedure to be detailed]
@@ -284,18 +286,20 @@ ${phase.activities && phase.activities.length > 0 ?
 4. Document completion of each step`
 }
 
-### ${phase.phase_number}.3 Quality Verification
+### ${phase.id}.3 Quality Verification
 1. Self-inspection by production team
 2. Verify all work meets specifications
 3. Check for any defects or nonconformances
-4. Prepare for Hold Point ${phase.hold_point} inspection
+4. Prepare for Hold Point ${phase.holdPoint} inspection
 
-### ${phase.phase_number}.4 Hold Point ${phase.hold_point} Inspection
+### ${phase.id}.4 Hold Point ${phase.holdPoint} Inspection
 
 **📋 Inspection Criteria:**
-${holdPoint && holdPoint.criteria ?
-  holdPoint.criteria.map((c: string) => `- ✓ ${c}`).join('\n') :
-  `- All work completed per specifications
+${holdPoint && holdPoint.inspectionCriteria ?
+  holdPoint.inspectionCriteria.map((c: string) => `- ✓ ${c}`).join('\n') :
+  phase.inspectionCriteria && phase.inspectionCriteria.length > 0 ?
+    phase.inspectionCriteria.map((c: string) => `- ✓ ${c}`).join('\n') :
+    `- All work completed per specifications
 - No visible defects or nonconformances
 - Measurements within tolerance
 - Documentation complete`
@@ -303,7 +307,7 @@ ${holdPoint && holdPoint.criteria ?
 
 **🚦 Inspection Process:**
 1. QA Manager conducts initial inspection
-2. Complete FORM-I${String(phase.phase_number).padStart(3, '0')} inspection form
+2. Complete FORM-I${String(phase.id).padStart(3, '0')} inspection form
 ${tpiaRequired ? 
 `3. Coordinate with NTA for third-party inspection
 4. NTA inspector verifies compliance
@@ -313,7 +317,7 @@ ${tpiaRequired ?
 6. Update module traveler with Hold Point approval
 7. Document inspection results in QMS database
 
-**⚠️ CRITICAL:** Module **CANNOT** proceed to Phase ${phase.phase_number + 1} without Hold Point ${phase.hold_point} approval${tpiaRequired ? ' from NTA' : ''}.
+**⚠️ CRITICAL:** Module **CANNOT** proceed to Phase ${phase.id + 1} without Hold Point ${phase.holdPoint} approval${tpiaRequired ? ' from NTA' : ''}.
 
 ## ⚠️ Quality Requirements
 
@@ -343,7 +347,7 @@ If nonconformances are identified:
 ## 📄 Required Documentation
 
 - [ ] Module Traveler (FORM-QT-001)
-- [ ] Hold Point ${phase.hold_point} Inspection Form (FORM-I${String(phase.phase_number).padStart(3, '0')})
+- [ ] Hold Point ${phase.holdPoint} Inspection Form (FORM-I${String(phase.id).padStart(3, '0')})
 ${tpiaRequired ? `- [ ] NTA Inspection Report
 - [ ] NTA Approval Documentation\n` : ''}- [ ] Material traceability records
 - [ ] Photographs of completed work
@@ -352,15 +356,15 @@ ${tpiaRequired ? `- [ ] NTA Inspection Report
 ## 🔗 Related Documents
 
 - **Quality Manual:** QMS-005 (Operations)
-- **Work Instructions:** WI-${100 + phase.phase_number}
-- **Inspection Form:** FORM-I${String(phase.phase_number).padStart(3, '0')}
-${phase.phase_number > 1 ? `- **Previous Phase:** SOP-${99 + phase.phase_number}\n` : ''}${phase.phase_number < 8 ? `- **Next Phase:** SOP-${101 + phase.phase_number}\n` : ''}- **Hold Point Procedures:** SOP-013
+- **Work Instructions:** WI-${100 + phase.id}
+- **Inspection Form:** FORM-I${String(phase.id).padStart(3, '0')}
+${phase.id > 1 ? `- **Previous Phase:** SOP-${99 + phase.id}\n` : ''}${phase.id < 8 ? `- **Next Phase:** SOP-${101 + phase.id}\n` : ''}- **Hold Point Procedures:** SOP-013
 - **NCR/CAPA Process:** SOP-004
 
 ## 📊 Key Performance Indicators
 
-- First-time quality rate for Phase ${phase.phase_number}
-- Hold Point ${phase.hold_point} pass rate
+- First-time quality rate for Phase ${phase.id}
+- Hold Point ${phase.holdPoint} pass rate
 - Cycle time for phase completion
 - NCR frequency for phase
 ${tpiaRequired ? '- NTA approval rate\n' : ''}
@@ -385,12 +389,12 @@ ${tpiaRequired ? '- NTA approval rate\n' : ''}
    * Get hold point information
    */
   private getHoldPointInfo(holdPointCode: string): any {
-    if (!this.context.holdPoints || !this.context.holdPoints.hold_points) {
+    if (!this.context.holdPoints || !this.context.holdPoints.holdPoints) {
       return null;
     }
 
-    return this.context.holdPoints.hold_points.find(
-      (hp: any) => hp.hold_point === holdPointCode
+    return this.context.holdPoints.holdPoints.find(
+      (hp: any) => hp.id === holdPointCode
     );
   }
 
@@ -462,15 +466,15 @@ ${tpiaRequired ? '- NTA approval rate\n' : ''}
       if (!existingProc) {
         await prisma.procedure.create({
           data: {
-            phase: phase.phase_number,
+            phase: phase.id,
             code: number,
             title,
             description: phase.description || title,
-            holdPoint: phase.hold_point,
-            tpiaRequired: phase.tpia_required || false,
-            duration: phase.duration || null,
-            crewSize: phase.crew_size || null,
-            sequence: phase.phase_number,
+            holdPoint: phase.holdPoint,
+            tpiaRequired: phase.tpiaRequired || false,
+            duration: phase.durationDays ? parseInt(phase.durationDays.split('-')[0]) : null,
+            crewSize: phase.tradeCrews ? phase.tradeCrews.length : null,
+            sequence: phase.id,
           },
         });
       }
