@@ -575,11 +575,18 @@ I certify that this assessment was conducted fairly and accurately represents th
 **Assessor Signature:** ________________  
 **Date:** ________________
 
----
+${role || topic ? `---
 
 ## 📝 Training Recommendations
 
-${role || topic ? `Based on this assessment, the following training is recommended:\n\n- [ ] No additional training needed\n- [ ] Refresher training required\n- [ ] Additional OJT needed\n- [ ] Reassessment required\n\n**Notes:** ________________` : ''}
+Based on this assessment, the following training is recommended:
+
+- [ ] No additional training needed
+- [ ] Refresher training required
+- [ ] Additional OJT needed
+- [ ] Reassessment required
+
+**Notes:** ________________` : ''}
 
 ---
 

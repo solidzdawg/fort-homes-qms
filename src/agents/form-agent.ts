@@ -283,10 +283,12 @@ ${checklistItems}
       checklist += `║   │ #  │ INSPECTION ITEM                          │ STATUS │   NOTES   │    ║\n`;
       checklist += `║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║\n`;
 
-      for (const item of items as string[]) {
+      const itemArray = items as string[];
+      for (let i = 0; i < itemArray.length; i++) {
+        const item = itemArray[i];
         const itemText = item.substring(0, 40).padEnd(40);
         checklist += `║   │ ${itemNum.toString().padStart(2)}  │ ${itemText} │ ✅ ❌  │           │    ║\n`;
-        if (itemNum < (items as string[]).length) {
+        if (i < itemArray.length - 1) {
           checklist += `║   ├────┼──────────────────────────────────────────┼────────┼───────────┤    ║\n`;
         }
         itemNum++;
