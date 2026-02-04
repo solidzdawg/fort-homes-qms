@@ -1,12 +1,11 @@
-# Fort Homes LLC QMS - Quality Management System
+# Fort and Homes LLC QMS - Quality Management System
 
-A comprehensive Quality Management System for **Colorado off-site modular home construction** with **NTA (National Technical Systems)** as third-party inspector.
+A comprehensive Quality Management System for **Colorado off-site modular home construction** following **Colorado compliance 8 CCR 1302-14** and using **NTA (National Technical Systems)** as third-party inspector.
 
-## 🏠 About Fort Homes LLC
+## 🏠 About Fort and Homes LLC
 
-Fort Homes LLC manufactures modular residential structures in Grand Junction, Colorado under:
+Fort and Homes LLC manufactures modular residential structures in Grand Junction, Colorado under:
 - **Colorado Division of Housing (CDOH)** regulations (8 CCR 1302-14)
-- **HUD Code** (24 CFR Part 3280) for manufactured housing
 - **NTA, Inc.** Third-Party Inspection Agency (TPIA) coordination
 - **IRC 2021, NEC 2023, IPC 2021, IECC 2021** building codes
 
@@ -197,7 +196,6 @@ The repository includes 28 comprehensive SOPs covering:
 
 This QMS addresses requirements from:
 - **Colorado Division of Housing** (8 CCR 1302-14, C.R.S. §24-32-3301)
-- **HUD Code** (24 CFR Part 3280)
 - **International Residential Code** (IRC 2021)
 - **National Electrical Code** (NEC 2023)
 - **International Plumbing Code** (IPC 2021)
@@ -222,7 +220,7 @@ Complete 9-section quality management system manual covering all aspects of oper
 
 ## 🤝 Contributing
 
-This is a proprietary system for Fort Homes LLC. For questions or support, contact:
+This is a proprietary system for Fort and Homes LLC. For questions or support, contact:
 - **Jeff Zimmerman** - President
 - **Marty Magill** - COO  
 - **Zach Lamont** - QA Manager
@@ -236,11 +234,10 @@ For more detailed information, see:
 
 ## 📄 License
 
-Proprietary - Fort Homes LLC © 2026
+Proprietary - Fort and Homes LLC © 2026
 
 ## 🔗 Related Links
 
 - [Colorado Division of Housing](https://cdola.colorado.gov/housing)
 - [NTA Third-Party Inspection](https://www.nta-labs.com/)
-- [HUD Manufactured Housing Program](https://www.hud.gov/program_offices/housing/ramh/mhs/mhshome)
 
