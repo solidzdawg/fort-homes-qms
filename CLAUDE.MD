@@ -2,7 +2,7 @@
 
 > **Project:** Fort Homes LLC Quality Management System
 > **Purpose:** Context and guidelines for AI assistants working on this codebase
-> **Last Updated:** 2026-01-26
+> **Last Updated:** 2026-02-04
 
 ---
 
@@ -76,80 +76,222 @@
 
 ```
 fort-homes-qms/
-├── src/
-│   ├── agents/                  # AI document generation agents
-│   │   ├── manual-agent.ts      # Quality manual generation
-│   │   ├── enhanced-manual-agent.ts
-│   │   ├── procedure-agent.ts   # SOPs and Work Instructions
-│   │   ├── compliance-agent.ts  # Regulatory compliance checking
-│   │   ├── visual-agent.ts      # Mermaid diagram generation
-│   │   ├── review-agent.ts      # Document review
-│   │   ├── audit-agent.ts       # Version tracking
-│   │   ├── orchestrator.ts      # Agent coordination
-│   │   └── types.ts
-│   ├── database/                # Database layer
-│   │   ├── client.ts            # Prisma client singleton
-│   │   └── index.ts
-│   ├── generators/              # Document format generators
-│   │   ├── pdf-generator.ts
-│   │   ├── docx-generator.ts
-│   │   └── qms-generator.ts
-│   ├── lib/                     # Utility libraries
-│   │   ├── compliance-checker.ts
-│   │   ├── version-control.ts
-│   │   └── audit-trail.ts
-│   ├── pages/                   # Next.js frontend
-│   │   └── index.tsx
-│   ├── cli.ts                   # Command-line interface
-│   └── server.js                # Development server
+├── .github/
+│   └── workflows/               # CI/CD automation
+│       ├── build-docs.yml
+│       └── npm-publish.yml
+│
+├── assets/                      # Visual branding resources
+│   ├── css/                     # Stylesheets
+│   ├── fonts/                   # Inter font family (Regular, Bold)
+│   ├── img/                     # Images and graphics
+│   ├── styles/                  # Additional styling
+│   └── svg/                     # SVG graphics
 │
 ├── data/                        # Company configuration (JSON)
+│   ├── cc21te/                  # Project-specific data
+│   │   ├── materials-traceability.json
+│   │   ├── project-plan.json
+│   │   ├── tasks-phase-*.json   # Task lists for phases 1-8
+│   │   └── traceability-matrix.json
 │   ├── company-info.json        # Company details, leadership, regulatory info
 │   ├── phases.json              # 8 production phase definitions
 │   ├── hold-points.json         # Quality gate criteria
 │   └── itps.json                # Inspection Test Plan specs
 │
-├── docs/                        # Generated QMS documentation
-│   ├── manual/                  # Quality Manual sections (QMS-000 through QMS-009)
-│   ├── sops/                    # Standard Operating Procedures (SOP-001 through SOP-020)
-│   ├── work-instructions/       # Work Instructions (WI-101 through WI-108)
+├── docs/                        # QMS documentation (119 markdown files, ~60K+ lines)
+│   ├── ai-agents/               # AI agent architecture documentation
+│   ├── context/                 # Brand system and regulatory requirements
+│   │   ├── 01-BRAND-SYSTEM.md
+│   │   └── 02-REGULATORY-REQUIREMENTS.md
 │   ├── forms-templates/         # Inspection forms (FORM-I001 through FORM-I008)
-│   ├── training/                # Training materials and matrices
 │   ├── implementation/          # Implementation roadmap and phase summaries
+│   ├── manual/                  # Quality Manual sections (QMS-000 through QMS-009)
+│   ├── qc-tools/                # Quality control tools and checklists
+│   ├── sops/                    # Standard Operating Procedures (18+ SOPs)
 │   ├── style-guide/             # Visual style and document templates
+│   │   ├── components/          # Reusable component library
+│   │   │   ├── badges-status-indicators.md
+│   │   │   ├── kpi-cards.md
+│   │   │   ├── layouts-containers.md
+│   │   │   ├── navigation-menus.md
+│   │   │   └── tables-data-display.md
+│   │   ├── DOCUMENT-TEMPLATES/  # Templates for SOPs, WIs, Forms
 │   │   ├── QMS-VISUAL-STYLE-GUIDE.md
 │   │   ├── COLOR-PALETTE.md
 │   │   ├── TYPOGRAPHY-REFERENCE.md
 │   │   ├── MERMAID-DIAGRAM-LIBRARY.md
-│   │   ├── ICON-EMOJI-REFERENCE.md
-│   │   └── DOCUMENT-TEMPLATES/  # Copy-paste ready templates
-│   ├── context/                 # Brand system and regulatory requirements
-│   └── ai-agents/               # AI agent architecture documentation
+│   │   └── ICON-EMOJI-REFERENCE.md
+│   ├── traceability/            # Regulatory traceability matrices
+│   ├── training/                # Training materials and matrices
+│   └── work-instructions/       # Work Instructions (WI-101 through WI-108)
+│       ├── Generic versions (WI-101 to WI-108)
+│       ├── CC21TE project-specific versions
+│       └── Visual work instruction prompts
 │
-├── output/                      # Generated output files (PDF, DOCX, MD)
-│   ├── manual/
-│   ├── sops/
-│   ├── work-instructions/
-│   └── forms/
-│
-├── scripts/                     # Automation scripts
-│   ├── generate-docs.js
-│   ├── generate-pdf.js
-│   ├── generate-professional-pdf.js
-│   ├── generate-traveler.js
-│   └── build-docs.sh
+├── scripts/                     # Automation scripts (Node.js)
+│   ├── generate-professional-pdf.js  # PDF generation using PDFKit
+│   ├── extract-cc21te.js        # Project data extraction
+│   ├── auth-check.ps1           # PowerShell GitHub auth check
+│   ├── setup-github.ps1         # PowerShell GitHub setup
+│   └── setup-github.bat         # Windows batch GitHub setup
 │
 ├── templates/                   # Document templates
-│   └── traveler/
-│       └── traveler-template.json
+│   └── sop-template.html        # HTML template for SOPs
 │
-├── prisma/
-│   └── schema.prisma            # Database schema definition
-│
+├── .env.example                 # Environment variables template
+├── .gitignore                   # Git ignore rules
 ├── .mcp.json                    # MCP server configuration (Taskr integration)
+├── package.json                 # Dependencies and scripts
+├── tsconfig.json                # TypeScript configuration
+├── next-env.d.ts                # Next.js type definitions
 ├── README.md                    # Project documentation
 ├── GETTING-STARTED.md           # Quick start guide
 └── CLAUDE.MD                    # This file
+
+# Note: The following directories are gitignored (generated/runtime)
+├── node_modules/                # NPM dependencies
+├── .next/                       # Next.js build output
+├── output/                      # Generated PDFs, DOCX files
+│   ├── pdf/                     # PDF outputs
+│   └── [other formats]/
+└── dev.db                       # SQLite database (if created)
+```
+
+### 🚧 Implementation Status
+
+**Currently Implemented:**
+- ✅ Comprehensive QMS documentation (119 markdown files)
+- ✅ Visual style guide and component library
+- ✅ Data configuration files (JSON)
+- ✅ PDF generation scripts (scripts/generate-professional-pdf.js)
+- ✅ Next.js frontend framework setup
+- ✅ TypeScript configuration
+- ✅ GitHub workflows for automation
+
+**Planned but Not Yet Implemented:**
+- ⏳ src/ directory with AI agents (manual-agent.ts, procedure-agent.ts, etc.)
+- ⏳ Database layer (Prisma schema exists in dependencies but no schema.prisma file)
+- ⏳ CLI tool (src/cli.ts referenced in package.json but doesn't exist)
+- ⏳ Document generators (src/generators/)
+- ⏳ Compliance checker utilities (src/lib/)
+- ⏳ Full web application frontend
+
+**Current Focus:** This is primarily a **documentation repository** with professional-quality QMS content ready for manufacturing use. The AI-powered document generation system described in some documentation is aspirational.
+
+---
+
+## 📝 Working with Documentation
+
+### Current Documentation Stats
+- **Total Files:** 119+ markdown files
+- **Total Lines:** ~60,000+ lines of content
+- **SOPs:** 18+ Standard Operating Procedures
+- **Work Instructions:** 16+ (8 generic + 8 CC21TE project-specific)
+- **Forms:** 8+ inspection forms
+- **Style Guides:** Comprehensive visual system with component library
+
+### Document Types and Locations
+
+| Document Type | Location | Naming Pattern | Example |
+|--------------|----------|----------------|---------|
+| Quality Manual | `docs/manual/` | QMS-000 to QMS-009 | QMS-001-QUALITY-POLICY.md |
+| SOPs | `docs/sops/` | SOP-001 to SOP-020+ | SOP-104-MEP-ROUGH-IN.md |
+| Work Instructions | `docs/work-instructions/` | WI-101 to WI-108 | WI-104-MEP-ROUGH-IN-TESTING.md |
+| Forms | `docs/forms-templates/` | FORM-I001 to FORM-I008 | FORM-I004-MEP-ROUGH-IN.md |
+| Style Guide | `docs/style-guide/` | Descriptive names | QMS-VISUAL-STYLE-GUIDE.md |
+| Components | `docs/style-guide/components/` | Component type | kpi-cards.md |
+
+### Creating New Documents
+
+**Step-by-step process:**
+
+1. **Choose the right template** from `docs/style-guide/DOCUMENT-TEMPLATES/`
+   - SOP-TEMPLATE.md for procedures
+   - WI-TEMPLATE.md for work instructions
+   - FORM-TEMPLATE.md for forms
+
+2. **Copy template to appropriate directory**
+   ```bash
+   cp docs/style-guide/DOCUMENT-TEMPLATES/SOP-TEMPLATE.md docs/sops/SOP-XXX-TITLE.md
+   ```
+
+3. **Update YAML frontmatter** with document metadata
+   ```yaml
+   ---
+   title: "Your Document Title"
+   document_id: "SOP-XXX"
+   revision: "1.0"
+   effective_date: "February 2026"
+   process_owner: "QA Manager"
+   next_review: "August 2026"
+   classification: "CONTROLLED"
+   ---
+   ```
+
+4. **Write content** following style guide conventions
+   - Use Oswald-style headers (bold, large font)
+   - Use emoji icons from `docs/style-guide/ICON-EMOJI-REFERENCE.md`
+   - Follow color palette from `docs/style-guide/COLOR-PALETTE.md`
+   - Use Mermaid diagrams from `docs/style-guide/MERMAID-DIAGRAM-LIBRARY.md`
+
+5. **Generate PDF** using the working script
+   ```bash
+   node scripts/generate-professional-pdf.js
+   ```
+
+6. **Review output** in `output/pdf/`
+
+### Editing Existing Documents
+
+1. **Find the document** in `docs/` subdirectories
+2. **Read data files first** if referencing company info
+   ```typescript
+   const companyInfo = require('./data/company-info.json');
+   const phases = require('./data/phases.json');
+   ```
+3. **Make changes** following the style guide
+4. **Increment revision** in frontmatter if substantive change
+5. **Regenerate PDF** after editing
+
+### Style Guide Quick Reference
+
+**Typography:**
+- **H1 Headers:** `# 🏗️ FORT HOMES LLC` (with emoji)
+- **H2 Headers:** `## 📋 Section Title`
+- **H3 Headers:** `### Subsection`
+- **Body Text:** Regular paragraph text
+- **Code/Technical:** Use backticks for technical terms
+
+**Colors (for HTML/CSS in markdown):**
+- Primary: #101810 (Charcoal Olive)
+- Success: #2D5016 (Dark Green)
+- Warning: #8B6914 (Dark Amber)
+- Error: #8B1414 (Dark Red)
+- Info: #1E3A5F (Dark Blue)
+
+**Common Components:**
+```markdown
+<!-- Status Badge -->
+<div style="background: linear-gradient(135deg, #2D5016 0%, #3A6B1E 100%); color: white; padding: 8px 16px; border-radius: 6px; display: inline-block; font-weight: bold;">
+✅ APPROVED
+</div>
+
+<!-- KPI Card -->
+<div style="background: linear-gradient(135deg, #1E3A5F 0%, #2C5282 100%); color: white; padding: 20px; border-radius: 8px; margin: 10px 0;">
+<div style="font-size: 24px; font-weight: bold;">95.2%</div>
+<div style="font-size: 14px; opacity: 0.9;">First-Time Quality Rate</div>
+</div>
+```
+
+### Referencing Other Documents
+
+Use consistent cross-referencing:
+```markdown
+See SOP-104 (MEP Rough-In & Testing) for detailed procedures.
+Refer to WI-104 for step-by-step work instructions.
+Complete FORM-I004 at Hold Point HP-4.
+Review QMS-005 (Training & Competency) for training requirements.
 ```
 
 ---
@@ -224,9 +366,11 @@ classification: "CONTROLLED"
 
 ---
 
-## 💾 Database Schema (Prisma)
+## 💾 Database Schema (Prisma) - PLANNED
 
-Key models in `prisma/schema.prisma`:
+**Note:** The database layer is planned but not yet implemented. No `prisma/schema.prisma` file exists currently.
+
+Planned models:
 
 ```prisma
 // Core document management
@@ -322,54 +466,54 @@ model Supplier {
 # Install dependencies
 npm install
 
-# Database setup
-npm run db:generate    # Generate Prisma client
-npm run db:push        # Create/update database tables
-npm run db:studio      # Open Prisma Studio (DB GUI)
-
 # Development server (Next.js)
 npm run dev            # Start dev server on http://localhost:3000
 npm run build          # Build production bundle
 npm run start          # Start production server
 ```
 
-### Document Generation (CLI)
+### PDF Generation (Current Implementation)
 ```bash
-# Generate all documents
+# Generate professional PDFs using PDFKit
+node scripts/generate-professional-pdf.js
+
+# Generate SOP PDFs only
+node scripts/generate-professional-pdf.js --sops
+
+# Generate traveler documents
+npm run generate-traveler
+```
+
+### Database Commands (Planned - Not Yet Functional)
+```bash
+# These commands are in package.json but won't work until Prisma schema is created
+npm run db:generate    # Generate Prisma client (requires prisma/schema.prisma)
+npm run db:push        # Create/update database tables
+npm run db:studio      # Open Prisma Studio (DB GUI)
+```
+
+### Document Generation CLI (Planned - Not Yet Functional)
+```bash
+# These commands reference src/cli.ts which doesn't exist yet
 npm run qms-generate all
-
-# Generate Quality Manual
 npm run qms-generate manual
-
-# Generate SOP for specific phase (1-8)
 npm run qms-generate sop 4
-
-# Generate Work Instruction
 npm run qms-generate wi 1 0
-
-# Generate Inspection Form
 npm run qms-generate form HP-4
 ```
 
-### PDF Generation (Legacy Scripts)
-```bash
-npm run generate:pdf          # Generate all PDFs
-npm run generate:pdf:sops     # Generate SOP PDFs only
-npm run pdf:sop-002          # Generate specific SOP PDF
-```
-
-### Build Scripts
-```bash
-npm run build:html           # Build HTML documentation
-npm run build:pdf            # Build PDF documentation
-npm run build:all            # Build HTML + PDF
-```
+### GitHub Workflows
+The repository has automated workflows:
+- `.github/workflows/build-docs.yml` - Document build automation
+- `.github/workflows/npm-publish.yml` - NPM package publishing
 
 ---
 
-## 🤖 AI Agent Architecture
+## 🤖 AI Agent Architecture - PLANNED
 
-The system uses a multi-agent approach for autonomous document generation:
+**Note:** The AI agent system is described in documentation (`docs/ai-agents/`) but not yet implemented in code. No `src/agents/` directory exists.
+
+Planned multi-agent approach for autonomous document generation:
 
 ### Agent Roles
 
@@ -408,8 +552,9 @@ The system uses a multi-agent approach for autonomous document generation:
 - Manages workflow
 - Handles dependencies
 
-### Agent Usage Example
+### Agent Usage Example (Planned)
 ```typescript
+// This code doesn't work yet - src/agents/ directory doesn't exist
 import { orchestrator } from './src/agents/orchestrator';
 
 // Generate Quality Manual
@@ -424,6 +569,8 @@ const complianceResult = await orchestrator.checkCompliance('sop', sopContent);
 // Review document
 const review = await orchestrator.reviewDocument('SOP-104', 'sop', content);
 ```
+
+**Current Workaround:** Documents are currently authored manually in markdown and converted to PDF using `scripts/generate-professional-pdf.js`.
 
 ---
 
@@ -492,13 +639,14 @@ const review = await orchestrator.reviewDocument('SOP-104', 'sop', content);
 
 ---
 
-## 🎯 Common Development Patterns
+## 🎯 Current Development Patterns
 
-### Reading Company Data
+### Reading Company Data (Working)
 ```typescript
 import fs from 'fs';
 import path from 'path';
 
+// This pattern works - data files exist
 const companyInfo = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'data/company-info.json'), 'utf-8')
 );
@@ -506,26 +654,44 @@ const companyInfo = JSON.parse(
 const phases = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'data/phases.json'), 'utf-8')
 );
+
+const holdPoints = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'data/hold-points.json'), 'utf-8')
+);
 ```
 
-### Generating Documents
+### Generating PDFs (Working)
+```bash
+# Use the existing PDF generation script
+node scripts/generate-professional-pdf.js
+
+# Or use the npm script
+npm run generate:pdf
+```
+
+### Document Creation Workflow (Current Process)
+1. **Author in Markdown:** Create/edit markdown files in `docs/` following style guide
+2. **Use Templates:** Reference `docs/style-guide/DOCUMENT-TEMPLATES/` for structure
+3. **Include Frontmatter:** Add YAML metadata (document_id, revision, effective_date, etc.)
+4. **Generate PDF:** Run `node scripts/generate-professional-pdf.js` to convert to PDF
+5. **Review Output:** Check generated PDFs in `output/pdf/`
+
+### Planned Development Patterns (Not Yet Implemented)
+
+#### Document Generation (Planned)
 ```typescript
+// This won't work yet - src/generators/ doesn't exist
 import { qmsGenerator } from './src/generators/qms-generator';
 
-// Generate SOP
 const sop = await qmsGenerator.generateSOP(phaseNumber);
-
-// Export to multiple formats
 await qmsGenerator.exportPDF(sop, 'output/sops/SOP-104.pdf');
-await qmsGenerator.exportDOCX(sop, 'output/sops/SOP-104.docx');
-await qmsGenerator.exportMarkdown(sop, 'output/sops/SOP-104.md');
 ```
 
-### Database Operations
+#### Database Operations (Planned)
 ```typescript
+// This won't work yet - no Prisma schema exists
 import { prisma } from './src/database/client';
 
-// Store document
 const doc = await prisma.document.create({
   data: {
     type: 'sop',
@@ -534,16 +700,6 @@ const doc = await prisma.document.create({
     version: '2.0',
     status: 'approved',
     content: JSON.stringify(sopContent),
-  },
-});
-
-// Log audit trail
-await prisma.auditTrail.create({
-  data: {
-    documentId: doc.id,
-    action: 'created',
-    userId: 'system',
-    changes: JSON.stringify({ action: 'Initial creation' }),
   },
 });
 ```
@@ -615,16 +771,39 @@ When working on this codebase, frequently reference:
 
 ## 💡 Tips for AI Assistants
 
-1. **Always check data files first** - Don't assume company details
-2. **Use the TodoWrite tool** for multi-step tasks
-3. **Reference existing documents** for consistency
-4. **Follow the style guide religiously** - Fort Homes has strict branding
-5. **Understand modular vs. manufactured** - Different regulatory frameworks
-6. **HP-4 and HP-8 are sacred** - Never bypass TPIA requirements
-7. **Prisma schema is the source of truth** for database structure
-8. **Output folder is gitignored** - Generated files go there
-9. **Scripts folder has legacy generators** - Prefer CLI (`src/cli.ts`)
-10. **This is a real business** - Accuracy matters for regulatory compliance
+### What Currently Works
+1. **Documentation is the product** - Focus on markdown files in `docs/`
+2. **Data files are authoritative** - Read from `data/*.json` for company info
+3. **PDF generation works** - Use `scripts/generate-professional-pdf.js`
+4. **Style guide is comprehensive** - `docs/style-guide/` has everything you need
+5. **Templates exist** - Use `docs/style-guide/DOCUMENT-TEMPLATES/` for structure
+
+### Critical Business Context
+1. **This is modular construction, NOT manufactured housing** - Different regulatory frameworks
+2. **HP-4 and HP-8 are sacred** - Never bypass NTA TPIA requirements
+3. **No ISO 9001 references** - Fort Homes is not ISO certified
+4. **Accuracy matters** - Real business submitting to Colorado DOH for certification
+5. **Colorado-specific regulations** - 8 CCR 1302-14, IRC 2021, NEC 2023
+
+### Development Guidelines
+1. **Check what exists before coding** - Many planned features aren't implemented yet
+2. **Follow the style guide religiously** - Fort Homes has strict branding
+3. **Use the TodoWrite tool** for multi-step tasks
+4. **Reference existing documents** for consistency in tone and structure
+5. **Markdown is source of truth** - Not database, not TypeScript (those are planned)
+
+### What Doesn't Work Yet
+1. **No src/ directory** - AI agents, generators, database client don't exist
+2. **No Prisma schema** - Database commands in package.json won't work
+3. **No CLI tool** - `npm run qms-generate` references non-existent `src/cli.ts`
+4. **No web frontend** - Next.js is configured but no pages exist
+
+### When Asked to Implement New Features
+1. **Start with documentation** - Create markdown files first
+2. **Follow existing patterns** - Look at `docs/sops/` or `docs/work-instructions/`
+3. **Use data files** - Pull company info from `data/company-info.json`
+4. **Generate PDFs** - Use the working script: `node scripts/generate-professional-pdf.js`
+5. **Consider if code is needed** - Often markdown + existing scripts is sufficient
 
 ---
 
@@ -637,10 +816,21 @@ When working on this codebase, frequently reference:
 
 ---
 
-**Last Updated:** 2026-01-26
+**Last Updated:** 2026-02-04
 **Maintained By:** Document Controller
-**Version:** 3.0
+**Version:** 3.1
+
+**Changelog:**
+- 2026-02-04: Updated to reflect current repository state (v3.1)
+  - Removed references to non-existent src/ directory
+  - Added implementation status indicators
+  - Updated project structure to match actual files
+  - Clarified what works vs. what's planned
+  - Updated commands section with working vs. non-functional commands
+- 2026-01-26: Initial comprehensive version (v3.0)
 
 ---
 
 *This CLAUDE.MD file is intended for AI assistants working on the Fort Homes QMS codebase. It provides essential context, conventions, and guidelines to ensure consistent, compliant, and high-quality contributions.*
+
+**Repository Focus:** This is primarily a **professional QMS documentation repository** with 119+ markdown files totaling 60,000+ lines of regulatory-compliant content. The AI-powered generation system is aspirational/planned for future development.
