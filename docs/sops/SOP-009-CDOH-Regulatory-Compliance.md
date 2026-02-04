@@ -50,7 +50,7 @@
 
 ## 🎯 1. PURPOSE
 
-To establish procedures for complying with Colorado Department of Housing (CDOH) regulations, managing third-party inspections, maintaining regulatory documentation, responding to inspection findings, and ensuring all modules meet HUD Code and IRC requirements before delivery.
+To establish procedures for complying with Colorado Department of Housing (CDOH) regulations, managing third-party inspections, maintaining regulatory documentation, responding to inspection findings, and ensuring all modular homes meet IRC 2021 and 8 CCR 1302-14 requirements before delivery.
 
 ---
 
@@ -74,10 +74,10 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 
 | Reference | Description | Authority |
 |:---|:---|:---|
-| CDOH HUD Code Section 3280 | Manufactured housing standards | State/Federal |
-| IRC Chapter 5-6 | Building code requirements | State |
-| 24 CFR 3280 | Federal manufacturing requirements | Federal |
-| Colorado HCD Rules & Regulations | State-specific requirements | State |
+| 8 CCR 1302-14 | Colorado Factory-Built Structures | State (PRIMARY) |
+| IRC 2021 | International Residential Code | State-Adopted |
+| NEC 2023 | National Electrical Code | State-Adopted |
+| Colorado Building Codes | State-specific requirements | State |
 | SOP-001 | Document Control | Internal |
 | SOP-010 | Module Identification & Data Plate | Internal |
 
@@ -286,7 +286,7 @@ To establish procedures for complying with Colorado Department of Housing (CDOH)
 | 🏢 **Manufacturer** | Legal company name | Fort and Homes LLC |
 | 🔢 **Serial Number** | Unique module identifier | FH-2026-01-D100-0047 |
 | 📐 **Dimensions** | Length × Width × Height | 60' × 14' × 13' |
-| ✅ **Certifications** | CDOH, ICC, HUD Code | Certification numbers |
+| ✅ **Certifications** | CDOH, NTA (TPIA), IRC | Certification numbers |
 | 🏗️ **Performance data** | Wind, live loads, snow loads | Per engineering |
 | ⚠️ **Warning labels** | Safety and use warnings | As required by code |
 | 📞 **Contact** | Manufacturer information | Phone, website, address |

@@ -112,8 +112,9 @@ This procedure applies to **all QMS documents** including:
 
 | Reference | Description | Authority |
 |:---|:---|:---|
-| HUD Code 24 CFR 3280 | Manufactured Home Construction Standards | Federal |
-| HUD Code 24 CFR 3282 | Procedural & Enforcement Regulations | Federal |
+| 8 CCR 1302-14 | Colorado Factory-Built Structures (PRIMARY) | State |
+| IRC 2021 | International Residential Code | State-Adopted |
+| NEC 2023 | National Electrical Code | State-Adopted |
 | CDOH Regulations | Colorado Division of Housing Standards | State |
 | QMS-MANUAL-001 | Fort Homes Quality Management Manual | Internal |
 | GitHub Repository | `fort-homes-qms` Version Control | Internal |

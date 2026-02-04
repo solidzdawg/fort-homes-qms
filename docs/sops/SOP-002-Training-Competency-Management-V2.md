@@ -128,8 +128,7 @@ Ensures all personnel performing work affecting product quality are competent ba
 | Reference | Description |
 |:---|:---|
 | **CDOH 8 CCR 1302-14** | Colorado modular home manufacturing regulations |
-| **HUD 24 CFR 3280** | Manufactured housing construction standards |
-| **IRC 2021** | International Residential Code |
+| **IRC 2021** | International Residential Code (for modular construction) |
 | **NEC 2023** | National Electrical Code |
 | **OSHA Standards** | Occupational safety requirements |
 | **SOP-001** | Document Control & Records Management |
@@ -459,6 +458,6 @@ Immediate Retraining Required When:
 ```
 
 **Document Classification:** CONTROLLED | Training Required:  Annual  
-**Regulatory Compliance:** CDOH 8 CCR 1302-14, HUD 24 CFR 3280
+**Regulatory Compliance:** CDOH 8 CCR 1302-14, IRC 2021
 
 </div>
