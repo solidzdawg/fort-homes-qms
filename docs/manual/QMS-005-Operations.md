@@ -117,13 +117,15 @@ This section establishes the comprehensive operational control framework for For
 - Post-production support
 
 **Regulatory Framework:**
-- **HUD Code:** 24 CFR Part 3280/3282 (Construction & Safety Standards)
-- **HUD Code:** 24 CFR Part 3285 (Model Installation Standards)
-- **Colorado:** 8 CCR 1302-14 (Manufactured Housing)
+- **Primary:** 8 CCR 1302-14 (Colorado Factory-Built Structures - MODULAR)
+- **Building Code:** IRC 2021 (International Residential Code) / IBC 2021
 - **Electrical:** NEC 2023 (National Electrical Code)
 - **Plumbing:** IPC 2021 (International Plumbing Code)
 - **Mechanical:** IMC 2021 (International Mechanical Code)
+- **Energy:** IECC 2021 (International Energy Conservation Code)
 - **TPIA:** NTA Inc. as approved third-party inspection agency
+
+**Note:** Fort Homes builds MODULAR homes (IRC), NOT manufactured homes (HUD Code).
 
 ---
 
@@ -937,39 +939,40 @@ Fort Homes maintains rigorous design control processes to ensure all modular hom
       <th style="padding: 15px; text-align: left;">Key Sections</th>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>HUD Code 24 CFR 3280</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Construction & Safety Standards for Manufactured Housing</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>8 CCR 1302-14</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Colorado Factory-Built Structures (MODULAR) - PRIMARY</td>
       <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
-        §3280.2 (Definitions)<br>
-        §3280.3 (Design Loads)<br>
-        §3280.303 (Structural Design)<br>
-        §3280.305 (Wind Resistance)
+        Rule 2 (Codes & Standards)<br>
+        Rule 4 (Construction Requirements)<br>
+        Rule 5 (Third-Party Inspection)
       </td>
     </tr>
     <tr style="background: #E1F5FE;">
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>HUD Code 24 CFR 3282</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Manufactured Housing Procedural & Enforcement</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>IRC 2021</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">International Residential Code (Building Code for Modular)</td>
       <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
-        §3282.203 (DAPIA Process)<br>
-        §3282.362 (IPIA Requirements)
+        Chapter 3 (Building Planning)<br>
+        Chapter 5 (Floors)<br>
+        Chapter 6 (Walls)<br>
+        Chapter 8 (Roofs)
       </td>
     </tr>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>NEC 2023 Article 550</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Electrical Requirements for Manufactured Homes</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>NEC 2023</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">National Electrical Code (Residential)</td>
       <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
-        §550.4 (General Requirements)<br>
-        §550.10 (Power Supply)<br>
-        §550.15 (Wiring Methods)<br>
-        §550.16 (Grounding)
+        Article 210 (Branch Circuits)<br>
+        Article 220 (Calculations)<br>
+        Article 250 (Grounding)<br>
+        Article 300 (Wiring Methods)
       </td>
     </tr>
     <tr style="background: #E1F5FE;">
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>8 CCR 1302-14</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Colorado Manufactured Housing Regulations</td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;"><strong>IPC/IMC 2021</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">Plumbing & Mechanical Codes</td>
       <td style="padding: 12px; border-bottom: 1px solid #B3E5FC;">
-        State-specific requirements<br>
-        CDOH approval process
+        IPC: Water supply, drainage<br>
+        IMC: HVAC systems
       </td>
     </tr>
     <tr>
@@ -1340,11 +1343,13 @@ All electrical work complies with **National Electrical Code 2023**:
 
 <div style="background: #E7F3FF; padding: 20px; border-left: 4px solid #145B8B; margin: 20px 0;">
 
-#### ⚡ NEC 2023 Key Requirements
+#### ⚡ NEC 2023 Key Requirements (for Residential Buildings)
 
-- **Article 550** - Mobile Homes, Manufactured Homes, and Mobile Home Parks
+- **Article 210** - Branch Circuits (general residential requirements)
+- **Article 220** - Branch Circuit, Feeder, and Service Load Calculations
 - **Branch Circuit Protection** - AFCI/GFCI per NEC requirements
 - **Service Equipment** - Main disconnect, overcurrent protection
+- **Note:** Article 550 (Manufactured Homes) does NOT apply to modular homes
 - **Grounding and Bonding** - Per NEC Article 250
 - **Wiring Methods** - NM cable or approved alternatives
 - **Box Fill Calculations** - NEC Article 314
