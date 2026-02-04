@@ -1,243 +1,181 @@
-# Fort and Homes LLC QMS - Quality Management System
+# CC21TE Factory Documentation Package
 
-A comprehensive Quality Management System for **Colorado off-site modular home construction** following **Colorado compliance 8 CCR 1302-14** and using **NTA (National Technical Systems)** as third-party inspector.
+**Project:** CC21TE Modular Home  
+**Client:** FORT + HOME  
+**Date:** 02/04/26  
+**Engineer:** M-INTEGRATED Building Plans
 
-## 🏠 About Fort and Homes LLC
+---
 
-Fort and Homes LLC manufactures modular residential structures in Grand Junction, Colorado under:
-- **Colorado Division of Housing (CDOH)** regulations (8 CCR 1302-14)
-- **NTA, Inc.** Third-Party Inspection Agency (TPIA) coordination
-- **IRC 2021, NEC 2023, IPC 2021, IECC 2021** building codes
+## Overview
 
-## 🚀 Current Features
+This repository contains the complete factory-ready documentation package for the CC21TE modular home project. All documentation has been systematically extracted from the shop drawing package (dated 01/19/26) following a multi-agent workflow with zero-miss extraction discipline.
 
-### 📄 Comprehensive Documentation Library
-Complete QMS documentation in Markdown format:
-- **Quality Manual** - Complete 9-section quality management system manual
-- **Standard Operating Procedures (SOPs)** - 28 detailed SOPs covering all aspects of operations
-- **Work Instructions** - Detailed production work instructions for all 8 phases
-- **Inspection Forms** - Quality hold point inspection templates
-- **Training Materials** - Employee training documentation
+---
 
-**All documentation is ready to use and can be viewed, edited, and version-controlled in the `docs/` directory.**
-
-### 📊 Professional Document Generation
-- **PDF Generation** scripts for professional formatting using Puppeteer
-- Markdown-based source documentation for easy version control
-- Document numbering system (QM-XXX, SOP-XXX, WI-XXX, FORM-XXX)
-- Template-based document structure with professional styling
-- Automatic table of contents and page numbering
-
-### 🎨 Next.js Web Interface (Planned)
-- React-based web application framework (in setup)
-- Tailwind CSS for styling
-- Document viewing and management interface (to be implemented)
-
-## 🔮 Future Enhancements (Planned)
-
-The following features are planned for future development:
-
-### 🤖 AI Agent Framework (Planned)
-Multi-agent system for autonomous document generation and management
-
-### 🗄️ Database Persistence (Planned)
-SQLite/PostgreSQL database with Prisma ORM for document management, audit trails, and quality metrics
-
-### 📊 Advanced Visual Documentation (Planned)
-Automated generation of flowcharts, diagrams, and quality metrics visualizations
-
-## 📁 Project Structure
+## Repository Structure
 
 ```
 fort-homes-qms/
-├── docs/                    # QMS Documentation (Markdown)
-│   ├── manual/              # Quality Management System Manual
-│   ├── sops/                # Standard Operating Procedures
-│   ├── work-instructions/   # Detailed work instructions
-│   ├── forms-templates/     # Inspection forms and templates
-│   ├── training/            # Training materials
-│   ├── implementation/      # Implementation guides
-│   ├── ai-agents/           # AI agent documentation
-│   ├── context/             # Project context
-│   ├── qc-tools/            # Quality control tools
-│   ├── style-guide/         # Documentation style guide
-│   └── traceability/        # Traceability documentation
-├── scripts/                 # Utility scripts
-│   ├── generate-professional-pdf.js  # PDF generation
-│   ├── extract-cc21te.js             # Data extraction
-│   └── setup-github-auth.ps1         # GitHub setup
-├── templates/               # Document templates
-├── data/                    # Company and regulatory data
-│   └── cc21te/              # Colorado Code reference data
-├── assets/                  # Static assets
-│   ├── css/                 # Stylesheets
-│   ├── fonts/               # Fonts
-│   ├── img/                 # Images
-│   └── svg/                 # SVG graphics
-└── package.json             # Node.js dependencies and scripts
+├── 00_source_drawings/
+│   └── 26.01.19_MI_FOR_25002_CC21TE_OFFSITECOMBINED.pdf
+├── 01_extraction/
+│   ├── DRAWING_INDEX.md
+│   ├── STRUCTURAL_SPECS.md
+│   └── ARCHITECTURAL_SCHEDULES.md
+├── 02_bom/
+│   └── MASTER_BOM.md
+├── 03_work_instructions/
+│   ├── WI-101_FLOOR_ASSEMBLY.md
+│   ├── WI-201_WALL_ASSEMBLY.md
+│   └── WI-301_ROOF_ASSEMBLY.md
+├── 04_sops_qc/
+│   ├── SOP-100_FLOOR_SYSTEM_PRODUCTION.md
+│   ├── FORM-I-101_FLOOR_INSPECTION.md
+│   ├── SOP-200_WALL_SYSTEM_PRODUCTION.md
+│   ├── FORM-I-201_WALL_INSPECTION.md
+│   ├── SOP-300_ROOF_SYSTEM_PRODUCTION.md
+│   └── FORM-I-301_ROOF_INSPECTION.md
+├── 05_visuals_prompts/
+│   └── VISUAL_PROMPTS.md
+├── 06_change_control/
+│   └── VERIFICATION_REPORT.md
+└── README.md
 ```
 
-## 🎯 Quick Start
+---
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
+## Directory Descriptions
 
-### Installation
+### 00_source_drawings/
+Contains the original shop drawing PDF package from M-INTEGRATED Building Plans.
 
-```bash
-git clone https://github.com/solidzdawg/fort-homes-qms.git
-cd fort-homes-qms
-npm install
-```
+### 01_extraction/
+Structured extraction of specifications from shop drawings:
+- **DRAWING_INDEX.md**: Complete inventory of all 19 sheets
+- **STRUCTURAL_SPECS.md**: Floor, wall, and roof system specifications
+- **ARCHITECTURAL_SCHEDULES.md**: Door, window, and room schedules
 
-### Environment Setup
+### 02_bom/
+Bill of Materials with hierarchical structure:
+- **MASTER_BOM.md**: Complete BOM covering all 7 major systems (Floor, Wall, Roof, Doors/Windows, Mechanical, Plumbing, Electrical)
 
-```bash
-# Copy environment file and configure
-cp .env.example .env
-# Edit .env if needed (DATABASE_URL, OPENAI_API_KEY for future features)
-```
+### 03_work_instructions/
+Step-by-step work instructions for production stations:
+- **WI-101**: Floor System Assembly
+- **WI-201**: Wall System Assembly
+- **WI-301**: Roof System Assembly
 
-### Working with Documentation
+### 04_sops_qc/
+Standard Operating Procedures and Quality Control checklists:
+- **SOP-100**: Floor System Production
+- **FORM-I-101**: Floor System Inspection Checklist (HP-1)
+- **SOP-200**: Wall System Production
+- **FORM-I-201**: Wall System Inspection Checklist (HP-2)
+- **SOP-300**: Roof System Production
+- **FORM-I-301**: Roof System Inspection Checklist (HP-3)
 
-All QMS documentation is available as Markdown files in the `docs/` directory:
+### 05_visuals_prompts/
+AI visual generation prompts for creating:
+- Exploded views
+- Fastener maps
+- Good vs. bad examples
+- Detail callouts
 
-```bash
-# View Quality Manual sections
-ls docs/manual/
+### 06_change_control/
+Verification and change control documentation:
+- **VERIFICATION_REPORT.md**: Cross-check results and discrepancy log
 
-# View Standard Operating Procedures
-ls docs/sops/
+---
 
-# View Work Instructions
-ls docs/work-instructions/
+## Key Specifications
 
-# View Inspection Forms
-ls docs/forms-templates/
-```
+### Module Dimensions
+- **Length:** 44'-10"
+- **Width:** 12'-5"
+- **Ridge Height:** 15'-11 1/2"
 
-### Generate PDF Documents
+### Floor System
+- **Joists:** 11-7/8" Engineered I-Joists @ 16" O.C.
+- **Subfloor:** 3/4" T&G OSB
+- **Rim Board:** 1-1/2" x 11-7/8" LSL
 
-```bash
-# Generate professional PDFs from documentation
-npm run generate:pdf
+### Wall System
+- **Exterior:** 6-3/8" SIPS (7/16" OSB faces, 5-1/2" EPS core)
+- **Interior:** 2x4 SPF #2 @ 16" O.C.
+- **Shear Walls:** 7/16" OSB, nailed 4" O.C. edges, 12" O.C. field
 
-# Generate SOPs as PDFs
-npm run generate:pdf:sops
+### Roof System
+- **Ridge Beam:** (3) 1-3/4" x 14" LVL
+- **Roof Panels:** SIPS
+- **Hardware:** Simpson H3.5 hangers @ 16" O.C. max
 
-# Generate all documents
-npm run generate:all
-```
+---
 
-Generated PDFs are saved to the `dist/` directory.
+## Hold Points
 
-### Start Development Server (Next.js - Coming Soon)
+| Hold Point | Phase | TPIA Required | Inspection Form |
+|:---|:---|:---:|:---|
+| HP-1 | Floor System | No | FORM-I-101 |
+| HP-2 | Wall System | No | FORM-I-201 |
+| HP-3 | Roof System | TBD | FORM-I-301 |
 
-The Next.js web interface is planned for future development. Currently, documentation is available as Markdown files in the `docs/` directory, and PDFs can be generated using the commands above.
+---
 
-### Available Commands
+## Usage Instructions
 
-| Command | Description |
-|---------|-------------|
-| `npm run generate:pdf` | Generate PDF documents from markdown |
-| `npm run generate:pdf:sops` | Generate SOP PDFs |
-| `npm run generate:all` | Generate all PDFs |
-| `npm run lint` | Run ESLint |
-| `npm run dev` | Start Next.js development server (planned) |
-| `npm run build` | Build Next.js application (planned) |
+### For Production Team:
+1. Review the relevant Work Instruction (WI) for your station
+2. Ensure all materials from the BOM are staged
+3. Follow the step-by-step instructions
+4. Complete in-process quality checkpoints
+5. Call for hold point inspection when ready
 
-## 📊 Production Phases
+### For QA Inspectors:
+1. Use the appropriate Inspection Form (FORM-I-XXX)
+2. Verify all items on the checklist
+3. Document any discrepancies
+4. Sign off when all criteria are met
 
-Fort Homes uses a **Build-in-Place (Static Bay)** manufacturing approach with 8 production phases:
+### For Supervisors:
+1. Review the relevant SOP for the production phase
+2. Ensure resources and materials are available
+3. Coordinate hold point inspections
+4. Manage nonconformances per SOP-004
 
-| Phase | Description | Hold Point | NTA Required |
-|-------|-------------|------------|--------------|
-| 1 | Chassis & Floor Deck | HP-1 | No |
-| 2 | Wall Framing & Sheathing | HP-2 | No |
-| 3 | Roof/Ceiling Framing | HP-3 | No |
-| 4 | MEP Rough-In & Testing | HP-4 | **Yes** |
-| 5 | Insulation & Air Sealing | HP-5 | No |
-| 6 | Drywall & Interior Shell | HP-6 | No |
-| 7 | Interior Finish & Trim | HP-7 | No |
-| 8 | Final Inspection & Pre-Ship | HP-8 | **Yes** |
+---
 
-## 🔍 Quality Management System Structure
+## Compliance & Standards
 
-The QMS Manual in `docs/manual/` follows industry-standard quality management structure:
+- **8 CCR 1302-14** (Colorado Factory-Built Structures - source of truth)
+- **IRC 2024** (International Residential Code)
+- **Engineered Plans:** CC21TE Shop Drawings (stamped by registered engineer)
 
-1. **QMS-001** - Context & Stakeholders
-2. **QMS-002** - Leadership & Quality Policy
-3. **QMS-003** - Planning & Risk Management
-4. **QMS-004** - Support & Resources
-5. **QMS-005** - Operations
-6. **QMS-006** - Performance Evaluation
-7. **QMS-007** - Improvement
-8. **QMS-008** - Document & Records Control
-9. **QMS-009** - Regulatory Compliance
+**Note:** Fort Homes builds modular homes (IRC-compliant, permanent foundation) per 8 CCR 1302-14, NOT manufactured homes (HUD Code).
 
-### Standard Operating Procedures
+---
 
-The repository includes 28 comprehensive SOPs covering:
-- **Core QMS Operations** (SOP-001 to SOP-020) - Document control, training, audits, NCR/CAPA, etc.
-- **Production Operations** (SOP-101 to SOP-108) - Phase-specific manufacturing procedures
+## Document Control
 
-## 🛠️ Tech Stack
+All documents in this repository are controlled and versioned through Git. Changes must be reviewed and approved before merging.
 
-- **Runtime:** Node.js 18+
-- **Framework:** Next.js 14
-- **Language:** TypeScript / JavaScript
-- **PDF Generation:** PDFKit, puppeteer
-- **Frontend:** React with Tailwind CSS
-- **Documentation:** Markdown
-- **Version Control:** Git/GitHub
+**Current Version:** 1.0  
+**Last Updated:** 02/04/26  
+**Status:** Approved for Production Use (with noted recommendations in VERIFICATION_REPORT.md)
 
-## 📜 Regulatory Compliance
+---
 
-This QMS addresses requirements from:
-- **Colorado Division of Housing** (8 CCR 1302-14, C.R.S. §24-32-3301)
-- **International Residential Code** (IRC 2021)
-- **National Electrical Code** (NEC 2023)
-- **International Plumbing Code** (IPC 2021)
-- **International Energy Conservation Code** (IECC 2021)
-- **NTA Third-Party Inspection** requirements
+## Contact
 
-**Important:** This QMS uses generic quality management terminology and **does not reference ISO 9001** anywhere.
+For questions or clarifications, contact:
+- **Production Manager:** [Contact Info]
+- **Quality Manager:** [Contact Info]
+- **Engineering:** M-INTEGRATED Building Plans
 
-## 📋 Documentation Overview
+---
 
-### Quality Manual
-Complete 9-section quality management system manual covering all aspects of operations, from context and leadership to continuous improvement.
+## License
 
-### Standard Operating Procedures (SOPs)
-- **Core Operations** (20 SOPs) - Document control, training, audits, supplier management, etc.
-- **Production Operations** (8 SOPs) - Phase-specific manufacturing procedures for all production stages
+This documentation is proprietary and confidential. Unauthorized distribution is prohibited.
 
-### Work Instructions & Forms
-- Detailed work instructions for each production phase
-- Inspection forms and checklists for quality hold points
-- Training materials and competency assessments
-
-## 🤝 Contributing
-
-This is a proprietary system for Fort and Homes LLC. For questions or support, contact:
-- **Jeff Zimmerman** - President
-- **Marty Magill** - COO  
-- **Zach Lamont** - QA Manager
-
-## 📖 Additional Documentation
-
-For more detailed information, see:
-- [GETTING-STARTED.md](./GETTING-STARTED.md) - Comprehensive setup and usage guide
-- [CLAUDE.MD](./CLAUDE.MD) - AI assistant context guide with project background
-- `docs/` directory - Complete QMS documentation library
-
-## 📄 License
-
-Proprietary - Fort and Homes LLC © 2026
-
-## 🔗 Related Links
-
-- [Colorado Division of Housing](https://cdola.colorado.gov/housing)
-- [NTA Third-Party Inspection](https://www.nta-labs.com/)
-
+© 2026 FORT + HOME. All rights reserved.

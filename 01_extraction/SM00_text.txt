@@ -1,0 +1,244 @@
+GN    GENERAL NOTES:                                                                               TYPICAL ABBREVIATIONS                                                                                                          1                                         2                     3                                  4
+                                                                                                   &          AND
+GN1   ALL SM-SHEETS SHALL BE USED IN CONJUNCTION w/ SITE STRUCTURAL, CIVIL, ARCHITECTURAL,         @          AT
+                                                                                                                                                                                                                                                                                  44' - 10"
+      MECHANICAL, ELECTRICAL, PLUMBING, GEOTECHNICAL, AND ANY OTHER DRAWING SUBMITTED FOR          Ø          DIAMETER
+      PERMIT. BUILDER IS RESPONSIBLE FOR COORDINATING ALL RELEVANT DATA WITH SHOP DRAWINGS         ACI        AMERICAN CONCRETE INSTITUTE
+      & CONSTRUCTION SET. BUILDER SHALL NOTIFY EOR OF ANY OMISSIONS OR CONFLICTS.                  ADD'L      ADDITIONAL
+                                                                                                   AISC       AMERICAN INSTITUTE OF STEEL CONSTRUCTION
+
+
+
+
+                                                                                                                                                                                                  A
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                               A
+                                                                                                                                                                                                                                                                                0.6WL = 750LB
+
+
+
+
+                                                                                                                                                                                                                                                               B
+
+
+
+
+                                                                                                                                                                                                                                                                                                             B
+GN2   BUILDER SHALL REVIEW ALL SHOP DRAWINGS FOR ALL DETAILED INFORMATION REQUIRED TO              ARCH       ARCHITECTURAL
+      CONSTRUCT THE BUILDING PRIOR TO EOR REVIEW.                                                  AWC
+                                                                                                   ASTM
+                                                                                                              AMERICA WOOD COUNCIL
+                                                                                                              AMERICA SOCIETY FOR TESTING AND MATERIALS
+                                                                                                                                                                                           A
+GN3   BUILDER SHALL SUBMIT SHOP DRAWINGS FOR EOR APPROVAL PRIOR TO CONSTRUCTION.                   B/         BOTTOM OF                                                                                                                                                                                                                                                           M-INTEGRATED.COM
+
+
+
+
+                                                                                                                                                                                                                 0.6WL = 1300LB
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                  0.6WL = 1200LB
+      DRAWINGS SHALL BE REVIEWED BY EOR FOR GENERAL COMPLIANCE WITH THE CONSTRUCTION               BRG        BEARING
+      DOCUMENTS. EOR IS NOT RESPONSIBLE FOR ERRORS OR OMISSIONS WITHIN SHOP DRAWINGS.              BTB        BACK-TO-BACK
+
+
+
+
+                                                                                                                                                                                                          WEST
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                           EAST
+                                                                                                                                                                                               12' - 5"
+GN4   SUBSTITUTIONS TO MATERIALS, MEMBERS, FASTENERS, OR ANY OTHER ELEMENT SPECIFIED
+                                                                                                   BX
+                                                                                                   CIP
+                                                                                                              BOXED
+                                                                                                              CAST IN PLACE
+                                                                                                                                                                                           B
+      WITHIN THE S-SHEETS ARE NOT ACCEPTABLE WITHOUT APPROVAL FROM THE EOR.                        CMU        CONCRETE MASONRY UNIT
+                                                                                                   CL         CENTERLINE
+GN5   CONSTRUCTION SHALL MEET THE MINIMUM SPECIFICATIONS OF THE LOCAL BUILDING CODE.               CLR        CLEAR
+
+GN6   BUILDER IS RESPONSIBLE FOR FINAL TAKEOFF QUANTITIES. TAKEOFFS ARE PROVIDED FOR
+                                                                                                   CONT
+                                                                                                   DBA
+                                                                                                              CONTINUOUS
+                                                                                                              DEFORMED BAR ANCHOR
+                                                                                                                                                                                           C
+      REFERENCE ONLY.                                                                              EA         EACH
+
+
+
+
+                                                                                                                                                                                                                                                               B
+
+
+
+
+                                                                                                                                                                                                                                                                                                             B
+                                                                                                                                                                                                  A
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                               A
+                                                                                                   EOR        ENGINEER OF RECORD
+GN7   TEMPORARY SHORING IS THE RESPONSIBILITY OF THE BUILDER. THE BUILDING IS NOT                  EQ         EQUAL                                                                                                                                                             0.6WL = 750LB
+      STRUCTURALLY STABLE UNTIL ALL MEMBERS AND CONNECTIONS HAVE BEEN INSTALLED IN                 EXT        EXTERIOR
+      COMPLIANCE OF THE CONSTRUCTION DOCUMENTS.                                                    F/         FACE OF
+                                                                                                   F.S.       FAR SIDE
+GN8   "BY CONTRACTOR" OR "BY BUILDER" NOTES DELEGATED DESIGN ITEM.                                 GA         GAUGE                                                                                       LOADING PLAN
+                                                                                                   HORZ       HORIZONTAL                                                                       A
+GN9   BUILDER SHALL COORDINATE SPECIAL INSPECTION REQUIREMENTS WITH THE CITY ENGINEERING           IBC        INTERNATIONAL BUILDING CODE                                                                 1/8" = 1'-0"
+      SERVICES OFFICE TO BE IN COMPLIANCE WITH THE GOVERNING STATE RESIDENTIAL BUILDING            INT        INTERIOR
+      CODE, SEE COVER SHEET.                                                                       K          KIP
+                                                                                                   LLH        LONG LEG HORIZONTAL
+                                                                                                                                                                                                                                                                        HOLDDOWN KEY
+GN10 SCOPE OF DOCUMENT ENDS @ OFFSITE CONSTRUCTION ELEMENTS. ITEMS CRITICAL TO THE                 LLV        LONG LEG VERTICAL
+     ASSEMBLY OF THE BUILDING ON-SITE HAVE BEEN NOTED. UNLESS NOTED OTHERWISE, ALL                 LONG       LONGITUDINAL                                                                                                                                                    0.6WL = 3,950 lb
+     CONNECTIONS TO FOUNDATION & FIELD CONNECTIONS ARE BY OTHERS.                                  LT. GA.    LIGHT GAUGE                                                                                                                                          A          MUST ENGAGE WALL
+                                                                                                   MAX        MAXIMUM
+                                                                                                   MEP         MECHANICAL, ELECTRICAL, PLUMBING
+                                                                                                   MIN        MINIMUM                                                                                                                                                         0.6WL = 2,700 lb
+SC    SOIL/FOUNDATION CRITERIA                                                                                                                                                                                                                                     B          ENGAGE RIM BAND
+                                                                                                   MISC       MISCELLANEOUS
+                                                                                                   MSJC       MASONRY STANDARDS JOINT COMMITTEE
+SC1   FOUNDATION DESIGN IS A DELEGATED DESIGN ITEM & OUTSIDE THE SCOPE OF THESE S-SHEETS.
+                                                                                                   NDS        NATIONAL DESIGN SPECIFICATION
+      LOADS ARE PROVIDED FOR USE BY A LICENSED DESIGN PROFESSIONAL IN THE JURISDICTION THE
+                                                                                                   NS         NEAR SIDE
+      STRUCTURE IS BUILT.                                                                                                                                                                                                                                              LINE - LOAD KEY
+                                                                                                   O.C.       ON CENTER
+                                                                                                   OOP        OUT OF PLANE = PERPENDICULAR TO WALL                                                                                                                               DL = 365 PLF
+SC2   FOUNDATION DESIGN IS BY OTHERS. CONFORM TO THE LOCAL BUILDING CODE. LOADS ARE
+                                                                                                   OPP        OPPOSITE                                                                                                                                                           LL = 250 PLF
+      PROVIDED FOR REFERENCE ONLY.
+                                                                                                   PL         PLATE                                                                                                                                                              RLL = 190 PLF
+                                                                                                   PLF        POUNDS PER LINEAR FOOT                                                                                                                                             SL = 285 PLF
+SC3   BUILDER SHALL CONSIDER TOPOGRAPHIC FACTORS PRIOR TO CONSTRUCTION OF FOUNDATIONS.
+                                                                                                   PSF        POUNDS PER SQUARE FOOT                                                                                                                                             0.6WL = 100 PLF (OOP)
+                                                                                                   PSI        POUNDS PER SQUARE INCH
+                                                                                                   QC         QUALITY CONTROL
+                                                                                                   QTY        QUANTITY
+SD    SHOP DRAWINGS                                                                                REQ'D      REQUIRED
+                                                                                                   S.E.R.     STRUCTURAL ENGINEER OF RECORD                                                                                            LOADING NOTES:
+SD1   "BY CONTRACTOR", "BY BUILDER", OR "BY OTHERS" INDICATES DELEGATED DESIGN ITEM OUTSIDE        SIM        SIMILAR                                                                                                                  1.   LOADS ARE PER ASCE GUIDELINES UNLESS NOTED OTHERWISE. FACTORS HAVE
+      THE SCOPE OF THIS DRAWING SET.                                                               T/         TOP OF                                                                                                                        BEEN PLACED IN FRONT OF LOAD CASES FOR CLARITY.
+                                                                                                   TYP        TYPICAL                                                                                                                  2.   ALL LOADING SHALL BE HANDLED AT THE FOUNDATION LEVEL AND IS THE
+SD2   "STAMPED" INDICATES THE DRAWING SHALL BE SIGNED AND SEALED BY A LICENSED                     UNO        UNLESS NOTED OTHERWISE                                                                                                        RESPONSIBILITY OF THE SITE ENGINEER.
+      ENGINEER IN THE APPLICABLE JURISDICTION. NOT ALL SHOP DRAWINGS REQUIRE A STAMP.              VIF        VERIFY IN FIELD                                                                                                          3.   POINT LOADS NOT RESOLVED BY RIM BAND ARE SHOWN ON PLAN
+                                                                                                   w/         WITH                                                                                                                     4.   LATERAL LOADS ARE SHOWN ON PLAN.
+SD3   CONTRACTOR SHALL PROVIDE EOR WITH SHOP DRAWINGS OR EQUIVALENT SUBMITTAL FOR ALL              W/C        WATER-CEMENT RATIO (CONCRETE)                                                                                            5.   RIM BANDS SHALL BE CONTINUOUSLY SUPPORTED BY FOUNDATIONS ON SITE
+      DELEGATED DESIGN ITEMS UNLESS NOTED OTHERWISE. SHOP DRAWINGS ARE NOT APPROVED                WWF        WELDED WIRE FABRIC                                                                                                       6.   TEMPORARY/LIFTING CONDITIONS HAVE NOT BEEN ANALYZED AND ARE THE
+      UNLESS NOTED BY THE EOR. THIS REVIEW PROCESS IS FOR GENERAL COMPLIANCE AND DOES                                                                                                                                                       RESPONSIBILITY OF THE BUILDER.                                                                                             No.              Description             Date
+      NOT ABSOLVE THE BUILDER FROM A DETAILED REVIEW OF THE DRAWINGS NOR DOES IT MAKE                                                                                                                                                  7.   FLOOR DIAPHRAGM HAS BEEN DESIGNED FOR THE MODULE ONLY. ADDITIONAL
+      THE EOR RESPONSIBLE FOR ANY ERRORS OR OMMISSIONS IN DRAWINGS PROVIDED                                                                                                                                                                 FORCES FROM SITE FOUNDATIONS OR WALLS BELOW ARE NOT PERMITTED.
+                                                                                                                                                                                                                                                                                                                                                                   1         SHOP COORDINATION                01/19/26
+      OUTSIDE OF THE ORIGIONAL STAMPED CONSTRUCTION DOCUMENTS.
+
+SD4   DELEGATED DESIGN ITEMS INCLUDE, BUT ARE NOT LIMITED TO THE FOLLOWING:                        WF WOOD FRAMING
+           SD2.1 WALL PANELIZATION DRAWINGS.
+           SD2.2 FLOOR PANELIZATION DRAWINGS.
+           SD2.3 SIP SHOP DRAWINGS
+                                                                                                   WF1   REFERENCED CODE                               NDS                                                                        1                                         2                     3                                  4
+                                                                                                   WF2   NOTIFY EOR OF ANY NOTCHING/CUTTING OUTSIDE THE PARAMETERS OF THE GENERAL DETAIL
+                                                                                                                                                                                                                                                                                  44' - 10"
+DC    DESIGN CRITERIA:                                                                             WF3   LUMBER SHALL BE PRESSURE TREATED WHERE IN CONTACT WITH CONCRETE OR EXPOSED TO
+                                                                                                         WEATHER. THE FOLLOWING TREATMENTS ARE ACCEPTABLE:
+DC1   CONTROLLING BUILDING CODE:                      SEE COVER SHEET                                         UC3A (ABOVE GROUND, PROTECTED) - SILL PLATES.
+                                                                                                              UC4A (GROUND CONTACT, GENERAL USE) - ALL APPLICATIONS.
+DC2   BUILDING RISK CATEGORY:                         SEE COVER SHEET
+                                                                                                   WF4   FASTENERS IN CONTACT WITH TREATED LUMBER OR EXPOSED TO WEATHER SHALL BE           A
+                                                                                                         GALVANIZED, STAINLESS STEEL, OR TREATED w/ DOUBLE-BARRIER COATING UNO.
+DC3   DEAD LOAD:
+            ROOF & CEILING                            20 PSF                                       WF5   HANGERS/HARDWARE IN CONTACT WITH TREATED LUMBER OR EXPOSED TO WEATHER SHALL BE
+            FLOOR                                     15 PSF                                             ZMAX COATED AND SHALL HAVE THE SUBSCRIPT 'Z'. EX: LUS26Z, DTT1Z
+
+
+
+
+                                                                                                                                                                                               12' - 5"
+                                                                                                                                                                                           B
+DC4   UNIFORM LIVE LOADING                                                                         WF6   UNLESS OTHERWISE NOTED, SHEATHING SHALL BE APA-RATED FOR THE FOLLOWING:
+           ROOF LIVE                                  20 PSF                                                  WALLS: 7/16" OR 24/16 SHEATHING, NOMINAL = 1/2"
+           TYPICAL FLOOR (RESIDENTIAL)                40 PSF                                                  ROOF: 19/32" OR 40/20 SHEATHING, NOMINAL = 5/8"
+           ATTIC                                      10 PSF                                                  FLOORS: 23/32" OR 48/34, NOMINAL = 3/4"
+                                                                                                                                                                                           C
+DC6   WIND LOADING                                    SEE COVER SHEET                              WF7   MATERIAL GRADES - COMMON
+                                                                                                              2x4, 2x6, 2x8                            SPF #1/#2
+DC7   SEISMIC LOADING                                                                                         2x10, 2x12                               DFL #2
+            SEISMIC DESIGN CATEGORY                   NOT TO EXCEED B                                         TREATED LUMBER                           DFL #2
+
+DC8   DEFLECTION CRITERIA                                                                          WF8   MATERIAL GRADES - ENGINEERED
+           FLOOR/ROOF                                 L/360 (LIVE), L/240 (TOTAL)                        WHERE 1-3/4" LVL IS SPECIFIED                                                                    FIRE RATING PLAN
+           WALL                                                                                               DIMENSIONS SHALL MATCH DIMENSIONS SHOWN IN DRAWINGS                              B
+                 VERTICAL                             NA
+                                                                                                                                                                                                          1/8" = 1'-0"
+                                                                                                              MODULUS OF ELASTICITY, E               2,000,000PSI
+                 HORIZONTAL                           L/240                                                   FLEXURAL STRESS, F b                   2,600 PSI
+                                                                                                              TENSION STRESS, F t                    1,300 PSI                                                                                                              WALL KEY                                                                               CLIENT NAME:
+DC9   COMPONENTS & CLADDING LOADS                     SEE COVER SHEET                                         COMPRESSION PERPENDICULAR/GRAIN, F cp
+                                                                                                              COMPRESSION PARALLEL/GRAIN, F cll
+                                                                                                                                                     710 PSI
+                                                                                                                                                     1,835 PSI                                                                                                                                                                                                                    FORT + HOME
+                                                                                                              SHEAR PARALLEL/GRAIN, F v              425 PSI                                                                                                    EXTERIOR            0-HR RATING
+                                                                                                              SPECIFIC GRAVITY, SG                   0.50                                                                                                      (SEE NOTE)
+                                                                                                                                                                                                                                                                                                                                                                   PROJECT NAME:
+                                                                                                         WHERE 1-1/2" LSL IS SPECIFIED
+SP SIPS                                                                                                       DIMENSIONS SHALL MATCH DIMENSIONS SHOWN IN DRAWINGS                                                                                                                                                                                                                      CC21TE
+                                                                                                              MODULUS OF ELASTICITY, E               1,300,000PSI                                                                            ATTENTION SITE ENGINEER : EXTERIOR WALLS SHALL MAINTAIN A MINIMUM FIRE
+SP1   REFERENCED CODE                                 IRC 2024                                                FLEXURAL STRESS, F b                   1,700 PSI                                                                               SEPARATION DISTANCE OF 5' OR THE BUILDING IS NOT COMPLAINT w/ R302.1 OF THE IRC
+                                                                                                              TENSION STRESS, F t                    1,300 PSI
+SP2   SIP PANELS HAVE BEEN ENGINEERED PER VALUES LISTED IN ESR-4524. MANUFACTURER IS                          COMPRESSION PERPENDICULAR/GRAIN, F cp  710 PSI
+      RESPONSIBLE FOR CONFORMANCE TO ESR-4524 IN ALL ASPECTS INCLUDING PROVIDING PANELS TO                    COMPRESSION PARALLEL/GRAIN, F cll      1,835 PSI                                                                                                                                                                                                     PROJECT ADDRESS
+      MEET/EXCEED DESIGN VALUES LISTED FOR ALL PANELS WITHIN ±1/2" THICKNESS OF LISTED THICKNESS              SHEAR PARALLEL/GRAIN, F v              425 PSI                                                                                                                                                                                                                          651 HIGHWAY 50
+
+SP3   SEALING TO OCCUR PER MANUFACTURER DETAILS
+                                                                                                              SPECIFIC GRAVITY, SG                   0.50
+                                                                                                                                                                                                                                  1                                         2                     3                                  4                                             Grand Junction, CO 81503
+
+
+                                                                                                                                                                                                                                                                                  44' - 10"                                                                        PROJECT NUMBER:
+                                                                                                                                                                                                                                                                                                                                                                                                                  25002
+
+                                                                                                                                                                                                                                                                                                                                                                   DATE:
+                                                                                                                                                                                                                                  2' - 0"           14' - 0"                      12' - 10"                    14' - 0"          2' - 0"                                                                        01/19/26
+
+
+                                                                                                                                                                                           A
+                                                                                                                                                                                                                                                                                                                                                                   DRAWN BY:
+                                                                                                                                                                                                                                                                                                                                                                                          M-INTEGRATED
+                                                                                                                                                                                                                                                                                                                                                                   SHEET NAME:
+                                                                                                                                                                                                                                                                                                                                                                               GENERAL NOTES
+
+
+
+
+                                                                                                                                                                                               12' - 5"
+                                                                                                                                                                                           B
+
+                                                                                                                                                                                           C
+                                                                                                                                                                                                                                            INDICATES                                                    PICK POINTS RATED FOR:
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                              SM00
+                                                                                                                                                                                                                                            RECOMMENDED PICK                                              - 9,000 LB @ FLOOR BOX ONLY
+                                                                                                                                                                                                                                            POINT                                                         - 9,000 LB @ ROOF BOX ONLY
+                                                                                                                                                                                                                                                                                                         (INCLUDES FOS OF 5)
+                                                                                                                                                                                                                                                  NOTE: FINAL PICK POINTS BY BUILDER. PICK POINTS SHALL BE A
+                                                                                                                                                                                                                                                  MAXIMUM OF 14'-0" APART UNLESS APPROVED BY A LIFTING ENGINEER.
+
+                                                                                                                                                                                                          PICKING / LIFTING PLAN
+                                                                                                                                                                                               C
+                                                                                                                                                                                                          1/8" = 1'-0"
+
