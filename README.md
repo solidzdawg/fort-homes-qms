@@ -20,16 +20,19 @@ Complete QMS documentation in Markdown format:
 - **Inspection Forms** - Quality hold point inspection templates
 - **Training Materials** - Employee training documentation
 
-### 📊 Professional Document Generation
-- **PDF Generation** scripts for professional formatting
-- Markdown-based source documentation for version control
-- Document numbering system (QM-XXX, SOP-XXX, WI-XXX, FORM-XXX)
-- Template-based document structure
+**All documentation is ready to use and can be viewed, edited, and version-controlled in the `docs/` directory.**
 
-### 🎨 Next.js Web Interface (In Development)
-- React-based web application framework
+### 📊 Professional Document Generation
+- **PDF Generation** scripts for professional formatting using Puppeteer
+- Markdown-based source documentation for easy version control
+- Document numbering system (QM-XXX, SOP-XXX, WI-XXX, FORM-XXX)
+- Template-based document structure with professional styling
+- Automatic table of contents and page numbering
+
+### 🎨 Next.js Web Interface (Planned)
+- React-based web application framework (in setup)
 - Tailwind CSS for styling
-- Document viewing and management interface
+- Document viewing and management interface (to be implemented)
 
 ## 🔮 Future Enhancements (Planned)
 
@@ -128,30 +131,22 @@ npm run generate:pdf:sops
 npm run generate:all
 ```
 
-### Start Development Server (Next.js)
+Generated PDFs are saved to the `dist/` directory.
 
-```bash
-# Start the web interface
-npm run dev
+### Start Development Server (Next.js - Coming Soon)
 
-# Build for production
-npm run build
-
-# Start production server
-npm start
-```
+The Next.js web interface is planned for future development. Currently, documentation is available as Markdown files in the `docs/` directory, and PDFs can be generated using the commands above.
 
 ### Available Commands
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start Next.js development server |
-| `npm run build` | Build Next.js application |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
-| `npm run generate:pdf` | Generate PDF documents |
+| `npm run generate:pdf` | Generate PDF documents from markdown |
 | `npm run generate:pdf:sops` | Generate SOP PDFs |
 | `npm run generate:all` | Generate all PDFs |
+| `npm run lint` | Run ESLint |
+| `npm run dev` | Start Next.js development server (planned) |
+| `npm run build` | Build Next.js application (planned) |
 
 ## 📊 Production Phases
 
